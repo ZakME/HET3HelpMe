@@ -23,7 +23,7 @@ the whole thing is one file. download `index.html` (or the repo zip), double cli
 ## heads up
 
 - this is unofficial, made by an apprentice. it's not from AIT/NAIT/SAIT and there's probably a mistake or two in here. your ILMs are the final word
-- the mock exams are my best guess at the format (100 questions, about a third hydraulics, a fifth 302, the rest powertrain). check the real pass mark and time limit with your school
+- the real AIT exam is about 120 questions. the mocks are 100 but weighted the same way: about half hydraulics, then powertrain, then 302 (steering/suspension/electrical) the least. check the real pass mark and time limit with your school
 - where the notes contradicted themselves i went with the ILM version and left a note in the guide
 
 ## credits

@@ -227,7 +227,7 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:120px}
   </div>
   <div class="card">
     <h2>Mock AIT period exams</h2>
-    <p class="muted" style="margin-top:-6px">Each full mock is 100 four-option questions drawn across all three courses (301 Hydraulics ≈ 33, 302 Steering/Suspension/Electrical ≈ 22, 303 Powertrain ≈ 45). There is no feedback until you submit, like the real thing. Mocks 1–6 are fixed sets, so a retake shows the same questions and you can measure improvement. Each one pulls different questions from the bank where it can. Aim for 70% or better. Check the pass mark and time limit for your actual exam with your institution or AIT.</p>
+    <p class="muted" style="margin-top:-6px">Each full mock is 100 four-option questions weighted like the real AIT exam (which is about 120 questions): 50 from 301 Hydraulics, 32 from 303 Powertrain and 18 from 302 Steering/Suspension/Electrical. There is no feedback until you submit, like the real thing. Mocks 1–6 are fixed sets, so a retake shows the same questions and you can measure improvement. Each one pulls different questions from the bank where it can. Aim for 70% or better. Check the pass mark and time limit for your actual exam with your institution or AIT.</p>
     <div class="row" style="gap:16px;margin-bottom:12px">
       <label class="opt"><input type="checkbox" id="timed" checked> Timed (90 s per question)</label>
       <label class="opt"><input type="checkbox" id="examIlm" checked> Include the extra 303 ILM-objective questions</label>
@@ -488,9 +488,10 @@ $("quit").onclick = () => { if (S.list.some(x => x.pick !== null)) results(); el
 
 // ---------- exams ----------
 const BLUEPRINT = {
-  "301sym": 3, "301a": 4, "301b": 5, "301c": 2, "301d": 4, "301e": 2, "301f": 7, "301g": 3, "301h": 2, "301i": 1,
-  "302a": 5, "302b": 4, "302c": 3, "302d": 5, "302e": 3, "302f": 1, "302g": 1,
-  "303a": 5, "303b": 5, "303c": 5, "303d": 5, "303e": 3, "303f": 4, "303g": 4, "303h": 4, "303i": 4, "303j": 4, "303k": 2,
+  // real AIT 3rd period exam is ~120 questions: about half hydraulics, then powertrain, then 302 least
+  "301sym": 4, "301a": 6, "301b": 7, "301c": 3, "301d": 6, "301e": 3, "301f": 10, "301g": 5, "301h": 4, "301i": 2,
+  "302a": 4, "302b": 3, "302c": 3, "302d": 4, "302e": 2, "302f": 1, "302g": 1,
+  "303a": 4, "303b": 3, "303c": 3, "303d": 3, "303e": 2, "303f": 3, "303g": 3, "303h": 3, "303i": 3, "303j": 3, "303k": 2,
 };
 const MOCKS = 6, PER_Q = 90;
 function scaled(courses, total){

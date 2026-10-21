@@ -13,6 +13,7 @@ Your quiz progress and exam history are saved in your own browser only. Nothing 
 
 ## Exam strategy {#strategy}
 
+- The AIT third period exam is about **120 questions**. Roughly **half are hydraulics (301)**, powertrain (303) is next, and steering/suspension/electrical (302) is the smallest share. Spend your study time the same way.
 - AIT and Red Seal style questions come in three flavours (from 302g): **recall** (what is it), **application** (a procedure, at least two steps) and **critical thinking** (cause and effect, the most common on newer exams). Practise all three in the quiz tab.
 - For cause-and-effect questions, ask: is this a **flow** problem (speed, cycle time) or a **pressure** problem (force, torque)? That one split answers a lot of hydraulic and transmission questions.
 - Diagnostic order the ILMs repeat in nearly every module: **gather information → talk to the operator → visual inspection (oil level and condition first) → operational tests at operating temperature → pressure / flow tests → find the root cause**.
