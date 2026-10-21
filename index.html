@@ -27,7 +27,10 @@ h1.brand span{color:var(--accent)}
 nav{display:flex;gap:6px;flex-wrap:wrap}
 nav button{background:none;border:1px solid var(--line);color:var(--ink);padding:6px 12px;border-radius:6px;cursor:pointer;font:inherit;font-size:14px}
 nav button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-main{padding:22px 0 70px}
+main{padding:22px 0 40px}
+footer.credit{border-top:1px solid var(--line);background:var(--card);padding:18px 0 22px;font-size:14px;color:var(--muted);text-align:center;line-height:1.6}
+footer.credit b{color:var(--ink)}
+footer.credit a{color:var(--accent)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px;margin-bottom:16px}
 h2{font-size:17px;margin:0 0 12px}
 h3{font-size:15px;margin:18px 0 6px;color:var(--accent)}
@@ -141,6 +144,7 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:120px}
   header,.toc,.gtools,.qbtn,nav{display:none!important}
   body{background:#fff;color:#000} .glayout{display:block} .gmod{break-inside:avoid-page;border:0;padding:0}
   .guide mark{background:#ffef8a}
+  footer.credit{background:#fff;color:#000;border-top:1px solid #999}
 }
 </style>
 </head>
@@ -585,6 +589,11 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:120px}
 </section>
 
 </main>
+
+<footer class="credit"><div class="wrap">
+  Everything here is built on <b>Matéo Lusson's</b> third period HET notes. A huge thank you to Matéo for the hard work and dedication he put into them. This whole site exists because of that effort, and our class sincerely appreciates it.
+  <br><a href="https://docs.google.com/document/d/1Kx0yknuqAoN13r4I1tWwqruwL0g3m-6SA_QDxVSvOqs" target="_blank" rel="noopener">Matéo's original notes</a> · <a href="https://github.com/ZakME/HET3HelpMe" target="_blank" rel="noopener">site source</a> · unofficial, not from AIT, NAIT or SAIT
+</div></footer>
 
 <script type="text/plain" id="bank">
 @301sym|Symbols|sym hl
