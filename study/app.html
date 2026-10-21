@@ -27,7 +27,8 @@ h1.brand span{color:var(--accent)}
 nav{display:flex;gap:6px;flex-wrap:wrap}
 nav button{background:none;border:1px solid var(--line);color:var(--ink);padding:6px 12px;border-radius:6px;cursor:pointer;font:inherit;font-size:14px}
 nav button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-main{padding:22px 0 40px}
+body{min-height:100vh;display:flex;flex-direction:column}
+main.wrap{padding-top:22px;padding-bottom:48px;flex:1 0 auto;width:100%}
 footer.credit{border-top:1px solid var(--line);background:var(--card);padding:18px 0 22px;font-size:14px;color:var(--muted);text-align:center;line-height:1.6}
 footer.credit b{color:var(--ink)}
 footer.credit a{color:var(--accent)}
@@ -107,6 +108,8 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:120px}
 .mini{height:6px;background:var(--chip);border-radius:3px;overflow:hidden;display:inline-block;width:70px;vertical-align:middle;margin-left:6px}
 .mini i{display:block;height:100%}
 .rev{border-top:1px solid var(--line);padding:12px 0}
+#rlist{margin-top:12px}
+#rlist .rev:first-child{border-top:0;padding-top:0}
 .rev .q{font-size:16px;margin-bottom:6px}
 .rev .you{color:var(--bad);font-size:15px} .rev .cor{color:var(--good);font-size:15px}
 /* guide */
