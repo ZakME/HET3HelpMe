@@ -1,0 +1,311 @@
+@303a|Obj 1|
+Q: Gear teeth are designed to be strongest when tooth contact occurs:
++ where the pitch line and the centreline intersect
+- at the tip of the tooth, where leverage is lowest
+- down at the root fillet, where the tooth is thickest
+- at the heel (large end) of the tooth
+E: Maximum strength is where the pitch line and centreline intersect. The further the contact moves from that point (toward heel, toe, up the face or down the flank), the weaker the tooth and the more likely it is to be damaged.
+
+@303a|Obj 1|
+Q: A gear tooth wear pattern that has moved down the flank toward the root fillet indicates:
++ an increased chance of gear tooth damage
+- a normal break-in pattern
+- correct backlash for an off-road gear set
+- reduced load on the tooth
+E: Any time the pattern drifts toward the heel, toe, up the face or down the flank, contact is moving away from the strongest point (pitch line / centreline intersection) and the risk of tooth damage increases.
+
+@303a|Obj 1|
+Q: Insufficient clearance between the tip of one gear's tooth and the root of the mating gear will most likely cause:
++ poor lubrication, and damage as the gears heat and expand
+- excessive backlash, causing gear rattle under light load
+- added axial thrust on the shaft support bearings
+- quieter operation with less tooth wear over time
+E: Tip-to-root clearance is needed for lubrication and for heat expansion. With too little clearance, the gears expand under torque and heat and damage occurs.
+
+@303a|Obj 1|
+Q: Which procedure correctly measures gear backlash?
++ Hold one gear stationary and move the other, with the gear set not under load
+- Rotate both gears together under load and read the dial indicator
+- Load the gear set and measure the gap on the drive side of the tooth
+- Move both gears in opposite directions and halve the reading
+E: Backlash is measured with no load: one gear is held and the other is moved. It doesn't matter which one, but only one moves.
+
+@303a|Obj 1|
+Q: If backlash is measured incorrectly (e.g., both gears allowed to move), the reading will usually be:
++ greater than the actual backlash
+- less than the actual backlash
+- exactly half the actual backlash
+- unaffected
+E: The learning guide states that an incorrect procedure usually reads more backlash than actually exists.
+
+@303a|Obj 1|
+Q: When a gear set is transmitting torque, where is the backlash gap found?
++ On the side opposite the direction of travel
+- On the loaded (driving) side of the tooth
+- Split evenly on both sides of the tooth
+- At the tooth root, between the two gears
+E: Under load the drive side of the tooth is in contact, so the backlash gap is on the opposite side to the direction of travel.
+
+@303a|Obj 1|
+Q: As gear teeth wear, backlash will:
++ increase
+- decrease
+- stay the same, because backlash is set by the bearings
+- decrease and then increase
+E: Wear removes tooth material, so the gap between mating teeth (and the movement between them) grows.
+
+@303a|Obj 1|
+Q: Gear "timing" is also known in industry as:
++ indexing
+- phasing
+- lapping
+- preloading
+E: Timing (indexing) means assembling gear sets by aligning marks or putting them in a specific position. Check whether a set needs timing BEFORE disassembly and add marks if they are missing.
+
+@303a|Obj 1|ct
+Q: You are about to tear down a gear train and can't find any timing marks. What is the best practice?
++ Verify whether the set requires timing and add your own marks before disassembly
+- Disassemble it. If there are no marks, timing is not required.
+- Disassemble it and time the gears by trial and error on reassembly
+- Replace the gear set, since missing marks mean the gears are not original
+E: The guide says all gear sets should be checked for timing requirements before disassembly, and marks added if missing. Damage occurs if timed gears are installed out of time.
+
+@303a|Obj 2|
+Q: The term "gear ratio" refers to:
++ the number of revolutions the drive gear makes for one revolution of the driven gear
+- the number of revolutions the driven gear makes for one revolution of the drive gear
+- the torque output divided by the speed output
+- the number of teeth on the drive gear divided by the driven gear
+E: The ratio is drive (input) revolutions per one driven (output) revolution, which is the same as driven teeth divided by drive teeth.
+
+@303a|Obj 2|
+Q: A 15-tooth drive gear meshes with a 45-tooth driven gear. Input is 1800 rpm at 200 lb-ft. Ignoring losses, what is the output?
++ 600 rpm and 600 lb-ft
+- 5400 rpm and 67 lb-ft
+- 600 rpm and 67 lb-ft
+- 5400 rpm and 600 lb-ft
+E: Ratio = 45 / 15 = 3:1. Output rpm = 1800 / 3 = 600 rpm. Output torque = 200 x 3 = 600 lb-ft.
+
+@303a|Obj 2|
+Q: A 48-tooth drive gear drives a 20-tooth idler, which drives a 16-tooth driven gear. What is the ratio and output direction?
++ 0.33:1 overdrive, output turns the same direction as the input
+- 0.33:1 overdrive, output turns opposite to the input
+- 3:1 reduction, output turns the same direction as the input
+- 0.42:1 overdrive, output turns opposite to the input
+E: Ignore the simple idler for ratio: 16 / 48 = 0.33:1 (overdrive). One idler makes the output turn the same direction as the input.
+
+@303a|Obj 2|
+Q: A simple idler gear placed between a drive and driven gear will:
++ change only the direction of rotation of the output
+- change the output speed but not the direction
+- increase output torque
+- change both ratio and direction
+E: Simple idlers only affect direction of rotation. They can be ignored when finding the ratio.
+
+@303a|Obj 2|
+Q: Per the learning guide, when the output gear rotates in the SAME direction as the input gear, it is considered to be rotating:
++ in reverse to the normal direction
+- in the normal (forward) direction
+- in overdrive relative to the input
+- in direct drive, at a 1:1 ratio
+E: With no idlers the output turns opposite to the input (normal). Adding one idler makes the output turn the same as the input, which the guide calls reverse to normal.
+
+@303a|Obj 2|ct
+Q: A drive gear turns clockwise and drives the output through TWO simple idlers in series. Which way does the output turn?
++ Counterclockwise (opposite to the input)
+- Clockwise (same as the input)
+- It depends on the idler tooth counts
+- The output will lock up against the idlers
+E: Each mesh reverses direction: drive CW, idler 1 CCW, idler 2 CW, output CCW. An even number of idlers gives the same direction as no idler.
+
+@303a|Obj 2|
+Q: In the heavy equipment industry, a 4:1 ratio (high torque, low speed) is called a:
++ low gear ratio
+- high gear ratio
+- overdrive ratio
+- direct ratio
+E: A low gear ratio has high torque and low speed (e.g., 4:1). A ratio like 2:1 is called a higher gear ratio (more speed, less torque).
+
+@303a|Obj 2|
+Q: An overdrive ratio of one half would be correctly written as:
++ 0.5:1
+- 1:2
+- 2:1
+- 1:0.5
+E: Ratios are always expressed with 1 as the second term. Overdrive has the smaller number in front, e.g., 0.5:1. It would never be written 1:2.
+
+@303a|Obj 2|
+Q: Just by looking at the path of power, how can a technician recognize a gear REDUCTION?
++ The drive gear is smaller than the driven gear
+- The drive gear is larger than the driven gear
+- The gears have the same number of teeth
+- An idler gear is present
+E: Reduction: small drive gear driving a large driven gear, so torque goes up and speed goes down. Overdrive is the opposite.
+
+@303a|Obj 2|ct
+Q: A compound gear train: a 12T gear drives a 36T gear. A 15T gear on the same shaft as the 36T gear drives a 45T output gear. Input is 900 rpm. What is the output speed?
++ 100 rpm
+- 300 rpm
+- 450 rpm
+- 8100 rpm
+E: Compound ratios multiply: (36/12) x (45/15) = 3 x 3 = 9:1. 900 / 9 = 100 rpm. This is not like an idler, because the 36T and 15T are separate gears locked to one shaft.
+
+@303a|Obj 2|ct
+Q: If output speed from a gear set increases, what happens to output torque (ignoring losses)?
++ Torque decreases proportionally
+- Torque increases proportionally
+- Torque stays the same
+- Torque doubles
+E: Speed and torque trade off. If speed goes up, torque goes down, and vice versa (power in = power out minus losses).
+
+@303a|Obj 3|
+Q: Straight cut spur gears, under load, are subjected to:
++ radial thrust only
+- axial thrust only
+- both radial and axial thrust
+- no thrust loads
+E: Spur gears produce radial thrust only (the force that pushes meshing gears apart). This can be handled with inexpensive ball bearings.
+
+@303a|Obj 3|
+Q: Spur gears are considered low-torque gears, but they can be used in high-torque applications when:
++ used with multiple countershafts
+- they are case hardened
+- they are made double helical
+- used with a single idler
+E: Using multiple countershafts shares the load between several gear meshes.
+
+@303a|Obj 3|
+Q: Why are helical gears quieter and stronger than spur gears?
++ Multiple teeth are always in contact, and the angled teeth are longer
+- They have fewer teeth, so fewer meshing impacts
+- They produce no thrust load, so bearings run cooler
+- They run with zero backlash, so the teeth can't hammer
+E: Helical teeth overlap, so more than one tooth is always in contact (quieter), and the angled tooth is longer (stronger).
+
+@303a|Obj 3|
+Q: What is the main drawback of a single helical gear compared to a spur gear?
++ It produces axial thrust in addition to radial thrust
+- It is noisier than a spur gear under load
+- It can only be used for overdrive
+- It cannot transmit high torque at low speed
+E: Single helical gears produce axial (end) thrust under load, as well as radial thrust, so bearings must handle the end loads.
+
+@303a|Obj 3|
+Q: Double helical gears (two helical gears with opposite tooth angles running together on one shaft) are used to:
++ cancel out axial thrust loads
+- cancel out radial thrust loads
+- change the path of power 90 degrees
+- provide a reverse output
+E: The opposite-angle halves create equal and opposite axial thrust, which cancels. Radial thrust is still present.
+
+@303a|Obj 3|
+Q: Which gear type changes the path of power by 90 degrees and can provide a very large reduction for its size?
++ Worm gear
+- Spur gear
+- Double helical gear
+- Internal ring gear
+E: Worm and spiral bevel sets change the power path by an angle (90 degrees in the examples). The worm gear is capable of very large reductions for its size.
+
+@303a|Obj 3|
+Q: Spiral bevel gear sets are most commonly found in:
++ drive axle assemblies
+- planetary final drives
+- engine timing gear trains
+- countershaft transmissions
+E: Spiral gear sets are most commonly used in drive axle assemblies (module 303j) to turn the path of power 90 degrees.
+
+@303a|Obj 3|
+Q: The radial thrust load in a gear set acts to:
++ force the meshing gears apart
+- push the gear along its shaft
+- pull the gears tighter into mesh
+- twist the gear on its shaft
+E: Radial thrust (torque) is transferred from one gear to its mate and acts to force the gears apart. It loads both the gear and its shaft.
+
+@303a|Obj 4|
+Q: When comparing size in a planetary gear set for ratio purposes, which ranking is correct?
++ Sun smallest, ring intermediate, carrier largest
+- Sun smallest, carrier intermediate, ring largest
+- Ring smallest, sun intermediate, carrier largest
+- Carrier smallest, sun intermediate, ring largest
+E: Basic planetary rule: the sun is the smallest, the ring is intermediate and the carrier is the "largest" gear.
+
+@303a|Obj 4|
+Q: The carrier has no teeth. What tooth count is used for the carrier in ratio calculations?
++ Ring gear teeth + sun gear teeth
+- Ring gear teeth - sun gear teeth
+- The number of planet pinions multiplied by their teeth
+- Ring gear teeth / sun gear teeth
+E: Tc = Tr + Ts. The planet pinions are only idlers, so their tooth count has no effect on the ratio.
+
+@303a|Obj 4|
+Q: Why does the number of teeth on the planet pinions have NO effect on a planetary gear set's ratio?
++ The planet pinions always act as idlers
+- The planet pinions always have the same number of teeth as the sun
+- The planet pinions are splined to the carrier
+- The pinions only carry radial load
+E: The planet pinions act as idlers between the sun and ring, so (like any simple idler) they don't change the ratio.
+
+@303a|Obj 4|
+Q: A planetary set has a 20T sun and a 60T ring. The sun is the input, the ring is held and the carrier is the output. What is the ratio?
++ 4:1 reduction
+- 3:1 reduction
+- 0.25:1 overdrive
+- 1.33:1 reduction
+E: Tc = 60 + 20 = 80. Ratio = driven / drive = 80 / 20 = 4:1. Also (Ring/Sun) + 1 = 3 + 1 = 4.
+
+@303a|Obj 4|
+Q: Same set (20T sun, 60T ring). The carrier is held and the sun drives. What happens at the ring gear?
++ 3:1 reduction in reverse
+- 3:1 reduction in the same direction
+- 0.33:1 overdrive in reverse
+- 4:1 reduction in reverse
+E: With the carrier held, the pinions act as simple idlers between the sun and the internal ring, so the ring turns opposite to the sun. Ratio = 60 / 20 = 3:1, in reverse.
+
+@303a|Obj 4|
+Q: Same set (20T sun, 60T ring). The ring is held and the carrier drives, with the sun as output. What is the result?
++ 0.25:1 overdrive, same direction
+- 4:1 reduction, same direction
+- 0.25:1 overdrive, reverse
+- 0.75:1 overdrive, same direction
+E: Ratio = driven / drive = 20 (sun) / 80 (carrier) = 0.25:1. The carrier is the input, so this is overdrive in the same direction.
+
+@303a|Obj 4|
+Q: The shortcut formula Ratio = (Ring teeth / Sun teeth) + 1 only works when:
++ the carrier is the output member
+- the ring gear is the output
+- the sun gear is the held member
+- the carrier is the held member
+E: The guide notes that this version only works with the carrier as the output. Use the Tc = Tr + Ts method for other combinations.
+
+@303a|Obj 4|
+Q: In a simple planetary gear set, direct drive (1:1) is obtained when:
++ any two members are locked together
+- no member is held
+- only the ring gear is held stationary
+- the carrier is held and the sun drives
+E: Lock any two members together and the whole set turns as one unit (1:1). With no member held, you get neutral.
+
+@303a|Obj 4|
+Q: A simple planetary gear set with an input but NO member held will produce:
++ neutral
+- direct drive
+- maximum reduction
+- reverse
+E: Without a reaction (held) member, the gears just spin freely and no torque is transmitted.
+
+@303a|Obj 4|ct
+Q: Which simple planetary combination gives the GREATEST forward reduction?
++ Sun input, ring held, carrier output
+- Ring input, sun held, carrier output
+- Carrier input, ring held, sun output
+- Sun input, carrier held, ring output
+E: The smallest member (sun) drives the largest (carrier) = maximum reduction. Ring input to carrier is a smaller reduction, carrier input is overdrive, and a held carrier gives reverse.
+
+@303a|Obj 4|ct
+Q: A planetary set has an 18T sun and a 72T ring. The ring is the input, the sun is held and the carrier is the output. What is the ratio?
++ 1.25:1 reduction
+- 5:1 reduction
+- 4:1 reduction
+- 0.8:1 overdrive
+E: Tc = 72 + 18 = 90. Ratio = carrier / ring = 90 / 72 = 1.25:1. This is the "minimum reduction" combination.

@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HET 3rd Period Study · Guide, Quizzes, Mock AIT Exams</title>
+<meta name="description" content="Free study guide, practice quizzes and mock AIT exams for Alberta Heavy Equipment Technician 3rd period (301 Hydraulics II, 302, 303 Powertrain).">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%23c8641b%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 font-family=%27Arial%27 font-weight=%27bold%27 fill=%27white%27 text-anchor=%27middle%27%3E3%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f6f5f1; --card:#fff; --ink:#1d1f21; --muted:#6b6f75; --line:#dedcd5;
+  --accent:#c8641b; --accent-ink:#fff; --good:#2e7d4f; --good-bg:#e5f3ea; --bad:#b3261e; --bad-bg:#fbe9e7;
+  --chip:#efece4; --mark:#fff1a8; --ct:#5b4bb5; --hl:#8a6d00; --flag:#c27c0e;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#151617; --card:#1f2123; --ink:#e9e7e2; --muted:#9a9ea4; --line:#33363a;
+    --accent:#e07a2e; --good:#5fc28a; --good-bg:#18301f; --bad:#ff8a80; --bad-bg:#3a1b1a; --chip:#2a2c2f; --mark:#5a4a12; --ct:#a99cf0; --hl:#e2c55a; --flag:#f0b44a; }
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:5}
+.wrap{max-width:980px;margin:0 auto;padding:0 18px}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:10px;padding-bottom:10px;flex-wrap:wrap}
+h1.brand{font-size:18px;margin:0}
+h1.brand span{color:var(--accent)}
+nav{display:flex;gap:6px;flex-wrap:wrap}
+nav button{background:none;border:1px solid var(--line);color:var(--ink);padding:6px 12px;border-radius:6px;cursor:pointer;font:inherit;font-size:14px}
+nav button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+main{padding:22px 0 70px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px;margin-bottom:16px}
+h2{font-size:17px;margin:0 0 12px}
+h3{font-size:15px;margin:18px 0 6px;color:var(--accent)}
+.muted{color:var(--muted);font-size:14px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.hide{display:none!important}
+select,.btn,input[type=search]{font:inherit;font-size:15px;border-radius:8px;padding:8px 13px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.btn{cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+.btn.small{font-size:13px;padding:5px 10px}
+.btn:disabled{opacity:.45;cursor:default}
+label.opt{display:flex;gap:7px;align-items:center;font-size:15px;cursor:pointer}
+kbd{font:12px ui-monospace,monospace;border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 5px;background:var(--chip)}
+/* presets */
+.presets{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.preset{text-align:left;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:12px 14px;cursor:pointer;font:inherit}
+.preset:hover{border-color:var(--accent)}
+.preset b{display:block;font-size:15px}
+.preset span{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+.preset i{font-style:normal;font-size:12px;color:var(--accent);font-weight:600}
+/* module picker */
+.course{margin-bottom:12px}
+.course .ch{display:flex;align-items:center;gap:10px;margin:10px 0 6px}
+.course .ch b{font-size:15px}
+.mods{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px}
+.mod{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:8px;padding:7px 10px;cursor:pointer;font:inherit;font-size:13px;text-align:left}
+.mod b{display:block;font-size:14px}
+.mod.on{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);background:var(--card)}
+.linkbtn{background:none;border:0;color:var(--accent);cursor:pointer;font:inherit;font-size:13px;padding:0}
+/* quiz */
+.bar{height:6px;background:var(--chip);border-radius:3px;overflow:hidden;margin:4px 0 16px}
+.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .2s}
+.meta{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{font-size:12px;padding:2px 8px;border-radius:99px;background:var(--chip);color:var(--muted);font-weight:600}
+.tag.ct{color:var(--ct)} .tag.hl{color:var(--hl)} .tag.flag{color:var(--flag)}
+.q{font-size:18px;font-weight:600;margin:0 0 16px;line-height:1.45}
+.ans{display:flex;flex-direction:column;gap:8px}
+.ans button{display:flex;gap:12px;text-align:left;align-items:flex-start;width:100%;font:inherit;font-size:16px;padding:11px 14px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.ans button:hover:not(:disabled){border-color:var(--accent)}
+.ans button .k{flex:none;width:24px;height:24px;border-radius:5px;background:var(--chip);display:grid;place-items:center;font-size:13px;font-weight:700;color:var(--muted)}
+.ans button:disabled{cursor:default}
+.ans button.right{border-color:var(--good);background:var(--good-bg)}
+.ans button.right .k{background:var(--good);color:#fff}
+.ans button.wrong{border-color:var(--bad);background:var(--bad-bg)}
+.ans button.wrong .k{background:var(--bad);color:#fff}
+.ans button.sel{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.ans button.sel .k{background:var(--accent);color:#fff}
+.exp{margin-top:14px;padding:12px 14px;border-left:3px solid var(--accent);background:var(--chip);border-radius:0 8px 8px 0;font-size:15px}
+.exp b{display:block;margin-bottom:3px}
+.exp.good{border-color:var(--good)} .exp.bad{border-color:var(--bad)}
+.navrow{display:flex;justify-content:space-between;gap:8px;margin-top:16px;flex-wrap:wrap}
+/* exam */
+.examtop{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.timer{font:600 20px ui-monospace,monospace}
+.timer.low{color:var(--bad)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(36px,1fr));gap:5px}
+.grid button{font:inherit;font-size:12px;padding:6px 0;border-radius:6px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;position:relative}
+.grid button.done{background:var(--chip);color:var(--muted)}
+.grid button.cur{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);color:var(--ink)}
+.grid button.flag::after{content:"";position:absolute;top:2px;right:2px;width:6px;height:6px;border-radius:50%;background:var(--flag)}
+.grid button.r{background:var(--good-bg);color:var(--good);border-color:var(--good)}
+.grid button.w{background:var(--bad-bg);color:var(--bad);border-color:var(--bad)}
+.mocks{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.mock{border:1px solid var(--line);border-radius:10px;padding:14px;background:var(--card)}
+.mock b{font-size:16px}
+.mock .muted{margin:4px 0 10px}
+/* results */
+.score{font-size:42px;font-weight:700;line-height:1}
+.badge{display:inline-block;font-size:13px;font-weight:700;padding:3px 10px;border-radius:99px;margin-left:8px;vertical-align:middle}
+.badge.pass{background:var(--good-bg);color:var(--good)} .badge.fail{background:var(--bad-bg);color:var(--bad)}
+table.rt{width:100%;border-collapse:collapse;font-size:14px}
+table.rt td,table.rt th{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+table.rt td:last-child,table.rt th:last-child{text-align:right;width:120px}
+.mini{height:6px;background:var(--chip);border-radius:3px;overflow:hidden;display:inline-block;width:70px;vertical-align:middle;margin-left:6px}
+.mini i{display:block;height:100%}
+.rev{border-top:1px solid var(--line);padding:12px 0}
+.rev .q{font-size:16px;margin-bottom:6px}
+.rev .you{color:var(--bad);font-size:15px} .rev .cor{color:var(--good);font-size:15px}
+/* guide */
+.glayout{display:grid;grid-template-columns:230px 1fr;gap:18px;align-items:start}
+.toc{position:sticky;top:70px;max-height:calc(100vh - 90px);overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 6px;font-size:13px}
+.toc a{display:block;color:var(--ink);text-decoration:none;padding:3px 10px;border-radius:5px}
+.toc a:hover{background:var(--chip)}
+.toc a.t1{font-weight:700;margin-top:8px;color:var(--accent)}
+.toc a.t2{padding-left:16px}
+.gtools{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.gtools input[type=search]{flex:1;min-width:180px}
+.guide h1{font-size:22px;margin:26px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--accent)}
+.guide .gcourse:first-child h1{margin-top:0}
+.gmod{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin-bottom:14px}
+.gmod h2{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.guide ul{margin:6px 0;padding-left:20px}
+.guide li{margin:3px 0}
+.guide p{margin:8px 0}
+.guide mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+.guide a{color:var(--accent);word-break:break-all}
+.guide code{font:13px ui-monospace,monospace;background:var(--chip);padding:1px 4px;border-radius:4px}
+.tw{overflow-x:auto;margin:10px 0}
+.guide table{border-collapse:collapse;font-size:14px;width:100%}
+.guide th,.guide td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.guide th{background:var(--chip)}
+.callout{border-left:3px solid var(--accent);background:var(--chip);padding:10px 14px;border-radius:0 8px 8px 0;margin:10px 0;font-size:15px}
+.guide.cram li:not(.hl):not(:has(li.hl)){display:none}
+.guide.cram tr:not(.hl){display:none}
+.guide.cram thead tr{display:table-row}
+.guide.cram p,.guide.cram .callout{display:none}
+.guide.cram .tw:not(:has(tr.hl)){display:none}
+.glayout > div{min-width:0}
+@media (max-width:760px){ .glayout{grid-template-columns:1fr} .toc{position:static;max-height:220px} header{position:static} html{scroll-padding-top:10px} nav button{padding:5px 9px;font-size:13px} .card,.gmod{padding:14px} .q{font-size:17px} }
+@media print{
+  header,.toc,.gtools,.qbtn,nav{display:none!important}
+  body{background:#fff;color:#000} .glayout{display:block} .gmod{break-inside:avoid-page;border:0;padding:0}
+  .guide mark{background:#ffef8a}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1 class="brand">HET Period 3 · <span>Study</span></h1>
+  <nav><button id="tab-guide">Study guide</button><button id="tab-quiz">Practice quizzes</button><button id="tab-exam">Mock AIT exams</button></nav>
+</div></header>
+<main class="wrap">
+
+<!-- ================= GUIDE ================= -->
+<section id="v-guide" class="hide">
+  <div class="glayout">
+    <aside class="toc" id="toc"><!--TOC--></aside>
+    <div>
+      <div class="gtools">
+        <input type="search" id="gsearch" placeholder="Search the guide (e.g. backlash, stator, 120 ohm)">
+        <label class="opt"><input type="checkbox" id="gcram"> Highlighted facts only</label>
+        <button class="btn small" onclick="window.print()">Print</button>
+      </div>
+      <p class="muted" id="gcount" style="margin-top:-4px"></p>
+      <div class="guide" id="guide"><!--GUIDE--></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= QUIZ SETUP ================= -->
+<section id="v-quiz" class="hide">
+  <div class="card">
+    <h2>Quiz presets</h2>
+    <p class="muted" style="margin-top:-6px">Instant feedback with an explanation after every question. Keys: <kbd>1</kbd>–<kbd>4</kbd> or <kbd>A</kbd>–<kbd>D</kbd> to answer, <kbd>Enter</kbd> for next.</p>
+    <div class="presets" id="presets"></div>
+  </div>
+  <div class="card">
+    <h2>Build a custom quiz</h2>
+    <div id="picker"></div>
+    <h3>Questions</h3>
+    <div class="row" style="gap:16px">
+      <label class="opt"><input type="radio" name="kind" value="all" checked> All</label>
+      <label class="opt"><input type="radio" name="kind" value="hl"> Highlighted "on the test"</label>
+      <label class="opt"><input type="radio" name="kind" value="ct"> Critical thinking</label>
+      <label class="opt"><input type="radio" name="kind" value="calc"> Calculations</label>
+      <label class="opt"><input type="radio" name="kind" value="weak"> Weak spots</label>
+      <label class="opt"><input type="radio" name="kind" value="new"> Never answered</label>
+    </div>
+    <div class="row" style="margin-top:10px">
+      <label class="opt"><input type="checkbox" id="useIlm" checked> Include the extra 303 ILM-objective questions</label>
+    </div>
+    <h3>How many</h3>
+    <div class="row">
+      <select id="count"><option value="10">10</option><option value="20" selected>20</option><option value="30">30</option><option value="50">50</option><option value="100">100</option><option value="99999">All matching</option></select>
+      <span class="muted" id="avail"></span>
+      <span style="flex:1"></span>
+      <button class="btn primary" id="go">Start quiz</button>
+    </div>
+  </div>
+  <div class="card">
+    <h2>Your progress</h2>
+    <p class="muted" id="statline"></p>
+    <table class="rt" id="progtable"></table>
+    <div class="row" style="margin-top:10px"><button class="btn small" id="resetStats">Reset quiz progress</button></div>
+  </div>
+</section>
+
+<!-- ================= QUIZ RUN ================= -->
+<section id="v-run" class="hide">
+  <div class="row muted" style="justify-content:space-between"><span id="prog"></span><span id="run"></span></div>
+  <div class="bar"><i id="barfill"></i></div>
+  <div class="card">
+    <div class="meta" id="qmeta"></div>
+    <p class="q" id="qtext"></p>
+    <div class="ans" id="qans"></div>
+    <div id="qexp"></div>
+    <div class="navrow"><button class="btn" id="quit">End quiz</button><button class="btn primary" id="next" disabled>Next →</button></div>
+  </div>
+</section>
+
+<!-- ================= EXAM SETUP ================= -->
+<section id="v-exam" class="hide">
+  <div class="card" id="resumeCard" style="display:none">
+    <h2>Exam in progress</h2>
+    <p class="muted" id="resumeText"></p>
+    <div class="row"><button class="btn primary" id="resumeBtn">Resume</button><button class="btn" id="abandonBtn">Abandon</button></div>
+  </div>
+  <div class="card">
+    <h2>Mock AIT period exams</h2>
+    <p class="muted" style="margin-top:-6px">Each full mock is 100 four-option questions drawn across all three courses (301 Hydraulics ≈ 33, 302 Steering/Suspension/Electrical ≈ 22, 303 Powertrain ≈ 45). There is no feedback until you submit, like the real thing. Mocks 1–6 are fixed sets, so a retake shows the same questions and you can measure improvement. Each one pulls different questions from the bank where it can. Aim for 70% or better. Check the pass mark and time limit for your actual exam with your institution or AIT.</p>
+    <div class="row" style="gap:16px;margin-bottom:12px">
+      <label class="opt"><input type="checkbox" id="timed" checked> Timed (90 s per question)</label>
+      <label class="opt"><input type="checkbox" id="examIlm" checked> Include the extra 303 ILM-objective questions</label>
+    </div>
+    <div class="mocks" id="mocks"></div>
+  </div>
+  <div class="card">
+    <h2>Course exams</h2>
+    <p class="muted" style="margin-top:-6px">A fresh random exam for one course each time, in exam mode.</p>
+    <div class="mocks" id="courseExams"></div>
+  </div>
+  <div class="card">
+    <h2>Exam history</h2>
+    <table class="rt" id="histtable"></table>
+  </div>
+</section>
+
+<!-- ================= EXAM RUN ================= -->
+<section id="v-examrun" class="hide">
+  <div class="examtop">
+    <div><b id="xtitle"></b><div class="muted" id="xprog"></div></div>
+    <div class="row"><span class="timer" id="xtimer"></span><button class="btn primary" id="xsubmit">Submit exam</button></div>
+  </div>
+  <div class="card">
+    <div class="meta" id="xmeta"></div>
+    <p class="q" id="xq"></p>
+    <div class="ans" id="xans"></div>
+    <div class="navrow">
+      <div class="row"><button class="btn" id="xprev">← Prev</button><button class="btn" id="xflag">Flag</button></div>
+      <button class="btn primary" id="xnext">Next →</button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="row" style="justify-content:space-between;margin-bottom:8px"><b>Questions</b><span class="muted">grey = answered · dot = flagged · <kbd>F</kbd> flags · <kbd>←</kbd><kbd>→</kbd> move</span></div>
+    <div class="grid" id="xgrid"></div>
+  </div>
+</section>
+
+<!-- ================= RESULTS ================= -->
+<section id="v-results" class="hide">
+  <div class="card">
+    <div class="row" style="justify-content:space-between;align-items:flex-end">
+      <div><div><span class="score" id="rscore"></span><span class="badge" id="rbadge"></span></div><div class="muted" id="rsub" style="margin-top:6px"></div></div>
+      <div class="row"><button class="btn" id="retry">Practise missed</button><button class="btn primary" id="again">Done</button></div>
+    </div>
+    <h3>By course</h3>
+    <table class="rt" id="rcourse"></table>
+    <h3>By module (weakest first)</h3>
+    <table class="rt" id="rmod"></table>
+  </div>
+  <div class="card">
+    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Review</h2>
+      <div class="row" id="rfilter"><button class="btn small" data-f="wrong">Missed</button><button class="btn small" data-f="flag">Flagged</button><button class="btn small" data-f="all">All</button></div></div>
+    <div class="grid" id="rgrid" style="margin:12px 0"></div>
+    <div id="rlist"></div>
+  </div>
+</section>
+
+</main>
+
+<script type="text/plain" id="bank">
+<!--BANK-->
+</script>
+<script>
+(function(){
+"use strict";
+const MODS = /*MODS*/;
+const COURSES = { "301": "Hydraulics II", "302": "Steering, Suspension, Accessories & Electrical", "303": "Powertrain" };
+const $ = id => document.getElementById(id);
+const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+
+// ---------- bank ----------
+function hash(s){ let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return (h >>> 0).toString(36); }
+const BANK = [];
+(function(){
+  let cur = null;
+  const txt = $("bank").textContent.replace(/<\\\//g, "</");
+  for (const raw of txt.split(/\r?\n/)) {
+    const line = raw.trim(); if (!line) continue;
+    if (line[0] === "@") {
+      const [m, o, f] = line.slice(1).split("|").map(s => (s || "").trim());
+      cur = { m, c: (MODS[m] || {}).c, o, t: new Set((f || "").split(/\s+/).filter(Boolean)), q: "", a: [], e: "" };
+      BANK.push(cur);
+    } else if (!cur) continue;
+    else if (line.startsWith("Q:")) cur.q = line.slice(2).trim();
+    else if (line.startsWith("+")) cur.a.unshift(line.slice(1).trim());
+    else if (line.startsWith("-")) cur.a.push(line.slice(1).trim());
+    else if (line.startsWith("E:")) cur.e = line.slice(2).trim();
+  }
+  const seen = {};
+  for (const q of BANK) { let id = q.m + "-" + hash(q.q); while (seen[id]) id += "x"; seen[id] = 1; q.id = id; }
+})();
+const BYID = Object.fromEntries(BANK.map(q => [q.id, q]));
+
+// ---------- storage ----------
+const K_STATS = "het3-stats-v1", K_HIST = "het3-exam-history-v1", K_ACTIVE = "het3-exam-active-v1";
+const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) || d; } catch (e) { return d; } };
+const store = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
+let stats = load(K_STATS, {});
+const record = (q, ok) => { const s = stats[q.id] || (stats[q.id] = { n: 0, r: 0 }); s.n++; if (ok) s.r++; s.last = ok ? 1 : 0; };
+const isWeak = q => stats[q.id] && stats[q.id].last === 0;
+const isNew = q => !stats[q.id];
+
+// ---------- helpers ----------
+function rng(seed){ let a = seed >>> 0; return () => { a = (a + 0x6D2B79F5) >>> 0; let t = a; t = Math.imul(t ^ (t >>> 15), t | 1); t ^= t + Math.imul(t ^ (t >>> 7), t | 61); return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
+function shuffle(arr, r = Math.random){ const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+const modLabel = m => (m === "301sym" ? "301 symbols" : m) + " · " + MODS[m].n;
+const pct = (r, n) => n ? Math.round(r / n * 100) : 0;
+function bar(p){ const s = el("span", "mini"), i = el("i"); i.style.width = p + "%"; i.style.background = p >= 70 ? "var(--good)" : p >= 50 ? "var(--flag)" : "var(--bad)"; s.appendChild(i); return s; }
+const VIEWS = ["guide", "quiz", "run", "exam", "examrun", "results"];
+function show(v){ for (const x of VIEWS) $("v-" + x).classList.toggle("hide", x !== v); window.scrollTo(0, 0); }
+function tab(t){ for (const x of ["guide", "quiz", "exam"]) $("tab-" + x).classList.toggle("on", x === t); }
+
+// ---------- guide ----------
+(function(){
+  const counts = {}; for (const q of BANK) counts[q.m] = (counts[q.m] || 0) + 1;
+  document.querySelectorAll(".gmod[data-mod]").forEach(sec => {
+    const m = sec.dataset.mod; if (!m || !counts[m]) return;
+    const b = el("button", "btn small qbtn", "Quiz this module (" + counts[m] + ")");
+    b.onclick = () => startQuiz(shuffle(BANK.filter(q => q.m === m)).slice(0, 20), modLabel(m));
+    sec.querySelector("h2").appendChild(b);
+  });
+  const guide = $("guide"), mods = [...guide.querySelectorAll(".gmod")];
+  const hlCount = guide.querySelectorAll("mark").length;
+  const setCount = () => { $("gcount").textContent = `${mods.length} sections · ${hlCount} highlighted facts · ${BANK.length} practice questions`; };
+  setCount();
+  $("gcram").onchange = e => guide.classList.toggle("cram", e.target.checked);
+  let t; $("gsearch").oninput = e => { clearTimeout(t); t = setTimeout(() => {
+    const s = e.target.value.trim().toLowerCase(); let n = 0;
+    for (const m of mods) { const hit = !s || m.textContent.toLowerCase().includes(s); m.classList.toggle("hide", !hit); n += hit; }
+    document.querySelectorAll(".gcourse").forEach(c => c.classList.toggle("hide", !!s && !c.querySelector(".gmod:not(.hide)")));
+    if (s) $("gcount").textContent = n + " section(s) mention \"" + s + "\""; else setCount();
+  }, 150); };
+})();
+
+// ---------- quiz setup ----------
+const selected = new Set(Object.keys(MODS));
+const kind = () => document.querySelector("input[name=kind]:checked").value;
+function filt(k){ return q => k === "all" || (k === "weak" ? isWeak(q) : k === "new" ? isNew(q) : q.t.has(k)); }
+function pool(){ const ilm = $("useIlm").checked, f = filt(kind()); return BANK.filter(q => selected.has(q.m) && (ilm || !q.t.has("ilm")) && f(q)); }
+function renderPicker(){
+  const box = $("picker"); box.innerHTML = "";
+  for (const c of Object.keys(COURSES)) {
+    const keys = Object.keys(MODS).filter(m => MODS[m].c === c);
+    const d = el("div", "course"), h = el("div", "ch");
+    h.appendChild(el("b", null, c + " · " + COURSES[c]));
+    const all = el("button", "linkbtn", "all"), none = el("button", "linkbtn", "none");
+    all.onclick = () => { keys.forEach(k => selected.add(k)); renderSetup(); };
+    none.onclick = () => { keys.forEach(k => selected.delete(k)); renderSetup(); };
+    h.append(all, none); d.appendChild(h);
+    const g = el("div", "mods");
+    for (const m of keys) {
+      const n = BANK.filter(q => q.m === m).length;
+      const b = el("button", "mod" + (selected.has(m) ? " on" : ""));
+      b.appendChild(el("b", null, m.replace("sym", " symbols") + " · " + MODS[m].n)); b.appendChild(el("span", "muted", n + " questions"));
+      b.onclick = () => { selected.has(m) ? selected.delete(m) : selected.add(m); renderSetup(); };
+      g.appendChild(b);
+    }
+    d.appendChild(g); box.appendChild(d);
+  }
+}
+function renderSetup(){
+  renderPicker();
+  const n = pool().length; $("avail").textContent = n + " available"; $("go").disabled = !n;
+  const seen = BANK.filter(q => stats[q.id]).length, weak = BANK.filter(isWeak).length;
+  $("statline").textContent = seen ? `${seen} of ${BANK.length} questions attempted. ${weak} in your weak spots (missed the last time you saw them).` : `${BANK.length} questions in the bank. Nothing attempted yet.`;
+  const t = $("progtable"); t.innerHTML = "<tr><th>Module</th><th>Seen</th><th>Last result</th></tr>";
+  for (const m of Object.keys(MODS)) {
+    const qs = BANK.filter(q => q.m === m), s = qs.filter(q => stats[q.id]), r = s.filter(q => stats[q.id].last === 1).length;
+    const tr = el("tr"); tr.appendChild(el("td", null, modLabel(m))); tr.appendChild(el("td", null, s.length + "/" + qs.length));
+    const td = el("td", null, s.length ? pct(r, s.length) + "% " : "–"); if (s.length) td.appendChild(bar(pct(r, s.length))); tr.appendChild(td); t.appendChild(tr);
+  }
+}
+document.querySelectorAll("input[name=kind]").forEach(r => r.onchange = renderSetup);
+$("useIlm").onchange = renderSetup;
+$("go").onclick = () => startQuiz(shuffle(pool()).slice(0, +$("count").value), "Custom quiz");
+$("resetStats").onclick = () => { if (confirm("Clear all quiz progress and weak spots?")) { stats = {}; store(K_STATS, stats); renderSetup(); } };
+
+const by = (f) => BANK.filter(f);
+const inC = c => q => q.c === c;
+const PRESETS = [
+  ["Quick 10", "Ten random questions from everything", () => shuffle(BANK).slice(0, 10)],
+  ["Daily 25", "A mixed set across all three courses", () => shuffle(BANK).slice(0, 25)],
+  ["On the test", "Facts the notes highlighted as tested · 30", () => shuffle(by(q => q.t.has("hl"))).slice(0, 30)],
+  ["301 Hydraulics II", "30 from symbols to electrohydraulics", () => shuffle(by(inC("301"))).slice(0, 30)],
+  ["302 Steering, suspension & electrical", "30 from 302a–g", () => shuffle(by(inC("302"))).slice(0, 30)],
+  ["303 Powertrain", "30 from gearing to clutches", () => shuffle(by(inC("303"))).slice(0, 30)],
+  ["Calculations", "Every formula and ratio question", () => shuffle(by(q => q.t.has("calc")))],
+  ["Critical thinking & diagnosis", "Cause and effect, like the newer exams · 25", () => shuffle(by(q => q.t.has("ct"))).slice(0, 25)],
+  ["Safety", "Every safety question", () => shuffle(by(q => q.t.has("safe")))],
+  ["Symbols & valves", "Schematic symbols and 301f valves · 30", () => shuffle(by(q => q.m === "301sym" || q.t.has("valve"))).slice(0, 30)],
+  ["Hydrostatics", "Closed loops, charge pumps, HST steering", () => shuffle(by(q => q.t.has("hst")))],
+  ["Planetary gearing", "Ratios, held members, directions", () => shuffle(by(q => q.t.has("plan") || /planetar/i.test(q.q)))],
+  ["Data networks & CAN", "J1939, J1587, ISO 11783, terminating resistors", () => shuffle(by(q => q.t.has("net")))],
+  ["Failure analysis", "What the damage tells you", () => shuffle(by(q => q.t.has("fail") || /fail|pitting|scor/i.test(q.o)))],
+  ["Torque converters & transmissions", "303b–f, the modules most new to you · 30", () => shuffle(by(q => /^303[b-f]$/.test(q.m))).slice(0, 30)],
+  ["Weak spots", "Everything you missed last time you saw it", () => shuffle(by(isWeak)), true],
+  ["Never seen", "25 questions you haven't answered yet", () => shuffle(by(isNew)).slice(0, 25), true],
+  ["Marathon", "Every question in the bank", () => shuffle(BANK)],
+];
+function renderPresets(){
+  const box = $("presets"); box.innerHTML = "";
+  for (const [name, desc, fn, dyn] of PRESETS) {
+    const list = fn(); const b = el("button", "preset");
+    b.appendChild(el("b", null, name)); b.appendChild(el("span", null, desc));
+    b.appendChild(el("i", null, list.length + " questions"));
+    b.disabled = !list.length; if (!list.length) b.style.opacity = .5;
+    b.onclick = () => startQuiz(fn(), name);
+    box.appendChild(b);
+  }
+}
+
+// ---------- quiz run ----------
+let S = null;
+function startQuiz(qs, title){
+  if (!qs.length) return;
+  S = { mode: "quiz", title, i: 0, list: qs.map(q => ({ q, order: shuffle(q.a.map((_, i) => i)), pick: null, flag: false })) };
+  tab("quiz"); show("run"); renderQ();
+}
+function metaTags(box, q){
+  box.innerHTML = "";
+  box.appendChild(el("span", "tag", modLabel(q.m))); if (q.o) box.appendChild(el("span", "tag", q.o));
+  if (q.t.has("hl")) box.appendChild(el("span", "tag hl", "ON THE TEST"));
+  if (q.t.has("ct")) box.appendChild(el("span", "tag ct", "THINK"));
+  if (q.t.has("ilm")) box.appendChild(el("span", "tag", "ILM BANK"));
+}
+function renderQ(){
+  const it = S.list[S.i], q = it.q;
+  $("prog").textContent = `${S.title} · question ${S.i + 1} of ${S.list.length}`;
+  const done = S.list.filter(x => x.pick !== null), right = done.filter(x => x.pick === 0).length;
+  $("run").textContent = done.length ? `${right}/${done.length} correct` : "";
+  $("barfill").style.width = (S.i / S.list.length * 100) + "%";
+  metaTags($("qmeta"), q);
+  $("qtext").textContent = q.q;
+  const box = $("qans"); box.innerHTML = "";
+  it.order.forEach((ai, n) => {
+    const b = el("button"); b.appendChild(el("span", "k", "ABCDEF"[n])); b.appendChild(el("span", null, q.a[ai]));
+    b.dataset.ai = ai; b.onclick = () => answer(ai); box.appendChild(b);
+  });
+  $("qexp").innerHTML = ""; $("next").disabled = true;
+  $("next").textContent = S.i === S.list.length - 1 ? "See results →" : "Next →";
+  if (it.pick !== null) reveal();
+}
+function answer(ai){
+  const it = S.list[S.i]; if (it.pick !== null) return;
+  it.pick = ai; record(it.q, ai === 0); store(K_STATS, stats); reveal();
+}
+function reveal(){
+  const it = S.list[S.i];
+  for (const b of $("qans").children) { b.disabled = true; const ai = +b.dataset.ai; if (ai === 0) b.classList.add("right"); else if (ai === it.pick) b.classList.add("wrong"); }
+  const ok = it.pick === 0, d = el("div", "exp " + (ok ? "good" : "bad"));
+  d.appendChild(el("b", null, ok ? "Correct" : "Not quite. Answer: " + it.q.a[0])); d.appendChild(el("span", null, it.q.e));
+  $("qexp").innerHTML = ""; $("qexp").appendChild(d);
+  $("next").disabled = false; $("next").focus();
+}
+$("next").onclick = () => { if (S.i < S.list.length - 1) { S.i++; renderQ(); } else results(); };
+$("quit").onclick = () => { if (S.list.some(x => x.pick !== null)) results(); else { show("quiz"); renderSetup(); } };
+
+// ---------- exams ----------
+const BLUEPRINT = {
+  "301sym": 3, "301a": 4, "301b": 5, "301c": 2, "301d": 4, "301e": 2, "301f": 7, "301g": 3, "301h": 2, "301i": 1,
+  "302a": 5, "302b": 4, "302c": 3, "302d": 5, "302e": 3, "302f": 1, "302g": 1,
+  "303a": 5, "303b": 5, "303c": 5, "303d": 5, "303e": 3, "303f": 4, "303g": 4, "303h": 4, "303i": 4, "303j": 4, "303k": 2,
+};
+const MOCKS = 6, PER_Q = 90;
+function scaled(courses, total){
+  const keys = Object.keys(BLUEPRINT).filter(m => courses.includes(MODS[m].c));
+  const sum = keys.reduce((a, m) => a + BLUEPRINT[m], 0), out = {};
+  let left = total;
+  keys.forEach(m => { out[m] = Math.max(1, Math.round(BLUEPRINT[m] * total / sum)); left -= out[m]; });
+  const order = keys.slice().sort((a, b) => BLUEPRINT[b] - BLUEPRINT[a]); let i = 0;
+  while (left !== 0) { const m = order[i++ % order.length]; if (left > 0) { out[m]++; left--; } else if (out[m] > 1) { out[m]--; left++; } }
+  return out;
+}
+function buildExam(plan, seed, slot, ilm){
+  const picked = [], r = rng(seed * 7919 + 13);
+  for (const m of Object.keys(plan)) {
+    const p = BANK.filter(q => q.m === m && (ilm || !q.t.has("ilm"))).sort((a, b) => a.id < b.id ? -1 : 1);
+    const order = shuffle(p, rng(hash(m).length * 1000 + parseInt(hash(m), 36) % 100000));
+    const n = Math.min(plan[m], order.length);
+    for (let k = 0; k < n; k++) picked.push(order[(slot * plan[m] + k) % order.length]);
+  }
+  return shuffle(picked, r).map(q => ({ q, order: shuffle(q.a.map((_, i) => i), r), pick: null, flag: false }));
+}
+function startExam(key, title, list){
+  const limit = $("timed").checked ? list.length * PER_Q : 0;
+  S = { mode: "exam", key, title, i: 0, list, start: Date.now(), limit, used: 0 };
+  tab("exam"); show("examrun"); saveActive(); renderX(); tick();
+}
+function saveActive(){
+  if (!S || S.mode !== "exam") return;
+  store(K_ACTIVE, { key: S.key, title: S.title, i: S.i, limit: S.limit, used: elapsed(), items: S.list.map(x => [x.q.id, x.order, x.pick, x.flag]) });
+}
+const elapsed = () => S.used + Math.floor((Date.now() - S.start) / 1000);
+function resumeExam(){
+  const a = load(K_ACTIVE, null); if (!a) return;
+  const list = a.items.filter(x => BYID[x[0]]).map(([id, order, pick, flag]) => ({ q: BYID[id], order, pick, flag }));
+  S = { mode: "exam", key: a.key, title: a.title, i: Math.min(a.i, list.length - 1), list, start: Date.now(), limit: a.limit, used: a.used };
+  tab("exam"); show("examrun"); renderX(); tick();
+}
+let timerId = null;
+function tick(){
+  clearInterval(timerId);
+  const upd = () => {
+    if (!S || S.mode !== "exam") return clearInterval(timerId);
+    const e = elapsed(), t = $("xtimer");
+    if (S.limit) {
+      const left = Math.max(0, S.limit - e);
+      t.textContent = Math.floor(left / 3600) + ":" + String(Math.floor(left % 3600 / 60)).padStart(2, "0") + ":" + String(left % 60).padStart(2, "0");
+      t.classList.toggle("low", left < 300);
+      if (left === 0) { clearInterval(timerId); alert("Time is up. Your exam will be submitted."); submitExam(); }
+    } else { t.textContent = Math.floor(e / 60) + " min"; t.classList.remove("low"); }
+    if (e % 15 === 0) saveActive();
+  };
+  upd(); timerId = setInterval(upd, 1000);
+}
+function renderX(){
+  const it = S.list[S.i], q = it.q;
+  $("xtitle").textContent = S.title;
+  const done = S.list.filter(x => x.pick !== null).length, fl = S.list.filter(x => x.flag).length;
+  $("xprog").textContent = `Question ${S.i + 1} of ${S.list.length} · ${done} answered` + (fl ? ` · ${fl} flagged` : "");
+  const meta = $("xmeta"); meta.innerHTML = ""; meta.appendChild(el("span", "tag", "Question " + (S.i + 1)));
+  if (it.flag) meta.appendChild(el("span", "tag flag", "FLAGGED"));
+  $("xq").textContent = q.q;
+  const box = $("xans"); box.innerHTML = "";
+  it.order.forEach((ai, n) => {
+    const b = el("button", it.pick === ai ? "sel" : ""); b.appendChild(el("span", "k", "ABCDEF"[n])); b.appendChild(el("span", null, q.a[ai]));
+    b.onclick = () => { it.pick = ai; saveActive(); renderX(); }; box.appendChild(b);
+  });
+  $("xflag").textContent = it.flag ? "Unflag" : "Flag";
+  $("xprev").disabled = S.i === 0;
+  $("xnext").textContent = S.i === S.list.length - 1 ? "Review & submit" : "Next →";
+  const g = $("xgrid"); g.innerHTML = "";
+  S.list.forEach((x, n) => {
+    const b = el("button", (x.pick !== null ? "done " : "") + (x.flag ? "flag " : "") + (n === S.i ? "cur" : ""), n + 1);
+    b.onclick = () => { S.i = n; saveActive(); renderX(); }; g.appendChild(b);
+  });
+}
+$("xprev").onclick = () => { if (S.i > 0) { S.i--; saveActive(); renderX(); } };
+$("xnext").onclick = () => { if (S.i < S.list.length - 1) { S.i++; saveActive(); renderX(); } else $("xsubmit").click(); };
+$("xflag").onclick = () => { const it = S.list[S.i]; it.flag = !it.flag; saveActive(); renderX(); };
+$("xsubmit").onclick = () => {
+  const un = S.list.filter(x => x.pick === null).length, fl = S.list.filter(x => x.flag).length;
+  let msg = "Submit your exam now?"; if (un) msg = `${un} question(s) unanswered` + (fl ? ` and ${fl} flagged` : "") + ". Unanswered questions are marked wrong. Submit anyway?"; else if (fl) msg = `${fl} question(s) still flagged. Submit anyway?`;
+  if (confirm(msg)) submitExam();
+};
+function submitExam(){
+  clearInterval(timerId);
+  const used = elapsed();
+  for (const x of S.list) if (x.pick !== null) record(x.q, x.pick === 0);
+  store(K_STATS, stats);
+  const right = S.list.filter(x => x.pick === 0).length;
+  const h = load(K_HIST, []); h.unshift({ key: S.key, title: S.title, date: Date.now(), right, n: S.list.length, used }); store(K_HIST, h.slice(0, 100));
+  localStorage.removeItem(K_ACTIVE);
+  S.used = used; results();
+}
+function renderExamSetup(){
+  const a = load(K_ACTIVE, null);
+  $("resumeCard").style.display = a ? "" : "none";
+  if (a) $("resumeText").textContent = `${a.title}: ${a.items.filter(x => x[2] !== null).length} of ${a.items.length} answered, ${Math.round(a.used / 60)} min used.`;
+  const hist = load(K_HIST, []);
+  const box = $("mocks"); box.innerHTML = "";
+  const full = scaled(["301", "302", "303"], 100);
+  for (let k = 1; k <= MOCKS; k++) {
+    const key = "mock" + k, hs = hist.filter(x => x.key === key);
+    const d = el("div", "mock"); d.appendChild(el("b", null, "Mock exam " + k));
+    d.appendChild(el("div", "muted", hs.length ? `Best ${Math.max(...hs.map(x => pct(x.right, x.n)))}% · last ${pct(hs[0].right, hs[0].n)}% · ${hs.length} attempt(s)` : "100 questions · not attempted"));
+    const b = el("button", "btn primary small", hs.length ? "Retake" : "Start");
+    b.onclick = () => startExam(key, "Mock AIT exam " + k, buildExam(full, k, k - 1, $("examIlm").checked));
+    d.appendChild(b); box.appendChild(d);
+  }
+  const rd = el("div", "mock"); rd.appendChild(el("b", null, "Random full mock")); rd.appendChild(el("div", "muted", "100 questions, new draw every time"));
+  const rb = el("button", "btn small", "Start"); rb.onclick = () => startExam("random", "Random mock exam", buildExam(full, Date.now() % 100000, Math.floor(Math.random() * 50), $("examIlm").checked));
+  rd.appendChild(rb); box.appendChild(rd);
+  const cb = $("courseExams"); cb.innerHTML = "";
+  for (const [c, n] of [["301", 50], ["302", 40], ["303", 60]]) {
+    const d = el("div", "mock"); d.appendChild(el("b", null, c + " " + COURSES[c])); d.appendChild(el("div", "muted", n + " questions"));
+    const b = el("button", "btn small", "Start");
+    b.onclick = () => startExam("course" + c, c + " course exam", buildExam(scaled([c], n), Date.now() % 100000, Math.floor(Math.random() * 50), $("examIlm").checked));
+    d.appendChild(b); cb.appendChild(d);
+  }
+  const t = $("histtable"); t.innerHTML = "";
+  if (!hist.length) { t.innerHTML = "<tr><td class='muted'>No exams taken yet.</td></tr>"; return; }
+  t.innerHTML = "<tr><th>Exam</th><th>Date</th><th>Time</th><th>Score</th></tr>";
+  for (const x of hist.slice(0, 20)) {
+    const tr = el("tr"); tr.appendChild(el("td", null, x.title)); tr.appendChild(el("td", null, new Date(x.date).toLocaleDateString()));
+    tr.appendChild(el("td", null, Math.round(x.used / 60) + " min"));
+    const td = el("td", null, `${x.right}/${x.n} ${pct(x.right, x.n)}% `); td.appendChild(bar(pct(x.right, x.n))); tr.appendChild(td); t.appendChild(tr);
+  }
+}
+$("resumeBtn").onclick = resumeExam;
+$("abandonBtn").onclick = () => { if (confirm("Abandon the exam in progress? It won't be scored.")) { localStorage.removeItem(K_ACTIVE); renderExamSetup(); } };
+
+// ---------- results ----------
+let rf = "wrong";
+function results(){
+  const exam = S.mode === "exam";
+  const done = exam ? S.list : S.list.filter(x => x.pick !== null);
+  const right = done.filter(x => x.pick === 0).length, p = pct(right, done.length);
+  $("rscore").textContent = p + "%";
+  const bd = $("rbadge"); bd.className = "badge " + (p >= 70 ? "pass" : "fail"); bd.textContent = p >= 70 ? "70%+ PASS LINE" : "BELOW 70%";
+  $("rsub").textContent = `${right} of ${done.length} correct · ${S.title}` + (exam ? ` · ${Math.round(S.used / 60)} min` : "");
+  const agg = key => { const o = {}; for (const x of done) { const k = key(x.q), b = o[k] || (o[k] = [0, 0]); b[1]++; if (x.pick === 0) b[0]++; } return o; };
+  const fill = (tbl, o, label, sort, head) => {
+    tbl.innerHTML = "<tr><th>" + head + "</th><th>Correct</th><th>Score</th></tr>";
+    let ks = Object.keys(o); ks = sort ? ks.sort((a, b) => o[a][0] / o[a][1] - o[b][0] / o[b][1]) : ks.sort();
+    for (const k of ks) { const [r, n] = o[k], tr = el("tr"); tr.appendChild(el("td", null, label(k))); tr.appendChild(el("td", null, r + "/" + n)); const td = el("td", null, pct(r, n) + "% "); td.appendChild(bar(pct(r, n))); tr.appendChild(td); tbl.appendChild(tr); }
+  };
+  fill($("rcourse"), agg(q => q.c), c => c + " · " + COURSES[c], false, "Course");
+  fill($("rmod"), agg(q => q.m), modLabel, true, "Module");
+  const missed = done.filter(x => x.pick !== 0);
+  $("retry").disabled = !missed.length;
+  $("retry").onclick = () => startQuiz(shuffle(missed.map(x => x.q)), "Practise missed");
+  $("rfilter").style.display = exam ? "" : "none";
+  rf = "wrong"; renderReview(); show("results");
+}
+function renderReview(){
+  const exam = S.mode === "exam", done = exam ? S.list : S.list.filter(x => x.pick !== null);
+  document.querySelectorAll("#rfilter button").forEach(b => b.classList.toggle("primary", b.dataset.f === rf));
+  const g = $("rgrid"); g.innerHTML = ""; g.style.display = exam ? "" : "none";
+  if (exam) S.list.forEach((x, n) => { const b = el("button", (x.pick === 0 ? "r " : "w ") + (x.flag ? "flag" : ""), n + 1); b.onclick = () => { rf = "all"; renderReview(); const t = document.getElementById("rv" + n); if (t) t.scrollIntoView({ block: "center" }); }; g.appendChild(b); });
+  const box = $("rlist"); box.innerHTML = "";
+  const items = done.map((x, n) => [x, S.list.indexOf(x)]).filter(([x]) => rf === "all" || (rf === "flag" ? x.flag : x.pick !== 0));
+  if (!items.length) box.appendChild(el("p", "muted", rf === "wrong" ? "Nothing missed. Nice work." : "Nothing to show."));
+  for (const [x, n] of items) {
+    const d = el("div", "rev"); d.id = "rv" + n;
+    const m = el("div", "meta"); if (exam) m.appendChild(el("span", "tag", "Q" + (n + 1))); m.appendChild(el("span", "tag", modLabel(x.q.m))); if (x.flag) m.appendChild(el("span", "tag flag", "FLAGGED"));
+    d.appendChild(m); d.appendChild(el("p", "q", x.q.q));
+    if (x.pick !== 0) d.appendChild(el("div", "you", "✗ You: " + (x.pick === null ? "(no answer)" : x.q.a[x.pick])));
+    d.appendChild(el("div", "cor", "✓ Answer: " + x.q.a[0]));
+    d.appendChild(el("div", "muted", x.q.e)); box.appendChild(d);
+  }
+}
+document.querySelectorAll("#rfilter button").forEach(b => b.onclick = () => { rf = b.dataset.f; renderReview(); });
+$("again").onclick = () => { if (S.mode === "exam") { show("exam"); renderExamSetup(); } else { show("quiz"); renderSetup(); renderPresets(); } };
+
+// ---------- keys ----------
+document.addEventListener("keydown", e => {
+  if (e.ctrlKey || e.metaKey || e.altKey || /INPUT|SELECT|TEXTAREA/.test(e.target.tagName)) return;
+  const k = e.key.toLowerCase(), idx = "1234".includes(k) ? "1234".indexOf(k) : "abcd".indexOf(k);
+  if (!$("v-run").classList.contains("hide")) {
+    const it = S.list[S.i];
+    if (idx >= 0 && it.pick === null && it.order[idx] !== undefined) { answer(it.order[idx]); e.preventDefault(); }
+    else if ((k === "enter" || k === "arrowright") && it.pick !== null) { e.preventDefault(); $("next").click(); }
+  } else if (!$("v-examrun").classList.contains("hide")) {
+    const it = S.list[S.i];
+    if (idx >= 0 && it.order[idx] !== undefined) { it.pick = it.order[idx]; saveActive(); renderX(); e.preventDefault(); }
+    else if (k === "arrowright" || k === "enter") { e.preventDefault(); if (S.i < S.list.length - 1) $("xnext").click(); }
+    else if (k === "arrowleft") { e.preventDefault(); $("xprev").click(); }
+    else if (k === "f") { e.preventDefault(); $("xflag").click(); }
+  }
+});
+
+// ---------- tabs ----------
+const inExam = () => !$("v-examrun").classList.contains("hide");
+const leaveExam = () => { if (inExam()) { saveActive(); clearInterval(timerId); } };
+$("tab-guide").onclick = () => { leaveExam(); tab("guide"); show("guide"); };
+$("tab-quiz").onclick = () => { leaveExam(); tab("quiz"); show("quiz"); renderSetup(); renderPresets(); };
+$("tab-exam").onclick = () => { leaveExam(); tab("exam"); show("exam"); renderExamSetup(); };
+window.addEventListener("beforeunload", () => { if (inExam()) saveActive(); });
+
+tab("guide"); show("guide");
+window.__BANK = BANK;
+})();
+</script>
+</body>
+</html>

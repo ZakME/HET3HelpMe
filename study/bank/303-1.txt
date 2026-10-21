@@ -1,0 +1,895 @@
+@303a|Gear terms|hl
+Q: The top portion of a gear tooth, above the pitch line, is the:
++ face
+- flank
+- heel
+- root fillet
+E: Face = top portion. Flank = bottom portion. The pitch line divides them.
+
+@303a|Gear terms|hl
+Q: On a bevel gear tooth, the heel is the:
++ larger (outer) end
+- smaller (inner) end
+- top portion
+- valley between teeth
+E: Heel = large end. Toe = small end.
+
+@303a|Gear terms|hl
+Q: The drive side of a ring gear tooth is the:
++ convex side (curved out)
+- concave side (curved in)
+- toe end
+- side driven by the load when coasting
+E: Drive side = convex. Coast side = concave, driven by the load in neutral/coasting.
+
+@303a|Gear terms|hl
+Q: Gear "clearance" is the gap between:
++ one tooth's tip and the mating root
+- the faces of two meshing teeth
+- the gear and its housing wall
+- the toe and heel of a tooth
+E: Clearance (tip to root) is needed for lubrication. Backlash is the face/flank gap.
+
+@303a|Gear terms|hl
+Q: Backlash is needed to allow for:
++ expansion and lubrication
+- axial thrust loads
+- gear timing marks
+- hunting tooth wear
+E: The flank/face gap between meshing teeth allows for expansion and an oil film.
+
+@303a|Gear terms|hl
+Q: A gear set whose ratio is a whole number (for example 3:1) is:
++ non-hunting and must be timed
+- hunting and needs no timing
+- partial non-hunting
+- always a planetary set
+E: Non-hunting gears mesh the same teeth repeatedly, develop distinct wear patterns and must be timed.
+
+@303a|Gear terms|hl
+Q: In a hunting gear set:
++ every tooth meets every mate; no timing
+- the same teeth always mesh; must be timed
+- the ratio is always a whole number
+- only half the teeth ever make contact
+E: Uneven ratios (3.333:1) mean teeth "hunt" through every mate.
+
+@303a|Gear terms|
+Q: A gear set with a ratio of 4.5:1 is classed as:
++ partial non-hunting and must be timed
+- hunting, no timing needed
+- non-hunting with a whole-number ratio
+- an overdrive set
+E: Partial non-hunting: one or two decimals, several revolutions before teeth repeat. Still timed.
+
+@303a|Ratios|calc hl
+Q: A 12-tooth drive gear meshes with a 48-tooth driven gear. The ratio is:
++ 4:1
+- 0.25:1
+- 36:1
+- 1:4
+E: Ratio = driven ÷ drive = 48 ÷ 12 = 4:1, a reduction.
+
+@303a|Ratios|calc hl
+Q: An engine delivers 500 lb·ft at 2000 RPM into a 4:1 reduction. Output torque and speed are:
++ 2000 lb·ft at 500 RPM
+- 125 lb·ft at 8000 RPM
+- 2000 lb·ft at 8000 RPM
+- 500 lb·ft at 500 RPM
+E: Multiply torque (500 × 4) and divide RPM (2000 ÷ 4). Losses ignored.
+
+@303a|Ratios|calc hl
+Q: A 3:1 transmission ratio feeds a 5:1 final drive. The total ratio is:
++ 15:1
+- 8:1
+- 1.67:1
+- 2:1
+E: Highlighted: multiple ratios are multiplied together.
+
+@303a|Ratios|hl
+Q: A large drive gear turning a small driven gear produces:
++ overdrive: RPM up, torque down
+- reduction: RPM down, torque up
+- direct drive: no change at all
+- reverse: direction change only
+E: Overdrive ratios are written like 0.5:1.
+
+@303a|Ratios|hl
+Q: Adding an idler gear between a drive and driven gear will:
++ change direction only
+- double the gear ratio
+- reduce output torque
+- produce an overdrive
+E: Highlighted: idlers change direction only.
+
+@303a|Gear types|hl
+Q: Compared with spur gears, helical gears:
++ are quieter and stronger but create end thrust
+- create no end thrust and run quieter
+- are cheaper and simpler to machine
+- only have one tooth in contact at a time
+E: Highlighted. Angled teeth keep several teeth in contact but push the gear sideways.
+
+@303a|Gear types|hl
+Q: Double helical (herringbone) gears are used because:
++ their axial loads cancel out
+- they are the cheapest gear to make
+- they turn the power flow 90°
+- they need no lubrication
+E: Two opposite helix angles cancel the thrust.
+
+@303a|Gear types|hl
+Q: In an angle drive, the small drive gear is the ___ and the large driven gear is the ___.
++ pinion; crown
+- crown; pinion
+- sun; ring
+- idler; bull gear
+E: Highlighted: pinion = small drive gear, crown = large driven gear.
+
+@303a|Gear types|hl
+Q: An amboid gear set has its pinion centreline:
++ above the crown centreline
+- below the crown centreline
+- in line with the crown centreline
+- at 45° to the crown
+E: "A for above." The driveshaft sits higher, increasing ground clearance.
+
+@303a|Gear types|hl
+Q: A hypoid gear set has its pinion centreline:
++ below the crown centreline
+- above the crown centreline
+- in line with the crown centreline
+- at 45° to the crown centreline
+E: Hypoid = below; lots of sliding contact and pressure, so EP oil is required.
+
+@303a|Planetary|hl plan
+Q: When calculating a simple planetary ratio, the planet carrier is given a tooth count equal to:
++ the sun gear teeth plus the ring gear teeth
+- the number of planet pinion teeth
+- the ring gear teeth minus the sun gear teeth
+- twice the sun gear teeth
+E: Highlighted: don't count planet pinion teeth. Add sun and ring together.
+
+@303a|Planetary|calc plan
+Q: A planetary has a 20-tooth sun and a 60-tooth ring. The sun drives, the ring is held and the carrier is the output. The ratio is:
++ 4:1 reduction
+- 3:1 reduction
+- 0.25:1 overdrive
+- 3:1 reverse
+E: Carrier = 20 + 60 = 80. Ratio = driven ÷ drive = 80 ÷ 20 = 4:1 (the largest reduction).
+
+@303a|Planetary|calc plan
+Q: Same set (20-tooth sun, 60-tooth ring). The carrier is held, the sun drives and the ring is the output. The result is:
++ 3:1 reduction in reverse
+- 4:1 reduction forward
+- 0.33:1 overdrive forward
+- direct drive
+E: Carrier held = reverse. Ratio = ring ÷ sun = 60 ÷ 20 = 3:1.
+
+@303a|Planetary|calc plan
+Q: Same set (20-tooth sun, 60-tooth ring). The ring drives, the sun is held and the carrier is the output. The ratio is:
++ 1.33:1 reduction
+- 4:1 reduction
+- 0.75:1 overdrive
+- 3:1 reverse
+E: Carrier = 80. Ratio = 80 ÷ 60 = 1.33:1 (small reduction, forward).
+
+@303a|Planetary|hl plan
+Q: In a simple planetary, which condition always gives reverse?
++ Carrier held
+- Carrier driven
+- Carrier as input
+- Any two members locked
+E: Highlighted: reverse = carrier held. Reduction = carrier driven (output). Overdrive = carrier as drive (input).
+
+@303a|Planetary|hl plan
+Q: A simple planetary set is in neutral when:
++ no member is held
+- the carrier is held
+- two members are locked together
+- the sun gear is held
+E: With nothing held there is no reaction member, so no power is transmitted.
+
+@303a|Planetary|plan
+Q: With the carrier driving, ring held and sun as output, a simple planetary gives:
++ large overdrive, forward
+- large reduction, forward
+- overdrive, reverse
+- direct drive
+E: Carrier input = overdrive. Sun output is the fastest member = large overdrive.
+
+@303b|Fluid coupling|hl
+Q: A hydrodynamic drive transfers energy through:
++ fluid motion
+- fluid pressure
+- friction discs
+- gear teeth
+E: Hydrodynamic = kinetic energy of moving fluid. (Hydrostatic = pressure.)
+
+@303b|Fluid coupling|hl
+Q: The main reason a fluid coupling or torque converter replaces a mechanical clutch is that:
++ slip lets the machine stop without stalling
+- it multiplies torque at all speeds
+- it is more efficient than a clutch
+- it removes the need for a transmission
+E: Highlighted: slippage prevents engine stall with the machine stopped.
+
+@303b|Fluid coupling|hl
+Q: In a torque converter, the impeller is connected to the ___ and the turbine to the ___.
++ engine; transmission
+- transmission; engine
+- stator; engine
+- engine; stator
+E: Impeller = engine side. Turbine = driveline side.
+
+@303b|Fluid coupling|hl
+Q: In a fluid coupling, slippage is greatest at:
++ low engine speed
+- high engine speed
+- coupling speed
+- lockup
+E: Highlighted: low engine speed = high slippage; high speed = low slippage.
+
+@303b|Fluid coupling|hl
+Q: A basic fluid coupling (no stator) can:
++ only transmit torque
+- multiply torque up to 2:1
+- multiply torque at stall
+- lock up mechanically
+E: Highlighted: fluid couplings only transmit torque. A torque converter can multiply it.
+
+@303b|Torque converter|hl
+Q: A torque converter is best defined as a:
++ torque-multiplying fluid coupling
+- wet multi-disc clutch pack
+- fluid driven planetary gear set
+- hydrostatic pump and motor pair
+E: Highlighted. The stator redirects oil to make multiplication possible.
+
+@303b|Flow|hl
+Q: Vortex flow in a torque converter occurs when:
++ the turbine is much slower than the impeller
+- impeller and turbine turn at about the same speed
+- the lockup clutch is engaged
+- the stator freewheels on its clutch
+E: Highlighted: vortex (converter phase): turbine slower, high heat, low speed, high torque.
+
+@303b|Flow|hl
+Q: Rotary flow in a torque converter is associated with the:
++ coupling phase: low heat, high speed, low torque
+- converter phase: high heat, high torque
+- stall condition
+- lockup phase only
+E: Highlighted: oil flows in the same direction as impeller rotation; impeller and turbine at similar speed.
+
+@303b|Stator|hl
+Q: The stator in a torque converter:
++ redirects oil to the impeller when held
+- connects the turbine to the transmission
+- is bolted to the flywheel and cover
+- locks the impeller to the turbine
+E: Highlighted: reaction member; multiplication only when it is held stationary.
+
+@303b|Stator|hl
+Q: A freewheeling stator is:
++ held when converting, free when coupling
+- free to turn in both phases
+- held stationary at all times
+- driven by the turbine through gears
+E: An overrunning clutch lets it turn freely in the direction of impeller and turbine rotation once coupling speed is reached.
+
+@303b|Stator|ct
+Q: A fixed stator torque converter:
++ never fully couples and runs hot
+- has no torque multiplication at all
+- freewheels once at high speed
+- is the most efficient design
+E: Fixed stators give constant multiplication and very high heat because rotary flow can't fully develop.
+
+@303b|Converter parts|hl
+Q: The split guide ring in a torque converter:
++ reduces turbulence in the oil flow
+- locks the turbine to the impeller
+- holds the stator stationary
+- seals the converter housing halves
+E: Highlighted: reduces turbulence.
+
+@303b|Lockup|hl
+Q: A torque converter lockup clutch:
++ locks impeller to turbine for 1:1 drive
+- multiplies torque at stall
+- holds the stator stationary
+- disconnects the engine for shifting
+E: Highlighted: eliminates slip, used in rotary flow, no torque multiplication.
+
+@303b|Phases|hl
+Q: The number of "stages" in a torque converter refers to the:
++ number of turbines
+- number of stators
+- number of impellers
+- number of phases
+E: Highlighted: stages = number of turbines (times oil strikes a turbine before returning). Usually 1.
+
+@303b|Stall|hl
+Q: Torque converter stall is the condition where:
++ the turbine is stopped, impeller at max speed
+- impeller and turbine turn at the same speed
+- the lockup clutch slips under load
+- the engine stalls under load
+E: Highlighted: max torque, max vortex flow, lots of heat.
+
+@303b|Variable capacity|hl
+Q: A variable capacity torque converter is designed to:
++ vary torque to suit demand
+- run at a fixed 1:1 ratio
+- eliminate the need for a stator
+- run without a charging pump
+E: Highlighted. Uses dual impellers, dual turbines or a variable pitch stator.
+
+@303b|Temperature|hl
+Q: The torque converter temperature sender is installed in the:
++ converter oil outlet
+- converter inlet
+- transmission sump
+- cooler return line
+E: Highlighted. Oil temperature should not exceed 250 °F (121 °C).
+
+@303b|Temperature|hl
+Q: Torque converter outlet oil temperature should not exceed:
++ 250 °F (121 °C)
+- 180 °F (82 °C)
+- 300 °F (149 °C)
+- 212 °F (100 °C)
+E: Highlighted.
+
+@303b|Oil|hl ct
+Q: In very cold weather, a machine creeps forward at start-up even in gear at idle with the brakes on. A likely reason is:
++ oil too heavy, transmitting torque when cold
+- the stator overrunning clutch has failed
+- the lockup clutch is stuck engaged
+- the converter is low on oil
+E: Highlighted: too heavy an oil transmits torque in the cold, so start in neutral.
+
+@303b|Housings|hl
+Q: A wet torque converter housing:
++ lubricates gears and can run a PTO
+- is sealed from all oil
+- must be kept full of oil
+- needs no scavenging at all
+E: Highlighted. The oil level must be kept low to avoid drag on the converter.
+
+@303b|Housings|hl
+Q: A scavenging pump is needed on a torque converter when:
++ the converter is level with the transmission
+- the converter is above the transmission
+- the converter housing is dry
+- the converter is remote mounted
+E: If the converter is above the transmission, gravity drains it. If level, a scavenge pump is needed.
+
+@303b|Torque divider|hl
+Q: A torque divider combines:
++ a torque converter and a planetary gear set
+- two torque converters
+- a fluid coupling and a lockup clutch
+- a hydraulic retarder and a converter
+E: Highlighted: torque is split between them for more multiplication than a plain converter.
+
+@303b|Torque divider|hl
+Q: In a torque divider, which members turn at engine speed?
++ Impeller and sun gear
+- Turbine and ring gear
+- Planet carrier and output shaft
+- Stator and ring gear
+E: Impeller and sun at engine speed; turbine and ring together; carrier = output.
+
+@303b|Torque divider|hl ct
+Q: In a torque divider with the output shaft stalled, the turbine:
++ rotates in reverse
+- is stopped
+- turns at engine speed
+- freewheels forward
+E: Highlighted: with the carrier held (output stalled), the sun drives the ring (and turbine) backwards. Maximum speed differential.
+
+@303b|Mounting|hl
+Q: A torque converter driven directly by the engine flywheel is:
++ engine mounted (integral)
+- remote mounted
+- driveline mounted
+- transmission mounted
+E: Highlighted. Remote mount uses a driveline between engine and converter.
+
+@303b|Diagnostics|hl
+Q: A torque converter stall test is normally done in:
++ the highest gear
+- the lowest gear
+- neutral
+- reverse
+E: Highlighted: low gears may cause transmission/driveline damage.
+
+@303b|Diagnostics|hl ct
+Q: During a converter stall test, the engine speed is HIGHER than specified. The likely cause is:
++ a slipping clutch
+- a weak engine
+- a slipping stator clutch
+- cold oil
+E: High stall: converter not multiplying torque or clutch slipping. Low stall: engine weak or stator clutch slipping.
+
+@303b|Diagnostics|hl ct
+Q: During a converter stall test, the engine speed is LOWER than specified. Possible causes are:
++ a weak engine or a slipping stator clutch
+- slipping transmission clutches
+- low oil level causing cavitation
+- a stuck open converter relief valve
+E: Low stall = weak engine or slipping stator clutch. If the stator freewheels at stall, returning oil strikes the impeller against its rotation, loading the engine and pulling stall speed down.
+
+@303b|Diagnostics|ct
+Q: Which would NOT cause torque converter overheating?
++ Operating in a lower gear under load
+- Operating in too high a gear under load
+- A plugged oil cooler
+- Low or high oil level
+E: Too high a gear keeps the converter in vortex flow (heat). Also plugged cooler, bad charge pump, low or high oil and high ambient temperature.
+
+@303b|Service|hl
+Q: When removing a torque converter, it may need to be:
++ secured to the transmission
+- filled with oil first
+- removed with the engine running
+- separated from the flexplate at the crank bolts
+E: Highlighted: sometimes the converter must be secured to the transmission for removal.
+
+@303b|Service|hl
+Q: A rebuilt torque converter going into storage should have:
++ all holes covered with plugs
+- its oil drained and left open to dry
+- the stator removed
+- its lockup clutch applied
+E: Highlighted: cover all holes with plugs if storing.
+
+@303b|Service|hl ct
+Q: Improperly adjusted shift linkage on a powershift transmission can cause:
++ two gears to engage at once
+- torque converter stall
+- converter overheating only
+- lockup clutch slip
+E: Highlighted: shift linkages control which gear the transmission is in.
+
+@303c|Transmission types|hl
+Q: A powershift transmission is one in which:
++ the operator shifts, even under full load
+- shifts happen with no operator action
+- the operator uses a clutch pedal to shift
+- there is only one forward speed
+E: Highlighted. Often used in cycling applications (forward-reverse).
+
+@303c|Transmission types|hl
+Q: An automatic transmission is often used for:
++ hauling, with long runs in one direction
+- short forward-reverse loading cycles
+- stationary pumps and generators
+- skid steers and small loaders
+E: Automatics shift speeds by themselves; the operator still selects forward or reverse.
+
+@303c|Transmission functions|hl
+Q: Which is a function of a transmission?
++ Provide a place for a power take-off
+- Turn power 90° to the wheels
+- Allow wheels to turn at different speeds
+- Provide the last gear reduction
+E: Highlighted: provide a place for auxiliary power/PTO, plus multiply torque, reverse, and shift without interrupting power.
+
+@303c|Planetary|hl plan
+Q: In a planetary transmission, a planet carrier used as the OUTPUT always gives:
++ a reduction
+- an overdrive
+- reverse
+- direct drive
+E: Carrier output = reduction. Carrier input = overdrive. Carrier held = reverse.
+
+@303c|Planetary|hl plan
+Q: Direct drive through a planetary set is obtained by:
++ locking any two members
+- holding the planet carrier
+- holding the sun gear
+- releasing every member
+E: Highlighted: locking any two members, or driving two members at the same speed.
+
+@303c|Planetary|plan
+Q: An external gear in mesh with an internal gear will turn:
++ in the same direction
+- in the opposite direction
+- at the same speed
+- only if an idler is used
+E: Two externals turn opposite; external with internal turn the same direction.
+
+@303c|Planetary|plan
+Q: In the "second speed reduction" combination of a simple planetary:
++ the sun is held, the ring is input and the carrier is output
+- the sun is input, the ring is held and the carrier is output
+- the carrier is held
+- the ring is output
+E: First reduction: sun in, ring held. Second reduction: ring in, sun held. Carrier is output for both.
+
+@303c|Planetary|hl plan
+Q: A dual input planetary has:
++ two inputs, one output, none held
+- one input and two outputs
+- two held members and one output
+- two inputs and no output
+E: Highlighted. Inputs the same direction = more speed; opposite = less.
+
+@303c|Planetary|plan ct
+Q: In a dual input planetary, both inputs turn at equal tooth speed in opposite directions. The output speed is:
++ zero
+- double the input speed
+- the same as one input
+- half of one input
+E: Equal but opposite inputs cancel, giving zero output RPM.
+
+@303c|Planetary|hl plan
+Q: Tooth speed is:
++ teeth passing a point per second
+- the same as shaft RPM
+- the speed of the planet carrier
+- the gear ratio times the RPM
+E: Highlighted.
+
+@303c|Clutches|hl
+Q: Transmission clutches in a powershift are typically:
++ hydraulically applied and spring released
+- spring applied and hydraulically released
+- mechanically applied
+- air applied
+E: Highlighted.
+
+@303c|Clutches|hl
+Q: A stationary clutch in a planetary transmission:
++ locks a ring gear to the transmission housing
+- locks two rotating members together
+- connects the engine to the converter
+- holds the turbine shaft
+E: Highlighted: rotating clutch = locks two rotating components; stationary clutch = locks a gear to the housing.
+
+@303c|Clutches|hl
+Q: The grooves on the face of a clutch friction disc:
++ lube it when released and clear oil when applied
+- increase the friction coefficient
+- lock the disc to the clutch hub
+- show when the disc is worn out
+E: Highlighted. Escaping oil prevents delayed engagement/disengagement.
+
+@303c|Clutches|hl
+Q: Where are steel clutch plates located in a clutch pack?
++ Between each pair of friction discs
+- Only at the two ends of the pack
+- Only directly behind the piston
+- Bonded to the friction discs
+E: Highlighted. The plates provide the reaction surface.
+
+@303c|Clutches|hl
+Q: Clutch pistons are:
++ hydraulically moved to apply the clutch
+- spring applied and oil released
+- driven by the turbine shaft
+- used only to release the clutch
+E: Highlighted. Return springs release them; splines keep the piston from rotating.
+
+@303c|Countershaft|hl
+Q: A countershaft transmission uses:
++ parallel shafts, with clutches locking gears
+- planetary sets with stationary clutches
+- one shaft with sliding gears
+- chains between parallel shafts
+E: Highlighted.
+
+@303c|Countershaft|hl
+Q: A disadvantage of countershaft transmissions compared with planetary transmissions is that they:
++ are bulkier and need big thrust bearings
+- are more expensive to make
+- can't shift under load
+- can't provide a reverse
+E: Highlighted: not as compact. They are, however, significantly cheaper.
+
+@303c|Countershaft|hl
+Q: A useful feature of a countershaft transmission is that it can:
++ drop the power path and feed both axles
+- cancel all of its thrust loads
+- provide infinitely variable ratios
+- shift without any clutches
+E: Highlighted: used to lower the path of power.
+
+@303c|Countershaft|hl
+Q: In a countershaft transmission, a reversing unit has:
++ an idler between the input and the countershaft
+- no idler between the input and countershaft
+- two countershafts with no idler
+- a planetary set
+E: Highlighted. A high/low unit has no idler, so both turn the same direction.
+
+@303d|Circuits|hl
+Q: In a powershift transmission, the three main hydraulic circuits receive oil in which order?
++ Clutch application, torque converter charging, lubrication
+- Lubrication, converter charging, clutch application
+- Converter charging, clutch application, lubrication
+- Clutch application, lubrication, converter charging
+E: Highlighted: clutch application first (highest pressure), converter second, lube last.
+
+@303d|Circuits|ct
+Q: Which transmission circuit runs at the highest pressure?
++ Clutch application
+- Torque converter charging
+- Lubrication
+- Scavenge
+E: The clutch circuit receives flow first and at the highest pressure.
+
+@303d|Pumps|hl safe
+Q: Why must care be taken when towing a machine with a powershift transmission?
++ No pump flow means no lubrication
+- The converter will lock up solid
+- The parking brake will apply
+- Two gears may engage at once
+E: Highlighted. Disconnect the driveshaft or elevate the drive wheels.
+
+@303d|Pumps|hl
+Q: The transmission scavenging pump:
++ returns housing leakage oil to the tank
+- supplies the clutch circuit
+- supplies oil to the converter
+- pressurizes the lube circuit
+E: Highlighted. It prevents overheating caused by excess oil. The converter scavenge pump does the same for the converter housing.
+
+@303d|Valves|hl
+Q: The priority valve in a transmission/steering system is normally closed and:
++ feeds steering and brakes first
+- limits maximum clutch pressure
+- controls clutch modulation
+- relieves converter pressure
+E: Highlighted.
+
+@303d|Valves|hl
+Q: The shift selector valve controls:
++ speed and direction changes
+- maximum clutch pressure
+- converter outlet pressure
+- lube pressure
+E: Highlighted: speed selector spool and direction selector spool.
+
+@303d|Valves|hl
+Q: The modulating relief valve in a powershift control controls:
++ maximum clutch pressure
+- the rate of clutch pressure rise
+- converter inlet pressure
+- shift points
+E: Highlighted. The load piston controls the rate of pressure rise.
+
+@303d|Valves|hl
+Q: The load piston in a powershift control valve:
++ controls how fast clutch pressure rises
+- sets the maximum clutch pressure
+- selects the direction clutch
+- relieves converter inlet pressure
+E: Highlighted: prevents shift shock (too fast) and slipping (too slow).
+
+@303d|Valves|hl
+Q: The torque converter outlet relief valve:
++ limits converter pressure, keeps it full
+- limits maximum clutch pressure
+- stops oil entering the converter
+- controls converter lockup timing
+E: Highlighted. It also protects the converter on cold start-up.
+
+@303d|Modulation|hl
+Q: Clutch modulation is:
++ a gradual pressure rise as the clutch applies
+- instant full pressure to the clutch
+- reduced pressure in the lube circuit
+- the rate a clutch releases
+E: Highlighted: prevents harsh shifting/shift shock.
+
+@303d|Auto shifting|hl
+Q: The two main factors that determine shift points in a hydraulically controlled automatic transmission are:
++ ground speed and throttle position
+- engine temperature and oil pressure
+- engine speed and steering angle
+- converter temperature and load
+E: Highlighted: machine ground speed and operator demand for power.
+
+@303d|Governor|hl
+Q: The governor in a hydraulic automatic transmission:
++ converts output shaft speed into hydraulic pressure
+- converts throttle position into hydraulic pressure
+- limits maximum engine speed
+- controls lockup
+E: Highlighted. Low output speed = low pressure; high speed = high pressure.
+
+@303d|Governor|hl
+Q: As transmission output speed increases, governor pressure will:
++ increase
+- decrease
+- stay constant
+- drop to zero
+E: Rotating flyweights open the spool as speed increases.
+
+@303d|Governor|hl
+Q: Shift signal valves apply and release clutches through a:
++ relay valve
+- trimmer valve
+- load piston
+- priority valve
+E: Highlighted. Lower gear signal valves have weaker springs so they open at lower pressures.
+
+@303d|Governor|hl ct
+Q: The orifice in the governor line of an automatic transmission prevents:
++ a sudden downshift if pressure is lost
+- an early upshift at full throttle
+- governor pressure from rising
+- clutch slip under heavy load
+E: Highlighted: a sudden loss from hard braking or governor failure could cause a rapid downshift.
+
+@303d|Modulator|hl
+Q: The modulator circuit in an automatic transmission:
++ moves shift points with throttle
+- turns output speed into pressure
+- controls clutch release rate
+- sets maximum clutch pressure
+E: Highlighted. It opposes governor pressure.
+
+@303d|Modulator|hl ct
+Q: With the throttle fully open, a hydraulically controlled automatic transmission will:
++ delay its shift points
+- shift earlier
+- not shift at all
+- shift into neutral
+E: Highlighted. This allows more horsepower and momentum in each gear.
+
+@303d|Shift quality|hl ct
+Q: A clutch released too fast before the next clutch engages causes:
++ RPM flare and freewheeling
+- lugging and shift shock
+- slip in the new gear
+- torque converter stall
+E: Highlighted. The transmission is momentarily out of gear.
+
+@303d|Shift quality|hl ct
+Q: A clutch released too slowly so that it overlaps the next clutch causes:
++ lugging and a harsh shift
+- RPM flare on the shift
+- momentary freewheeling
+- only a delayed upshift
+E: Highlighted: two clutches are partly applied at once.
+
+@303d|Shift quality|hl
+Q: The trimmer valve in an automatic transmission controls:
++ clutch application rate
+- clutch release rate
+- maximum clutch pressure
+- governor pressure
+E: Highlighted. Orifices control release rates.
+
+@303d|Shift quality|hl ct
+Q: Trimmer valve modulator boost pressure is used to:
++ stop trimming under heavy load
+- delay shifts at full throttle
+- soften shifts at light throttle
+- prevent downshifts when braking
+E: Highlighted: prevents trimmer operation under heavy load.
+
+@303d|Electronic|hl
+Q: In an electronically controlled automatic transmission, the input and output speed sensors:
++ replace the governor
+- replace the modulator
+- are needed on powershifts too
+- control lockup directly
+E: Highlighted: not needed on powershift, only automatic.
+
+@303d|Electronic|hl
+Q: In an electronic automatic transmission, the throttle position sensor replaces the:
++ modulator valve
+- governor valve
+- trimmer valve
+- priority valve
+E: Highlighted: it indicates operator demand for power.
+
+@303d|Electronic|hl
+Q: Which output component is responsible for transmission speed, direction and lockup changes in an electronic transmission?
++ Shift solenoids
+- Speed sensors
+- Throttle position sensor
+- Warning lamp
+E: Highlighted.
+
+@303e|Retarders|hl
+Q: A hydraulic retarder is designed to:
++ slow the machine, not stop it
+- stop the machine in an emergency
+- replace the service brakes
+- hold the machine when parked
+E: Highlighted: absorbs kinetic energy by fluid friction and extends brake life.
+
+@303e|Retarders|hl
+Q: An output retarder is most effective:
++ at high vehicle speed
+- at low speed in a low gear
+- only at high engine RPM
+- with the converter in vortex flow
+E: Highlighted.
+
+@303e|Retarders|hl
+Q: An input retarder is usually:
++ built into the transmission
+- on the output shaft
+- remote mounted on the driveline
+- part of the final drive
+E: Highlighted. Downshift after the retarder engages to increase effectiveness.
+
+@303e|Retarders|hl
+Q: In a hydraulic retarder, the input side component is the:
++ rotor
+- stator
+- housing
+- accumulator
+E: Highlighted. The housing (stator) is the stationary member.
+
+@303e|Retarders|hl
+Q: Hydraulic retarder oil temperature should not exceed:
++ 250 °F (121 °C)
+- 180 °F (82 °C)
+- 350 °F (177 °C)
+- 212 °F (100 °C)
+E: Highlighted. Operation above 275 °F (135 °C) can damage the retarder.
+
+@303e|Retarders|hl
+Q: Which is a control method for hydraulic retarders?
++ Air over hydraulic
+- Mechanical band
+- Vacuum assist
+- Centrifugal weights
+E: Highlighted.
+
+@303e|Retarders|hl
+Q: When a hydraulic retarder is disengaged:
++ all oil is drained from the housing
+- the housing stays full to keep the rotor lubricated
+- the rotor stops
+- the stator turns with the rotor
+E: Highlighted. Oil in the housing would cause drag.
+
+@303e|Retarders|hl
+Q: A hydraulic retarder converts kinetic energy into heat by:
++ friction between rotor and oil
+- friction between wet brake discs
+- compressing nitrogen gas
+- generating electricity for a grid
+E: Highlighted.
+
+@303e|Retarders|
+Q: An accumulator in a retarder circuit is used to:
++ allow a fast fill of the retarder
+- store heat
+- hold the retarder off
+- supply lube when the engine is off
+E: The accumulator lets the housing fill quickly when the retarder is applied.
+
+@303e|Retarders|fail ct
+Q: Aluminum particles in the retarder oil filter most likely come from the:
++ retarder rotor
+- pump
+- seals or hoses
+- transmission gears
+E: Shiny steel = pump wear, aluminum = rotor, rubber = seals or hoses, iron/steel chips = broken parts.
+
+@303e|Retarders|hl ct
+Q: A retarder repeatedly overheats on a long grade with correct oil level. A likely cause is:
++ the retarder is too small for the application
+- the retarder is too large
+- the rotor clearance is too small to make heat
+- the oil is too clean
+E: Highlighted: too small a retarder overheats. Overheating speeds oxidation and reduces lubrication.
+
+@303e|Retarders|
+Q: A converter lockup clutch is required with a retarder when the retarder is mounted:
++ between crank and flywheel
+- on the transmission output
+- remote on the driveline
+- in the final drive
+E: The lockup engages when the retarder is applied.

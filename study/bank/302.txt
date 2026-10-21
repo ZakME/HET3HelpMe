@@ -1,0 +1,1295 @@
+@302a|Steering types|hl
+Q: On a motor grader, "wheel lean" is used to:
++ offset side thrust created by the blade
+- reduce the turning radius
+- level the machine on side slopes
+- allow crab steering
+E: Graders can tilt their front wheels left and right to counter the side thrust of the angled blade.
+
+@302a|Steering types|hl
+Q: Which steering mode provides maximum machine flotation?
++ Crab steering
+- Co-ordinated steering
+- Front wheel steering
+- Skid steering
+E: In crab steering all four wheels turn the same way, so each tire runs on its own ground: maximum flotation.
+
+@302a|Steering types|
+Q: In co-ordinated four wheel steering, the front and rear wheels:
++ turn in opposite directions for a tight circle
+- turn in the same direction for diagonal travel
+- lock while one side reverses
+- steer only at high speed
+E: Co-ordinated = opposite directions (tight turn). Crab = same direction (diagonal travel).
+
+@302a|Steering types|hl
+Q: Articulated steering requires the machine to have:
++ a frame that pivots in the middle
+- four-wheel steering axles
+- a hydrostatic drive system
+- a rigid one-piece frame
+E: An articulated machine pivots at its centre, so it can't have a rigid frame.
+
+@302a|Power steering|hl
+Q: In full-time (off-road) hydraulic steering:
++ the steering wheel is not physically connected to the wheels
+- hydraulics only assist a mechanical linkage
+- the steering wheel drives a mechanical gearbox
+- steering works only with the engine at high idle
+E: Highlighted: the steering system in the cab is not physically connected to the wheels.
+
+@302a|Power steering|hl
+Q: The purpose of a follower valve is to:
++ turn the wheels a set amount per wheel turn
+- give steering priority over the implements
+- relieve steering pressure at full lock
+- steer the machine if the pump fails
+E: Without it, holding the wheel turned would keep the wheels turning until released.
+
+@302a|Components|hl
+Q: A steering reservoir may have a clean-out cover to:
++ service the bottom of the tank
+- check the oil level and condition
+- vent trapped air from the tank
+- mount the return line filter
+E: Highlighted: a clean-out cover allows service to the bottom of the reservoir.
+
+@302a|Components|hl
+Q: Steering pumps on off-road equipment are generally driven by:
++ the engine
+- an electric motor
+- the transmission output
+- a ground-driven wheel
+E: Generally engine driven, though some have an electric or ground-driven backup.
+
+@302a|Cavitation|hl ct
+Q: A steering pump makes a high-pitched squeal under load and sounds like it is chewing marbles at no load. The most likely cause is:
++ cavitation from inadequate inlet pressure
+- aeration from a loose return line
+- an internal relief valve stuck open
+- worn bearings in the pump
+E: Cavitation (plugged inlet, low oil, low head pressure) creates vacuum bubbles that implode.
+
+@302a|Cavitation|ct
+Q: Which would most likely cause steering pump cavitation?
++ A plugged inlet strainer
+- A dirty return filter
+- A worn steering cylinder seal
+- A neutralizer valve set too early
+E: Cavitation is caused by inadequate pressure on the inlet side: a plug or low oil.
+
+@302a|HMU|hl
+Q: A hand metering unit (orbital steering valve) is made up of:
++ a rotary DCV and a gerotor pump
+- a sliding spool and a gear pump
+- a priority valve and a relief valve
+- a follow-up cylinder and a check valve
+E: Highlighted: HMU = rotary directional control valve + gerotor metering pump.
+
+@302a|HMU|hl ct
+Q: If the steering pump fails on a machine with an orbital hand metering unit, the operator:
++ can still steer by turning the gerotor by hand
+- will have no steering at all until it is fixed
+- must use the service brakes to steer
+- can steer to one side only, at reduced rate
+E: The gerotor in the HMU can be turned manually to steer in an emergency.
+
+@302a|Steering valves|hl
+Q: Spool type steering valves are typically used with:
++ a joystick
+- an orbital HMU
+- a drag link
+- power assist
+E: Highlighted: used with a joystick in replacement of a steering wheel.
+
+@302a|Cylinders|hl
+Q: A steering cylinder with a rod out both ends, so pressure acts on equal areas, is called a:
++ non-differential cylinder
+- differential cylinder
+- single acting cylinder
+- telescoping cylinder
+E: Equal area both sides = non-differential. A single-rod double acting cylinder is a differential cylinder.
+
+@302a|Cylinders|hl
+Q: A single-rod double acting steering cylinder is called a:
++ differential cylinder
+- non-differential cylinder
+- ram cylinder
+- balanced cylinder
+E: The different areas on each side of the piston make it a differential cylinder.
+
+@302a|Cushions|hl
+Q: A neutralizer valve on an articulated machine:
++ unloads steering pressure just before full lock
+- centres the steering wheel after each turn
+- gives steering priority over the implements
+- locks the two frames together for service
+E: It prevents excessive impact on the steering stops. The point may be adjustable.
+
+@302a|Filters|hl
+Q: Which statement about steering system filters is correct?
++ Depth filters are typical, usually in the return line
+- Surface filters are typical, usually in the pump inlet
+- Filters are rated in mesh, strainers in microns
+- Filters are only needed with fire-resistant fluid
+E: Depth filters (particles captured through the media) are typical, usually in the return line. Filters = microns, strainers = mesh.
+
+@302a|Machine steering|hl
+Q: On an articulated wheel loader, the rear wheels:
++ follow in the path of the front wheels
+- follow inside the track of the front wheels
+- steer opposite to the front
+- remain straight while the front steers
+E: Loader articulates at the centre, so rear wheels track the fronts, reducing effort (they don't break new ground).
+
+@302a|Machine steering|hl
+Q: On an articulated tractor-scraper, the rear tires:
++ follow inside the track of the front tires
+- follow exactly in the front tire path
+- run outside the front tire track
+- steer independently
+E: The scraper articulates near the front; the rear tires track inside the fronts, allowing very sharp turns.
+
+@302a|Machine steering|hl
+Q: On an articulated motor grader:
++ the frame articulates little compared with wheel turn
+- the frame articulates more than the wheels turn
+- only the rear tandem wheels steer
+- articulation replaces front wheel steering
+E: Front wheels steer and the frame articulates a little; useful in tight areas.
+
+@302a|Service|hl
+Q: According to the ILM, what percentage of hydraulic system issues relate to the hydraulic oil?
++ 70% or more
+- about 10%
+- about 30%
+- about 50%
+E: Highlighted: a very high percentage (70%+) of hydraulic issues relate to the oil.
+
+@302a|Service|safe
+Q: Before working near the articulation joint of a wheel loader, you must:
++ install the frame lock bar
+- turn the steering to full lock
+- remove the steering cylinders
+- start the engine to pressurize the steering
+E: Use lock bars on the articulation point if working in or near it.
+
+@302a|Service|safe
+Q: The safe way to check for a pinhole hydraulic leak is to use:
++ a piece of cardboard
+- your hand
+- a rag held over the line
+- compressed air
+E: Never use your hand; injected oil is a serious injury.
+
+@302a|Service|hl
+Q: The ILM's basic order for diagnosing a steering complaint is:
++ know the system, talk to the operator, visual inspection, test
+- replace the filter, test, talk to the operator, inspect
+- pressure test, flow test, replace the pump
+- read codes, replace parts, test drive
+E: Highlighted: know the system, talk to the operator, visual inspection, test.
+
+@302a|Service|ct
+Q: A wheel loader's steering is jerky and harsh. Steering pressure is measured above spec. The likely result if not corrected is:
++ excess stress on steering parts
+- sluggish, slow steering
+- pump cavitation
+- drift to one side
+E: Too high = jerky and stresses components. Too low = sluggish.
+
+@302a|Service|
+Q: When servicing steering knuckle pivot pins, you should not:
++ hammer the pin or bushing caps
+- clean the bores before assembly
+- use new seals and O-rings
+- check the tie rod toe setting
+E: Hammering can deform the steering knuckle.
+
+@302a|Skid steer|hl
+Q: Why is the oil cooler critical on a skid steer?
++ The small reservoir can't provide adequate cooling
+- The pumps run at very low pressure
+- The machine has no case drains
+- The hydraulic oil is shared with the engine
+E: Skid steers use small reservoirs to save space, so the cooler does most of the work.
+
+@302a|Skid steer|hl hst
+Q: On a skid steer, charge oil for the closed loop drive circuits comes from:
++ a separate gear pump
+- the main piston pumps
+- the implement relief valve
+- the case drain circuit
+E: A separate gear pump supplies charge oil to the charge circuit.
+
+@302a|Skid steer|hl
+Q: On a wheeled skid steer, how can one hydraulic motor drive both wheels on one side?
++ Through chains and sprockets
+- Through a small differential
+- Through a transfer case
+- It can't; each wheel has its own motor
+E: Each motor drives one side; chains and sprockets (or gears) connect both wheels.
+
+@302b|Cushion hitch|hl
+Q: On a motor scraper, the cushion hitch is located:
++ between the front tractor and the rear bowl
+- between the bowl and the rear axle
+- between the engine and transmission
+- at the push block
+E: The hitch connects tractor and bowl, allows articulation and slight side tilt.
+
+@302b|Cushion hitch|hl
+Q: A scraper hitch that does not allow vertical movement is called a:
++ stiffneck
+- cushion hitch
+- bail hitch
+- walking beam
+E: Highlighted: the basic hitch with no vertical movement is called a stiffneck.
+
+@302b|Cushion hitch|hl
+Q: On a cushion hitch, the head end of the load cylinder is attached to the:
++ tractor bracket
+- scraper hitch assembly
+- bowl
+- leaf spring
+E: Tractor bracket = mounted to tractor = head end. Scraper hitch assembly = rod end.
+
+@302b|Cushion hitch|hl
+Q: On a cushion hitch, the rod end of the load cylinder is attached to the:
++ scraper hitch assembly
+- tractor bracket
+- leveling valve bracket
+- accumulator mount
+E: The scraper hitch assembly holds the rod end.
+
+@302b|Cushion hitch|
+Q: Which two components does the cushion hitch share with the rest of the scraper hydraulic system?
++ The hydraulic pump and reservoir
+- The accumulator and load cylinder
+- The leveling valve and leaf spring
+- The control lever and bleed valve
+E: Pump and reservoir are the only two shared components.
+
+@302b|Cushion hitch|hl
+Q: The cushion hitch leveling valve is controlled by:
++ a leaf spring
+- the operator's control lever
+- an electronic height sensor
+- the load cylinder rod
+E: The leaf spring moves the leveling valve to maintain hitch-to-bracket clearance (ride height).
+
+@302b|Cushion hitch|hl ct
+Q: A scraper operator is about to load the bowl. The hitch should be in:
++ lockdown
+- cushion ride
+- float
+- bail up only
+E: Lockdown (hitch sits on the tractor bracket, held by oil pressure) is used when loading. Cushion ride is for travelling.
+
+@302b|Cushion hitch|hl
+Q: In lockdown, the hitch is held in position by:
++ oil pressure holding the rod retracted
+- a mechanical locking pin
+- the leaf spring and leveling valve
+- nitrogen pressure in the accumulator
+E: Highlighted: locked into position using oil pressure to keep the cylinder rod retracted.
+
+@302b|Cushion hitch|hl
+Q: In cushion ride, the cushioning effect comes from:
++ oil compressing nitrogen in the accumulator
+- the leaf spring flexing under load
+- rubber blocks under the hitch frame
+- oil passing over the relief valve
+E: The accumulator piston rises and compresses nitrogen.
+
+@302b|Cushion hitch|hl
+Q: Twin-engine push-pull scrapers work together using:
++ a bail (pull loop) and hook
+- a drawbar and pin
+- a tow chain and shackle
+- a hydraulic coupler
+E: The bail system lets scrapers push and pull each other. Options: bail down lockdown, bail up lockdown, cushion ride.
+
+@302b|Cushion hitch|hl
+Q: Cushion hitch pump output is controlled by:
++ a pump servo valve setting swashplate angle
+- a fixed orifice in the pump outlet
+- the leveling valve, mechanically
+- engine speed only
+E: Highlighted: the pump servo valve operates the control piston that adjusts swashplate angle.
+
+@302b|Cushion hitch|calc
+Q: A cushion hitch pump flows 20 GPM at 100 psi and 18.5 GPM at 1000 psi. What is the percent of flow lost?
++ 7.5%, over the 5% limit
+- 1.5%, within the 5% limit
+- 92.5%, within the limit
+- 15%, over the 5% limit
+E: (20 − 18.5) ÷ 20 × 100 = 7.5%. More than 5% loss is usually bad.
+
+@302b|Cushion hitch|hl
+Q: The cushion hitch pump oil leakage test is done by:
++ checking output from the case drain line
+- measuring flow at the pump outlet at stall
+- timing the load cylinder extension
+- checking accumulator pre-charge
+E: Highlighted: done by checking drain oil line output. OEM spec, or 4.2 L in 30 s is bad.
+
+@302b|Accumulator|hl safe
+Q: Cushion hitch accumulators must be charged with:
++ dry nitrogen, 99.8% pure
+- dry compressed air
+- medical grade oxygen
+- carbon dioxide (CO2)
+E: Charging with oxygen will cause an explosion.
+
+@302b|Accumulator|hl ct
+Q: An accumulator is charged to spec on a very cold morning without temperature correction. When it warms up, the charge will be:
++ too high (overfilled)
+- too low (underfilled)
+- correct
+- zero
+E: Nitrogen pressure must be corrected for ambient temperature. Charged cold = overfill; charged hot = underfill.
+
+@302b|Accumulator|ct
+Q: A scraper has a very stiff cushion ride. A possible cause is:
++ accumulator nitrogen charge pressure too high
+- accumulator charge pressure too low
+- leaf spring linkage out of adjustment
+- a stuck open bleed valve
+E: Too high a charge pressure can cause too stiff a ride.
+
+@302b|Accumulator|hl
+Q: When installing an accumulator, air is removed from the nitrogen chamber by:
++ adding a little oil to the gas side and expelling it
+- bleeding the oil side at high pressure
+- charging and dumping nitrogen three times
+- pulling a vacuum on the gas side
+E: Highlighted procedure.
+
+@302b|Haul truck|hl
+Q: The panhard rod on a haul truck:
++ centres the axle side to side
+- locates the axle front to rear
+- lets tandem axles see-saw
+- limits strut extension
+E: Panhard rod = lateral location. A-frames = front-to-rear (longitudinal) location.
+
+@302b|Haul truck|hl ct
+Q: A haul truck keeps tearing its rear rubber suspension blocks. A likely cause is:
++ worn panhard rod bushings
+- low strut nitrogen charge
+- worn A-frame ball joints
+- overfilled final drives
+E: Highlighted: worn panhard bushings may cause recurring tearing of rear rubber blocks.
+
+@302b|Haul truck|hl
+Q: On haul trucks, A-frames:
++ locate the drive axles front to rear
+- keep the axle centred side to side
+- carry the vertical loads only
+- tie the struts to the steering knuckles
+E: Highlighted: A-frames position the drive axles front to rear.
+
+@302b|Haul truck|
+Q: Rubber block suspensions are typically used on ___ trucks and hydropneumatic struts on ___ trucks.
++ smaller; larger
+- larger; smaller
+- rear-dump; bottom-dump
+- articulated; rigid
+E: Rubber blocks on smaller trucks, hydropneumatic on larger.
+
+@302b|Haul truck|hl
+Q: On a haul truck, the front hydropneumatic struts are:
++ fixed to the steering knuckles
+- free to move slightly in their mounts
+- backed up by rubber blocks
+- connected to the panhard rod
+E: Front struts are part of the steering system. Rear struts are allowed to move slightly.
+
+@302b|Haul truck|
+Q: Why don't haul trucks with hydropneumatic struts need shock absorbers?
++ Oil through orifices in the strut damps it
+- Rubber blocks absorb all the shocks
+- The tires provide all the damping
+- The A-frames act as the shocks
+E: Nitrogen cushions and oil through orifices slows movement, like a shock absorber.
+
+@302b|Haul truck|hl
+Q: The payload pressure sensing valve on a haul truck strut:
++ turns strut pressure into a payload signal
+- limits strut pressure when overloaded
+- charges the strut with nitrogen
+- locks the strut while dumping
+E: It converts internal pressure into a signal used to estimate payload.
+
+@302b|Haul truck|hl
+Q: Haul truck suspension struts usually receive grease:
++ from a central point
+- only when rebuilt
+- by hand, daily
+- from the hydraulic system
+E: Highlighted: often lubricated at a central point using grease lines.
+
+@302b|Strut service|hl safe
+Q: A simple way to find a nitrogen leak on a suspension strut is to use:
++ soapy water
+- a UV dye
+- a stethoscope
+- a pressure gauge on the oil side
+E: Highlighted: soapy water can be used to detect nitrogen leaks.
+
+@302b|Strut service|hl
+Q: When charging haul truck suspension struts:
++ charge both fronts (or both rears) together
+- charge one strut fully, then the other
+- charge with the box raised and pinned
+- charge fronts with the rears disconnected
+E: Highlighted: both sides at the same time so ride height is level.
+
+@302b|Strut service|hl
+Q: Which is a reason to check or service a haul truck suspension strut?
++ The rod is fully extended when empty
+- The truck has just been greased
+- The rod retracts when the box is loaded
+- The struts are warm after a shift
+E: Also: fault code, missing chrome, oil/nitrogen leaks, harsh ride.
+
+@302b|Strut service|safe
+Q: Before removing valves, sensors or plugs from a hydrair strut, you must:
++ fully retract the rod and release all nitrogen pressure
+- raise the box and pin it
+- run the engine to pressurize the strut
+- check the oil level through the charging valve
+E: Pressure must be released, rod fully retracted, before removing anything.
+
+@302c|Structures|hl
+Q: FOPS stands for:
++ falling object protective structure
+- frame overload protection system
+- fire operated protection system
+- forward operator protection screen
+E: FOPS protects from falling objects; ROPS protects in a rollover.
+
+@302c|Structures|hl
+Q: Screens and guards around the operator station are required on units equipped with:
++ winching devices
+- air conditioning
+- rubber tracks
+- ROPS cabs
+E: Highlighted: required on units with winching devices (a broken cable can whip back).
+
+@302c|Structures|hl safe
+Q: When replacing ROPS mounting fasteners, you must:
++ use only fasteners approved by the manufacturer
+- use any grade 8 bolt of the correct size
+- reuse the old fasteners after cleaning
+- weld the fasteners in place
+E: Highlighted: only use OEM-approved fasteners; contact the OEM with questions.
+
+@302c|Structures|hl safe
+Q: A customer wants a light bracket welded to the ROPS. The correct response is:
++ only attach it as an engineer or OEM approves
+- weld it anywhere on the top tube
+- drill and bolt it through the main post
+- clamp it on, since clamps need no approval
+E: Avoid cutting or welding structural supports; attach only in ways approved by an engineer.
+
+@302c|Fire suppression|hl
+Q: Fire suppression sensors are used for:
++ automatic operation of the system
+- manual activation by the operator
+- weighing the chemical cylinders
+- shutting off the fuel supply only
+E: Highlighted: sensors are used for automatic operation (linear detection wire, spot sensors).
+
+@302c|Fire suppression|hl safe
+Q: Linear detection wire must be protected when:
++ welding or working with heat nearby
+- washing the machine
+- checking hydraulic oil level
+- charging the batteries
+E: It's two parallel wires that melt together with heat, which would set off the system.
+
+@302c|Fire suppression|hl
+Q: Dry chemical (monoammonium phosphate) extinguishing agent is rated for which fire classes?
++ A, B and C
+- A and B only
+- B and C only
+- Class D metals
+E: A = ordinary combustibles, B = flammable liquids, C = electrical.
+
+@302c|Fire suppression|
+Q: Why is liquid AFFF agent preferred over dry powder underground?
++ Powder makes toxic dust in a confined space
+- AFFF is rated for electrical (C) fires
+- Powder can't put out flammable liquid fires
+- AFFF cylinders are lighter to carry
+E: AFFF (A and B fires) flows like a liquid, prevents flare-ups and avoids toxic powder in confined spaces.
+
+@302c|Fire suppression|hl
+Q: The expellant gas used to spray fire suppression chemicals is often:
++ nitrogen (sometimes CO2)
+- dry compressed air
+- pure oxygen
+- argon
+E: Highlighted: often nitrogen, may be CO2.
+
+@302c|Fire suppression|hl
+Q: When an automatic fire suppression system activates, which sequence occurs?
++ Alarm sounds, engine shuts down, hydraulic tank vents, suppression discharges
+- Suppression discharges, then the operator shuts off the engine
+- Engine shuts down only
+- Hydraulic tank pressurizes to stop leaks
+E: Highlighted: fully automatic operation.
+
+@302c|Fire suppression|hl safe
+Q: Fire suppression systems typically require inspection every:
++ 6 months
+- week
+- 5 years
+- 2000 hours
+E: Highlighted: regular inspection, often every 6 months; cylinder weights are compared to spec.
+
+@302c|Fire suppression|hl safe
+Q: Before working on a fire suppression system, you must:
++ install the safety pins and disable the system
+- discharge the system
+- weigh the cylinders
+- disconnect the linear detection wire with power on
+E: Highlighted: ensure safety pins are in place and the system is disabled.
+
+@302c|GET|hl
+Q: The main purpose of cutting edges and bits is to:
++ protect the softer blade or shank
+- increase the blade's carrying capacity
+- reduce fuel use while dozing
+- stop the operator backblading
+E: Highlighted: protect the softer parts. They're cheap, sturdy, replaceable wear parts that also add strength and help penetration.
+
+@302c|GET|hl
+Q: A dozer blade is NOT designed for:
++ backblading
+- carrying material
+- breaking new ground
+- pushing loose material
+E: Highlighted: not designed for backblading. Unprotected fasteners wear quickly.
+
+@302c|GET|
+Q: Tilting a dozer blade forward (tilt down) puts it in the:
++ breakout position, for breaking new ground
+- carry position, for moving large quantities
+- float position
+- backblade position
+E: Tilt up = carry position. Tilt down = breakout position.
+
+@302c|GET|hl
+Q: A motor grader is designed to:
++ move material that is already loose
+- break hard ground with its blade
+- carry large loads long distances
+- dig ditches and trenches to depth
+E: Highlighted. Scarifiers break up the top layer; rippers break hard ground.
+
+@302c|GET|
+Q: Grader cutting edges can often be:
++ turned over to double their lifespan
+- welded on to double their lifespan
+- sharpened on the machine
+- reused on dozers
+E: Many edges are double-bevelled and can be turned.
+
+@302c|GET|hl
+Q: The most versatile type of ripper is the:
++ adjustable parallelogram ripper
+- hinged (radial) ripper
+- single shank fixed ripper
+- scarifier
+E: Highlighted: a parallelogram ripper moves straight up and down and its angle can be adjusted.
+
+@302c|GET|hl
+Q: Scarifiers on a motor grader are used to:
++ break up the top layer
+- break hard rock
+- cut ice on pavement
+- spread gravel evenly
+E: Highlighted: a small version of rippers for the top layer.
+
+@302c|GET mounting|hl
+Q: Before installing a new cutting edge, you must:
++ clean the mounting surface to bare metal
+- paint the mounting surface to stop rust
+- coat the mounting surface with anti-seize
+- heat the moldboard so the edge fits
+E: Highlighted: if not cleaned, the mounting hardware may come loose.
+
+@302c|GET mounting|
+Q: Blade cutting edge bolts should be tightened:
++ from the centre outwards
+- from the ends inwards
+- in any order
+- left to right
+E: Tighten from the centre outwards.
+
+@302c|GET mounting|
+Q: When removing weld-on components, you should:
++ use the minimum heat possible
+- heat the whole blade evenly first
+- quench the area with water
+- air-arc as fast as possible regardless of heat
+E: Minimum heat avoids damaging the parent metal.
+
+@302c|GET|hl
+Q: Hard surfacing (crosshatch weld) on components is used to:
++ protect against abrasive soils
+- increase traction on ice
+- repair cracks
+- reduce weight
+E: Highlighted: good protection against abrasive soils.
+
+@302c|Winches|
+Q: Winch brakes are usually:
++ spring applied and hydraulically released
+- hydraulically applied and spring released
+- applied by the operator with a foot pedal
+- air applied and spring released
+E: Spring applied for safety. PTO winches use drum and band; hydraulic winches use multi-disc clutch packs.
+
+@302c|Winches|hl
+Q: When replacing winch wire rope, you should use:
++ only rope the winch maker recommends
+- any rope of the same diameter
+- the strongest rope available
+- rope one size larger for safety
+E: Highlighted. Check type and size, note winding direction (underwound is most stable).
+
+@302d|Battery disconnect|hl
+Q: A battery disconnect switch is connected:
++ in series with the battery positive or negative
+- in parallel across the battery terminals
+- between the alternator and the starter
+- in the starter control circuit only
+E: Highlighted: in series, to isolate the battery group.
+
+@302d|Breakers|hl
+Q: A Type I circuit breaker:
++ cycles and resets itself (used on headlights)
+- uses a heating resistor to hold itself open
+- is non-cycling with a manual reset button
+- is a fusible link that must be replaced
+E: Type I = cycling (headlights). Type II = held open by a heat-producing resistor. Type III = manual reset.
+
+@302d|Breakers|hl
+Q: A Type II circuit breaker:
++ is held open by a heating resistor until it cools
+- resets itself while the overload is still present
+- must be reset with a manual button
+- has no reset and must be replaced
+E: The circuit must be cooled (power removed) before it resets.
+
+@302d|Breakers|hl
+Q: A non-cycling circuit breaker with a manual reset button is a:
++ Type III
+- Type I
+- Type II
+- Type IV
+E: Type III = non-cycling, manual reset.
+
+@302d|Breakers|calc hl
+Q: A 24 V work light circuit draws 240 W. What current must the fuse handle?
++ 10 A
+- 5760 A
+- 0.1 A
+- 264 A
+E: P = I × E, so I = P ÷ E = 240 ÷ 24 = 10 A. Use a fuse slightly larger than the load.
+
+@302d|Lighting|hl
+Q: Panel lighting brightness is usually controlled with:
++ a rheostat or PWM
+- a series diode
+- a cycling breaker
+- a flasher unit
+E: Highlighted: dimmable with a rheostat or PWM.
+
+@302d|Lighting|hl ct
+Q: After converting turn signals to LED bulbs, they no longer flash. The fix is to:
++ fit an electronic flasher
+- fit higher wattage LEDs
+- add a Type I breaker
+- reverse the LED polarity
+E: LEDs don't draw enough current to work a conventional flasher. The flasher is in series with the lamps.
+
+@302d|DC motors|hl
+Q: The commutator in a DC motor:
++ is the sliding contact for the brushes
+- produces the permanent magnetic field
+- is the stationary field winding
+- limits the motor's top speed
+E: Highlighted: made of bars to feed current to specific armature windings.
+
+@302d|DC motors|hl
+Q: As a DC motor speeds up, its counter-electromotive force (CEMF):
++ increases, reducing current draw
+- decreases, increasing current draw
+- stays the same
+- reverses the motor
+E: Faster = more CEMF = less current. CEMF limits the top speed of a cranking motor.
+
+@302d|DC motors|ct
+Q: A starter motor drawing very high current while turning slowly is consistent with:
++ low CEMF from low armature speed
+- high CEMF from excessive armature speed
+- an open circuit in the field winding
+- a high resistance brush connection
+E: Less CEMF = more current draw. A loaded, slow motor makes little CEMF and draws heavy current.
+
+@302d|Magnetism|hl
+Q: Magnetic flux lines travel:
++ from north to south outside the magnet
+- from south to north outside the magnet
+- toward the nearest steel
+- in the same direction as current flow
+E: Highlighted: magnetic field goes from north to south. Like poles repel, opposite poles attract.
+
+@302d|Magnetism|hl
+Q: In a DC motor, the armature conductor is pushed:
++ from the strong field side toward the weak field side
+- from the weak field side toward the strong field side
+- toward the north pole always
+- toward the south pole always
+E: Highlighted: armature winding goes from strong side to weak side of the field.
+
+@302d|Magnetism|
+Q: Using the right-hand rule for a conductor, your thumb points in the direction of ___ and your fingers show the direction of ___.
++ current flow; flux lines
+- flux lines; current flow
+- armature rotation; current flow
+- north pole; south pole
+E: Grab the conductor with the right hand, thumb with current (conventional + to −), fingers curl with the flux.
+
+@302d|Gauges|hl
+Q: In a bimetal gauge, the strip moves because:
++ a heating coil warms it according to voltage
+- a magnetic field pulls the pointer over
+- a variable resistor changes its length
+- a spring balances two opposing coils
+E: Highlighted. Balancing coil gauges move the pointer by electromagnetism.
+
+@302d|Sensors|hl
+Q: In a closed loop sensor circuit:
++ both the power and ground return to the ECM
+- the ground does not return to the ECM
+- there is no reference voltage
+- the sensor generates its own voltage
+E: Highlighted: closed loop = positive and ground return to the ECM. Open loop = ground does not return to the ECM.
+
+@302d|Sensors|ct
+Q: After fitting larger tires, the speedometer will:
++ read differently from true ground speed
+- read exactly the same
+- stop working
+- show a fault code for the speed sensor
+E: The speedometer uses a wheel speed sensor; changing tire size changes the reading.
+
+@302d|Sensors|hl
+Q: An NTC thermistor's resistance will ___ as temperature rises.
++ decrease
+- increase
+- stay the same
+- become open circuit
+E: NTC = temperature up, resistance down (most common for engine temp). PTC = temperature up, resistance up.
+
+@302d|Sensors|hl
+Q: A PTC thermistor's resistance will ___ as temperature rises.
++ increase
+- decrease
+- stay the same
+- drop to zero
+E: Positive temperature coefficient: temperature up, resistance up.
+
+@302d|Sensors|hl
+Q: A typical pressure transducer has three wires. They are:
++ 5 V reference, signal and return (ground)
+- battery positive, ground and shield
+- CAN-H, CAN-L and ground
+- 12 V, 5 V and signal
+E: Highlighted: three-terminal device: 5 V ref, signal, return.
+
+@302d|Sensors|hl
+Q: Inside a strain gauge pressure transducer, the sensing element works by:
++ a resistor bridge with a strain gauge in one leg
+- generating its own voltage as pressure changes
+- moving a magnet past a pickup coil
+- opening contacts at a set pressure
+E: Highlighted: 1 fixed resistor in series with a variable resistor (strain gauge), compared to 2 fixed resistors (a bridge), usually with an amplifier.
+
+@302d|Meters|
+Q: An ammeter and voltmeter are connected:
++ ammeter in series, voltmeter in parallel
+- ammeter in parallel, voltmeter in series
+- both in series
+- both in parallel
+E: Ammeters measure current through the circuit (series, or clamp style). Voltmeters measure across (parallel).
+
+@302d|Networks|hl net
+Q: Multiplexing is:
++ sending and receiving digital data on a link
+- connecting several batteries in parallel
+- using one fuse to protect several circuits
+- splitting one sensor signal to two gauges
+E: Highlighted. It reduces the number of conductors and lets modules share data.
+
+@302d|Networks|hl net
+Q: Baud rate refers to:
++ the speed of data transfer on a network
+- the number of nodes on a network
+- the resistance of the terminating resistors
+- the length of the backbone
+E: Highlighted. J1939 = 250 kb/s; J1587/J1708 = 9.6 kb/s.
+
+@302d|Networks|hl net
+Q: The baud rate of SAE J1939 CAN is:
++ 250 kb/s
+- 9.6 kb/s
+- 500 kb/s
+- 1 Mb/s
+E: Highlighted: J1939/CAN 250 kb/s. ISO 11783 is also 250 kb/s.
+
+@302d|Networks|hl net
+Q: The backbone of a data network is:
++ the physical wiring linking the modules
+- the software protocol the modules use
+- the 9-pin diagnostic connector
+- the ECM with the highest priority
+E: Highlighted. Max backbone length 40 m; stubs (branches to nodes) max 1 m.
+
+@302d|Networks|net
+Q: The maximum length of a stub on a J1939 network is about:
++ 1 m
+- 40 m
+- 10 cm
+- 10 m
+E: Backbone max 40 m, stub max 1 m.
+
+@302d|Networks|hl net
+Q: Terminating resistors are placed at the ends of a data bus to:
++ reduce standing waves and interference
+- limit current to the modules
+- provide the 5 V reference
+- protect against reversed polarity
+E: Highlighted: they stop signal reflections (standing waves).
+
+@302d|Networks|hl net
+Q: Standing waves on a data bus are:
++ electrical reflections that corrupt signals
+- normal signals that carry data
+- voltage from the batteries
+- caused by a correctly terminated bus
+E: Highlighted: reflections or waves, bad.
+
+@302d|Networks|hl net
+Q: A network protocol is:
++ a common language for data between modules
+- the physical wiring between modules
+- the speed of the network
+- a type of connector
+E: Highlighted.
+
+@302d|Networks|hl net
+Q: Data link wires are twisted together to:
++ provide immunity to magnetic fields
+- reduce the wire gauge needed
+- make the harness more flexible
+- increase the baud rate
+E: Highlighted: twisted pair. Shielding (foil + drain wire) adds further resistance to interference.
+
+@302d|Networks|hl net
+Q: The modern network topology, where independent modules connect to a common backbone, is:
++ linear
+- ring (loop)
+- star
+- series
+E: Highlighted. Ring = series (one fails, all fail). Star = all to one master.
+
+@302d|Networks|hl net
+Q: Before a module on a CAN network can start broadcasting, it must:
++ wait until the data bus is idle
+- get permission from the master module
+- send a checksum
+- raise CAN-H to battery voltage
+E: Highlighted: CAN is serial with no master; each module waits for an idle bus.
+
+@302d|Networks|hl net
+Q: In J1587/J1708 messages, the checksum:
++ marks the end of the message
+- identifies the sending module
+- identifies the parameter
+- identifies the fault type
+E: Highlighted: like the period at the end of a sentence. MID = source, PID = parameter, FMI = fault mode.
+
+@302d|Networks|net
+Q: In a J1587 message, the MID identifies:
++ the module sending the message
+- the parameter being reported
+- the type of fault detected
+- the end of the message
+E: MID = message identifier (source). PID = parameter. FMI = fault mode indicator.
+
+@302d|Networks|hl net
+Q: J1587/J1708 cabling is:
++ unshielded twisted pair, orange and white
+- shielded twisted pair, yellow and green
+- twisted quad
+- coaxial cable
+E: Highlighted. Max 40 m, 20 nodes.
+
+@302d|Networks|net
+Q: A machine built in 2005 with SAE J1939 most likely uses which diagnostic connector?
++ 9-pin Deutsch
+- 6-pin Deutsch
+- OEM-specific 3-pin
+- 16-pin OBD-II
+E: 1996–2001: 6-pin Deutsch. 2001+: mostly 9-pin Deutsch.
+
+@302d|Networks|hl net
+Q: In J1939, the SPN (suspect parameter number):
++ says where the fault is (replaces the PID)
+- identifies the message and its data group
+- defines the type of failure (open, short)
+- checks the message for errors
+E: Highlighted. PGN = parameter group; FMI = failure type.
+
+@302d|Networks|net
+Q: In the J1939 message architecture, the CRC field:
++ checks the message for errors
+- sets message priority
+- confirms the right ECM received the message
+- marks the end of the frame
+E: Arbitration (priority/sender), control and data (PGN/SPN/FMI), CRC (error check), ACK (acknowledge), end of frame.
+
+@302d|Networks|hl net
+Q: On a J1939 network, CAN High and CAN Low wires are commonly:
++ yellow (CAN-H) and green (CAN-L)
+- green (CAN-H) and yellow (CAN-L)
+- orange (CAN-H) and white (CAN-L)
+- red (CAN-H) and black (CAN-L)
+E: Highlighted: yellow CAN High (+), green CAN Low (−).
+
+@302d|Networks|hl net
+Q: J1939-11 "heavy" cable differs from J1939-15 "lite" cable because it is:
++ shielded
+- unshielded
+- a twisted quad
+- single wire
+E: Highlighted: -15 lite = unshielded twisted pair; -11 heavy = shielded twisted pair.
+
+@302d|Networks|hl net
+Q: The drain wire in a shielded J1939 cable is connected to:
++ battery ground
+- CAN-H
+- the 5 V reference
+- the terminating resistor
+E: Highlighted: non-insulated copper drain wire connected to battery ground (protects from EMI).
+
+@302d|Networks|hl net calc
+Q: With the batteries disconnected, resistance measured between CAN-H and CAN-L on a healthy J1939 bus should be about:
++ 60 Ω
+- 120 Ω
+- 240 Ω
+- 0 Ω
+E: Two 120 Ω terminating resistors in parallel = 60 Ω.
+
+@302d|Networks|hl net ct
+Q: Resistance between CAN-H and CAN-L reads 120 Ω. The most likely problem is:
++ an open, such as a missing terminator
+- a short between CAN-H and CAN-L
+- a CAN wire shorted to ground
+- nothing; 120 Ω is the normal reading
+E: Highlighted: more than 60 = open; less than 60 = short. 120 Ω means only one terminator is in the circuit.
+
+@302d|Networks|hl net
+Q: Resistance from CAN-H or CAN-L to ground should read:
++ OL (no continuity)
+- 60 Ω
+- 120 Ω
+- 0 Ω
+E: Highlighted: no continuity to ground.
+
+@302d|Networks|net ct
+Q: CAN-H and CAN-L both measure well below 2.5 V with the bus inactive. This suggests:
++ a faulty node or bus
+- excessive system voltage
+- normal operation
+- a missing terminating resistor only
+E: About 2.5 V at inactive. Below = faulty node or bus; above = excessive system voltage.
+
+@302d|Networks|hl net
+Q: The purpose of ISO 11783 is to:
++ let any tractor work any brand of implement
+- standardize on-highway truck diagnostics
+- replace J1939 on large mining trucks
+- set the colour code for all CAN wires
+E: Highlighted: agriculture and forestry standard. Uses unshielded twisted quad cable.
+
+@302d|Networks|hl net
+Q: ISO 11783 uses which cable?
++ Unshielded twisted quad
+- Shielded twisted pair
+- Unshielded twisted pair, orange and white
+- Coaxial cable
+E: Highlighted. CAN-H, CAN-L, plus power and ground for the terminating bias circuit.
+
+@302e|Schematics|hl
+Q: Electrical schematics are always drawn in the:
++ de-energized state, parts in normal position
+- energized state, with all switches closed
+- state they were in when the fault occurred
+- running state, engine on
+E: Highlighted.
+
+@302e|Circuit laws|hl
+Q: In a series circuit, current is:
++ the same at all points
+- divided between the loads
+- highest at the first load
+- zero at the last load
+E: Highlighted. Series: resistances add, voltage drops add up to source voltage, current is the same everywhere.
+
+@302e|Circuit laws|hl
+Q: In a parallel circuit, adding another branch will:
++ lower the total resistance
+- raise the total resistance
+- not change total resistance
+- lower the voltage on each branch
+E: Highlighted: adding more resistance in parallel reduces total resistance; total is always less than the smallest branch.
+
+@302e|Circuit laws|calc
+Q: A 6 Ω and a 3 Ω resistor are connected in parallel. Total resistance is:
++ 2 Ω
+- 9 Ω
+- 4.5 Ω
+- 18 Ω
+E: 1/Rt = 1/6 + 1/3 = 1/6 + 2/6 = 3/6, so Rt = 2 Ω (less than the smallest branch).
+
+@302e|Circuit laws|calc
+Q: Three 4 Ω resistors are in series on a 12 V supply. Circuit current is:
++ 1 A
+- 3 A
+- 9 A
+- 0.33 A
+E: Rt = 12 Ω. I = E ÷ R = 12 ÷ 12 = 1 A.
+
+@302e|Circuit laws|calc
+Q: A 24 V circuit draws 6 A. What is the circuit resistance?
++ 4 Ω
+- 144 Ω
+- 0.25 Ω
+- 30 Ω
+E: R = E ÷ I = 24 ÷ 6 = 4 Ω.
+
+@302e|Circuit laws|hl
+Q: Kirchhoff's voltage law states that:
++ the voltage drops in any path equal the source voltage
+- current in equals current out at a junction
+- total resistance equals the sum of resistances
+- voltage is the same on every branch
+E: Highlighted. The current law: current going away equals current coming toward a point.
+
+@302e|Faults|hl
+Q: An open in a single series circuit will cause:
++ no current draw
+- more current draw
+- a blown fuse
+- dim lights only
+E: Highlighted: open = no current (series), less current and more resistance (parallel).
+
+@302e|Faults|hl ct
+Q: A circuit repeatedly blows its fuse as soon as it is switched on. The most likely fault is:
++ a short to ground
+- an open circuit
+- high resistance in a connector
+- a corroded ground causing dim lights
+E: Highlighted: short to ground (copper to steel) causes much more current draw and blown fuses.
+
+@302e|Faults|hl ct
+Q: Lights are dim and an actuator is slow. Current draw is lower than normal. The most likely fault is:
++ high resistance
+- a short to ground
+- a copper-to-copper short
+- an open circuit
+E: Highlighted: high resistance = less current, dim lights, slow actuators, unexplained voltage drops.
+
+@302e|Voltage drop|hl
+Q: Maximum acceptable voltage drop on a 12 V circuit is:
++ 0.5 V
+- 1 V
+- 2 V
+- 0.1 V
+E: Highlighted: no more than 0.5 V on 12 V or 1 V on 24 V.
+
+@302e|Voltage drop|ct
+Q: A voltage drop test must be done:
++ with current flowing
+- with the circuit switched off
+- with the battery disconnected
+- with an ohmmeter
+E: The only way to test for voltage loss is to run current through the circuit.
+
+@302e|Repairs|hl
+Q: The ideal repair for a damaged wiring harness is to:
++ replace it
+- splice it with twist connectors
+- wrap it in electrical tape
+- solder a jumper beside it
+E: Highlighted. When repairing, use an electrically sound, resistance-free splice (crimped or soldered).
+
+@302e|Repairs|hl
+Q: Wiring with oil-soaked or melted insulation should be:
++ replaced
+- cleaned and taped
+- repaired with heat shrink
+- left if it still works
+E: Highlighted replace items: oil-soaked or melted insulation, malfunctioning switches/relays/breakers, lamps with opens or shorts.
+
+@302e|Batteries|hl
+Q: Battery specific gravity at full charge (27 °C) should be about:
++ 1.265 to 1.280
+- 1.100 to 1.150
+- 1.000
+- 1.300 to 1.350
+E: Highlighted. Cells should differ by no more than 0.05.
+
+@302e|Batteries|hl ct
+Q: Battery cells read 1.270, 1.265, 1.275, 1.210, 1.270, 1.268. This battery:
++ has a bad cell (spread over 0.05)
+- is fully charged and healthy
+- is discharged but its cells are matched
+- needs only an equalizing charge
+E: 1.275 − 1.210 = 0.065, more than the 0.05 limit, so one cell is bad.
+
+@302e|Panels|hl
+Q: Why is a small voltage regulator used with bimetal gauges?
++ Their readings change with voltage
+- To protect the gauge from shorts
+- To boost a weak sensor signal
+- To dim the gauge lights at night
+E: Highlighted: the regulator keeps voltage, and so the reading, steady.
+
+@302e|Precautions|safe
+Q: When testing electronic circuits, you should use a DMM with:
++ high impedance
+- low impedance
+- an analog movement
+- a built-in test light
+E: High impedance meters won't load or damage sensitive circuits. Also never pierce insulation and use a wrist strap.
+
+@302f|Coaching|
+Q: The four-step coaching method in the ILM is:
++ plan, tell, show, do
+- tell, show, test, review
+- show, tell, do, review
+- plan, show, test, tell
+E: Plan how to teach, tell (describe), show (demonstrate), do (apprentice performs), then feedback.
+
+@302f|Coaching|
+Q: Saying "good job" without explaining what was done well is an example of:
++ empty feedback
+- positive feedback
+- constructive feedback
+- informal assessment
+E: Positive feedback describes the good elements. Empty feedback doesn't.
+
+@302f|Coaching|
+Q: Feedback that corrects a problem without insulting the apprentice is:
++ constructive feedback
+- empty feedback
+- negative feedback
+- formal assessment
+E: Constructive feedback fixes the problem respectfully.
+
+@302f|Coaching|
+Q: Who is responsible for keeping the apprentice record book up to date?
++ The apprentice
+- The training institution only
+- The employer only
+- The AIT office
+E: Apprentices keep the record book current; journeypersons fill in their parts; employers make sure it's done.
+
+@302f|Coaching|
+Q: Which is a responsibility of the employer in apprenticeship training?
++ Ensure the apprentice is supervised and trained
+- Write the period exams
+- Sign off the Red Seal endorsement
+- Keep the apprentice's record book themselves
+E: Employers provide training, ensure supervision and make sure the journeyperson fills in the record book.
+
+@302f|Coaching|
+Q: A good lesson includes:
++ its point, its link to the trade, and the steps
+- a written test and a mark at the end
+- only a demonstration by the journeyperson
+- a lecture, with practice left for later
+E: Parts of a lesson: the point, the link to the trade, the steps.
+
+@302f|Coaching|
+Q: Which behaviour is part of good coaching?
++ Encouraging independent work
+- Sending the apprentice on pointless tasks
+- Doing every job for the apprentice
+- Only giving feedback when things go wrong
+E: Good coaches lead by example, are approachable, challenge and respect trainees and encourage independence.
+
+@302g|Red Seal|hl
+Q: The foundation document for the Red Seal exam is the:
++ National Occupational Analysis
+- apprentice record book
+- provincial trade regulation
+- set of ILM booklets
+E: Highlighted: the NOA is the foundation document.
+
+@302g|Red Seal|hl
+Q: The pass mark for the Red Seal exam is:
++ 70%
+- 50%
+- 65%
+- 80%
+E: Highlighted: 70% or higher required to pass.
+
+@302g|Red Seal|
+Q: The main benefit of the Red Seal program is that it:
++ lets workers move between provinces
+- replaces provincial certification
+- lets apprentices skip period training
+- is required for all trades
+E: Red Seal gives interprovincial mobility and a standard of excellence.
+
+@302g|Red Seal|
+Q: The NOA is organized into:
++ blocks, tasks and sub-tasks
+- chapters, objectives and outcomes
+- modules, periods and exams
+- levels, units and lessons
+E: Blocks are the major topics (electrical, hydraulics, etc.), broken into tasks and sub-tasks.
+
+@302g|Red Seal|
+Q: A Red Seal question that asks "what happens if..." (cause and effect) is a:
++ critical thinking question
+- recall (knowledge) question
+- definition question
+- procedural (application) question
+E: Critical thinking questions are the most common on newer exams.
+
+@302g|Red Seal|
+Q: A procedural (application) Red Seal question must involve:
++ at least two steps
+- a calculation
+- a diagram
+- one fact
+E: Application questions are process based and involve at least two steps.
+
+@302g|Red Seal|
+Q: Who develops the Red Seal exam questions?
++ Industry practitioners from across Canada
+- The host province's government alone
+- Equipment manufacturers
+- Apprenticeship instructors in one province
+E: Questions are developed by industry practitioners from across Canada.

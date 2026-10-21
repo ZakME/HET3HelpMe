@@ -1,0 +1,375 @@
+@303g|Obj 1|
+Q: On a conventional (non-modular) clutch-and-brake steer crawler, how are the steering clutches and steering brakes applied and released?
++ Clutches are spring applied and hydraulically released. Brakes are hydraulically applied and spring released.
+- Clutches are hydraulically applied and spring released. Brakes are spring applied and hydraulically released.
+- Both are spring applied and hydraulically released
+- Both are hydraulically applied and spring released
+E: On conventional steer, the clutch springs keep the clutch engaged and oil pressure releases it. The brake is applied by oil (via the booster) and released by springs.
+
+@303g|Obj 1|
+Q: On a MODULARIZED steering clutch and brake assembly, the clutches and brakes are:
++ both spring applied and hydraulically released
+- both hydraulically applied and spring released
+- clutch spring applied, brake hydraulically applied
+- clutch hydraulically applied, brake spring applied
+E: Modular units are spring applied and hydraulically released for both. So when parked there is no oil pressure to bleed off, and the brakes stay applied.
+
+@303g|Obj 1|
+Q: What caution applies to parking a conventional clutch-and-brake crawler with the brake pedal locked down?
++ Oil may bleed off over time, releasing the brakes
+- The springs may over-apply the brakes and glaze the lining
+- The steering clutches will slip when the engine is restarted
+- The brake band will self-energize and lock the track
+E: The conventional brake is hydraulically applied. Over time the oil can bleed off and the brakes release.
+
+@303g|Obj 1|
+Q: Steering clutches and brakes on a conventional crawler are dry type. This means:
++ they must be kept free of oil
+- they are cooled by transmission oil spray
+- they run in a sealed oil bath for cooling
+- they require oil changes at each PM
+E: Dry clutches and brakes must stay oil-free. Oil contamination causes slipping.
+
+@303g|Obj 1|
+Q: The steering brakes on a conventional crawler are described as self-energizing in both directions. This means:
++ drum rotation pulls the lining in, in either direction
+- the brakes adjust themselves automatically as the lining wears
+- the brakes apply automatically when the engine stops
+- hydraulic pressure increases with travel speed
+E: Self-energizing: the rotating drum drags the band/lining tighter into the drum in either direction, which increases the braking force.
+
+@303g|Obj 1|
+Q: What is the purpose of the small springs on a crawler steering brake band assembly?
++ To hold the band off the drum when released
+- To apply the brake when oil pressure is lost
+- To provide self-energizing action
+- To dampen band vibration during application
+E: The small springs pull the band away from the drum in the released position so it doesn't drag.
+
+@303g|Obj 1|
+Q: A cone-shaped spring used to apply some crawler steering clutches and brakes is called a:
++ Belleville spring
+- torsion spring
+- wave spring
+- garter spring
+E: A Belleville spring is a cone (dished) spring. Some assemblies use these instead of coil springs.
+
+@303g|Obj 1|
+Q: Steering lever NOT pulled on a conventional steer system. Where does the steering pump oil go?
++ Over the steering relief valve, through the cooler, to lube
+- It is sent to the clutch piston to keep the clutch engaged
+- It is sent to the brake booster to hold the brakes released
+- It returns directly to the reservoir through the open-centre spool
+E: With the lever released, the valve blocks pump flow to the clutch (clutch piston open to tank) and the brake booster is vented to tank. Pump pressure rises until the steering relief opens, sending oil through the cooler to lube.
+
+@303g|Obj 1|
+Q: As the steering lever is pulled slightly more, clutch pressure is sensed through an orifice in the steering valve spool. What is the result?
++ The spool balances, regulating clutch pressure in proportion to lever travel
+- The spool fully opens and the clutch releases instantly
+- The brake begins to apply before the clutch fully releases
+- Steering relief pressure drops to zero and the clutch re-engages
+E: The pressure feedback acting on the spool area balances against the spring. This gives proportional (feathered) control of clutch release.
+
+@303g|Obj 1|
+Q: At about HALF of the steering lever's travel, what condition are the clutch and brake in?
++ Clutch fully released, brake released
+- Clutch engaged, brake applied
+- Clutch partially released, brake partially applied
+- Clutch fully released, brake fully applied
+E: At about half travel, the plunger contacts a stop on the spool and holds it wide open. Full pressure releases the clutch and the brake is not yet applied.
+
+@303g|Obj 1|
+Q: Pulling the steering lever PAST the midpoint of its travel will:
++ progressively apply that side's brake
+- re-engage that side's clutch
+- apply both steering brakes
+- release the steering brake
+E: Past mid-travel, the brake valve regulates pressure to the brake booster. The further you pull, the harder the brake applies, and the sharper the turn.
+
+@303g|Obj 1|
+Q: A common operator complaint with clutch-and-brake steering while dozing is:
++ All torque goes to the other track, which spins, so the blade must be lifted
+- The machine speeds up during turns, making it hard to control
+- Both tracks lose power during a gradual turn, stalling the blade
+- The brake applies as soon as the clutch starts to release
+E: Disengaging one side sends all power to the other track. Under blade load that track spins, so the operator lifts the blade and pushes less material.
+
+@303g|Obj 1|ct
+Q: Why do differential steer tractors out-produce conventional clutch-and-brake steer tractors when turning under load?
++ Both tracks stay powered during turns
+- The inside track is braked harder, so the turn is tighter
+- They use larger, wet steering clutches
+- They disconnect the transmission during turns
+E: Clutch-brake steering turns by cutting power to one track. Differential steering keeps driving both tracks, so it pushes a full blade through the turn.
+
+@303g|Obj 2|
+Q: Operational and pressure testing of crawler steering systems should be done at a normal operating temperature of:
++ 150 to 180°F (65.5 to 82.2°C)
+- 100 to 120°F (38 to 49°C)
+- 200 to 230°F (93 to 110°C)
+- any temperature, as long as the engine is at high idle
+E: Test at 150 to 180°F (65.5 to 82.2°C), in a safe working area, following the manufacturer's procedure.
+
+@303g|Obj 2|
+Q: According to the learning guide, a crawler pulls to the left. Which track condition could be the cause?
++ The left track is either too tight or too loose
+- Only the left track being too loose (never too tight)
+- Only the right track being too tight
+- Track tension cannot cause a pull
+E: Too tight takes more power to turn, so the machine pulls to that side. Too loose takes longer to cover the same distance, so it also pulls to that side.
+
+@303g|Obj 2|
+Q: During a visual inspection, paint that looks burned or discoloured is most likely an indicator of:
++ a hot spot
+- normal paint fade
+- a hydraulic leak
+- electrical arcing
+E: Burned-looking paint suggests a component running hot (e.g., a dragging brake or slipping clutch).
+
+@303g|Obj 2|
+Q: Dry or worn steering control linkages most commonly cause:
++ binding and sticking of the controls
+- steering clutch slippage under load
+- brake fade on long pushes
+- high steering relief pressure
+E: Dry or worn linkage binds and sticks, which is a common problem on many machines.
+
+@303g|Obj 2|
+Q: On a conventional non-modular crawler, where are the steering clutches and brakes located (which components may need to be removed for access)?
++ Under the fuel tank. The ROPS, cab and seat may need removal.
+- In the final drive. The track and sprocket must be removed.
+- Behind the transmission. The engine must be pulled.
+- In the track roller frame. The equalizer bar must be removed.
+E: The guide says they are under the fuel tank, and access may need removal of the ROPS, cab, seat, fuel tank and more.
+
+@303g|Obj 2|
+Q: To remove a modular steering clutch and brake assembly, the typical steps are:
++ split the track, remove the centre plate, pull the axle, unbolt
+- remove the ROPS, cab and fuel tank, then lift out the module
+- remove the transmission and bevel gear, then slide the module out
+- remove the final drive housing and pull the module through the sprocket
+E: Modular units sit outboard. Split the track, remove the centre plate, pull the axle and unbolt the module, which means much less downtime.
+
+@303g|Obj 2|
+Q: Why is the modular steering clutch/brake assembly isolated from the pinion and bevel gear compartment?
++ To prevent cross-contamination and cut repair time
+- To allow the clutch to run in bevel gear oil
+- So that the brake can share the transmission cooler
+- To reduce track tension loads on the bevel gear
+E: Isolation prevents contamination between compartments and allows quick module swaps.
+
+@303g|Obj 2|
+Q: What PPE caution applies when cleaning steering clutch and brake parts?
++ Hazardous dust and contaminants, and very sharp parts
+- Parts may be magnetized and attract metal filings
+- Brake parts must be cleaned with water only
+- Clutch discs may contain compressed springs
+E: Wear proper PPE. Lining dust and contaminants may be hazardous and parts may be sharp.
+
+@303g|Obj 2|ct
+Q: A conventional steer dozer drifts right in straight travel, and the right steering clutch slips under blade load. The bevel gear compartment oil level has been dropping. What is the most likely root cause?
++ Oil leaking into the dry right clutch, making it slip
+- The right steering brake isn't applying when the lever is pulled
+- The steering relief valve is set too high, over-pressurizing the clutch
+- The left track is too loose, so it covers less ground
+E: The clutches are dry and spring applied. Oil from a leaking seal contaminates the discs and they slip. A slipping right clutch means less power to the right track, so the machine pulls right. Fix the leak AND replace the contaminated discs.
+
+@303g|Obj 2|ct
+Q: An operator pulls the left steering lever and the machine won't turn gradually. It only turns sharply near full lever travel. What is the most likely cause?
++ The left clutch isn't releasing (low pressure at the clutch piston)
+- The left steering brake is dragging and overheating
+- The right steering clutch is slipping under load
+- The steering relief valve is set too high for the clutch
+E: A gradual turn comes from releasing the clutch. If the clutch piston can't build pressure (leak, low pump flow, valve fault), the clutch stays engaged and only the brake (past mid-travel) turns the machine.
+
+@303g|Obj 2|ct
+Q: A conventional crawler with hydraulically applied brakes has a dragging right brake with the lever fully released. Which fault fits?
++ A sticking brake valve not venting the booster, or broken release springs
+- A broken right steering clutch spring letting the clutch slip
+- Low steering pump flow to the brake booster
+- A plugged steering oil cooler raising system pressure
+E: Released position means the brake passage is connected to tank and springs release the band. A valve that doesn't vent, or failed release springs, keeps the brake dragging (look for heat or burned paint).
+
+@303g|Obj 5|
+Q: The basic principle of differential steering is:
++ Speed gained on one side is lost on the other, with equal torque
+- Torque is removed from one side and added to the other at equal speed
+- One track is braked while the other is driven
+- Both tracks speed up during a turn, the outer one more
+E: Same as any differential: speed difference side to side with equal torque. Overall machine speed doesn't increase in a turn.
+
+@303g|Obj 5|
+Q: On a differential steer crawler travelling straight, the hydraulic steering motor is:
++ held stationary
+- turning slowly to keep the tracks synchronized
+- driving both tracks equally
+- disconnected by a clutch
+E: Straight travel needs only transmission input. The motor holds the steering ring gear stationary.
+
+@303g|Obj 5|
+Q: On a differential steer crawler, how does the operator make a SHARPER turn?
++ Move the lever further, so the steering motor turns faster
+- Apply the brake on the inside track with the pedal
+- Downshift the transmission, with the lever unchanged
+- Release the steering clutch on the inside track
+E: More lever = more oil to the motor = faster motor. Transmission input stays the same, so the side-to-side speed difference grows.
+
+@303g|Obj 5|
+Q: Komatsu's Hydrostatic Steering System (HSS) differs from a full hydrostatic (HST) drive because HSS:
++ uses a geared transmission for travel and a hydraulic motor for steering
+- uses one pump and motor per track for travel and steering
+- has no planetary gear sets in the steering unit
+- uses wet steering clutches and brakes to turn
+E: HSS uses the powershift transmission for travel. The hydraulic motor (through an idler) manipulates the left and right dual-input planetaries for turning. HST drives each track hydrostatically.
+
+@303g|Obj 5|
+Q: Why are the Komatsu HSS planetaries called dual-input planetaries?
++ They take input from the transmission, the steering motor, or both
+- They have two sun gears driven from one shaft
+- They receive input from two separate engines
+- They are driven by both the bevel gear and final drive
+E: Straight travel = transmission only. Gradual turn = transmission + motor. Spot turn = motor only.
+
+@303g|Obj 5|
+Q: In the Caterpillar differential steering system, which two planetary sets must have the SAME ratio?
++ The steering planetary and the equalizing planetary
+- The drive planetary and the steering planetary
+- The drive planetary and the equalizing planetary
+- All three must have different ratios
+E: The steering and equalizing planetaries must match. Also, the drive planetary's sun-to-ring ratio equals the sun-to-carrier ratio of the steering and equalizing planetaries.
+
+@303g|Obj 5|
+Q: Cat differential steer, straight forward travel. Which statement is correct?
++ Steering ring held by the motor, equalizing ring fixed to the housing
+- The steering motor drives the steering ring gear at transmission speed
+- The equalizing ring gear rotates with the bevel gear
+- Both ring gears are free to rotate with the carriers
+E: The steering input holds the steering planetary ring, and the equalizing ring is fixed to the main housing. The bevel gear drives the drive planetary carrier, and the reaction drives the sun gears / inner axle shaft.
+
+@303g|Obj 5|
+Q: On the Cat differential steer system, the transmission bevel gear is connected to the:
++ planet carrier of the drive planetary
+- sun gear of the steering planetary
+- ring gear of the equalizing planetary
+- inner axle shaft
+E: The transmission pinion drives the bevel gear, which is connected to the drive planetary carrier.
+
+@303g|Obj 5|
+Q: Cat differential steer, forward RIGHT turn. What does the steering motor do?
++ Turns the steering ring the same way as the transmission input
+- Turns the steering ring opposite to the transmission input
+- Holds the steering ring while the right brake applies
+- Stops the transmission input to the right side
+E: Same-direction input speeds up the drive planetary. The reaction slows the inner axle and equalizing planetary, so the left sprocket runs faster and the machine turns right.
+
+@303g|Obj 5|
+Q: What determines how sharply a differential steer tractor turns?
++ Steering motor speed vs. transmission input speed
+- Only the transmission gear selected
+- The steering brake pressure on the inside track
+- The track tension on the inside track
+E: High steering motor speed with slower transmission input = sharper turn. The closer the speeds, the gentler the turn.
+
+@303g|Obj 5|
+Q: Counter-rotation (spot turn) on a differential steer tractor occurs when:
++ only the steering motor provides input
+- the transmission is in first and the motor is held
+- one track is braked and the other is driven
+- both steering motors run in the same direction
+E: With only the steering motor input, the drive planetary turns one way and the equalizing planetary turns the opposite way, so the tracks counter-rotate.
+
+@303g|Obj 5|ct
+Q: Why must the steering control be locked out when a differential steer tractor is stopped?
++ Steering input alone can spot turn the machine
+- The steering motor will overheat if the lever is moved at idle
+- The transmission will engage when the lever moves
+- The brakes release when the steering lever is moved
+E: Steering motor input alone produces counter-rotation. Bumping the lever on a "stopped" machine can swing it around.
+
+@303g|Obj 5|
+Q: How is reverse travel achieved on a differential steer tractor?
++ Transmission in reverse, with the steering ring gear held by the motor
+- The steering motor is run in reverse at full speed
+- The equalizing ring gear is released from the housing
+- The bevel gear is shifted to its opposite side
+E: The transmission input reverses and the steering ring is held, so both sprockets turn backward at the same speed. Reverse turns work like forward ones with all directions reversed.
+
+@303g|Obj 6|ct
+Q: A differential steer dozer slowly drifts to one side in straight travel. Track tension, rollers and idlers check OK. What is the most likely cause?
++ The steering motor isn't holding the ring gear (leaking DCV or relief)
+- A slipping steering clutch on the slow side
+- A dragging steering brake band on one side
+- Wrong ratio in the equalizing planetary
+E: In straight travel the motor must hold the ring. A leak lets it creep, which adds and subtracts speed side to side and causes a drift.
+
+@303g|Obj 6|
+Q: How is a steering turn radius check done on a differential steer machine?
++ High idle, first gear: compare full left and full right turn radii
+- At low idle in top gear, measure the time for one full circle
+- With the machine stopped, counter-rotate and count sprocket revolutions
+- Measure steering relief pressure in both directions
+E: Run the engine at high idle in first gear and compare a full left turn radius to a full right turn radius. You can also measure sprocket speed with the machine raised or the tracks removed.
+
+@303g|Obj 3/4|gk
+Q: On a typical hydrostatic (HST) drive crawler, each track is driven by:
++ its own closed-loop pump and motor
+- a shared pump driving both track motors in series
+- the transmission, with a hydraulic motor for steering only
+- a steering clutch and an HST pump
+E: Dual-path HST: left and right loops are independent (pump + motor). Steering is done by varying each pump's output, with no clutches or brakes. (General knowledge. This ILM section isn't in your PDFs.)
+
+@303g|Obj 3/4|
+Q: Why were hydrostatic drive crawlers historically limited mostly to smaller machines?
++ The high heat potential of hydrostatic drives
+- Hydrostatic drives cannot steer under load
+- Hydrostatic pumps cannot produce enough pressure
+- Electronic controls were too expensive
+E: The learning guide says heat was the limiting factor. Better hydraulics and cooling now allow larger HST machines.
+
+@303g|Obj 3/4|
+Q: According to the learning guide, an advantage of electronically controlled hydrostatic crawler steering is:
++ less operator fatigue over the work day
+- no need for a charge pump or filters
+- lower system operating pressure and heat
+- no need for a separate oil cooler
+E: Electronic joystick control reduces operator fatigue. The guide also notes the system works on the same principles as a skid steer.
+
+@303g|Obj 3/4|gk
+Q: In a closed-loop hydrostatic drive, the charge pump does all of the following EXCEPT:
++ supply the main high-pressure flow that drives the track motor
+- make up for internal leakage (case drain) in the loop
+- keep the low-pressure side pressurized to prevent cavitation
+- supply oil for the pump displacement controls
+E: The charge pump replenishes the loop, prevents cavitation and supplies control pressure, and the replenished oil helps cooling. The main variable pump supplies drive flow. (General knowledge.)
+
+@303g|Obj 3/4|ct gk
+Q: A hydrostatic dozer is sluggish and weak on BOTH tracks in both directions. Which is the best first check?
++ Charge pressure
+- The left track motor case drain
+- The right drive pump's displacement control
+- Final drive oil level
+E: A fault common to both loops points to shared components, like the charge circuit or engine. A problem on one side only points to that side's pump, motor or control. (General knowledge.)
+
+@303g|Obj 3/4|ct gk
+Q: A hydrostatic crawler is weak on the LEFT track only, and the left motor's case drain flow is well above spec. What does this indicate?
++ Internal leakage (wear) in the left motor
+- Low charge pressure affecting both loops
+- A plugged return filter on the left side
+- Normal operation at full load
+E: High case drain flow means internal leakage, i.e., a worn pump or motor. The leaked oil isn't doing work, so that track is weak. (General knowledge.)
+
+@303g|Obj 3/4|gk
+Q: How does a dual-path hydrostatic crawler perform a counter-rotation (spot) turn?
++ The left and right pumps are stroked in opposite directions
+- One track motor is braked while the other drives
+- Both pumps are stroked in the same direction at different rates
+- The steering clutch on one side releases
+E: Stroking the pumps opposite each other drives the tracks in opposite directions. A gradual turn uses the same direction at different speeds. (General knowledge.)
+
+@303g|Obj 3/4|gk
+Q: In a closed-loop hydrostatic drive, what is the purpose of the flushing (hot oil shuttle) valve?
++ To bleed hot oil from the low-pressure side for cooling
+- To relieve high-pressure spikes in the loop
+- To shift the track motor into high speed range
+- To release the parking brake when travel starts
+E: The flushing valve bleeds oil from the low-pressure side to the cooler and tank. Charge oil replaces it, which controls loop temperature and contamination. (General knowledge.)

@@ -1,0 +1,1207 @@
+@301sym|Symbols|sym hl
+Q: On a hydraulic schematic, a solid line represents a:
++ main working line
+- pilot line
+- drain line
+- enclosure line
+E: Solid = main (working) line carrying high pressure and high flow. Long dashes = pilot, short dashes = drain, dash-dot = enclosure.
+
+@301sym|Symbols|sym
+Q: A line drawn with long dashes on a hydraulic schematic is a:
++ pilot line
+- drain line
+- main working line
+- flexible hose
+E: Pilot lines (long dashes) carry a low-flow control signal at relatively high pressure.
+
+@301sym|Symbols|sym
+Q: A line drawn with short dashes on a hydraulic schematic is a:
++ drain line
+- pilot line
+- pressure line
+- suction line
+E: Short dashes = drain line (case drain, leakage return): low flow, lower pressure.
+
+@301sym|Symbols|sym
+Q: A dash-dot line drawn around several valve symbols means the valves:
++ are housed in one body
+- are pilot operated
+- share a common drain
+- are electrically actuated
+E: An enclosure line groups components that are built into one valve body or assembly.
+
+@301sym|Symbols|sym
+Q: Two lines on a schematic meet in a "T". The lines are:
++ always connected
+- connected only if a dot is shown
+- never connected
+- connected only in pilot circuits
+E: The notes stress that a T meeting is always a connection. Crossing lines with no dot are not connected.
+
+@301sym|Symbols|sym
+Q: A solid (filled) triangle on a component symbol indicates:
++ hydraulic flow
+- pneumatic flow
+- a pressure compensator
+- an electrical input
+E: Filled triangle = hydraulic energy/flow. A hollow triangle = pneumatic.
+
+@301sym|Symbols|sym
+Q: A diagonal arrow drawn through a pump, motor or spring symbol means the component is:
++ variable or adjustable
+- pressure compensated
+- reversible
+- pilot operated
+E: The slanted arrow through a symbol shows variability (variable displacement, adjustable spring, variable orifice).
+
+@301sym|Symbols|sym
+Q: A circle with a filled triangle pointing outward from the circle represents a:
++ pump
+- motor
+- accumulator
+- pressure gauge
+E: In a pump the triangle points out (flow leaves). In a motor the triangle points in (flow drives it).
+
+@301sym|Symbols|sym
+Q: A circle with two filled triangles pointing inward represents a:
++ reversible (bi-directional) motor
+- reversible (bi-directional) pump
+- one-way variable displacement motor
+- fixed displacement one-way pump
+E: Triangles pointing in = motor. Two triangles = flow in either direction, so the motor is reversible.
+
+@301sym|Symbols|sym
+Q: A ball sitting in a V-shaped seat on a schematic is a:
++ check valve
+- relief valve
+- orifice
+- shuttle valve
+E: The ball-and-seat symbol is a check valve: free flow one way, blocked the other.
+
+@301sym|Symbols|sym
+Q: On a directional control valve symbol, the number of squares (envelopes) shows the number of:
++ positions
+- ways (ports)
+- actuators
+- detents
+E: Each envelope is a position the valve can be shifted to. Ways are the number of lines connected to the valve.
+
+@301sym|Symbols|sym
+Q: An open-top rectangle with a line drawn down into it to the bottom represents a:
++ vented reservoir, line below fluid level
+- vented reservoir, line above fluid level
+- pressurized (sealed) reservoir
+- suction strainer in the tank
+E: An open rectangle is a vented reservoir. A line reaching the bottom shows the line terminates below the fluid level.
+
+@301sym|Symbols|sym
+Q: A small arrow drawn at right angles to the flow arrow on a pump or valve symbol indicates the component is:
++ pressure compensated
+- temperature compensated
+- manually adjustable
+- pilot drained
+E: The perpendicular arrow is the ILM's pressure compensated symbol (e.g., uni-directional, variable, pressure compensated pump).
+
+@301sym|Symbols|sym
+Q: A valve symbol shows an arrow that is offset from the ports in its normal envelope. This pressure valve is:
++ normally closed
+- normally open
+- a two-position detented valve
+- externally sensed
+E: If the arrow does not line up with the inlet and outlet ports in the normal position, flow is blocked: normally closed (relief, sequence). Normally open valves (pressure reducing) show the arrow connecting the ports.
+
+@301sym|Symbols|sym
+Q: Which actuation method is shown by a rectangle with a diagonal line through it on the end of a valve?
++ Solenoid
+- Lever
+- Pedal
+- Hydraulic pilot
+E: The boxed diagonal line is the solenoid (electrical) actuator symbol.
+
+@301a|Energy and work|hl
+Q: Work is defined as:
++ force acting through a distance
+- the ability to perform work
+- the rate of doing a job
+- pressure acting on an area
+E: Work = force × distance. Energy is the ability to perform work.
+
+@301a|Energy and work|hl
+Q: According to the law of conservation of energy, energy:
++ can only be transformed from one form to another
+- is created by the pump and used by the actuator
+- is destroyed as heat in the system
+- is created by pressure and lost as flow
+E: Energy can't be created or destroyed, only transformed. The engine turns chemical energy into heat then mechanical; the pump turns mechanical into hydraulic.
+
+@301a|Energy and work|hl
+Q: In a hydraulic system, a pump converts:
++ mechanical energy into hydraulic energy
+- hydraulic energy into mechanical energy
+- chemical energy into hydraulic energy
+- heat energy into kinetic energy
+E: Pumps take mechanical input from the prime mover and create flow (hydraulic energy). Actuators convert it back to mechanical.
+
+@301a|Energy and work|hl
+Q: Oil flowing through a hydraulic system is an example of:
++ kinetic energy
+- potential energy
+- chemical energy
+- stored energy
+E: Kinetic = movement and motion. Pumps provide flow (kinetic). Potential = stored energy that creates force (pressure), like an accumulator.
+
+@301a|Energy and work|hl
+Q: An accumulator is the ILM's example of which form of energy?
++ Potential
+- Kinetic
+- Mechanical
+- Thermal
+E: An accumulator stores energy in a charged state (potential energy) that can create force/pressure.
+
+@301a|Bernoulli|hl ct
+Q: According to Bernoulli's principle, as the velocity of a fluid decreases, its pressure:
++ increases
+- decreases
+- stays the same
+- drops to zero
+E: Total energy stays constant. High kinetic = low potential, low kinetic = high potential. This is how an orifice raises pressure upstream.
+
+@301a|Bernoulli|ct
+Q: Why does pressure build up on the inlet side of an orifice?
++ Slower flow there means higher pressure
+- The orifice adds energy to the oil passing it
+- Faster flow there means higher pressure
+- The oil cools and thickens at the orifice
+E: Bernoulli: slowing the flow (less kinetic energy) raises the pressure (more potential energy) before the orifice.
+
+@301a|Power|calc hl
+Q: A pump delivers 20 GPM at 1714 psi. How much hydraulic horsepower is this?
++ 20 HP
+- 10 HP
+- 34 HP
+- 40 HP
+E: HP = (GPM × PSI) ÷ 1714 = (20 × 1714) ÷ 1714 = 20 HP.
+
+@301a|Power|calc
+Q: A system flows 30 GPM at 2000 psi. Its hydraulic horsepower is closest to:
++ 35 HP
+- 60 HP
+- 17 HP
+- 114 HP
+E: (30 × 2000) ÷ 1714 = 60 000 ÷ 1714 ≈ 35 HP.
+
+@301a|Power|calc hl
+Q: A cylinder has a piston area of 10 in². What pressure is needed to lift a 15 000 lb load?
++ 1500 psi
+- 150 psi
+- 15 000 psi
+- 150 000 psi
+E: Pressure = Force ÷ Area = 15 000 ÷ 10 = 1500 psi.
+
+@301a|Power|calc
+Q: A cylinder holds 462 in³ of oil and must fully extend in 6 seconds. What flow is required? (231 in³ = 1 US gal)
++ 20 GPM
+- 2 GPM
+- 12 GPM
+- 40 GPM
+E: 462 in³ = 2 gal. Flow = volume ÷ time = 2 gal ÷ 0.1 min = 20 GPM.
+
+@301a|Pressure|hl
+Q: In a hydraulic system, pressure is created by:
++ resistance to flow
+- the pump's displacement
+- the reservoir oil level
+- oil velocity
+E: Pumps create flow. Pressure only builds when that flow meets resistance (the load, lines, valves).
+
+@301a|Efficiency|hl
+Q: Hydraulic system efficiency compares:
++ output power to input power
+- pressure to flow
+- input flow to return flow
+- pump speed to motor speed
+E: Efficiency is the ability to transmit power without loss: output power vs input power, as a percent.
+
+@301a|Losses|hl
+Q: Most of the potential energy lost in a hydraulic system is lost as:
++ heat
+- noise
+- vibration
+- leakage
+E: Pressure drops do no useful work; the lost energy shows up as heat, caused by fluid friction. More pressure loss = more heat.
+
+@301a|Losses|hl
+Q: Laminar flow is best described as:
++ smooth, straight, parallel flow with low friction
+- turbulent flow through a restriction
+- flow that changes direction rapidly
+- flow from high to low pressure through an orifice
+E: Laminar flow has no turbulence and low friction, which reduces pressure losses.
+
+@301a|Losses|ct
+Q: Which would NOT cause turbulent flow?
++ Correctly sized lines with gradual bends
+- Conductors that are too small for the flow
+- Sharp changes in line cross-section
+- Sharp elbows and changes in direction
+E: Turbulence comes from undersized lines and sharp changes in section or direction. Correctly sized, smooth lines promote laminar flow.
+
+@301a|Losses|hl
+Q: Backpressure in a hydraulic system is:
++ pressure caused by resistance to flow on the return side
+- pressure at the pump inlet
+- pressure caused by the load on the actuator
+- the pressure difference across a relief valve
+E: Backpressure is resistance on the return side; it increases internal resistance and reduces efficiency.
+
+@301a|Losses|hl ct
+Q: A customer complains that all cylinders work, but slowly. Pressure is normal. The most likely type of loss is:
++ a flow loss from excessive internal leakage
+- a pressure loss from a low relief setting
+- backpressure in the pilot circuit
+- low oil viscosity index
+E: Flow losses (internal leakage) mean flow does no useful work. The complaint is slower actuator operation. Pressure problems affect force, not speed.
+
+@301a|Circuits|hl
+Q: In a series circuit, each actuator receives:
++ full flow at reduced pressure
+- split flow at identical pressure
+- full flow at full pressure
+- split flow at reduced pressure
+E: Series = one flow path, so every actuator sees full flow, but the available pressure is shared.
+
+@301a|Circuits|hl
+Q: Two hydraulic motors connected in series will give:
++ higher speed and lower torque
+- lower speed and higher torque
+- higher speed and higher torque
+- lower speed and lower torque
+E: Series motors each get full flow (speed) but share pressure (torque).
+
+@301a|Circuits|hl ct
+Q: In a parallel circuit with two cylinders of different loads, which moves first?
++ The cylinder with the lightest load
+- The cylinder with the heaviest load
+- Both move at the same time and speed
+- The cylinder closest to the pump
+E: In parallel, flow divides and pressure is set by the easiest-to-move actuator, so the lightest load moves first.
+
+@301a|Circuits|ct
+Q: A machine switches its drive motors from series to parallel as the load increases. Why?
++ Parallel gives the motors more torque
+- Parallel gives the motors more speed
+- Parallel reduces oil temperature
+- Parallel stops the motors from cavitating
+E: Series-parallel circuits switch to parallel under higher load so each motor sees full system pressure, raising torque (at lower speed).
+
+@301a|Fluids|hl safe
+Q: Used petroleum-based hydraulic oil must be disposed of:
++ where it will not get into the ground or water
+- by burning it in the shop heater
+- down a floor drain with plenty of water
+- in general garbage once it is absorbed in rags
+E: The notes highlight disposing of petroleum oil so it cannot reach the ground or water.
+
+@301a|Fluids|hl
+Q: An invert emulsion fire-resistant fluid is approximately:
++ 40% water and 60% oil
+- 60% water and 40% oil
+- 60% glycol and 40% water
+- 95% water and 5% oil
+E: Invert emulsion = 40% water, 60% oil. Water-oil emulsion (per the ILM) = 60% water, 40% oil. Water glycol = about 60% glycol, 40% water.
+
+@301a|Fluids|hl
+Q: Phosphate ester fluids are NOT compatible with:
++ nitrile rubber seals
+- Teflon-based seals
+- steel lines
+- Viton seals
+E: Phosphate ester is the most fire resistant (and most expensive) fluid, but it attacks nitrile O-rings. Teflon-based seals are used instead.
+
+@301a|Fluids|
+Q: Which fire-resistant fluid is the MOST fire resistant but also the most expensive?
++ Phosphate ester
+- Water glycol
+- Invert emulsion
+- Biodegradable vegetable oil
+E: Synthetic phosphate ester is the most fire resistant, costs the most, and forms acids with water.
+
+@301a|Fluids|
+Q: A drawback of water-based fire-resistant fluids is that water:
++ lubricates poorly and can grow bacteria
+- attacks nitrile seals and O-rings
+- forms acids when exposed to air
+- makes the fluid too thick in cold weather
+E: Water lubricates poorly, can grow bacteria, freezes and foams easily (aeration).
+
+@301a|Fluid properties|hl
+Q: Viscosity is an oil's:
++ resistance to flow
+- rate of viscosity change with temperature
+- ability to separate from water
+- resistance to oxidation
+E: Viscosity is resistance to flow, and it largely determines lubricating ability.
+
+@301a|Fluid properties|hl
+Q: An oil with a HIGH viscosity index will:
++ change viscosity very little with temperature
+- change viscosity a lot with temperature
+- be very thick at all temperatures
+- separate water quickly
+E: VI = rate of viscosity change with temperature. High VI = small change; low VI = large change. Most OEMs want 90 minimum.
+
+@301a|Fluid properties|
+Q: Most OEMs recommend a hydraulic oil viscosity index of at least:
++ 90
+- 30
+- 150
+- 250
+E: The notes: most OEMs recommend a minimum VI of 90.
+
+@301a|Fluid properties|hl
+Q: Hydraulic oil that has oxidized will usually:
++ look darker and smell burnt
+- look milky
+- look dull or smoky
+- become thinner and clearer
+E: Oxidation (combining with oxygen, sped up by heat) forms soaps and acids; the oil darkens and smells burnt. Milky = water.
+
+@301a|Fluid properties|hl
+Q: Demulsibility is the oil's ability to:
++ separate water out of the oil
+- resist breaking down at high temperature
+- resist foaming
+- lubricate under high loads
+E: Demulsification = separating water from hydraulic oil.
+
+@301a|Fluid properties|ct
+Q: A hydraulic oil sample looks milky. This means it contains roughly:
++ 1% or more water
+- 0.5% water
+- oxidation by-products
+- trapped nitrogen
+E: About 0.5% water makes oil dull or smoky; 1% or more makes it milky.
+
+@301a|Contamination|hl
+Q: Contamination present in new machines or freshly rebuilt components is called:
++ built-in contamination
+- ingressed contamination
+- internally generated contamination
+- transient contamination
+E: Built-in contamination (casting sand, wear-in debris) is why initial service intervals are short, around 100 hours.
+
+@301a|Contamination|hl
+Q: The most common cause of contamination entering a hydraulic system is:
++ unclean maintenance procedures
+- faulty cylinder wiper seals
+- leaking pump inlet lines
+- casting sand from new parts
+E: Unclean maintenance is the most common source of ingressed contamination.
+
+@301a|Contamination|hl
+Q: How do worn cylinder wiper seals let contamination in?
++ Fine dirt is drawn in as the rods retract
+- Oil is pushed out as the cylinder extends
+- Dirt enters through the case drain
+- Air is drawn in at the pump inlet
+E: A film of oil leaves on the rod as it extends; fine contamination is drawn back in on retraction past a bad wiper.
+
+@301a|Contamination|hl
+Q: A contamination failure that comes and goes and may move from component to component is:
++ intermittent (transient)
+- catastrophic
+- degradation
+- built-in
+E: Intermittent failures come and go, often a piece of debris that gets stuck and later dislodged. Catastrophic = sudden total failure; degradation = gradual wear.
+
+@301a|Contamination|hl
+Q: A pump that suddenly "grenades" has suffered which type of failure?
++ Catastrophic
+- Intermittent
+- Degradation
+- Transient
+E: Catastrophic failure = rapid or sudden total disabling of a component or system.
+
+@301b|Pump principles|hl
+Q: A hydraulic pump's job is to:
++ create flow
+- create pressure
+- store energy
+- control actuator speed
+E: Pumps take power from the prime mover and generate flow. Pressure comes from resistance to that flow.
+
+@301b|Pump principles|hl
+Q: A positive displacement pump:
++ delivers a nearly constant volume regardless of resistance
+- delivers less flow as resistance rises, down to zero
+- has its inlet and outlet hydraulically connected
+- produces high flow at low pressure only
+E: Positive displacement pumps have a mechanical seal between inlet and outlet. All hydraulic pumps are positive displacement.
+
+@301b|Pump principles|
+Q: Which is an example of a NON-positive displacement pump?
++ Engine water pump
+- External gear pump
+- Balanced vane pump
+- Axial piston pump
+E: Non-positive pumps (centrifugal water pumps) have inlet and outlet connected hydraulically: high flow, low pressure.
+
+@301b|Pump principles|hl
+Q: The maximum flow rate of a hydraulic pump is:
++ directly proportional to its speed
+- inversely proportional to its speed
+- set by the relief valve
+- the same at any speed
+E: Flow = displacement × RPM. Double the speed, double the flow (until cavitation from overspeed).
+
+@301b|Pump principles|calc
+Q: A pump displaces 2.31 in³/rev and turns at 2000 RPM. Its theoretical flow is: (231 in³ = 1 US gal)
++ 20 GPM
+- 2 GPM
+- 4620 GPM
+- 200 GPM
+E: 2.31 × 2000 = 4620 in³/min ÷ 231 = 20 GPM.
+
+@301b|Pump principles|ct
+Q: Running a pump faster than its rated speed is most likely to cause:
++ cavitation
+- reduced pump flow
+- aeration from the case drain
+- lower system pressure at stall
+E: Excessive speed can starve the inlet and cause cavitation.
+
+@301b|Efficiency|hl
+Q: Volumetric efficiency of a pump is mainly determined by:
++ internal leakage
+- internal friction
+- system pressure setting
+- oil temperature only
+E: Volumetric efficiency = actual vs theoretical flow, which is reduced by internal leakage. Mechanical efficiency is about internal friction.
+
+@301b|Efficiency|calc
+Q: A pump's theoretical flow is 40 GPM. A flowmeter shows 34 GPM at rated pressure. What is its volumetric efficiency?
++ 85%
+- 15%
+- 94%
+- 118%
+E: VE = actual × 100 ÷ theoretical = 34 × 100 ÷ 40 = 85%.
+
+@301b|Efficiency|hl
+Q: Mechanical efficiency of a pump relates to:
++ the power needed to overcome internal friction
+- internal leakage from outlet to inlet
+- the difference between no-load and full-load flow
+- case drain flow
+E: Mechanical efficiency compares theoretical and actual torque required, which is the power lost to internal friction.
+
+@301b|Efficiency|hl ct
+Q: Why does a pump's overall efficiency drop off above normal operating pressure?
++ Internal leakage increases with pressure
+- Internal friction decreases with pressure
+- The pump turns slower at high pressure
+- Oil viscosity rises with pressure
+E: Overall efficiency peaks at normal operating pressure and drops at higher pressure due to increased internal leakage (slip).
+
+@301b|Pump basics|hl
+Q: Pump rotation (clockwise or counter-clockwise) is always determined by looking at the pump from the:
++ driveshaft end
+- port end
+- inlet side
+- side opposite the driveshaft
+E: Rotation and output are always determined from the driveshaft end.
+
+@301b|Pump basics|hl
+Q: A bi-directional pump will always have:
++ inlet and outlet ports of identical size
+- a larger inlet port than outlet
+- a swash plate that can go past centre
+- two case drains
+E: Bi-directional pumps run either rotation, so the ports are the same size. Uni-directional pumps usually (not always) have a bigger inlet.
+
+@301b|Pump basics|hl
+Q: A reversible pump can:
++ reverse its flow with the same shaft rotation
+- only deliver flow in one rotation
+- be driven either way by changing the belt
+- vary displacement but never direction
+E: Reversible = flow direction changes (inlet becomes outlet) with the same driveshaft rotation.
+
+@301b|Pump basics|hl
+Q: Which pump type can ONLY be built as fixed displacement?
++ Gear pump
+- Vane pump
+- Axial piston pump
+- Radial piston pump
+E: Gear pumps are always fixed. Vane and piston pumps can be fixed or variable.
+
+@301b|Pump basics|hl
+Q: In an unbalanced pump, inlet and outlet pressures:
++ create a side load on the shaft and bearings
+- cancel each other out across the shaft
+- act only on the pressure plate faces
+- have no effect on shaft bearing life
+E: Balanced pumps cancel the thrust loads; unbalanced designs create a thrust load.
+
+@301b|Pump basics|hl
+Q: A pressure compensated pump:
++ adjusts its flow automatically based on outlet pressure
+- adjusts its pressure based on flow demand
+- has a built-in relief valve that opens at max pressure
+- is always a fixed displacement design
+E: Pressure compensated = flow automatically adjusted by outlet pressure.
+
+@301b|Internal leakage|hl
+Q: Some internal leakage in a pump is necessary to:
++ lubricate internal components
+- cool the reservoir
+- prevent cavitation at the inlet
+- keep the case drain closed
+E: A controlled amount of leakage lubricates internal parts. Excess leakage reduces flow for work.
+
+@301b|Internal leakage|hl
+Q: As pump outlet pressure increases, internal leakage (slip) will:
++ increase
+- decrease
+- remain constant
+- stop completely
+E: High pressure always tries to reach low pressure areas. Higher pressure = more slippage.
+
+@301b|Case drain|hl
+Q: On a pump case drain, the drain port should be located:
++ on the top, to keep the case flooded
+- on the bottom, to drain the case completely
+- next to the inlet port
+- below the reservoir oil level
+E: The drain port goes on top so the case stays full of oil for lubrication.
+
+@301b|Case drain|
+Q: Which pump type REQUIRES an external case drain?
++ Piston pump
+- External gear pump
+- Balanced vane pump
+- Gerotor pump
+E: Piston pumps need a case drain. Gear and vane pumps route leakage internally to the inlet.
+
+@301b|Gear pumps|hl
+Q: In an external gear pump, oil is carried from inlet to outlet:
++ around the outside of the housing in the tooth pockets
+- through the centre between the meshing teeth
+- through drilled passages in the gears
+- between the gears and the pressure plate
+E: Oil travels around the outside of each gear in the tooth pockets. The meshing teeth in the middle seal outlet from inlet.
+
+@301b|Gear pumps|hl
+Q: On a gear pump, the outlet port is on the side where the gears:
++ come into mesh
+- come out of mesh
+- are farthest apart
+- meet the pressure plate trap
+E: Outlet = into mesh (oil is squeezed out). Inlet = out of mesh (volume increases, drawing oil in).
+
+@301b|Gear pumps|hl
+Q: The pressure plate in a gear pump:
++ limits internal leakage at the gear faces
+- holds the drive gear on its shaft
+- relieves excess system pressure
+- separates the inlet from the case drain
+E: Outlet pressure pushes the pressure (wear) plate against the gear faces to seal them.
+
+@301b|Gear pumps|
+Q: Which is an advantage of an external gear pump?
++ Simple, cheap and tolerant of contamination
+- Variable displacement at low cost
+- Very high pressure capability
+- Best overall efficiency of any pump
+E: Gear pumps are simple, rugged, cheap and handle dirt, but are low pressure and fixed only.
+
+@301b|Vane pumps|hl
+Q: Compared with a gear pump, a vane pump is:
++ more efficient and capable of higher pressure
+- cheaper and more tolerant of contamination
+- always variable displacement
+- unable to be balanced
+E: Vane pumps are more efficient and higher pressure, but more expensive and more sensitive to contamination.
+
+@301b|Vane pumps|hl
+Q: The vanes in a vane pump are held against the cam ring by:
++ centrifugal force and outlet pressure
+- strong springs under every vane only
+- inlet vacuum pulling them outward
+- the pressure plates clamping them
+E: Centrifugal force throws the vanes out and outlet pressure is ported under them. Some have small springs to help at start-up.
+
+@301b|Vane pumps|hl
+Q: Bevelled vanes can only be used in a:
++ uni-directional vane pump
+- bi-directional vane pump
+- vane motor
+- variable displacement vane pump only
+E: The high point of the bevel is the leading edge, so the pump can only turn one way. Rounded vanes are bi-directional.
+
+@301b|Vane pumps|hl
+Q: Why are bevelled vanes used in high speed, high pressure vane pumps?
++ Pocket pressure on the bevel unloads the tip
+- They let the pump turn either direction
+- They seal better against the side plates
+- They remove the need for vane springs
+E: Vane pocket pressure acts on the back of the bevel, taking pressure off the tip and increasing service life.
+
+@301b|Vane pumps|hl
+Q: A balanced vane pump uses:
++ an elliptical ring, two inlets, two outlets
+- a circular cam ring offset from the rotor
+- a movable cam ring to change displacement
+- one inlet and one outlet set at 180°
+E: The elliptical ring gives two opposing pumping chambers, so side loads cancel and higher pressures are possible.
+
+@301b|Vane pumps|ct
+Q: A variable displacement vane pump is always unbalanced because:
++ its cam ring must move off-centre to vary flow
+- it uses an elliptical cam ring and two inlets
+- its two outlets push the rotor sideways
+- its vanes are bevelled for one rotation
+E: Variable vane pumps change eccentricity by moving a circular cam ring; centred = zero flow. That design can't be balanced.
+
+@301b|Vane pumps|hl
+Q: A vane pump "cartridge" is:
++ the cam ring, rotor, vanes and plates as one unit
+- the pump housing, shaft and shaft seal
+- the inlet strainer and screen assembly
+- a replaceable compensator spool and spring
+E: The cartridge lets the pumping parts be replaced as one unit.
+
+@301b|Piston pumps|hl
+Q: Piston pumps are:
++ efficient and high pressure, but dirt sensitive
+- cheap, simple and tolerant of dirt
+- limited to fixed displacement designs
+- low pressure, high volume transfer pumps
+E: Tight tolerances give efficiency and pressure but make them very susceptible to contamination. Often used when variable displacement is required.
+
+@301b|Piston pumps|hl
+Q: In a radial piston pump, the pistons are arranged:
++ perpendicular (90°) to the driveshaft
+- parallel to the driveshaft
+- at an angle to the driveshaft (bent axis)
+- in line, sliding on a swash plate
+E: Radial = pistons at 90° to the shaft, in a circle. Axial = parallel to the shaft.
+
+@301b|Piston pumps|hl
+Q: In a rotating cam radial piston pump, oil is kept flowing in the correct direction by:
++ check valves at each piston
+- a timed spool valve on the shaft
+- a kidney port plate on the barrel
+- the swash plate angle
+E: Check valves on the inlet and outlet of each piston direct the flow.
+
+@301b|Piston pumps|hl
+Q: The most common pump in mobile equipment is the:
++ axial piston pump
+- radial piston pump
+- external gear pump
+- balanced vane pump
+E: The notes call the axial piston pump the most common in mobile equipment.
+
+@301b|Piston pumps|hl
+Q: In an axial piston pump, increasing the swash plate angle will:
++ increase displacement
+- decrease displacement
+- reverse the flow
+- increase internal leakage only
+E: Swash plate angle sets the piston stroke length. More angle = longer stroke = more displacement.
+
+@301b|Piston pumps|hl
+Q: The drilled passages through axial pump pistons are used to:
++ balance the piston and lube the shoes
+- return case drain oil to the pump inlet
+- relieve pressure when the pump destrokes
+- feed control oil to the compensator spool
+E: Pressure acts on all sides to balance the piston and lubricates the piston shoes sliding on the swash plate.
+
+@301b|Piston pumps|hl
+Q: On a pressure compensated axial piston pump, the bias piston and spring push the swash plate toward:
++ maximum displacement
+- zero displacement
+- the reverse flow position
+- the neutral (centred) position only at start-up
+E: Bias piston = small spring-loaded piston that upstrokes the pump. The large stroking piston, controlled by pressure, pushes toward zero.
+
+@301b|Piston pumps|hl ct
+Q: Why doesn't a pressure compensated axial piston pump need a main relief valve to limit pressure?
++ The pump destrokes itself at max pressure
+- The bias spring dumps flow to tank at max pressure
+- The case drain bypasses all excess flow
+- The pump slows the engine as pressure rises
+E: As pressure builds, the stroking piston overpowers the bias piston and flattens the swash plate, so the pump destrokes itself.
+
+@301b|Piston pumps|hl
+Q: How is the flow of a reversible axial piston pump reversed?
++ By moving the swash plate past centre
+- By reversing the driveshaft rotation
+- By swapping the inlet and outlet hoses
+- By turning the port plate 180°
+E: Reversible piston pumps reverse the swash plate angle (manually or hydraulically).
+
+@301b|Piston pumps|hl
+Q: A key difference between a bent axis pump and a swash plate axial pump is that bent axis pistons are:
++ held by ball joints, not sliding shoes
+- arranged at 90° to the driveshaft
+- driven by a rotating eccentric cam
+- unable to vary their displacement
+E: Bent axis pistons are connected by ball joints, and the stroke comes from the angle between barrel and driveshaft.
+
+@301b|Piston pumps|
+Q: Displacement of a variable bent axis pump is changed by:
++ changing the barrel-to-shaft angle
+- changing the swash plate angle
+- moving the cam ring off-centre
+- changing the effective piston length
+E: Bent axis pumps vary the angle of the barrel (with pistons) relative to the driveshaft.
+
+@301c|Start-up|hl
+Q: Before starting a newly installed hydraulic pump, the technician should:
++ back off the pressure controls and pre-lubricate the pump
+- set the relief valve to maximum and run at high idle
+- start at high idle to purge air quickly
+- disconnect the case drain until oil appears at the outlet
+E: Back off pressure controls (they could overload the pump) and prelube (fill and turn by hand). Then idle, load to warm oil, check max engine speed, test.
+
+@301c|Start-up|hl
+Q: After a pump failure has been repaired, which may also be required?
++ Change the oil and filters, clean the reservoir and flush the system
+- Only replace the pump; the filters will catch any debris
+- Increase the relief valve setting to seat the new pump
+- Run the machine at stall for 10 minutes to break in the pump
+E: A failed component spreads contamination. Oil, filters, reservoir cleaning and flushing may all be needed.
+
+@301c|Failure analysis|hl fail
+Q: Pump internals look sandblasted and dull, with some scoring. The cause is most likely:
++ contamination
+- cavitation
+- overloading
+- lack of lubrication
+E: Contamination is the greatest cause of failure. It leaves a dull, sandblasted look and scoring. Inspect the system filters.
+
+@301c|Failure analysis|hl fail
+Q: Pitting on the internal surfaces of a pump is the sign of:
++ cavitation
+- contamination
+- overloading
+- aeration from a loose case drain
+E: Cavitation causes pitting. Causes: improper oil, inlet restrictions, excessive pump speed.
+
+@301c|Failure analysis|hl fail ct
+Q: Which is a common cause of pump cavitation?
++ A restricted inlet
+- A restricted case drain
+- A relief valve set too low
+- A worn pressure plate
+E: Inlet restriction (along with improper oil and excessive speed) is a common cavitation cause.
+
+@301c|Failure analysis|hl fail
+Q: A pump shows heavy wear, blue spots and smeared surfaces. The most likely cause is:
++ lack of lubrication
+- contamination
+- overloading
+- cavitation
+E: Lack of lubrication (no oil film, metal to metal) from low/wrong oil or severe aeration causes blue overheating spots, smearing and seizure.
+
+@301c|Failure analysis|hl fail
+Q: A broken pump housing and a twisted driveshaft point to:
++ overloading (excessive pressure)
+- cavitation at the inlet
+- contamination in the oil
+- lack of lubrication
+E: Overloading (excessive pressure) breaks housings and shafts and causes seal leaks.
+
+@301c|Gear pump service|hl
+Q: In a gear pump, the pressure plate trap (relief groove) belongs on the:
++ outlet side of the pump
+- inlet side of the pump
+- case drain side
+- driveshaft side only
+E: The trap gives oil trapped between meshing teeth an escape path, keeping noise down and performance up. It goes on the outlet side.
+
+@301c|Gear pump service|hl
+Q: Aluminum gear pump housings are made so the gears:
++ cut into it on break-in for a tight fit
+- never touch the housing at any time
+- are supported only by the pressure plates
+- run with a large clearance for cooling
+E: The gears deliberately cut a path in the aluminum housing on break-in, giving a very tight clearance.
+
+@301c|Gear pump service|
+Q: A bi-directional gear pump has identical inlet and outlet sizes and:
++ internal check valves to suit either rotation
+- two driveshafts, one for each rotation
+- no pressure plate or seal rings
+- an external case drain to the tank
+E: Two internal check valves route oil correctly whichever way it turns.
+
+@301c|Vane pump service|hl ct
+Q: A vane pump was rebuilt and now has little or no flow and cavitates. A likely cause is:
++ the cam ring installed backwards
+- bevelled vanes with the point leading
+- a new cartridge was installed
+- pump speed too low to make pressure
+E: The cam ring's inlet and outlet must be in the correct positions; installed backwards gives no or low flow and cavitation.
+
+@301c|Piston pump service|
+Q: When disassembling a piston pump, the pistons must be:
++ kept with and returned to their original bores
+- swapped around to even out wear
+- replaced every time the pump is opened
+- installed in any bore as long as the shoes are new
+E: Pistons are mated to their bores. Mark all mated components.
+
+@301d|Cylinders|hl
+Q: A hydraulic cylinder converts:
++ hydraulic energy into linear mechanical energy
+- hydraulic energy into rotary mechanical energy
+- mechanical energy into hydraulic energy
+- linear energy into rotary energy
+E: Cylinders = linear output. Motors = rotary output.
+
+@301d|Cylinders|hl
+Q: The purpose of a cylinder wiper seal is to:
++ keep dirt out of the cylinder
+- seal the piston to the barrel
+- hold oil in the rod end cap
+- cushion the end of the stroke
+E: The wiper cleans the rod as it retracts so dirt doesn't get past the rod seals.
+
+@301d|Cylinders|calc
+Q: A cylinder has a 4 in² piston and a 1 in² rod. At 2000 psi, what is the retracting force?
++ 6000 lb
+- 8000 lb
+- 2000 lb
+- 10 000 lb
+E: Rod side force = (piston area − rod area) × pressure = (4 − 1) × 2000 = 6000 lb. Extending force would be 8000 lb.
+
+@301d|Cylinders|hl
+Q: A single acting cylinder:
++ is powered one way and returned by an outside force
+- is powered hydraulically in both directions
+- has equal area on both sides of the piston
+- is always a telescoping, multi-stage design
+E: Single acting = hydraulic power one way only; gravity or the load returns it.
+
+@301d|Cylinders|hl
+Q: In a ram type single acting cylinder:
++ oil flows past the piston and packing seals the end
+- the piston seals tightly against the barrel wall
+- oil is supplied alternately to both sides of the piston
+- an internal spring retracts the rod
+E: The ram's guide doesn't seal; oil flows past it. Sealing is by packing at the end of the cylinder.
+
+@301d|Cylinders|hl
+Q: In a single acting telescoping cylinder, which stage extends first?
++ The largest stage, because it has the most area
+- The smallest stage, because it has the least volume
+- All stages extend together
+- The stage closest to the rod end
+E: The first stage has the largest area, so it moves first. Each following stage has less force and more speed.
+
+@301d|Cylinders|hl
+Q: On a single-rod double acting cylinder, extension is:
++ slower, with more force than retraction
+- faster, with more force than retraction
+- slower, with less force than retraction
+- the same speed and force as retraction
+E: The base side has more area (more force) and more volume to fill (slower). Retraction = less force, faster.
+
+@301d|Cylinders|hl ct
+Q: A cylinder with a leaking piston seal will tend to drift toward:
++ extension
+- retraction
+- the centre of its stroke
+- whichever way the load pushes, never extension
+E: With equal pressure on both sides, only the rod area produces net force, pushing the rod out. Leaking cylinders drift toward extension.
+
+@301d|Cylinders|hl ct
+Q: Pressure intensification in a cylinder means:
++ trapped pressure can rise above system pressure
+- the pump makes more pressure than the relief setting
+- the cylinder drifts in the retract direction
+- cylinder pressure drops as the load increases
+E: Oil from the base side can't fit in the smaller rod side, so pressure there can rise above system pressure. Excavator cylinders are prone to this.
+
+@301d|Cylinders|hl
+Q: A double rod (non-differential) cylinder will:
++ give the same force and speed in both directions
+- extend faster than it retracts
+- retract with more force than it extends
+- only work as a single acting cylinder
+E: Equal piston area and volume both sides = same force and speed both ways.
+
+@301d|Cylinders|
+Q: On a double acting telescoping cylinder (like a haul truck hoist), the last stage to extend is usually:
++ the first to retract
+- the last to retract
+- the stage with the most force
+- never fully retracted
+E: Typically the last stage out is the first one back in.
+
+@301d|Cylinders|hl
+Q: The purpose of a piston relief valve inside a cylinder is to:
++ let oil bypass when the piston bottoms out
+- prevent the cylinder from drifting in hold
+- cushion the piston near the end of stroke
+- relieve intensification while lowering
+E: It's a mechanical double check in the piston that lets flow bypass when bottomed, common where the reservoir is limited.
+
+@301d|Cylinders|hl
+Q: Cylinder cushions are used to:
++ slow the cylinder at the end of its stroke
+- prevent cylinder drift in the hold position
+- protect the rod and seals from dirt
+- increase speed near the end of extension
+E: A plunger restricts return flow (or progressively blocked drillings) to slow the piston at the end of travel.
+
+@301d|Cylinders|hl
+Q: A quick drop valve speeds up the lowering of an implement by:
++ regeneration: rod-end oil is fed to the base end
+- dumping base-end oil directly to tank
+- increasing pump displacement during lowering
+- bypassing the counterbalance valve
+E: Quick drop valves supplement base-end oil with rod-end oil (regeneration) in full lower, cutting cycle time.
+
+@301d|Motors|hl
+Q: A hydraulic motor's speed depends on:
++ inlet flow and motor displacement
+- inlet pressure and motor displacement
+- inlet pressure and flow
+- case drain flow and pressure
+E: More flow = more speed; more displacement = less speed. Torque depends on pressure and displacement.
+
+@301d|Motors|hl
+Q: Hydraulic motor torque depends on:
++ inlet pressure and motor displacement
+- inlet flow and motor displacement
+- motor speed and case drain flow
+- outlet pressure and return flow
+E: More pressure or more displacement = more torque.
+
+@301d|Motors|hl ct
+Q: A fixed displacement motor is changed to one with twice the displacement on the same pump flow. The motor will run:
++ at half the speed with more torque
+- twice as fast with less torque
+- at the same speed with twice the torque
+- at half the speed with less torque
+E: Speed depends on flow ÷ displacement, so it halves. Torque rises with displacement at the same pressure.
+
+@301d|Motors|hl
+Q: The inlet pressure of a hydraulic motor is determined by:
++ the load on the motor shaft
+- the pump displacement
+- the motor's speed
+- the case drain restriction
+E: Like any pressure in a hydraulic system, motor inlet pressure is set by resistance (the load on the shaft).
+
+@301d|Motors|hl
+Q: A hydraulic motor with inlet and outlet ports of the same size is usually:
++ bi-directional
+- uni-directional
+- variable displacement
+- a gear motor
+E: Same size = bi-directional. Different = uni-directional.
+
+@301d|Motors|hl
+Q: External gear motors are described in the ILM as:
++ poor torque generators
+- the highest torque motors
+- low speed, high torque motors
+- variable displacement motors
+E: Counteracting forces act on all but one gear tooth, limiting torque.
+
+@301d|Motors|hl
+Q: In a gerotor (orbit) motor, oil is directed to the gerotor by a:
++ spool valve timed to the gerotor
+- disc valve with roller lobes
+- swash plate and port plate
+- set of inlet and outlet checks
+E: The gerotor uses a timed spool valve. The geroller uses a disc valve and roller lobes.
+
+@301d|Motors|hl
+Q: Gerotor and geroller motors are best described as:
++ low RPM, high torque, fixed displacement
+- high RPM, low torque, fixed displacement
+- high RPM, high torque, variable displacement
+- low RPM, low torque, variable displacement
+E: Both are low speed, high torque, fixed displacement motors.
+
+@301d|Motors|hl
+Q: The main improvement of a geroller over a gerotor motor is:
++ roller lobes for less friction and wear
+- it is variable displacement
+- it runs at much higher speeds
+- it doesn't need a case drain
+E: Geroller = gerotor with roller lobes (better wear, less friction) and a disc valve instead of a spool valve.
+
+@301d|Motors|hl
+Q: Vane motors need springs behind the vanes because:
++ nothing else holds the vanes out at start-up
+- the vanes are bevelled at the tip
+- the motor is balanced, so it has no side load
+- the cam ring is circular, not elliptical
+E: Without springs, the vanes wouldn't contact the cam ring at start-up and the motor wouldn't develop torque.
+
+@301d|Motors|hl
+Q: Which type of hydraulic motor is the most efficient and produces the highest RPM and torque?
++ Piston motor
+- Vane motor
+- Gear motor
+- Gerotor motor
+E: Piston motors are the most efficient with the highest RPM and torque. Most are fixed displacement.
+
+@301d|Motors|hl
+Q: Axial piston motors are usually made with an odd number of pistons to:
++ reduce pulsation
+- allow reversing
+- increase displacement
+- balance the swash plate
+E: An odd number of pistons smooths the output and reduces pulsation.
+
+@301d|Motors|hl ct
+Q: Why can the swash plate of a variable axial piston motor never be set flat (perpendicular)?
++ It would freewheel and make no torque
+- The motor would overspeed and fail
+- The case drain would be blocked off
+- The motor would reverse its direction
+E: Zero displacement means no torque arm, so the motor can't develop torque and would freewheel/stall.
+
+@301d|Motors|hl
+Q: A pressure compensated variable displacement motor:
++ changes displacement automatically with load
+- keeps a constant speed regardless of flow
+- needs no case drain to the reservoir
+- can only run in one direction
+E: The displacement is automatically controlled as the load (pressure) changes.
+
+@301d|Motors|hl
+Q: In a bent axis piston motor, increasing the angle between the block and the driveshaft will:
++ slow the motor and increase torque
+- speed up the motor and reduce torque
+- have no effect on speed
+- reverse its rotation
+E: Greater angle = more displacement = slower rotation, more torque.
+
+@301d|Motors|hl
+Q: Radial piston motors are generally:
++ low RPM, high torque motors
+- high RPM, low torque motors
+- the least efficient motor type
+- used only as pumps
+E: Both crankshaft and cam types are low RPM, high torque, and balanced.
+
+@301d|Motors|
+Q: In a crankshaft type radial piston motor:
++ the pistons push on an eccentric, turning the shaft
+- the pistons ride on followers around the inside of a cam
+- the pistons slide on a swash plate
+- oil is supplied through the shaft centre only
+E: Crankshaft type uses an eccentric lobe. Cam type pistons ride on followers around an internal cam with ramps.
+
+@301d|Motors|hl
+Q: Hydraulic motors require a case drain in order to:
++ return leakage oil to the tank
+- supply oil to the motor inlet
+- relieve pressure spikes in the loop
+- cool the motor outlet line
+E: The highlighted note: motors require a case drain to return leakage oil to the reservoir.
+
+@301e|Cylinder service|hl
+Q: Internal leakage in a cylinder can often be detected because it:
++ creates heat during movement
+- makes the rod pit
+- causes external leaks at the gland
+- shortens the cylinder's stroke
+E: Oil bypassing the piston generates heat, which shows up on a temperature check.
+
+@301e|Cylinder service|hl ct
+Q: To test a cylinder for internal leakage, the technician should:
++ stall it and check for flow at the return port
+- remove the rod and check the seals visually
+- measure the pressure at the pump outlet
+- time the cylinder with the engine at low idle
+E: With the cylinder stalled, very little oil should come from the opposite (return) port.
+
+@301e|Cylinder service|hl safe
+Q: When removing a piston from a cylinder barrel, you should never:
++ use compressed air to force the piston out
+- remove the rod end cap first
+- support the rod with a lifting device
+- drain the oil before disassembly
+E: Compressed air can launch the piston and rod. Remove the rod end cap and pull it out properly.
+
+@301e|Cylinder service|hl
+Q: The most accurate way to check a cylinder rod for straightness is to:
++ rotate it on V-blocks with a dial indicator
+- lay a straightedge along it
+- roll it on a flat bench
+- measure its diameter with a micrometer
+E: A straightedge is a quick check; V-blocks and a dial indicator are more accurate.
+
+@301e|Cylinder service|hl
+Q: To make new cylinder seals easier to install, they may be:
++ soaked in warm water or oil
+- heated with a torch until soft
+- frozen in dry ice to shrink them
+- coated with grease and RTV
+E: Soak seals in warm water or oil, then apply a light coat of oil so they slide into place.
+
+@301e|Cylinder service|hl
+Q: During cylinder assembly, why must the piston retaining fastener be torqued to spec?
++ A loose piston can come off and wreck the cylinder
+- Over-torque prevents pressure intensification
+- It sets the end-of-stroke cushion clearance
+- It preloads the rod wiper seal
+E: Highlighted: ensure the piston retaining fastener is torqued. A piston coming off can be catastrophic.
+
+@301e|Cylinder service|hl safe
+Q: After rebuilding a cylinder, it should be tested using:
++ pressurized oil, never compressed air
+- compressed air at shop pressure
+- nitrogen at low pressure
+- water to check for leaks
+E: Air compresses, builds up and can suddenly jerk the rod out. Oil moves the rod smoothly.
+
+@301e|Cylinder service|hl
+Q: The final operational test after cylinder repair is to check:
++ cycle times
+- case drain flow
+- rod straightness
+- pump inlet pressure
+E: Highlighted: the final operation test involves checking cycle times.
+
+@301e|Motor service|hl fail
+Q: Motor cavitation (pitting) is most likely when:
++ the load overruns the motor
+- the case drain is plumbed to the top
+- the system relief is set too low
+- the motor is pre-lubed before start-up
+E: When the load overruns the motor, the motor turns faster than the pump can supply oil, pressure falls and cavitation pits the internals.
+
+@301e|Motor service|hl
+Q: Before starting a newly installed hydraulic motor, the technician should:
++ pre-lubricate it so it is flooded with oil
+- run it dry for a few seconds to seat the parts
+- set the relief valve to maximum
+- disconnect the case drain line
+E: Pre-lube so it is full of oil, back off controls, then slowly apply pressure and check for leaks.
+
+@301e|Motor service|hl safe
+Q: During start-up after a motor repair, you notice a small leak and a new noise. You should:
++ shut down and not operate it until the cause is found
+- keep running it to see if the leak seals itself
+- raise the relief pressure to seat the seals
+- run at high idle to purge air
+E: Highlighted: do not operate if there are any leaks or unusual noises.
+
+@301e|Motor service|hl
+Q: Why should mated parts (gears, pistons) be marked when a motor is disassembled?
++ So they can go back in their original positions
+- So the warranty can be voided
+- To show which parts need replacement
+- To identify the direction of rotation only
+E: Mark motor housings and mated components and return them to their original positions.

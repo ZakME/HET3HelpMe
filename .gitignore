@@ -1,0 +1,11 @@
+# private / local only
+txt/
+source_doc/
+src/
+powertrain-quiz.html
+.claude/
+tools/apply_edits.py
+tools/debias.py
+tools/debias2.txt
+tools/edits/
+__pycache__/

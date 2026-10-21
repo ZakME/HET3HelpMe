@@ -1,0 +1,327 @@
+@303h|Obj 1|
+Q: Undercarriage maintenance can account for up to what share of a tracked machine's total maintenance costs?
++ About 50%
+- About 10%
+- About 25%
+- About 80%
+E: The guide states it can be upwards of 50%, which is why early detection of undercarriage problems is a priority.
+
+@303h|Obj 1|
+Q: For a machine working mostly on blast rock or hard ground, the best track pad choice is:
++ narrow pads, for traction and less wear
+- wide pads, for maximum flotation
+- multi-grouser low-profile pads, for grip
+- rubber pads, to protect the surface
+E: Narrow pads concentrate ground pressure for traction on hard surfaces and cause less twisting stress on the chain.
+
+@303h|Obj 1|
+Q: Why do wide track pads cause extra undercarriage wear on hard surfaces?
++ They increase chain twisting against the rollers
+- They raise ground pressure too high on rock
+- They make the sprocket run out of pitch
+- They prevent the track from oscillating
+E: On hard ground the wide pad levers and twists the chain, which wears the links and rollers. It also gives less ground pressure per square inch, so less traction.
+
+@303h|Obj 1|
+Q: Which combination gives an undercarriage the GREATEST load-carrying ability?
++ A long track frame and wide pads
+- A short track frame and wide pads
+- A long track frame and narrow pads
+- A short track frame and narrow pads
+E: Wider pads = more flotation = more load capacity, and a longer frame supports more load.
+
+@303h|Obj 1|
+Q: When wider pads are fitted to increase machine stability, what changes about the track frame?
++ It's mounted further out. The frame design is the same.
+- A different, heavier track frame design is required
+- The track frame is lengthened to spread the load
+- The frame is moved forward under the blade
+E: The frame design is the same for narrow or wide pads. Only the distance from the side of the machine changes, which widens the stance.
+
+@303h|Obj 1|
+Q: How does a track-type loader's track frame differ from a dozer's?
++ Loader: forward and rigid. Dozer: rearward and oscillating.
+- Loader: oscillating. Dozer: rigid.
+- Both rigid, but the loader frame is longer
+- Loader: rearward, to counterweight the bucket
+E: The loader needs forward stability while lifting and must not tip sideways (rigid). The dozer carries less load up front, and its oscillating frames give traction and ride comfort.
+
+@303h|Obj 2|
+Q: Which additional component does an oscillating (swing) track frame require?
++ An equalizer bar
+- A bogie roller
+- A carrier roller
+- A recoil cylinder
+E: The equalizer bar (pivot shaft or hard bar) supports the front of the machine and lets the frames move independently.
+
+@303h|Obj 2|
+Q: Why is the equalizer bar pin often neglected and prone to premature wear?
++ Its remote location hides leaks and plugged grease lines
+- It is a sealed, lifetime-lubricated joint that can't be serviced
+- It carries no load, so it's left off the PM schedule
+- It is replaced every time the track is split
+E: Its hard-to-reach location means lubrication failures go unnoticed. The pin and bushings then wear, and repair often requires removing the bar (more downtime).
+
+@303h|Obj 2|
+Q: On a LOW drive oscillating track frame, where is the frame pivot point?
++ At the rear, in line with the final drive
+- Closer to the centre of the machine
+- At the front idler yoke
+- On the equalizer bar centre pin
+E: Low drive: the pivot is at the rear, in line with the final drive. High drive: the pivot is closer to the centre of the machine.
+
+@303h|Obj 2|
+Q: Why is a rigid track frame used on excavators, cranes and draglines instead of an oscillating frame?
++ A load swung across the machine would make it tilt
+- Rigid frames give a smoother ride while travelling
+- Rigid frames reduce track and roller wear
+- Oscillating frames can't support the machine weight
+E: Machines that swing a load across their axis need a stable base. The trade-off is a rougher ride.
+
+@303h|Obj 2|
+Q: Each section of a track chain is made up of:
++ two side links, one pin and one bushing
+- one link, two pins and one bushing
+- two side links and two pins
+- one link, one pin, one bushing and one shoe bolt
+E: Two track (side) links with a pin and a bushing, both pressed into the links.
+
+@303h|Obj 2|
+Q: A master pin in a track chain is often identified by:
++ a small dimple in the end of the pin
+- a plug and stopper in the pin end
+- a paint mark on the link
+- a larger outside diameter along the full length
+E: The master pin usually has a dimple (other pins are flat on the ends), though some have one end larger than the other. A stopper and plug identifies a LUBRICATED pin.
+
+@303h|Obj 2|
+Q: Tracks that use a master link with a master PIN have what type of track pins?
++ Non-lubricated
+- Sealed and lubricated (SALT)
+- Grease-lubricated through a fitting
+- Either type, depending on design
+E: The guide says master pin tracks have non-lubricated pins. Split master link tracks may have either type.
+
+@303h|Obj 2|
+Q: Before joining a split master link, what must be done to the mating surfaces?
++ Clean off all paint and debris
+- Coat them with anti-seize
+- Apply thread locker to the serrations
+- Install a shim pack between the halves
+E: Clean, paint-free mating surfaces (coarse or fine tooth). The bolts are fine thread and must be properly torqued.
+
+@303h|Obj 2|
+Q: How can you tell a sealed and lubricated track (SALT) from a non-lubricated track?
++ A stopper and plug in the end of the pins
+- A dimple in the end of each pin
+- Grease fittings on each track link
+- Bushings that are visibly rotated
+E: Lubricated pins have a stopper and plug in the pin end (where they were filled).
+
+@303h|Obj 2|ct
+Q: A SALT track starts making a loud snapping or squeaking sound at certain joints during travel. What is the most likely cause?
++ Those joints have lost their lubricant
+- Track tension is too loose and slapping
+- The carrier rollers are seized
+- The track shoe bolts are loose
+E: When lubricated joints lose their oil, the dry pin and bushing contact causes a loud snapping sound, and internal wear speeds up.
+
+@303h|Obj 2|
+Q: Which track shoe is typically used on a track-type loader to avoid tearing up the ground?
++ A multi-grouser pad with low grousers
+- A single grouser pad with a high grouser
+- An ice-lugged single grouser pad
+- A flat pad with no grousers
+E: Multi-grouser low-profile pads give traction without digging in as hard as a single grouser.
+
+@303h|Obj 2|
+Q: Which sprocket design can be replaced WITHOUT splitting the track?
++ Segmented, bolt-on sprocket
+- One-piece weld-on sprocket
+- One-piece bolt-on sprocket
+- None. All sprockets need the track split.
+E: Segments can be changed by rotating the sprocket so each segment becomes accessible. One-piece sprockets need the track split and removed.
+
+@303h|Obj 2|
+Q: What is a disadvantage of a LOW (conventional) drive crawler compared to a high drive?
++ The final drive can be shock loaded by rocks
+- It has more internal pin and bushing wear from extra pivot points
+- It needs both front and rear idlers
+- It cannot use an oscillating frame
+E: On a low drive, the sprocket and final drive are in the shock path. A high drive keeps the final drive up out of harm's way.
+
+@303h|Obj 2|
+Q: What is a disadvantage of the HIGH drive undercarriage?
++ More internal pin and bushing wear
+- The final drive is exposed to shock loads from rocks
+- The sprocket must be welded on
+- It cannot be used with bogie rollers
+E: The elevated sprocket adds extra direction changes (pivot points) in the chain, which increases internal pin and bushing wear. High drives also need front and rear idlers.
+
+@303h|Obj 2|
+Q: Why should undercarriage components be replaced together rather than mixing new and used parts?
++ Mixing them wears the new parts faster
+- New parts can't be installed on a used track frame
+- It is required for warranty only
+- Used parts are a different pitch size
+E: Mismatched wear (e.g., a new sprocket on a stretched chain) causes poor fit and speeds up wear on the new parts.
+
+@303h|Obj 2|
+Q: Carrier (pedestal) rollers are used to:
++ support the weight of the upper track chain
+- support the weight of the machine on the track chain
+- guide the track into the sprocket
+- absorb recoil shock from the idler
+E: Carrier rollers are on top of the track frame and hold up the chain. Track rollers (bottom) support the machine weight.
+
+@303h|Obj 2|
+Q: On a high drive machine with no carrier roller, where is the straightedge placed to check track tension?
++ Between the front idler and the final drive sprocket
+- Across two bottom track rollers
+- Across the equalizer bar and track frame
+- From the rear idler to the ground
+E: Double carrier rollers: straightedge across them. High drive: across the sprocket and carrier roller, or idler to sprocket if there is no carrier roller.
+
+@303h|Obj 2|
+Q: Why is a SINGLE flange track roller commonly placed right after the idler (and in front of the sprocket or rear idler)?
++ To give the track room to align with the other rollers
+- Single flange rollers carry more of the machine's load
+- To reduce cost at the least-loaded positions
+- To prevent the track from jumping the idler
+E: The single flange gives the chain room to line up as it enters and leaves. Rollers are usually staggered single and double flange to keep the track centred.
+
+@303h|Obj 2|
+Q: On a conventional rigid track roller frame, rough terrain shock loads commonly cause:
++ track roller mounting bolts to shear off
+- carrier rollers to over-tighten the track
+- equalizer bar bushings to seize
+- idler grease to over-pressurize
+E: A sheared roller bolt can let the roller fall off or jam in another roller or the sprocket.
+
+@303h|Obj 2|
+Q: What is the advantage of bogie-style track rollers?
++ They pivot independently for better ride and traction
+- They eliminate the need for a recoil spring
+- They are cheaper to maintain than fixed rollers
+- They allow the track to run looser without de-tracking
+E: With a conventional frame, ground contact is limited to the object being crossed. Bogies conform to the terrain.
+
+@303h|Obj 2|
+Q: Which statement about Duo-Cone seals is correct?
++ The O-ring both seals and loads the faces
+- The faces should be greased during assembly
+- The O-ring only seals. A spring loads the faces.
+- Used seal faces are dull and safe to handle
+E: The O-ring (toric ring) seals and, when compressed, puts pressure on the faces. The faces are precision lapped and easily damaged, and used faces can be razor sharp.
+
+@303h|Obj 2|
+Q: What is the MAIN function of the track idler?
++ To let the chain change direction gradually
+- To drive the track chain
+- To support the upper track chain
+- To set track tension and recoil
+E: The idler gives a gradual change of direction. Along with the recoil mechanism and track tension, it also helps absorb shock.
+
+@303h|Obj 2|
+Q: In a typical grease cylinder and coil spring track adjuster, what does each part do?
++ The grease cylinder adjusts track tension. The spring absorbs recoil shock.
+- The spring adjusts tension. The grease cylinder absorbs shock.
+- Both adjust tension
+- The grease cylinder absorbs shock and the spring retracts the idler
+E: Pump grease in to push the idler forward (tighter). Release grease to loosen. The heavy spring is the recoil portion.
+
+@303h|Obj 2|ct
+Q: What happens to the track when grease is added to a grease cylinder and coil spring track adjuster?
++ The idler moves forward and the track tightens
+- The idler moves rearward and the track loosens
+- The recoil spring is released
+- Nothing until the engine is started
+E: Grease pushes the idler forward = tighter. Caution: the grease is under high pressure and the spring is under very high tension.
+
+@303h|Obj 3/4|
+Q: Rollers, idlers and sprockets are all worn on ONE side of the machine. What is the most likely reason?
++ The machine does a lot of side hill work
+- Track tension too loose on that side
+- Excessive reverse travel
+- Track chain installed backward
+E: One-sided wear across all components suggests side hill operation. Knowing the operating conditions is key to wear analysis.
+
+@303h|Obj 3/4|
+Q: Excessive wear on the idler and front track rollers most likely indicates:
++ a front idler alignment problem
+- frequent side hill operation
+- an overly tight track
+- worn sprocket teeth
+E: The guide links idler and front roller wear to idler alignment. Remember that track frames can also bend and twist.
+
+@303h|Obj 3/4|
+Q: Which of the following does NOT increase track chain wear according to the learning guide?
++ Operating at slow forward speeds
+- Incorrect track tension
+- Excessive reverse travel
+- Mixing new and used components
+E: The listed factors are incorrect tension, excessive reverse, excessive high speed travel, mixing new and used parts, and tracks installed in reverse.
+
+@303h|Obj 3/4|
+Q: What happens if a track chain is installed in reverse?
++ More internal pin/bushing wear and more sprocket-bushing wear
+- Nothing. Track chains are symmetrical.
+- Faster carrier roller and idler wear only
+- The track won't engage the sprocket teeth at all
+E: A reversed chain increases internal wear between the pin and bushing, as well as bushing wear where it contacts the sprocket.
+
+@303h|Obj 3/4|ct
+Q: Why is it important to have track chain wear measured regularly?
++ To turn pins and bushings before the bushings wear through
+- To decide when to change the final drive oil
+- To set the recoil spring preload for the season
+- Because wear measurements set the engine derate
+E: If bushings wear through, you lose the chance to turn them and both pins and bushings become scrap.
+
+@303h|Obj 3/4|ct gk
+Q: What is a likely effect of running a crawler with its tracks adjusted too TIGHT?
++ Faster pin, bushing and sprocket wear, and lost power
+- The track jumping off the idler when turning
+- Reduced sprocket wear from a firmer mesh
+- Better fuel economy from less track slap
+E: Over-tension adds load on every joint and the sprocket, which raises friction and wear and robs power. Too loose can cause de-tracking and whipping. (General knowledge + guide.)
+
+@303h|Obj 3/4|ct gk
+Q: You need to loosen a track on a grease-type adjuster. What is the correct safe practice?
++ Open the relief valve slowly, a little at a time, staying clear of it
+- Remove the grease fitting completely to let grease out quickly
+- Cut the recoil spring retaining bolts to relieve tension
+- Heat the cylinder so the grease flows out faster
+E: The grease is under very high pressure and the spring stores enormous energy. Follow the OEM procedure. (General knowledge, consistent with the guide's caution.)
+
+@303h|Obj 5|
+Q: When track pins and bushings are "turned", they are:
++ pressed out, rotated 180 degrees and pressed back in
+- machined to a smaller diameter and reinstalled
+- swapped from the left track to the right track
+- replaced with oversize pins and bushings
+E: Turning gives the sprocket a fresh bushing surface to work on. If they are worn past reuse, new pins and bushings can be installed.
+
+@303h|Obj 5|
+Q: What part of a track pad usually wears out first, and how is it restored?
++ The grouser. Cut it off and weld on new bar.
+- The bolt holes. They are reamed oversize.
+- The pad plate. It is hard-faced to restore it.
+- The pad edges. They are trimmed square.
+E: Worn grousers are cut and new grouser bar is welded in to restore grouser height. Pads can also be moved to another chain if they fit.
+
+@303h|Obj 5|
+Q: How are ice lugs (corks) positioned on track pads for frozen ground?
++ On the grouser above the link, staggered on alternating pads
+- Welded to the outer pad edges only, on every pad
+- Bolted between the grousers on every other pad
+- Welded at the centre of the pad between the links
+E: Directly above the link and staggered on alternating pads. Sometimes two lugs go on one grouser and one on the next.
+
+@303h|Obj 5|
+Q: Before rebuilding the outer tread of a sealed drum-style idler by welding, what must be done?
++ Drill a vent hole in it
+- Fill it with water to absorb heat
+- Fill it with oil to protect the bearings
+- Pressurize it with nitrogen
+E: Sealed idlers can build internal pressure when heated. The air hole is a key safety precaution.

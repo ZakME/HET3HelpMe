@@ -1,0 +1,551 @@
+@303j|Obj 1|
+Q: Which of these is NOT a function of an off-road drive axle?
++ Allowing speed differences between the front and rear axles
+- Supporting the gross vehicle weight
+- Turning the path of power 90 degrees to the wheel ends
+- Providing a final gear reduction
+E: Front-to-rear speed differences are handled by an INTERAXLE differential (in a transfer case). The drive axle supports weight, turns power 90 degrees, reduces, provides side-to-side differential action, and adds stability.
+
+@303j|Obj 1|
+Q: What is the Gross Axle Weight Rating (GAWR)?
++ The rated maximum load that a unit should carry on that axle
+- The maximum torque the axle can transmit
+- The weight of the axle assembly itself
+- The combined weight of all axles and the load
+E: GAWR is the maximum load per axle. All the GAWRs added together = GVW. GAWR has no relation to the torque or speed the machine develops.
+
+@303j|Obj 1|
+Q: Gross Vehicle Weight (GVW) is determined by:
++ adding together the GAWRs of all the axles
+- multiplying the GAWR by the number of tires
+- the machine's weight with no load
+- the engine torque multiplied by the final drive ratio
+E: The sum of the axle ratings = the maximum weight rating for the unit's design and application.
+
+@303j|Obj 1|
+Q: What is the correct path of power through a single reduction differential?
++ Pinion → ring gear → case → cross shafts → diff pinions → side gears → axles
+- Pinion → diff pinions → ring gear → case → cross shafts → side gears → axles
+- Ring gear → pinion → case → side gears → cross shafts → diff pinions → axles
+- Pinion → ring gear → side gears → diff pinions → cross shafts → case → axles
+E: Pinion to ring gear, ring gear to case, case to cross shafts (spider), cross shafts to differential pinions, pinions to side gears, side gears to axles, axles to wheels.
+
+@303j|Obj 1|
+Q: Inside a drive axle carrier, what do the pinion/bevel gear set and the differential section each do?
++ Pinion/bevel: 90° turn and reduction. Differential: cornering, equal torque.
+- Pinion/bevel: cornering action. Differential: 90° turn and reduction.
+- Both provide the 90° turn, and the differential also reduces
+- Pinion/bevel: torque equalization. Differential: reduction.
+E: These are two very different sections with different jobs.
+
+@303j|Obj 1|
+Q: Why can a full floating axle carry heavier loads than a semi-floating axle?
++ The hub rides on two bearings on the spindle, so the shaft carries no weight
+- The axle shaft is larger in diameter and heat treated
+- The axle is held in by a C-clip at the differential
+- The axle is supported by one large bearing at the wheel end
+E: With a full floating axle, the housing, spindle and hub bearings carry the weight, and the shaft only transmits torque.
+
+@303j|Obj 1|
+Q: What caution applies when pulling full floating axle shafts?
++ Chock the wheels, since the machine could roll freely
+- Raise the machine off the ground first to unload the shafts
+- Remove the wheel and tire first to reach the shaft
+- Release the parking brake to unload the axles
+E: The shafts can come out without lifting the machine or removing the wheels. But with the axle out, the drive and brakes may not hold the machine, so chock it.
+
+@303j|Obj 1|
+Q: How are semi-floating axles typically retained?
++ By a C-clip or an outer clamping arrangement
+- By the two wheel hub bearings
+- By the planetary carrier splines
+- By the differential lock collar
+E: A semi-floating shaft carries the weight on one bearing at its outer end and is held by a C-clip or a clamp.
+
+@303j|Obj 1|
+Q: Why does an axle with an INBOARD planetary need larger axle shafts than one with an outboard planetary?
++ The shaft carries torque after the major reduction
+- Inboard planetaries spin the shaft faster
+- The axle shaft also supports the wheel weight
+- Inboard planetaries need the shaft as a reaction member
+E: Torque is multiplied before the shaft, so the shaft must be larger. Outboard hubs do the big reduction at the wheel, so the shafts can be smaller.
+
+@303j|Obj 1|
+Q: Why is the outboard planetary drive axle the most common setup in heavy equipment?
++ Lighter shafts and parts can be used, keeping weight and cost down
+- It eliminates the need for a differential
+- It provides a higher top speed on haul roads
+- Its hubs don't need separate lubrication
+E: Reduction at the wheel means only differential-level torque goes through the shaft.
+
+@303j|Obj 1|
+Q: A drive axle has a 3:1 pinion and bevel gear and an outboard DOUBLE reduction planetary with two 4:1 stages. What is the total reduction?
++ 48:1
+- 11:1
+- 24:1
+- 12:1
+E: Multiply: 3 x 4 x 4 = 48:1. The input turns 48 times for one wheel revolution.
+
+@303j|Obj 1|
+Q: Some carriers have a lube pump. How is it typically driven?
++ By a gear attached to the differential case
+- By the engine accessory drive
+- By a small electric motor
+- By the wheel hub planetary
+E: Pump driven by a gear on the differential case (carrier). This ensures all bearings get pressure lube. Some units use an external pump.
+
+@303j|Obj 1|
+Q: What is the purpose of a bevel gear thrust support (thrust screw) in a carrier?
++ To stop the bevel gear deflecting away from the pinion
+- To set pinion bearing preload under load
+- To adjust ring gear backlash
+- To lock the differential in soft ground
+E: Under high starting torque or in soft ground, the bevel gear wants to deflect away from the pinion. The thrust block or screw limits that.
+
+@303j|Obj 2|
+Q: Why are drive axle housings often cast as a single piece?
++ It is much stronger than a built-up housing
+- It is cheaper to replace
+- It allows the differential to be removed from either side
+- It reduces oil capacity
+E: A one-piece housing is molded or cast and then machined, which gives better strength to carry the GVW.
+
+@303j|Obj 2|
+Q: What is the main advantage of a REMOVABLE differential carrier over an integral carrier housing?
++ It can be removed as a unit, reducing downtime
+- It is lighter than an integral housing
+- It doesn't need bearing preload
+- It allows a higher gear ratio
+E: An integral carrier housing takes more time to remove and repair.
+
+@303j|Obj 2|
+Q: How is pinion bearing preload set and maintained?
++ With a select spacer or crush sleeve, plus yoke nut torque
+- With shims between the bevel gear and the case
+- By adjusting the side bearing adjusting rings
+- With the thrust screw and jam nut
+E: Preload keeps the bearings turning properly and the pinion aligned. A select spacer or crush sleeve combined with yoke nut torque sets it.
+
+@303j|Obj 2|
+Q: How does a straddle mount drive pinion differ from an overhung pinion?
++ It adds a pilot bearing on the far side of the gear
+- It has only one tapered bearing, behind the gear
+- Its bearings are both in front of the gear teeth
+- It is used only in light-duty axles
+E: The overhung pinion has both tapered bearings behind the gear, so it deflects under extreme torque. The straddle mount adds a pilot (roller or ball) bearing on the other side.
+
+@303j|Obj 2|
+Q: A gear set with the drive pinion ABOVE the bevel gear centreline is called:
++ amboid. Used off-road for ground clearance.
+- hypoid. Used off-road for ground clearance.
+- spiral bevel. Used on highway trucks.
+- centreline. Used in low profile forklifts.
+E: Amboid = pinion above the centreline (more clearance). Hypoid = pinion below the centreline (lower vehicles, mostly on-road).
+
+@303j|Obj 2|
+Q: A gear set with the drive pinion BELOW the bevel gear centreline is called a:
++ hypoid. Most common on-road, to keep vehicles low.
+- amboid. Most common on-road, to keep vehicles low.
+- straddle. Most common off-road, for pinion support.
+- centreline. Most common in haul trucks.
+E: Hypoid = below centreline. It lets on-road vehicles sit lower to the ground.
+
+@303j|Obj 2|
+Q: Centreline pinion mounting is common on machines with restricted height and ground clearance, such as:
++ an all-terrain forklift
+- a large haul truck
+- a motor grader
+- a wheel loader
+E: That is the example given in the guide.
+
+@303j|Obj 2|
+Q: Why can off-road equipment often have just the pinion OR just the bevel gear replaced, instead of a matched set?
++ Low operating speeds, and very expensive parts
+- Off-road gear sets are not lapped at the factory
+- Off-road gears have no etched set numbers
+- Matched sets aren't available for off-road equipment
+E: The focus off-road is downtime and repair cost. On-road gear sets should be replaced as a matched (etched) set.
+
+@303j|Obj 2|
+Q: What does the pinion etch number refer to?
++ A change from the nominal dimension
+- The gear ratio of the set
+- The recommended backlash setting
+- The heat treatment code
+E: Tooth combination = pinion and crown tooth counts. Etch number = deviation from nominal. There may also be a separate number stating the optimal backlash.
+
+@303j|Obj 2|
+Q: What happens if the bevel gear thrust screw is adjusted too TIGHT?
++ It rubs the bevel gear, causing heat and metal debris
+- The bevel gear deflects away from the pinion
+- Backlash increases as the gear is pushed over
+- Side bearing preload drops to zero
+E: Too tight = rubbing, heat and metal particles. Too loose = the bevel gear can deflect away from the pinion and overstress the teeth. Lock it with the jam nut.
+
+@303j|Obj 2|
+Q: What do the differential side bearing adjusting rings do?
++ Set side bearing preload and backlash
+- Set pinion depth and pinion bearing preload
+- Set pinion bearing preload and yoke position
+- Hold the spider gears and cross shafts in position
+E: The rings move the case and bevel gear side to side (backlash) and squeeze the side bearings (preload).
+
+@303j|Obj 2|
+Q: Why is backlash required between the pinion and bevel gear?
++ For heat expansion and lubrication
+- To let the differential pinions walk during turns
+- To reduce gear ratio under load
+- To allow the axle to float
+E: Zero backlash would bind as the gears heat and expand, and it would squeeze out the oil film.
+
+@303j|Obj 2|
+Q: A matched set of differential pinion (spider) gears and side gears is sometimes called a:
++ nest kit
+- gear cluster
+- crown set
+- spider pack
+E: Don't confuse the differential pinions (spiders) with the input drive pinion.
+
+@303j|Obj 2|
+Q: In the differential case, what is the purpose of the thrust washers behind the differential pinions and side gears?
++ To absorb thrust load and provide a wear surface
+- To set backlash between the pinion and ring gear
+- To lock the differential
+- To set side bearing preload
+E: The thrust washers take the gear thrust loads and are a replaceable wear surface.
+
+@303j|Obj 3|
+Q: A drive pinion has 6 teeth and the bevel gear has 39 teeth. What is the ratio?
++ 6.5:1
+- 0.15:1
+- 33:1
+- 4.5:1
+E: Driven / drive = 39 / 6 = 6.5:1.
+
+@303j|Obj 3|
+Q: A machine needs 1000 lb-ft at the differential to move, although the driveline can deliver 2500 lb-ft. How much torque does each drive wheel receive?
++ 500 lb-ft
+- 1250 lb-ft
+- 1000 lb-ft
+- 2500 lb-ft
+E: Only the torque needed to move the load is delivered (1000 lb-ft), and the differential splits it equally: 500 each.
+
+@303j|Obj 3|ct
+Q: One wheel is on ice and spins with only 150 lb-ft. The other wheel is on dry ground. How much total torque is delivered to the differential?
++ 300 lb-ft
+- 150 lb-ft
+- The full engine torque
+- Zero
+E: Torque is always equal on both sides of an open differential. The wheel with the least traction sets the limit: 150 + 150 = 300 lb-ft. That is often not enough to move the machine.
+
+@303j|Obj 3|
+Q: The differential case turns at 100 rpm. In a turn, the inside wheel slows to 80 rpm. What is the outside wheel speed?
++ 120 rpm
+- 100 rpm
+- 180 rpm
+- 80 rpm
+E: Speed lost on one side is gained on the other: 100 - 20 = 80 inside, 100 + 20 = 120 outside. Case speed = the average of the two sides.
+
+@303j|Obj 3|ct
+Q: One wheel is completely stopped (stuck) and the other spins. The differential case turns at 200 rpm. How fast does the spinning wheel's side gear turn?
++ 400 rpm
+- 200 rpm
+- 100 rpm
+- 0 rpm
+E: The average of the two sides = case speed. (0 + x) / 2 = 200, so x = 400. This is twice the input. That's why prolonged wheel spin can starve the gears and thrust washers of lube and destroy them.
+
+@303j|Obj 3|
+Q: What happens inside the differential when a machine turns?
++ The pinions walk around the slowed inner side gear, speeding up the outer
+- The differential pinions stop rotating on their shafts
+- Both side gears slow down equally with the case
+- Torque increases on the outer wheel to push the turn
+E: The pinions rotate on their shafts and revolve with the case. Speed is redistributed, with no effect on torque.
+
+@303j|Obj 3|
+Q: Without a differential on a drive axle, a machine turning would:
++ scuff tires and resist turning
+- turn more sharply and easily
+- deliver more torque to the outer wheel
+- experience no difference on hard ground
+E: Differentials extend tire life and make turns easier by allowing the outer wheel to turn faster than the inner wheel.
+
+@303j|Obj 4|
+Q: A basic transfer case (drop box) is used to:
++ drop power below the engine and split it equally, no reduction
+- provide two speed ranges with a shift collar
+- allow speed differences between front and rear axles
+- split torque unevenly, 40/60 front to rear
+E: The basic drop box just changes the plane of power flow and splits it.
+
+@303j|Obj 4|
+Q: What is the purpose of an interaxle differential in a transfer case?
++ To allow speed differences between the front and rear axle assemblies
+- To allow speed differences between the left and right wheels
+- To provide a gear reduction
+- To lock the front axle
+E: Turning, uneven terrain and slippery conditions cause front-to-rear speed differences, and the interaxle differential accommodates them.
+
+@303j|Obj 4|
+Q: When must a differential lock NEVER be engaged?
++ While the wheels are spinning
+- When the machine is stopped
+- In soft or muddy conditions
+- At low ground speed
+E: Engaging a lock (especially a jaw clutch) while a wheel is spinning can cause catastrophic failure. Engage it before you need it, at low speed with no wheel spin.
+
+@303j|Obj 4|
+Q: Which transfer case style divides output torque UNEVENLY between the front and rear (e.g., 40% front, 60% rear)?
++ Planetary style transfer case
+- Basic drop box
+- Two speed transfer case with a shift collar
+- Spur gear transfer case with a lockup
+E: A planetary interaxle can be designed to split torque unequally.
+
+@303j|Obj 4|
+Q: In a two speed transfer case, how are the two ratios selected?
++ A shift collar locks one gear set to the input shaft
+- A planetary ring gear brake band
+- A hydraulic clutch pack in the drop gear
+- By reversing the drive shaft rotation
+E: The shift collar selects one of the two gear sets. Two speed transfer cases also include an interaxle differential.
+
+@303j|Obj 4|
+Q: When a jaw-type differential lock is engaged, the shift collar splined to the axle shaft locks to the:
++ differential case
+- differential carrier housing
+- axle housing
+- input pinion
+E: The guide corrects the ILM here. The carrier is bolted to the housing and doesn't rotate. The collar engages teeth on the rotating differential CASE, which locks the axle to the case and eliminates differential action.
+
+@303j|Obj 4|
+Q: With the differential lock engaged, what determines how much torque is delivered through the driveline?
++ The wheel with the greatest traction
+- The wheel with the least traction
+- Torque is always split 50/50
+- The transmission gear selected only
+E: Locked = equal speed, but no longer equal torque. The wheel with traction can take as much torque as it can hold.
+
+@303j|Obj 4|
+Q: Which are the two most common differential lock designs used off-road?
++ Jaw (dog) clutch and plate-and-disc clutch
+- Limited slip cones and viscous couplings
+- Torsen and spool
+- Sprag and roller clutch
+E: Jaw clutch = a toothed collar meshing with the case. Plate-and-disc = hydraulic or air piston clamps discs to lock the case to the axle.
+
+@303j|Obj 5|
+Q: Which is the most common way a differential is lubricated?
++ Splash, from the bevel gear
+- Pressure lubrication from the engine
+- Grease packed bearings
+- Oil mist from the transmission
+E: Splash is most common. Where splash can't reach everything, a pressurized system is used (pump driven by a gear on the carrier/case).
+
+@303j|Obj 5|
+Q: Why must a machine be on level ground when checking differential oil level?
++ On big machines, a slight angle skews the reading a lot
+- Oil can only flow to the bearings when level
+- The breather only works when level
+- The fill plug is sealed when the unit is on an incline
+E: Because of the size of the housings, small angles make big level errors.
+
+@303j|Obj 5|
+Q: Why should drive axle housings be kept clean?
++ So heat can transfer to the air
+- So the breather can be found
+- To make oil sampling easier
+- To prevent rust on the housing
+E: The lubricant carries heat to the housing, and the housing gives it off to the air. Caked mud insulates it.
+
+@303j|Obj 5|
+Q: What is a filter cart used for on large haul trucks?
++ Filtering the axle oil and returning it, instead of changing it
+- Transferring new oil from a drum into the axle
+- Pressure testing the carrier seals and gaskets
+- Flushing out water and sludge with solvent
+E: Changing huge volumes isn't always cost effective. The filter cart cleans the oil and returns it to the carrier.
+
+@303j|Obj 5|
+Q: What is a likely result of using a differential lubricant that is too THIN for the conditions?
++ The oil film breaks down, allowing metal contact
+- It won't adhere to the gears and is thrown off
+- It will plug the breather
+- It will cause foaming of the hydraulic system
+E: Too thin = film breakdown. The guide says too thick may not adhere to the gears properly. Follow the OEM grade for the temperature.
+
+@303j|Obj 6|
+Q: A drive axle is leaking oil at several seals and gaskets at once. Which is the most likely common cause?
++ A plugged housing breather
+- Low oil level
+- Worn spider gears
+- An overfilled planetary hub
+E: When the breather is plugged, heat expansion pressurizes the housing and oil escapes through seals, gaskets or cracks. Check the breather at every service.
+
+@303j|Obj 6|ct
+Q: Besides venting pressure, why does a working breather also protect seals when a machine is shut down?
++ It lets air in as the housing cools, so no vacuum forms
+- It drains condensed water out of the housing
+- It keeps the oil from foaming at speed
+- It supplies air to the lube pump
+E: The breather allows air in and out both ways. A cooling sealed housing creates a vacuum that pulls dirt and water past the lips.
+
+@303j|Obj 6|
+Q: Before road testing a machine for a differential noise complaint, you should:
++ turn the radio off and use a safe test area
+- remove the drive shaft to isolate the axle
+- overfill the differential to quiet the gears
+- disconnect the differential lock system
+E: Operators often miss noises because of the radio. Common causes of noise are bad bearings and worn or misaligned gears.
+
+@303j|Obj 6|
+Q: What does correct driveline phasing mean?
++ Yokes aligned, and equal working angles at each end
+- The driveshaft is balanced to zero runout
+- The front and rear axles have the same ratio
+- Slip yoke splines greased, and the joints timed 90° apart
+E: Out-of-phase yokes or unequal working angles cause vibration and component damage.
+
+@303j|Obj 6|ct
+Q: Right after a driveshaft was removed and reinstalled during a carrier job, the machine has a new driveline vibration. What is the most likely cause?
++ The slip yoke was reassembled out of phase
+- The differential oil level is low
+- Backlash was disturbed when the shaft was removed
+- The axle breather is plugged
+E: Mark the slip joint before separating it. If it's reassembled a spline off, the yokes are out of phase and cause vibration.
+
+@303j|Obj 7|gk
+Q: Before removing a differential carrier from a drive axle housing, which steps are typically required?
++ Chock it, drain the oil, pull the axle shafts, disconnect the driveshaft, support the carrier
+- Remove the wheel hubs and brakes, drain the oil, then lift the carrier out by hand
+- Chock it, drain the oil, remove the planetary hubs, and leave the axle shafts in
+- Drain the oil and disconnect the driveshaft. The shafts slide out with the carrier.
+E: The axle shafts are splined into the side gears and must be withdrawn first. Carriers are heavy, so use rated lifting equipment. (General knowledge. Your PDF for this objective is ILM-only.)
+
+@303j|Obj 8|
+Q: Before removing the differential carrier bearing caps and adjuster rings, you should:
++ mark the caps and count the adjuster ring turns
+- heat the caps so they release from the bores
+- loosen the pinion nut to remove preload
+- set a new backlash value to free the gear
+E: The cap marks keep the caps matched to their bores, and the turn count gives a starting point for preload on reassembly. Also check carrier end play to confirm that preload is present.
+
+@303j|Obj 8|
+Q: What pre-disassembly checks should be recorded on a carrier?
++ Backlash, rotational torque (preload) and tooth contact pattern
+- Oil level, oil temperature and breather condition
+- Axle shaft length and spline count
+- Ring gear tooth count only
+E: These readings let you return reused gears to their original settings.
+
+@303j|Obj 8|ct
+Q: After a carrier overhaul, the new pinion bearings fail quickly from lack of lubrication. Which assembly error fits best?
++ The shim pack was rotated, blocking the oil galleries
+- The thrust screw was set too loose
+- The ring gear was installed with bolts instead of rivets
+- Backlash was set at the tight end of spec
+E: Shim packs often fit in more than one position, and their holes must line up with the oil passages in the cage and housing. If installed wrong, the pinion gets no lube and the bearings burn up.
+
+@303j|Obj 8|
+Q: (Removable pinion bearing cage) The original pinion is etched +0.002 and the new pinion is etched +0.007. What shim change is needed?
++ Add 0.005 in. (pinion moves away from centreline)
+- Remove 0.005 in. (pinion moves toward centreline)
+- Add 0.009 in. (pinion moves away from centreline)
+- No change is needed. Both numbers are positive.
+E: Count from +2 to +7 = 5 increments to the right, so ADD 0.005 to the shim pack. A thicker pack moves the pinion away from the centreline. Decreasing shims moves it closer.
+
+@303j|Obj 8|
+Q: (Removable pinion bearing cage) The original pinion is etched +0.002 and the new pinion is etched -0.003. What shim change is needed?
++ Remove 0.005 in. from the shim pack
+- Add 0.005 in. to the shim pack
+- Remove 0.001 in. from the shim pack
+- Add 0.001 in. to the shim pack
+E: On the +/- scale, counting from +2 to -3 is 5 increments to the LEFT, so subtract 0.005.
+
+@303j|Obj 8|
+Q: Why is the integral pinion bearing mount rarely used in off-road applications?
++ Shim changes require pressing the bearing off
+- It can't be preloaded properly
+- It doesn't support a straddle mount pinion
+- It needs a new crush sleeve every time
+E: With a removable cage, shims are changed between the cage and the housing much more easily.
+
+@303j|Obj 8|
+Q: When inspecting axle shafts during an overhaul, where should you look closely for cracks?
++ Near and between the splines
+- At the centre of the shaft length
+- On the flange bolt holes only
+- At the paint line
+E: Also look for spline wear from the side gears, such as a ridge or a narrowed or sharpened spline, which could cause a future failure.
+
+@303j|Obj 8|
+Q: Example procedure: once all side bearing end play is removed, how is side bearing preload applied?
++ Tighten the adjusting ring opposite the bevel gear 2 to 3 notches
+- Tighten both adjusting rings 1 full turn
+- Loosen the ring on the bevel gear side 2 to 3 notches
+- Torque the bearing caps to spec, since that sets the preload
+E: First zero the end play (dial indicator on the back of the bevel gear, pry side to side), then tighten the ring opposite the bevel gear 2 to 3 notches. Always follow the OEM spec.
+
+@303j|Obj 8|
+Q: To change backlash without changing side bearing preload, you would:
++ loosen one ring N notches, tighten the other N notches
+- tighten only the ring on the bevel gear side
+- add shims behind the pinion cage
+- loosen both rings the same number of notches
+E: Moving the case over while keeping the same total squeeze keeps the preload. For example, loosen the bevel gear side 3 notches and tighten the opposite side 3 notches.
+
+@303j|Obj 8|
+Q: When an original (used) gear set is being reinstalled, it should be set up to:
++ the original recorded settings and pattern
+- new gear set specifications from the manual
+- minimum backlash to reduce noise
+- whatever pattern looks best on the coast side
+E: Worn-in gears run on their established wear pattern. New settings create a new small contact patch, which causes noise and possible tooth fracture. If no records exist, use the manufacturer's specs.
+
+@303j|Obj 8|
+Q: Which side of the bevel gear teeth is painted to check the drive pattern?
++ The convex side (drive side)
+- The concave side (coast side)
+- The heel
+- The toe
+E: The convex side is the drive side, the largest and strongest part, which the pinion loads in normal forward travel. The concave side is the coast side.
+
+@303j|Obj 8|
+Q: Per the learning guide, moving the RING GEAR AWAY from the pinion moves the contact pattern toward the:
++ heel
+- toe
+- face
+- flank
+E: Ring gear away = toward the heel (and more backlash). Ring gear toward the pinion = toward the toe.
+
+@303j|Obj 8|
+Q: Per the learning guide, moving the PINION TOWARD the ring gear moves the contact pattern toward the:
++ flank
+- face
+- heel
+- toe
+E: Pinion toward the ring gear = flank (lower part of the tooth). Pinion away = face (top of the tooth). Pinion position mainly affects face and flank, and backlash (ring gear position) mainly affects heel and toe.
+
+@303j|Obj 8|ct
+Q: The drive side pattern on a new gear set sits high on the FACE of the bevel gear teeth. What is the first correction?
++ Move the pinion toward the ring gear
+- Move the ring gear away from the pinion
+- Move the ring gear toward the pinion
+- Move the pinion away from the ring gear
+E: Face → you need to go toward the flank, so move the pinion IN. Pinion position is done first, and backlash must be checked and corrected every time pinion depth changes.
+
+@303j|Obj 8|
+Q: According to the learning guide, a correct drive side pattern on off-road equipment (under light load) should:
++ start near the toe, a bit over half the tooth length
+- be centred exactly between the heel and toe
+- cover the entire tooth from heel to toe
+- start at the heel and extend to the middle
+E: Under real load, the bevel gear deflects and the pattern spreads toward the heel. That's why a light-load pattern starts nearer the toe.
+
+@303j|Obj 8|
+Q: What must be done every time the pinion depth is adjusted?
++ Backlash must be rechecked
+- The pinion bearings must be replaced
+- The side bearing preload must be reduced
+- The thrust screw must be backed off fully
+E: Moving the pinion changes how it meshes with the ring gear, so backlash changes too.

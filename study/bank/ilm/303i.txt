@@ -1,0 +1,295 @@
+@303i|Obj 1|
+Q: What is the primary function of a final drive?
++ To provide the last speed reduction and torque increase
+- To allow speed differences between left and right wheels
+- To change the path of power 90 degrees to the wheels
+- To disconnect the engine from the drivetrain when stopped
+E: Final drives transfer power to the tires or tracks while reducing speed and increasing torque. They are closed (sealed) systems, so their maintenance is easy to overlook.
+
+@303i|Obj 1|
+Q: Which is the most versatile and most common final drive type in the heavy equipment industry?
++ Planetary
+- Chain and sprocket
+- Spur gear single reduction
+- Worm gear
+E: The guide identifies the planetary final drive as the most common and most versatile.
+
+@303i|Obj 1|
+Q: In the double reduction final drive described in the learning guide (spur gear + planetary), where does the FIRST reduction occur?
++ Between the spur gear and the bull gear
+- Between the drive pinion and the bevel gear
+- In the planetary gear set
+- Between the carrier and the drive hub
+E: Pinion → bevel gear → spur gear → bull gear (first reduction) → bull gear shaft drives the sun → planetary (second reduction) → carrier → drive hub.
+
+@303i|Obj 1|
+Q: In that double reduction final drive, how is the planetary set arranged?
++ Sun input, ring held, carrier output
+- Ring input, sun held, carrier output
+- Carrier input, ring held, sun output
+- Sun input, carrier held, ring output
+E: The sun is the drive member, the ring gear is attached to the housing (held), and the planet carrier drives the hub. This is a maximum reduction combination.
+
+@303i|Obj 1|
+Q: How are motor grader tandem chain drives lubricated?
++ Splash lubricated, separate from the internal reduction
+- Pressure lubricated from the transmission pump
+- Greased through zerk fittings on each chain
+- Splash lubricated, sharing oil with the inboard planetary
+E: The tandem chain cases are splash lubricated in their own oil, independent of the internal reduction.
+
+@303i|Obj 2|
+Q: A motor grader and a skid steer both use chain final drives. How do their chain drive ratios compare?
++ The motor grader chain is 1:1. The skid steer chain provides a reduction.
+- Both provide a reduction
+- The motor grader chain provides a reduction. The skid steer chain is 1:1.
+- Both are 1:1
+E: The grader gets its reduction in the inboard planetary, and its tandem chain is 1:1. The skid steer's hydraulic motor drives the chain and sprocket, which provides a reduction.
+
+@303i|Obj 2|
+Q: The motor grader's final drive reduction is provided by:
++ an inboard planetary, with a 1:1 chain to the wheels
+- an outboard planetary in each wheel hub
+- the tandem chain and sprocket only, with no planetary
+- a worm gear and sprocket in each tandem
+E: The inboard planetary reduces, then the tandem chains transfer power 1:1.
+
+@303i|Obj 5|
+Q: On a hydraulic excavator's track drive, what drives the planetary final drive?
++ A hydraulic motor driving the sun gear
+- The engine through a bevel gear and cross shaft
+- An electric wheel motor driving the ring gear
+- A chain from the swing drive motor
+E: The planetary is built into the sprocket, and the hydraulic motor drives its sun gear. This lets the machine travel independently of house rotation.
+
+@303i|Obj 5|ct
+Q: Why does a hydraulically driven final drive suit an excavator so well?
++ Travel works no matter where the house is swung
+- It eliminates the need for a planetary reduction
+- It allows the tracks to run without tension
+- It provides a direct mechanical link to the engine for maximum torque
+E: Hydraulic lines pass through the swivel (rotary manifold), so travel motors can be driven no matter where the house is pointing. A mechanical driveline can't do that.
+
+@303i|Obj 3|
+Q: In an AC electric drive haul truck, which mechanical powertrain components are replaced by electrical equivalents?
++ Torque converter, transmission and differential
+- Engine, final drives and driveshaft
+- Final drives and wheel hubs only
+- Engine and torque converter only
+E: The engine drives a generator. The control cabinet and wheel motors replace the torque converter, transmission and differential. The planetary final drive stays.
+
+@303i|Obj 3|
+Q: On an electric drive haul truck, what is the function of the planetary final drive?
++ It still multiplies torque
+- It converts electrical energy to mechanical energy
+- It provides differential action between wheels
+- It is used only during dynamic braking
+E: The final drive's job (torque multiplication) doesn't change. The wheel motor drives it.
+
+@303i|Obj 3|
+Q: Which component dissipates energy during electric (dynamic) braking on an AC drive truck?
++ The resistor grid box
+- The DC bus capacitors
+- The blower motor
+- The rectifier
+E: During retarding the wheel motors act as generators, and the energy is burned off as heat in the resistor grid.
+
+@303i|Obj 3|
+Q: Which list contains only DC motor components?
++ Brushes, commutator, armature, field windings
+- Stator, squirrel cage rotor, bearings
+- Stator, commutator, squirrel cage rotor
+- IGBT, squirrel cage rotor, pole shoes
+E: DC motor: brushes, commutator, armature (rotating), field windings and pole shoes (stationary), bearings. An AC induction motor is just a stator, a squirrel cage rotor and bearings.
+
+@303i|Obj 3|
+Q: A major ADVANTAGE of DC traction motors is:
++ tremendous torque at low speed
+- low maintenance, with no brushes
+- tolerance of moisture and dirty cooling air
+- no need for a commutator
+E: DC motor torque is proportional to current, and its low-resistance windings allow very high current at low speed. Speed is controlled by varying the DC voltage.
+
+@303i|Obj 3|
+Q: A major DISADVANTAGE of DC traction motors is:
++ high brush and commutator maintenance
+- poor torque at low speed
+- they require complex inverter controls
+- speed cannot be varied by the operator
+E: Brushes and commutators need constant maintenance, the internals are exposed to the environment, and there are many solder points.
+
+@303i|Obj 3|
+Q: How is the magnetic field created in the rotor of an AC induction motor?
++ Induced by the changing stator field cutting the rotor bars
+- By current fed through brushes and a commutator to the rotor
+- By permanent magnets embedded in the rotor
+- By DC fed to the rotor through slip rings
+E: No voltage is applied directly to the rotor. The stator's alternating (expanding and collapsing) field induces voltage and current in the squirrel cage bars, which creates the rotor field.
+
+@303i|Obj 3|
+Q: Which is listed as a DISADVANTAGE of AC induction motors?
++ They need expensive, complex electronic speed controls
+- High brush and commutator maintenance
+- Poor sealing against dirt and moisture
+- No dynamic braking capability at all
+E: AC motors are low maintenance and well sealed, and they offer dynamic braking. Their downside is the need for sophisticated drive electronics.
+
+@303i|Obj 3|
+Q: In AC drive terminology, which is correct?
++ A converter changes AC to DC. An inverter changes DC to AC.
+- A converter changes DC to AC. An inverter changes AC to DC.
+- Both change AC to DC
+- An inverter changes AC voltage to a higher AC voltage
+E: Converter (rectifier) AC → DC. Inverter DC → variable AC.
+
+@303i|Obj 3|
+Q: What are the three main sections of a variable frequency drive (VFD), in order?
++ Rectifier → DC bus → inverter
+- Inverter → DC bus → rectifier
+- Generator → inverter → rectifier
+- Rectifier → inverter → DC bus
+E: The rectifier converts the generator AC to DC, the DC bus stores it, and the inverter makes variable voltage and variable frequency AC for the motors.
+
+@303i|Obj 3|
+Q: The speed of an AC induction wheel motor is directly proportional to:
++ the applied voltage and frequency
+- the current only
+- the generator field strength only
+- the number of rotor bars
+E: Changing the frequency (with voltage) changes motor speed. That's why the DC is inverted back to a variable frequency.
+
+@303i|Obj 3|ct
+Q: The generator already produces AC. Why does an AC drive truck rectify it to DC and then invert it back to AC?
++ To vary frequency and voltage independently of engine speed
+- Because AC can't be sent through cables to the wheels
+- To raise the generator's output voltage for the motors
+- Because the wheel motors are actually DC motors
+E: Generator frequency is tied to engine and generator speed (e.g., 60 Hz). Going through DC lets the inverter synthesize whatever frequency and voltage the motors need.
+
+@303i|Obj 3|
+Q: What does an IGBT need in order to turn on and conduct between its collector and emitter?
++ Voltage applied to the gate
+- Current through the base
+- A magnetic field
+- Reverse polarity across the emitter
+E: An IGBT is like a transistor whose base is called a gate. Its very fast switching made accurate AC motor control possible.
+
+@303i|Obj 3|
+Q: The inverter produces a pulsed DC that mimics an AC sine wave. This output is sometimes called:
++ chopped DC
+- true AC
+- rectified AC
+- ripple DC
+E: PWM switches the DC on and off, varying the duty cycle to build a sine-like average voltage. It's not true AC.
+
+@303i|Obj 3|
+Q: How does pulse width modulation (PWM) change the average voltage applied to the motor?
++ By changing the duty cycle (pulse width)
+- By changing the peak voltage of each pulse
+- By changing the generator field current only
+- By reversing polarity on every pulse
+E: Wider pulses give a higher average voltage. Varying pulse width over time shapes the sine wave, and changing the amplitude and frequency changes speed.
+
+@303i|Obj 3|
+Q: How is cooling air supplied to the electric drive components on a typical AC drive truck?
++ A blower pulls air through the inverter cabinet, then to the generator and motors
+- Each wheel motor has its own fan driven by the wheel
+- Engine coolant is circulated through the wheel motors and cabinet
+- Ram air from forward travel, through grilles in the front
+E: The blower is controlled by a module that monitors ambient temperature, component temperatures and duct air pressure.
+
+@303i|Obj 3|
+Q: What energy conversions happen in an AC drive powertrain?
++ Mechanical → electrical (generator), electrical → mechanical (wheel motors)
+- Electrical → mechanical (generator) only
+- Chemical → electrical (inverter), electrical → mechanical (grid)
+- Hydraulic → electrical (wheel motors)
+E: Engine (mechanical) → generator (electrical) → rectifier/DC bus/inverter → wheel motor (mechanical) → final drive.
+
+@303i|Obj 3|
+Q: Who should perform maintenance or repair on inverter cabinet components?
++ Qualified electricians or factory trained technicians
+- Any HET apprentice with a multimeter
+- The operator, after shutting the truck down
+- Only the OEM, at the factory
+E: High generator voltage is present in the cabinet. The guide says this work must be done by qualified electricians or factory trained technicians.
+
+@303i|Obj 4|gk
+Q: After shutting down an AC drive haul truck, why can't you go straight into the high voltage components?
++ DC link capacitors can hold a lethal charge after shutdown
+- The generator keeps spinning and producing power for several minutes
+- The batteries supply high voltage to the DC link
+- The wheel motors become magnetized and shock you
+E: Follow the OEM shutdown and lockout procedure and wait for the DC link to discharge. Never rely on one indicator alone. (General knowledge. Your PDF for this objective is ILM-only.)
+
+@303i|Obj 4|gk
+Q: What additional hazard exists at the retarding grid box right after an AC drive truck has been working downhill?
++ The resistors may be extremely hot, and carry high voltage
+- The grid holds compressed air
+- The grid contains hydraulic accumulators
+- There is no hazard. The grid only operates when the truck moves.
+E: Retarding energy is dissipated as heat in the grid, so it can cause burns. It is also connected to the high voltage circuit. (General knowledge.)
+
+@303i|Obj 4|gk
+Q: Which practice is correct before working on an AC drive truck's high voltage system?
++ Follow the OEM lockout, wear rated PPE, verify zero energy
+- Disconnect the 24 V batteries. That isolates all high voltage.
+- Ground the frame to the generator housing with a jumper
+- Leave the engine at low idle so the fans keep the components cool
+E: The high voltage system has its own isolation and lockout points and stored energy. (General knowledge. Always follow the OEM procedure.)
+
+@303i|Obj 6|
+Q: Why is regular oil sampling (oil analysis) of final drives recommended?
++ It predicts wear-related problems before failure
+- It replaces the need for scheduled oil changes
+- It is needed to calculate the gear ratio
+- It confirms the correct gear ratio is installed
+E: Scheduled oil analysis tracks wear metals, contamination and oil condition, so problems are caught early.
+
+@303i|Obj 6|
+Q: According to the learning guide, a benefit of good maintenance record keeping is that:
++ parts can be ordered ahead of service
+- the machine won't need daily inspections
+- oil analysis is no longer needed
+- warranty is automatically extended
+E: Records take the guesswork out of service intervals and let parts be ordered ahead of time.
+
+@303i|Obj 6|ct
+Q: A final drive oil sample comes back with high silicon and rising iron. What is the most likely interpretation?
++ Dirt is getting in and causing abrasive wear
+- Normal break-in wear of new gears
+- Coolant leaking into the final drive
+- The oil is too thin for the ambient temperature
+E: Silicon usually means dirt and dust. Together with rising wear metals, it points to contamination entry causing abrasive wear. Cleanliness during service is key.
+
+@303i|Obj 6|ct gk
+Q: A newly installed final drive Duo-Cone seal leaks soon after service. Which installation error is most likely?
++ Twisted or unevenly seated toric rings
+- The seal faces were not coated with grease
+- Too much oil was put in the final drive
+- The sprocket bolts were over-torqued
+E: The toric rings must seat evenly without twisting, and the lapped faces must be perfectly clean. Even finger oil can damage them. (General knowledge + 303h guide.)
+
+@303i|Obj 5|
+Q: Which statement about electrically driven final drives is correct?
++ Most use planetaries, but any final drive type is possible
+- They never use a gear reduction, because motor torque is enough
+- They always use chain final drives to isolate the motor
+- The wheel motor drives the rim directly, with no reduction
+E: Electric motors usually drive planetary final drives for extra torque, but the guide notes that any combination is possible.
+
+@303i|Obj 3|ct gk
+Q: On an AC drive haul truck descending a grade, the wheel motors are used for retarding. What is happening?
++ The motors act as generators, and the grid burns off the energy
+- The motors are reversed and drive against the direction of travel at full power
+- The service brakes do all the retarding while the motors freewheel
+- Energy is stored in the engine flywheel
+E: This is dynamic braking, which the guide lists as an AC motor advantage. The grid blowers cool the resistors. (General knowledge.)
+
+@303i|Obj 1|ct
+Q: A double reduction final drive has a 3:1 spur gear / bull gear first reduction and a planetary with a 20T sun and 80T ring (ring held, carrier output). What is the total final drive reduction?
++ 15:1
+- 12:1
+- 7:1
+- 4:1
+E: Planetary: (80/20) + 1 = 5:1. Total = 3 x 5 = 15:1. Ratios in series multiply.

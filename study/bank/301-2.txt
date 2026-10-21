@@ -1,0 +1,1103 @@
+@301f|Pressure controls|hl valve
+Q: The "normal position" of a hydraulic valve is the position it is in when:
++ there is no pressure in the system
+- the system is at maximum pressure
+- the operator holds the control
+- the engine is at high idle
+E: Normal = no pressure in the system; a spring usually returns the valve there.
+
+@301f|Pressure controls|hl valve
+Q: A normally closed pressure control valve:
++ blocks oil flow in its normal position
+- allows unrestricted flow in its normal position
+- is always pilot operated
+- is used to reduce pressure to a branch circuit
+E: NC = flow blocked in normal position (relief, sequence). NO = flow unrestricted (pressure reducing).
+
+@301f|Pressure controls|hl valve
+Q: Pressure control valves work by balancing:
++ spring force against oil pressure
+- pump flow against return flow
+- pilot pressure against tank pressure
+- upstream flow against downstream flow
+E: Pressure acting on the valve is opposed by an (often adjustable) spring.
+
+@301f|Pressure controls|valve ct
+Q: Why must the spring cavity of a pressure control valve be drained to the reservoir?
++ To prevent the valve from hydraulically locking
+- To cool the spring
+- To provide pilot pressure to the main spool
+- To reduce pressure override
+E: Oil trapped in the spring cavity would lock the valve. It is drained internally or externally.
+
+@301f|Pressure controls|hl valve
+Q: A pressure control valve must be externally drained when its:
++ outlet is under pressure
+- outlet goes directly to tank
+- spring is adjustable
+- pilot comes from upstream
+E: If the outlet is pressurized (e.g., sequence or reducing valve), the spring cavity needs a separate drain line. Internally drained valves send their outlet to tank.
+
+@301f|Pressure controls|hl valve
+Q: The pressure at which a relief valve first begins to pass oil is called:
++ cracking pressure
+- full flow pressure
+- pressure override
+- modulation pressure
+E: Cracking = oil begins to flow. Full flow = fully open.
+
+@301f|Pressure controls|hl valve calc
+Q: A relief valve cracks at 2500 psi and reaches full flow at 2800 psi. The pressure override is:
++ 300 psi
+- 2500 psi
+- 2800 psi
+- 5300 psi
+E: Override = full flow pressure − cracking pressure = 2800 − 2500 = 300 psi.
+
+@301f|Pressure controls|hl valve
+Q: The constant opening and closing of a pressure valve as it controls pressure is called:
++ modulation
+- override
+- cracking
+- chatter compensation
+E: Valve modulation = constant opening and closing.
+
+@301f|Pressure controls|hl valve
+Q: A pressure valve that senses "upstream" pressure senses pressure:
++ before the valve
+- after the valve
+- in the spring cavity
+- at the reservoir
+E: Upstream = before; downstream = after.
+
+@301f|Pressure controls|hl valve
+Q: In a direct acting relief valve:
++ system pressure acts directly against the spring
+- a small pilot poppet controls a main poppet
+- pressure is sensed downstream of the valve
+- the weak main spring sets the override
+E: Direct acting = pressure directly opposed by spring force. Typically low flow use.
+
+@301f|Pressure controls|hl valve
+Q: In a pilot operated relief valve, the pilot poppet has:
++ low flow, high pressure (small poppet, strong spring)
+- high flow, low pressure (large poppet, weak spring)
+- high flow, high pressure
+- no spring at all
+E: Pilot poppet = small with a strong spring (sets pressure). Main poppet = large with a weak spring (passes most flow).
+
+@301f|Pressure controls|hl valve
+Q: The main advantage of a pilot operated relief valve over a direct acting one is that it:
++ minimizes pressure override
+- costs less
+- reacts faster to pressure spikes
+- needs no drain
+E: Highlighted: pilot operated relief valves minimize pressure override. They're also more accurate, less prone to chatter and handle higher ranges.
+
+@301f|Pressure controls|hl valve
+Q: In a pilot operated relief valve, the pressure override is set by the:
++ main spring
+- pilot spring
+- pilot orifice size
+- system load
+E: The highlighted note: main spring force sets the override; its spring constant is kept as low as possible.
+
+@301f|Relief valves|hl valve
+Q: A main relief valve is usually installed:
++ in parallel with the pump, often pilot operated
+- in series with each actuator work port
+- after the DCV, often direct acting
+- in the return line, ahead of the filter
+E: Main relief limits max system pressure, sits in parallel with pump and DCV (often in the DCV), is often pilot operated and handles high flow.
+
+@301f|Relief valves|hl valve
+Q: Circuit relief valves protect actuators from:
++ shock loads with the DCV in neutral
+- low pressure during cold start-up
+- cavitation when lowering a load
+- overspeeding when the load runs away
+E: With the DCV in neutral the actuator is blocked; a shock load can spike pressure, and the circuit relief opens.
+
+@301f|Relief valves|hl valve
+Q: Compared with the main system relief, a circuit relief valve is typically:
++ direct acting and set higher than system relief
+- pilot operated and set lower than system relief
+- the same type and setting as system relief
+- non-adjustable and set at zero
+E: Circuit reliefs are often direct acting, rarely open, low flow and set higher than the system relief.
+
+@301f|Relief valves|hl valve
+Q: Circuit relief valves are usually tested at their:
++ cracking pressure
+- full flow pressure
+- override pressure
+- standby pressure
+E: Because they're set above system relief, they are checked at cracking pressure (hand pump, or temporarily raising system pressure).
+
+@301f|Relief valves|hl valve ct
+Q: How can a circuit relief set higher than the main relief be checked on the machine?
++ Hand pump, or temporarily raise main relief
+- Stall the cylinder at high idle and read it
+- Read pressure in the return line at stall
+- Time the cylinder cycle at full throttle
+E: Highlighted methods: a hand pump, or temporarily increasing system pressure above the circuit relief setting.
+
+@301f|Relief valves|valve
+Q: Where is the gauge connected, and at what engine speed is the main system relief adjusted?
++ At the pump outlet, at high idle
+- At the work port, at low idle
+- At the return line, at high idle
+- At the pump inlet, at low idle
+E: Pressure gauge at the pump outlet (in parallel), oil warm, stall the system and adjust at high idle.
+
+@301f|Unloader|hl valve
+Q: An unloader valve:
++ sends pump flow to tank at low pressure
+- holds a reduced pressure in a branch circuit
+- controls the order in which actuators move
+- prevents a suspended load from drifting
+E: The unloader takes the load off the pump by dumping flow to tank at low pressure, more efficiently than a relief valve.
+
+@301f|Unloader|hl valve
+Q: In a closed centre system with a fixed displacement pump, an unloader valve:
++ replaces the relief and needs a check valve
+- is installed in series with each actuator
+- needs a variable displacement pump to work
+- replaces the accumulator and check valve
+E: The unloader limits pressure (replacing the relief valve). A check valve holds system pressure, with an accumulator downstream.
+
+@301f|Unloader|valve ct
+Q: In a hi-lo (tandem pump) demand system, the unloader valve:
++ unloads one pump while the other holds pressure
+- dumps both pumps to tank in neutral
+- combines both pumps at maximum pressure
+- limits one branch below system pressure
+E: The ILM: in a hi-lo system the unloader unloads one pump, and the other continues to supply flow to keep base system pressure, so pump output follows the load.
+
+@301f|Pressure reducing|hl valve
+Q: A pressure reducing valve is:
++ normally open and installed in series with the actuator
+- normally closed and installed in parallel with the pump
+- normally closed and installed in the return line
+- normally open and installed in parallel with the actuator
+E: Pressure reducing valves are NO, in series, and let one circuit run below system pressure (controls actuator force).
+
+@301f|Pressure reducing|valve ct
+Q: A clamp circuit must grip with less force than the main system can produce. Which valve is used?
++ Pressure reducing valve
+- Sequence valve
+- Counterbalance valve
+- Unloader valve
+E: A pressure reducing valve limits one circuit below system pressure, which limits actuator force.
+
+@301f|Sequence|valve
+Q: A sequence valve is used to:
++ make hydraulic actions happen in a certain order
+- hold a suspended load
+- limit circuit pressure below system pressure
+- send excess pump flow to tank
+E: Sequence valves keep pressure in the primary circuit while the secondary operates.
+
+@301f|Backpressure valves|hl valve
+Q: Backpressure valves (counterbalance, brake, lock) control actuator movement by:
++ restricting oil returning from the actuator
+- limiting pump flow
+- increasing inlet pressure to the actuator
+- reducing pressure at the DCV
+E: They restrict return flow and act as safety valves.
+
+@301f|Backpressure valves|valve ct
+Q: Care is needed when adding any restriction in the rod end of a cylinder because:
++ it can cause pressure intensification
+- it will make the cylinder drift out
+- it will make the pump cavitate
+- it disables the circuit relief
+E: Restricting rod-end flow can intensify pressure beyond system maximum.
+
+@301f|Counterbalance|valve
+Q: A counterbalance valve is mainly a safety device used to:
++ control the speed at which a load is lowered
+- prevent a motor from overspeeding
+- hold a suspended load if a hose breaks
+- divide flow between two circuits
+E: Counterbalance = control lowering speed. It's in series in the actuator return and the load weight must be known when adjusting.
+
+@301f|Counterbalance|hl valve
+Q: A conventional counterbalance valve uses:
++ an internal pilot
+- an external pilot from the opposite work line
+- an electrical solenoid
+- a load sensing line from the pump
+E: The highlighted note: counterbalance = internal pilot. (A brake valve's pilot comes from the opposite work line.)
+
+@301f|Counterbalance|valve ct
+Q: Why does a counterbalance valve not work well on machines with widely varying loads?
++ It is set for a known load weight
+- It has no spring adjustment
+- It only works with motors
+- It needs an accumulator to function
+E: The setting is based on a known load. Varying loads make the lowering control inconsistent.
+
+@301f|Brake valve|hl valve
+Q: A hydraulic brake valve in a motor circuit:
++ prevents the load from overspeeding the motor, using pilot pressure from the motor inlet
+- holds the motor stationary with the DCV in neutral using a spring brake
+- limits maximum motor pressure
+- sends case drain oil to tank
+E: Brake valves are in series with the motor return, piloted from the motor inlet (opposite work line), giving controlled deceleration. A check valve is needed with a reversible motor.
+
+@301f|Lock valve|hl valve
+Q: A lock valve on a cylinder is used to:
++ hold the load in neutral or if a line leaks
+- control lowering speed under varying loads
+- relieve shock loads in both work ports
+- regenerate rod-end oil to the base end
+E: Lock valves are in series with both cylinder ports, hold suspended loads, prevent drift in neutral and are usually not adjustable.
+
+@301f|Flow control|hl valve
+Q: Flow control valves are used to control:
++ the speed of cylinders and motors
+- the force of cylinders
+- maximum system pressure
+- the order of actuator movement
+E: Speed is controlled by controlling input flow, since changing actuator capacity isn't practical.
+
+@301f|Flow control|hl valve
+Q: The pressure immediately after a flow control orifice will be equal to:
++ the load after the orifice
+- the pressure before the orifice
+- zero, whatever the load
+- the main relief setting
+E: With no load after the orifice pressure is 0; with 100 psi of resistance after, pressure after is 100 psi.
+
+@301f|Flow control|hl valve
+Q: Flow through an orifice is determined by:
++ size, shape, pressure drop and viscosity
+- its size and the pump displacement
+- pump speed and line length
+- the downstream load and relief setting
+E: Highlighted: size and shape, pressure drop and viscosity. Some valves are temperature compensated for viscosity.
+
+@301f|Flow control|hl valve
+Q: A bypass type flow control valve:
++ dumps excess flow and is meter-in only
+- restricts flow in the return line only
+- works only with variable pumps
+- works for both meter-in and meter-out
+E: Bypass flow controls dump excess to tank, so if used meter-out, control of the actuator would be lost. Meter-in only.
+
+@301f|Flow control|hl valve
+Q: With a NON-pressure compensated flow control, as load increases the flow to the actuator:
++ decreases
+- increases
+- stays exactly the same
+- stops completely
+E: More load = less pressure drop across the orifice = less flow. It doesn't accurately control speed.
+
+@301f|Flow control|hl valve
+Q: A pressure compensated flow control valve:
++ keeps flow constant as the load changes
+- lets flow drop as the load increases
+- limits maximum system pressure
+- works only as a meter-out control
+E: The compensator holds a constant pressure drop, so flow stays constant regardless of load.
+
+@301f|Flow control|hl valve
+Q: In a pressure compensated restrictor flow control, a stronger compensator spring will give:
++ more pressure drop and more flow
+- less pressure drop and less flow
+- no change in flow
+- reverse flow through the valve
+E: Pressure before = pressure after + spring force. Stronger spring = more drop across the orifice. Weaker spring = less drop.
+
+@301f|Flow control|hl valve
+Q: A meter-in flow control is best used when:
++ the load opposes the actuator's movement
+- the load runs ahead of the actuator
+- the load changes direction
+- the actuator is a cylinder rod outlet
+E: Meter-in works when the load resists motion. If the load goes with the actuator, meter-in can cause cavitation.
+
+@301f|Flow control|hl valve ct
+Q: Meter-out flow control on the rod outlet of a cylinder can cause:
++ severe pressure intensification
+- cavitation of the pump
+- loss of speed control
+- the cylinder to drift to retract
+E: Meter-out suits loads that change direction and size, but restricting the rod outlet can intensify pressure severely.
+
+@301f|Flow control|valve
+Q: For a meter-in flow control, port A connects to the ___ and port B to the ___.
++ DCV work port; actuator port
+- actuator port; DCV work port
+- pump; tank
+- tank; actuator port
+E: Meter-in controls flow into the actuator: DCV work port in, actuator out. Meter-out is the reverse.
+
+@301f|Flow dividers|hl valve
+Q: A priority flow divider:
++ feeds the primary circuit first, then the rest
+- splits flow evenly between two circuits
+- sends all excess flow to the reservoir
+- divides flow in proportion to load
+E: Priority dividers are common in steering and transmission circuits.
+
+@301f|Flow dividers|hl valve
+Q: A proportional flow divider:
++ splits flow in a ratio set by its orifices
+- gives all flow to one circuit first
+- returns excess flow to the tank
+- varies the split with load pressure
+E: The split ratio depends on orifice sizes; it is pressure compensated so flow stays constant regardless of pressure.
+
+@301f|Accumulators|hl valve
+Q: Which is NOT a function of a hydraulic accumulator?
++ Increasing pump displacement
+- Storing hydraulic energy
+- Absorbing shock and pressure spikes
+- Maintaining constant pressure
+E: Accumulators store energy, react to fluctuations, absorb shock, allow gradual pressure build-up and maintain pressure.
+
+@301f|Accumulators|hl safe
+Q: Before servicing a hydraulic system with an accumulator, you must:
++ discharge the accumulator
+- charge the accumulator to max pressure
+- remove the nitrogen valve core
+- run the engine to keep pressure in the system
+E: Highlighted: always ensure accumulators are discharged prior to service.
+
+@301f|Accumulators|hl safe
+Q: Gas charged accumulators must only be charged with:
++ dry nitrogen
+- compressed shop air
+- oxygen
+- carbon dioxide
+E: Never use oxygen or compressed air; they can combine with oil and explode.
+
+@301f|Accumulators|valve
+Q: In which type of accumulator is the force NOT constant through its stroke?
++ Spring loaded
+- Weighted
+- Bladder
+- Piston gas charged
+E: A coil spring pushes harder as it compresses, so the force isn't constant. (Weighted is constant force.)
+
+@301f|DCV|hl valve
+Q: Directional control valves are classified by their:
++ ways, positions, actuation and detents
+- pressure rating and port size
+- pump type and rated flow
+- spool diameter, length and material
+E: Number of flow paths (ways), number of positions, actuation and detents.
+
+@301f|DCV|hl valve
+Q: The most common type of DCV in mobile hydraulics is the:
++ sliding spool valve
+- rotary spool valve
+- poppet valve
+- ball check valve
+E: Sliding spool = most common, linear action, high pressure and flow. Rotary spool has high leakage and low pressure.
+
+@301f|DCV|valve
+Q: If a DCV spool is badly worn, it is normally:
++ replaced together with the housing as a matched set
+- replaced alone with a standard spool
+- built up with chrome and reused
+- swapped with a spool from another section
+E: Spools and housings are matched sets and can't be replaced separately.
+
+@301f|DCV|hl valve
+Q: Metering notches on a DCV spool are:
++ cuts in the lands that allow feathering
+- grooves that hold the spool O-rings
+- notches the detent balls drop into
+- drillings that feed the load check
+E: Metering notches let the operator feather (make small, precise movements).
+
+@301f|DCV|hl valve
+Q: With the DCV in the HOLD position:
++ the work ports are blocked
+- the work ports are connected to tank
+- pump flow goes to both work ports
+- the actuator is free to float
+E: Hold = work ports blocked. Float = work ports connected to tank.
+
+@301f|DCV|hl valve
+Q: A DCV in the FLOAT position:
++ connects both work ports to tank
+- blocks both work ports
+- connects pump flow to both work ports
+- blocks the pump and tank ports only
+E: Float lets the implement follow the ground. Typically the 4th position on a 4-position valve.
+
+@301f|DCV|hl valve
+Q: A diverter valve is a:
++ 2-position, 3-way valve feeding one of two circuits
+- 3-position, 4-way valve with a float detent
+- relief valve with two pressure settings
+- check valve used for anti-cavitation
+E: Diverter = 2 position, 3 way. It controls which of two circuits receives flow.
+
+@301f|DCV|hl valve
+Q: The number of "ways" of a DCV is:
++ the number of lines to the valve
+- the number of valve positions
+- the number of spools in the bank
+- the number of detent positions
+E: Ways = how many lines go into the valve.
+
+@301f|DCV centres|valve
+Q: A closed centre DCV must be paired with:
++ a compensated variable pump, or fixed pump and unloader
+- a fixed displacement pump and no unloader
+- an open centre relief and a series passage
+- a series passageway to the next valve
+E: With flow blocked in neutral, either the pump must destroke or an unloader must dump fixed-pump flow.
+
+@301f|DCV centres|hl valve
+Q: An "open work port" centre (A and B to tank, P blocked) is also called a:
++ motor spool
+- tandem centre
+- hold centre
+- regen centre
+E: Also called an H-spool by some makers. It allows brake valves in the work lines of a motor.
+
+@301f|DCV centres|valve
+Q: A tandem (open) centre DCV is generally used with:
++ fixed pumps, with valves stacked in series
+- variable displacement pumps only
+- load sensing pressure compensated systems
+- an accumulator as the main oil supply
+E: Tandem centre sends pump flow to tank in neutral and allows series connection.
+
+@301f|DCV actuation|hl valve
+Q: Why might a DCV be pilot operated rather than mechanically operated?
++ Less effort, and the valve can be mounted remotely
+- It is cheaper and simpler than a lever
+- It removes the need for centering springs
+- It makes the valve on/off for safety
+E: Pilot actuation (often from a separate pilot pump) reduces effort and suits remote valves.
+
+@301f|DCV actuation|hl valve
+Q: What is the main limitation of an electrically (on/off) actuated DCV?
++ It does not allow feathering
+- It cannot be used in mobile equipment
+- It needs a pilot pump
+- It cannot be detented
+E: Electrical = on or off, no feathering. Electronic (proportional) control is infinitely variable.
+
+@301f|DCV actuation|valve ct
+Q: Electrical-over-pilot DCV actuation solves which two problems?
++ It allows feathering and increases actuation force
+- It eliminates the pilot pump and the relief valve
+- It removes the need for detents and a centering spring
+- It reduces flow and pressure losses
+E: The solenoid controls pilot pressure, which provides the force; proportional control allows feathering.
+
+@301f|DCV actuation|hl valve
+Q: A detent on a DCV is used to:
++ hold the spool in a position
+- return the spool to neutral
+- meter oil for feathering
+- prevent load drop
+E: Detents (ball and spring or electromagnet) hold the spool in position.
+
+@301f|DCV accessories|hl valve
+Q: A load check valve in a DCV prevents:
++ a load dipping when moved from hold to raise
+- cavitation when the load drives the actuator
+- pressure from exceeding the relief setting
+- flow from the work port to tank in float
+E: Until pump pressure exceeds load pressure, the load check blocks reverse flow so the load doesn't dip.
+
+@301f|DCV accessories|hl valve ct
+Q: An anti-cavitation check valve opens when:
++ the load drives the actuator faster than the pump
+- system pressure exceeds the relief setting
+- the DCV is moved from hold to raise
+- the actuator is stalled at the end of stroke
+E: It lets tank oil supplement pump oil when actuator pressure goes negative, preventing a void.
+
+@301f|DCV accessories|valve
+Q: A flow compensator valve in a DCV section:
++ holds a constant drop across the spool
+- limits maximum circuit pressure
+- prevents the load from dropping
+- vents the spool spring cavity
+E: It senses pressure before and after the spool and keeps the drop constant.
+
+@301f|Valve banks|valve
+Q: A "power beyond" sleeve in a DCV bank:
++ lets the bank supply another DCV
+- lets the bank sections bolt together
+- converts the bank to closed centre
+- connects the main relief to tank
+E: Power beyond feeds another DCV; the main DCV has priority.
+
+@301f|Valve banks|hl valve
+Q: In an open centre bank with a series passageway, what happens when one valve is operated?
++ All valves downstream lose flow
+- All valves upstream lose flow
+- Flow is split evenly between all valves
+- The valve with the lightest load gets priority
+E: The first valve in series has priority; downstream valves lose flow when it is actuated.
+
+@301f|Valve banks|hl valve
+Q: In a series-parallel DCV bank, when two functions are operated together:
++ the lightest load has priority
+- the heaviest load has priority
+- the first valve always has priority
+- both get exactly half the flow
+E: Series in neutral, parallel when operated together, so oil takes the easiest path.
+
+@301f|Valve banks|hl valve
+Q: A diverter valve feeding two DCVs means the DCVs:
++ cannot be operated at the same time
+- share flow equally
+- can only be operated in float
+- operate in series
+E: Highlighted: DCVs fed by a diverter cannot be operated simultaneously.
+
+@301g|System basics|hl
+Q: A hydraulic "circuit" is:
++ a group of components doing one function
+- every hydraulic component on the machine
+- only the path from pump to reservoir
+- only the pilot side of a system
+E: System = all interconnected components. Circuit = a group within it for a specific function.
+
+@301g|System basics|hl ct
+Q: Why must variable displacement pump horsepower be limited?
++ To avoid stalling the engine
+- To keep the oil from getting too cold
+- To reduce case drain flow
+- To increase standby pressure
+E: Pump HP is limited (by reducing pressure or flow) so the pump can't stall the engine.
+
+@301g|Open centre|hl
+Q: In an open centre system with the DCV in neutral:
++ pump flow returns to the reservoir
+- pump flow is blocked at the DCV
+- the pump destrokes to zero
+- the system sits at maximum pressure
+E: Open centre = flow returns to tank in neutral. Typically fixed displacement pumps.
+
+@301g|Open centre|hl
+Q: An open centre system is called a "constant flow" system because:
++ the pump flows even when no work is done
+- flow stays constant at any engine speed
+- pressure stays constant at all times
+- flow is only delivered when needed
+E: The fixed pump always flows. Pressure is a function of load resistance.
+
+@301g|Open centre|hl
+Q: In an open centre system, pump pressure is a function of:
++ load resistance
+- pump displacement
+- engine speed
+- the compensator spring setting
+E: Pump pressure rises only as far as needed to move the load. In neutral the DCV gives low resistance.
+
+@301g|Open centre|hl ct
+Q: Open centre systems are best suited to machines whose hydraulics are:
++ used only part of the duty cycle
+- run continuously at high pressure
+- used for precise load sensing work
+- used with several functions at once
+E: They are inefficient when demand is low and engine speed high, so they suit systems used only part of the time.
+
+@301g|Constant HP|hl
+Q: A constant horsepower system:
++ destrokes as pressure rises to use max HP
+- keeps pump flow constant at all pressures
+- keeps pressure constant at all flows
+- varies engine speed to match the load
+E: High displacement at low pressure, destroking as pressure rises, keeping engine speed constant and fast actuators at light loads.
+
+@301g|Constant HP|hl
+Q: On a constant horsepower regulator with NFC, power shift and cross-sensing signals, an increase in any of these pressures will:
++ destroke the pump
+- upstroke the pump
+- open the main relief
+- raise engine speed
+E: Highlighted: as any of the three pressures increases it destrokes the pump.
+
+@301g|Constant HP|hl
+Q: In a constant horsepower system, negative flow control (NFC) pressure:
++ reflects flow through each DCV bank
+- is set by the ECM from the speed dial
+- is the other pump's outlet pressure
+- limits maximum system pressure
+E: NFC monitors flow through each DCV bank. PRV/power shift pressure is ECM controlled. Cross-sensing = pump outlet pressures.
+
+@301g|Constant HP|hl
+Q: Power shift (PRV) pressure on a constant horsepower excavator system is:
++ set by the ECM from the speed dial
+- taken directly from each pump outlet
+- made by flow through a DCV bank orifice
+- set by the main relief valve spring
+E: The ECM controls it through a pressure reducing valve, using pilot oil, based on engine speed dial setting.
+
+@301g|Closed centre|hl
+Q: In a closed centre system with the DCV in neutral:
++ flow is blocked and pressure is held
+- pump flow returns freely to tank
+- the actuators float on tank oil
+- full pump flow goes over the relief
+E: Closed centre blocks flow in neutral. Variable pumps destroke; fixed pumps use an unloader.
+
+@301g|Closed centre|valve
+Q: In a closed centre system with a pressure compensated pump, any relief valve fitted must be set:
++ higher than the pressure compensator
+- lower than the pressure compensator
+- the same as the compensator
+- at standby pressure
+E: The relief is only a safety backup; the compensator should limit pressure first.
+
+@301g|Closed centre|hl
+Q: A "demand flow" system is one in which:
++ flow is only provided when needed
+- flow is constant at all times
+- pressure always sits at maximum
+- the operator sets flow with a dial
+E: Highlighted: demand flow = flow only provided when required.
+
+@301g|Load sensing|hl
+Q: In a load sensing system, "margin pressure" is:
++ how far pump pressure sits above load
+- the maximum system pressure
+- the pressure at the pump inlet
+- cracking minus full flow pressure
+E: The pump outlet is held slightly higher than load pressure by the margin.
+
+@301g|Load sensing|hl
+Q: In a load sensing system at standby (no functions operated):
++ margin pressure at the pump, none at the load
+- the pump sits at maximum pressure
+- the pump is at full flow to tank
+- the load sense line is at max pressure
+E: Standby = margin pressure only at the pump; no pressure at the load.
+
+@301g|Load sensing|hl ct
+Q: A load sensing system's cylinder is stalled against a stop. Pump pressure will be:
++ maximum, equal to load pressure
+- load pressure plus margin pressure
+- margin (standby) pressure only
+- zero, because the pump destrokes
+E: Stalled: pump pressure max (set by the pressure compensator), same as load.
+
+@301g|Load sensing|hl
+Q: In an LSPC pump, the flow compensator:
++ maintains margin pressure as load changes
+- sets maximum system pressure
+- pushes the swash plate to max displacement
+- meters oil to the actuator
+E: Flow compensator = margin. Pressure compensator = max pressure (opens on stall).
+
+@301g|Load sensing|hl
+Q: In an LSPC pump, which component pushes the swash plate toward DEstroke?
++ Stroking (actuator) piston
+- Bias spring/piston
+- Flow compensator spool
+- Load sense line
+E: The stroking piston destrokes the pump. The bias spring/piston upstrokes it.
+
+@301g|Hydrostatic|hl hst
+Q: A hydrostatic drive reaches its HIGHEST output speed with:
++ maximum pump displacement and minimum motor displacement
+- minimum pump displacement and maximum motor displacement
+- maximum pump and maximum motor displacement
+- minimum pump and minimum motor displacement
+E: Highest speed = max pump + min motor. Lowest speed = min pump + max motor.
+
+@301g|Hydrostatic|hl hst
+Q: In a hydrostatic drive, increasing motor displacement will:
++ increase torque and reduce speed
+- increase speed and reduce torque
+- increase both speed and torque
+- have no effect
+E: Higher motor displacement = more torque (and lower speed for the same flow).
+
+@301g|Hydrostatic|hl hst
+Q: A closed circuit (closed loop) hydrostatic transmission has:
++ the motor outlet connected to the pump inlet, with no path to tank
+- the pump drawing from tank and the motor returning to tank
+- a DCV between the pump and motor
+- an open centre valve to unload the pump
+E: Closed circuit: motor outlet → pump inlet. A reversible pump reverses the motor.
+
+@301g|Hydrostatic|hl hst
+Q: The most common hydrostatic arrangement is:
++ closed circuit with a variable pump and a fixed motor
+- open circuit with a fixed pump and a variable motor
+- closed circuit with a fixed pump and a fixed motor
+- open circuit with a variable pump and a variable motor
+E: Highlighted: most commonly a closed circuit with a variable pump and fixed motor.
+
+@301g|Hydrostatic|hl hst
+Q: An important advantage of hydrostatic drives is:
++ automatic braking of the load
+- they need no oil cooling
+- they don't need a charge pump
+- they cost less than mechanical drives
+E: Infinite speed control, quick response, hydrostatic lock at zero and automatic braking/deceleration.
+
+@301g|Hydrostatic|hl hst
+Q: The motor flushing valve in a closed loop hydrostatic system:
++ bleeds low-side oil through the motor case to cool it
+- relieves the high pressure side to the low side
+- supplies make-up charge oil to the loop
+- controls the pump swash plate angle
+E: It cools the motor and loop. It only works when the motor is rotating. Oil is hottest at the motor outlet.
+
+@301g|Hydrostatic|hl hst ct
+Q: A hydrostatic machine drifts under load. A likely cause is:
++ a misadjusted crossover relief
+- a plugged case drain filter
+- a plugged charge pump screen
+- an uncalibrated joystick
+E: Highlighted: the crossover relief may cause drifting under load if set incorrectly.
+
+@301g|Hydrostatic|hl hst
+Q: The flushing (hot oil) relief valve must be set:
++ lower than the charge pressure relief valve
+- higher than the charge relief valve
+- the same as the crossover relief
+- at maximum loop pressure
+E: Highlighted: the flushing relief is set lower than the charge relief so the flushing flow goes through it.
+
+@301g|Hydrostatic|hst
+Q: The charge pump in a closed loop hydrostatic system:
++ replaces leakage oil in the loop
+- provides the main flow to the motors
+- cools the motor case directly
+- sets the motor swash plate angle
+E: Usually a gear pump; its flow enters the low pressure side through isolation check valves.
+
+@301g|Hydrostatic|hl hst
+Q: On an electronically controlled hydrostatic drive, the operator joysticks:
++ must be calibrated to ensure proper actuation
+- never need adjustment
+- directly move the swash plate mechanically
+- set the charge relief pressure
+E: Highlighted: joysticks must be calibrated.
+
+@301h|Troubleshooting|hl
+Q: Before performing operational tests on a hydraulic system, you should:
++ warm the oil to operating temperature
+- test with cold oil to find leaks
+- drain and refill the reservoir
+- set all reliefs to maximum
+E: Leakage changes with temperature. Warm the oil first (open centre: stall an actuator at full throttle).
+
+@301h|Troubleshooting|hl ct
+Q: Cycle times are slower than spec. Before blaming the pump, you should first check:
++ that engine RPM is correct
+- the relief valve cracking pressure
+- the oil viscosity index
+- the case drain pressure
+E: Highlighted: if cycle times are high, always check RPM. Low engine speed means low pump flow.
+
+@301h|Troubleshooting|hl
+Q: Measuring cycle times at full throttle is a quick way to check for:
++ flow loss (internal leakage)
+- low relief valve settings
+- pressure intensification
+- contaminated or aerated oil
+E: Slow cycles indicate flow losses (internal leakage).
+
+@301h|Stall test|hl ct
+Q: During a hydraulic stall test, engine RPM drops much more than spec. Possible causes are:
++ a weak engine or a relief valve set too high
+- a strong engine or a relief valve set too low
+- a plugged return filter or cold oil
+- a leaking cylinder or a worn pump
+E: Excessive drop: engine lacking power or excessive load (relief too high). No drop: engine power increased or relief too low.
+
+@301h|Stall test|hl ct
+Q: During a stall test, engine RPM does not drop at all. This suggests:
++ the relief valve is set too low
+- the relief valve is set too high
+- the engine is lacking power
+- the pump is badly overloaded
+E: A low relief setting reduces the load, so the engine doesn't pull down.
+
+@301h|Stall test|hl ct
+Q: Stall tests should be done with several actuators and directions because:
++ it shows system vs circuit problems
+- it warms the oil up faster
+- one circuit can't load the engine
+- it checks all circuit reliefs at once
+E: If all functions are affected it's a system problem; if only one, it's a circuit problem.
+
+@301h|Stall test|hl ct
+Q: On a closed centre system, the engine labours heavily when a cylinder is stalled. Likely causes are:
++ an unloader or compensator fault
+- a main relief valve set too low
+- low oil level in the reservoir
+- a restricted pump inlet line
+E: In closed centre the load should drop when stalled (pressure or flow is reduced). If the engine labours, the unloader or compensator isn't working.
+
+@301h|Pressure vs flow|hl
+Q: In hydraulic troubleshooting, a flow problem affects ___ and a pressure problem affects ___.
++ speed; force
+- force; speed
+- force; temperature
+- temperature; speed
+E: Highlighted: flow = speed, pressure = force.
+
+@301h|Gauges|hl
+Q: The purpose of a snubber on a pressure gauge is to:
++ protect the gauge from pressure spikes
+- convert the reading to psia
+- allow vacuum to be measured too
+- fill the case with glycerine
+E: The snubber restricts the inlet. Glycerine fill dampens needle vibration.
+
+@301h|Gauges|hl
+Q: When pressure testing, the gauge should be rated for about:
++ twice the anticipated pressure
+- exactly the anticipated pressure
+- half the anticipated pressure
+- ten times the anticipated pressure
+E: Twice the pressure is safer, and gauges are most accurate around half scale.
+
+@301h|Gauges|hl
+Q: Pressure gauges are installed in ___ with the circuit being tested.
++ parallel
+- series
+- line with the return
+- place of the relief valve
+E: Highlighted: install gauges in parallel. Flowmeters for pump testing go in series.
+
+@301h|Gauges|
+Q: A gauge that reads both vacuum and pressure is a:
++ compound gauge
+- absolute gauge
+- Bourdon gauge
+- differential gauge
+E: Compound = vacuum and pressure. Absolute gauges read psia.
+
+@301h|Pressure tests|hl ct
+Q: Pump inlet pressure reads below 12 psia. Which is a likely cause?
++ Restricted inlet line
+- Air leaking into the inlet line
+- Worn pump
+- Relief valve set too low
+E: Low inlet pressure = restriction, pump speed too high or wrong oil, which promotes cavitation. Higher than normal suggests an air leak.
+
+@301h|Pressure tests|hl ct
+Q: Pump inlet pressure is higher than normal. This may indicate:
++ an air leak in the inlet line
+- a plugged suction strainer
+- excessive pump speed
+- oil that is too thick
+E: Highlighted: higher inlet pressure may indicate the inlet line is drawing in air.
+
+@301h|Pressure tests|hl
+Q: In an open centre system, neutral pressure (DCV in neutral) should be:
++ as low as possible
+- equal to the relief setting
+- equal to margin pressure
+- slightly above the circuit relief
+E: Neutral pressure reflects DCV and line resistance and should be as low as possible.
+
+@301h|Pressure tests|hl ct
+Q: Maximum system pressure reads too HIGH. A likely cause is:
++ a relief set too high, or outlet restriction
+- a worn pump with high slip
+- a relief valve adjusted too low
+- low oil level in the tank
+E: Too high = relief misadjusted/faulty or outlet restriction. Too low = relief misadjusted/faulty.
+
+@301h|Pressure tests|hl hst
+Q: On a closed circuit hydrostatic transmission, case drain pressure is tested because:
++ high drain resistance can cause damage
+- it shows the charge relief setting
+- it equals high side loop pressure
+- it shows the flushing valve setting
+E: Case drain pressure shows resistance in the drain for the pump and motor; too much can cause damage (seals).
+
+@301h|Leakage tests|hl
+Q: Cylinder drift is:
++ movement with the unit stopped
+- the time to fully extend
+- flow from the case drain
+- rod movement during a stall
+E: Measure drift with tape on the rod over time, or bucket tip height on an excavator (combined drift).
+
+@301h|Leakage tests|hl
+Q: To test a hydraulic motor for internal leakage, you would:
++ stall it and measure drain flow for 10 s
+- measure motor RPM at low idle
+- check inlet pressure while free spinning
+- cap the drain and read case pressure
+E: Highlighted procedure for motors.
+
+@301h|Leakage tests|hl
+Q: A component with excessive internal leakage can often be found because it:
++ heats up faster than the rest
+- runs quieter than the rest
+- has lower case drain flow
+- has higher inlet pressure
+E: A digital/infrared temperature measurement can identify the hot component.
+
+@301h|Flowmeter|hl
+Q: A pump efficiency test shows 75% efficiency. The general rule is:
++ below 80% requires repair or replacement
+- below 50% requires repair or replacement
+- below 90% requires replacement
+- any reading above 70% is acceptable
+E: Highlighted: any efficiency below 80% requires repair or replacement.
+
+@301h|Flowmeter|
+Q: For a pump efficiency test, the flowmeter is installed:
++ in series between the pump and the rest of the system
+- in parallel between the pump outlet and return
+- in the case drain line
+- in the pump inlet
+E: In series with the pump and system. The circuit leakage (tee) test uses a parallel connection.
+
+@301h|Flowmeter|hl calc
+Q: In a tee test, the pump delivers 30 GPM at full load. With the circuit stalled and the flowmeter loaded, 26 GPM is measured. Circuit leakage is:
++ 4 GPM
+- 26 GPM
+- 56 GPM
+- 13%
+E: Circuit leakage = pump full-load flow − circuit flow = 30 − 26 = 4 GPM.
+
+@301h|Flowmeter|
+Q: A disadvantage of flowmeter testing is that:
++ the system must be opened up
+- it can't detect internal leakage
+- it only works on gear pumps
+- it must be done with cold oil
+E: Time consuming, system opened, and dirty oil from previous machines may be introduced.
+
+@301h|Root cause|hl ct
+Q: A pump failed from contamination and was replaced. Why must the root cause also be found?
++ The new pump will fail the same way
+- The warranty requires a written report
+- The relief valve must be reset after
+- The new pump must be broken in at stall
+E: Highlighted: if the root cause is not addressed, the new component will fail again.
+
+@301i|Electrohydraulics|hl
+Q: In electrohydraulics, "electrical" control means ___ while "electronic" control means ___.
++ on/off; variable
+- variable; on/off
+- low voltage; high voltage
+- open loop; closed loop
+E: Electrical = on or off (no variable control). Electronic = variable.
+
+@301i|Electrohydraulics|hl
+Q: A standard solenoid used in electrical (non-electronic) control has:
++ discrete positions, either on or off
+- infinitely variable positions
+- a feedback sensor
+- a PWM driver
+E: Highlighted: discrete positions, on or off.
+
+@301i|Electrohydraulics|
+Q: A clamping diode across a solenoid coil:
++ absorbs induced voltage spikes
+- increases the solenoid pull force
+- smooths out the PWM signal
+- acts as a fuse for the coil
+E: When the coil is switched off, its collapsing field induces voltage; the diode dissipates it.
+
+@301i|Electrohydraulics|hl
+Q: A proximity switch:
++ closes when metal passes in front of it
+- varies its resistance with position
+- generates its own AC voltage
+- measures system pressure
+E: Highlighted: proximity switches close the circuit when actuated; position usually adjustable.
+
+@301i|Electrohydraulics|hl
+Q: Electronic hydraulic control systems normally operate on:
++ about 5 V
+- 24 V only
+- full battery voltage
+- 120 V AC
+E: Highlighted: normally less than full system voltage, typically 5 V.
+
+@301i|Sensors|hl
+Q: A sensor that is sent a set voltage from the ECM and returns a measured voltage is a:
++ reference voltage sensor
+- voltage generating sensor
+- discrete sensor
+- proximity switch
+E: Reference voltage: set voltage sent, return measured (e.g., a joystick potentiometer).
+
+@301i|Sensors|hl
+Q: A speed sensor that produces its own voltage signal is a:
++ voltage generating sensor
+- reference voltage sensor
+- discrete sensor
+- variable resistor sensor
+E: Voltage generating sensors (magnetic speed sensors) make their own signal.
+
+@301i|Outputs|hl
+Q: A proportional solenoid:
++ moves in proportion to its signal
+- is either fully on or fully off
+- needs no ECM driver circuit
+- is used only on pilot relief valves
+E: Proportional solenoids use PWM so spool movement matches signal strength.
+
+@301i|Control types|hl
+Q: The difference between open loop and closed loop electronic control is that closed loop:
++ has feedback from the output
+- has no ECM at all
+- uses only on/off solenoids
+- runs at full system voltage
+E: Open loop = no feedback. Closed loop = feedback for accurate position, velocity or acceleration control.
+
+@301i|PWM|hl
+Q: Pulse width modulation reduces heat in a solenoid driver because:
++ on/off switching cuts average current
+- it lowers the 5 V reference voltage
+- it raises the circuit resistance
+- it changes AC into DC
+E: Highlighted: PWM is a digital on/off signal; the duty cycle (% on time) sets the average.
+
+@301i|Spool control|hl
+Q: "Stiction" in an electrohydraulic valve is:
++ extra effort needed to first start a spool moving
+- a spool needing more current one way than the other
+- a sticky solenoid connector
+- oil varnish on the spool lands
+E: Static friction. It is overcome with dither (constant slight back-and-forth movement). Needing more current one way = hysteresis.
+
+@301i|Spool control|ct
+Q: Dither is used in a proportional valve to:
++ overcome stiction with slight movement
+- reduce the PWM frequency
+- protect the ECM from induced voltage
+- calibrate the joystick centre
+E: A small constant oscillation stops the spool sticking (static friction).
+
+@301i|Diagnostics|hl
+Q: According to the ILM, the most important source of diagnostic information is:
++ the operator
+- the service manual
+- the fault code list
+- the parts book
+E: Highlighted: talk to the operator, the most important source of information.
+
+@301i|ECM care|safe
+Q: Which practice protects the ECM during repairs?
++ Unplug the ECM before welding on the machine
+- Disconnect the batteries with the engine running to reset it
+- Fast charge batteries with the ECM connected
+- Unplug connectors while the system is operating
+E: Unplug when welding, never fast charge with ECM connected, never disconnect batteries with the engine running, don't unplug while operating.
+
+@301i|Electrohydraulics|
+Q: Compared with conventional hydraulics, electrohydraulic systems are:
++ much less tolerant of dirt
+- more tolerant of dirt
+- unaffected by dirt
+- only affected by water
+E: Narrow tolerances make electrohydraulic valves very sensitive to dirt.

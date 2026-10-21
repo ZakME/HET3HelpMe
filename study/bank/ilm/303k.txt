@@ -1,0 +1,239 @@
+@303k|Obj 1|
+Q: Which statement describes a basic overcentre clutch?
++ It stays engaged or disengaged until the operator moves it
+- It engages automatically when engine speed rises
+- It is spring applied and releases when the pedal is pushed
+- It disengages automatically under overload
+E: Push the lever to engage and pull it to disengage. It stays put until moved, because the linkage locks over centre.
+
+@303k|Obj 1|
+Q: Which is NOT listed as a benefit of using an overcentre clutch between an engine and a driven component?
++ Automatic torque multiplication
+- Improved safety (the driven component can be stopped while the engine runs)
+- Easier speed changes
+- Cold weather starting without the driven load on the starting system
+E: The clutch only connects and disconnects. It doesn't multiply torque.
+
+@303k|Obj 1|
+Q: Which of these is a typical overcentre clutch application?
++ A crane's draw works
+- A torque converter stator support
+- An A/C compressor pulley drive
+- A differential lock on a loader axle
+E: Applications include transmissions, pump drives, conveyors and crane draw works. They can be operated remotely by an air or hydraulic cylinder.
+
+@303k|Obj 1|
+Q: How is engine torque transferred into an overcentre clutch's friction discs?
++ Through a toothed drive ring bolted to the flywheel
+- Through a splined hub on the crankshaft
+- Through a damper spring disc on the flywheel face
+- Through a fluid coupling in the flywheel
+E: The drive ring (internal teeth) is bolted to the flywheel, and the discs (external teeth) mesh with it.
+
+@303k|Obj 1|
+Q: What is the purpose of the pilot bearing in an overcentre clutch installation?
++ To keep the shaft aligned when disengaged
+- To take the release thrust load
+- To transmit torque to the pressure plate
+- To set clutch adjustment
+E: The pilot bearing in the centre of the flywheel supports and aligns the shaft when it isn't locked to the flywheel through the discs.
+
+@303k|Obj 1|
+Q: Per the learning guide, how can a technician tell from the release linkage that an overcentre clutch is ENGAGED?
++ The linkage angle is less than 90 degrees
+- The linkage angle is greater than 90 degrees
+- The linkage is exactly at 90 degrees
+- The release bearing is pulled fully rearward
+E: In the guide's photos: released = linkage angle greater than 90 degrees, engaged = less than 90 degrees. The linkage pushes the release collar to full engaged travel and clamps the discs.
+
+@303k|Obj 1|
+Q: Why does an overcentre clutch "snap" into position when it is engaged or disengaged?
++ Force peaks as the linkage passes centre
+- A detent spring on the control lever
+- Hydraulic assist on the release yoke
+- The discs suddenly lock together
+E: Peak force is at centre. Once past it, the linkage locks itself in position.
+
+@303k|Obj 1|
+Q: At what engine speed should an overcentre clutch be engaged and disengaged?
++ Low engine rpm
+- High idle, to prevent stalling
+- Rated speed, for a firm engagement
+- It doesn't matter
+E: Low rpm protects the clutch and the driven component.
+
+@303k|Obj 1|ct
+Q: Why must care be taken when disengaging an overcentre clutch in an emergency with the engine under load?
++ The engine can overspeed when the load drops
+- The clutch will re-engage on its own
+- The pilot bearing will seize from the shock
+- The release bearing will lock up
+E: The guide warns that rpm can rise rapidly when the load suddenly disappears.
+
+@303k|Obj 1|
+Q: How is overcentre clutch adjustment checked?
++ With a pull scale on the lever, compared to spec
+- By measuring disc thickness with a micrometer
+- By checking release bearing end play with a dial indicator
+- By counting the adjusting ring notches showing
+E: The manufacturer specifies the engagement force.
+
+@303k|Obj 1|
+Q: To adjust an overcentre clutch, the technician:
++ releases the ring lock, turns the ring in small steps to spec, then re-locks it
+- lengthens the mechanical release linkage until it goes over centre firmly
+- adds shims behind the pressure plate to cut the clearance
+- adjusts the remote control linkage until the lever is tight
+E: Make small adjustments in stages, because clearance reduces quickly. The mechanical release linkage has NO adjustment.
+
+@303k|Obj 1|
+Q: What happens if the overcentre clutch adjusting ring lock (pin or clip) is not re-installed correctly?
++ The adjustment changes rapidly when disengaged
+- The clutch can't be engaged at all
+- The release bearing will over-lubricate
+- The pilot bearing will spin in the flywheel
+E: Without the lock, the ring rotates and the adjustment is lost, which leads to slip and damage.
+
+@303k|Obj 1|
+Q: Which statement about overcentre clutch linkage adjustment is correct?
++ Release linkage: not adjustable. Remote linkage: only for wear or new parts.
+- The release linkage is adjusted to set clutch pull force
+- The remote linkage is adjusted to set disc clearance
+- Both linkages are adjusted at every PM to set the pull force
+E: Remote linkage doesn't affect clutch adjustment. If it's adjusted wrong, it causes excessive release bearing wear.
+
+@303k|Obj 1|
+Q: During inspection, wear on the inner surface of ONE flange of the release bearing collar indicates:
++ improperly adjusted remote linkage
+- normal wear
+- worn clutch discs
+- excessive output shaft end play
+E: The release yoke is loading one side constantly, which points to remote linkage adjustment.
+
+@303k|Obj 1|
+Q: What should be checked on overcentre clutch pressure plates?
++ Warpage, heat cracking and surface wear
+- Spline count and tooth profile
+- Magnetism and hardness
+- Paint condition and balance marks
+E: Also inspect the geared discs for surface wear, cracks and cracked or worn external teeth.
+
+@303k|Obj 1|
+Q: What is the typical end play on a properly adjusted overcentre clutch output shaft (tapered roller bearings)?
++ 0.004 to 0.009 in.
+- 0.000 in. (preloaded)
+- 0.020 to 0.030 in.
+- 0.050 to 0.100 in.
+E: Check with a dial indicator. The figure varies by manufacturer. This adjustment also maintains shaft alignment.
+
+@303k|Obj 1|
+Q: What is one of the last checks after an overcentre clutch installation?
++ Confirm engine crankshaft end play is still within spec
+- Check engine valve lash at TDC
+- Check transmission oil level hot
+- Measure flywheel runout with the clutch engaged
+E: The installation must not load the crankshaft thrust bearing.
+
+@303k|Obj 1|
+Q: What precaution applies when installing the overcentre clutch assembly onto the flywheel drive ring?
++ Align carefully to protect the disc teeth
+- Engage the clutch first, then slide it on
+- Heat the drive ring so it expands
+- Lightly lubricate the friction faces
+E: The assemblies are very heavy and the disc teeth are easily damaged if misaligned.
+
+@303k|Obj 1|ct
+Q: An overcentre clutch on a pump drive slips and smells hot under load. The lever goes over centre with much less force than spec. What is the most likely cause and fix?
++ Worn discs. Adjust the ring to spec pull force.
+- The pilot bearing is worn. Replace the pilot bearing.
+- The remote linkage is too short. Lengthen it.
+- The release bearing is dry. Grease it.
+E: Low engagement force = not enough clamp load. Wear increases clearance, and adjusting the ring restores the clamp force. If it's already at the adjustment limit, the discs and plates need replacing.
+
+@303k|Obj 2|
+Q: An overrunning clutch allows:
++ the output shaft to turn faster than the input
+- the input to turn faster than the output under load
+- both shafts to lock in both directions
+- slip at a preset torque limit
+E: Overrunning (one-way) clutches drive one way and freewheel the other. They're used in torque converters, hoisting winches and similar.
+
+@303k|Obj 2|
+Q: What are the two common types of overrunning clutch used in heavy equipment?
++ Spring and roller, and sprag
+- Dog and cone
+- Plate and disc, and band
+- Electromagnetic and centrifugal
+E: Both lock the inner and outer races in one direction.
+
+@303k|Obj 2|
+Q: Why can a sprag clutch handle more torque than a spring and roller clutch of a similar size?
++ No springs, so more sprags fit
+- Its sprags are made of softer metal
+- It uses hydraulic pressure to wedge
+- It uses larger, stiffer springs
+E: More contact elements = more load capacity.
+
+@303k|Obj 2|
+Q: In a spring and roller clutch, what is the job of the springs?
++ To hold the rollers snug against the races
+- To release the rollers under load
+- To provide the clutch's clamping force
+- To return the clutch to neutral
+E: The springs keep the rollers ready to wedge.
+
+@303k|Obj 2|
+Q: Under what condition is a dog (jaw) clutch normally engaged or disengaged?
++ With both input and output shafts stopped, to avoid tooth damage
+- At high speed, to synchronize the shafts
+- Under full load
+- Whenever the operator chooses, since the teeth are self-aligning
+E: The jaw teeth have no slip ability. A common use is a differential lock (equal speed to both axles).
+
+@303k|Obj 2|
+Q: When troubleshooting a slipping electromagnetic clutch, where should you start?
++ Battery voltage, wiring and ground
+- Replace the clutch coil and hub
+- Check the clutch friction material
+- Check the compressor oil level
+E: Low voltage, bad wiring or a poor ground means a weak magnet, low clamp force and slip, which can lead to a catastrophic failure. The air gap must also be within spec.
+
+@303k|Obj 2|ct
+Q: A compressor electromagnetic clutch slips. There are 12.6 V at the battery but only 10.1 V at the clutch coil connector with the clutch engaged. What is the next step?
++ Voltage drop test the feed and ground circuits
+- Replace the clutch coil, since it's drawing too much
+- Reduce the air gap to below spec to compensate
+- Charge the battery and retest
+E: A 2.5 V loss under load means resistance in the circuit (a connection, wire, relay or ground). The coil can't build full magnetic clamp force.
+
+@303k|Obj 2|
+Q: Wet (oil) clutches in powershift transmissions consist of:
++ steel plates, friction discs and a hydraulic piston
+- friction plates, steel discs and a Belleville spring only
+- a cone and a cup
+- sprags and races
+E: Hydraulic pressure on the piston clamps the plates and discs together. Transmission oil from the pump lubricates and cools them.
+
+@303k|Obj 2|
+Q: Why is it important to use the manufacturer's specified oil in powershift transmissions with wet clutches?
++ Incompatible additives can damage the clutches
+- Other oils won't lubricate the gears properly
+- The oil colour is used for diagnosis
+- It voids the engine warranty
+E: Friction material is sensitive to oil chemistry.
+
+@303k|Obj 2|gk
+Q: Where is a cone clutch commonly found in a drivetrain?
++ In transmission synchronizers
+- In the differential lock
+- In a torque converter lockup
+- In an A/C compressor
+E: The tapered (cone) friction surface multiplies clamping force by wedging, which makes it compact for synchronizing. (General knowledge.)
+
+@303k|Obj 2|ct gk
+Q: A torque converter's stator one-way clutch has failed and now freewheels in BOTH directions. What symptom would you expect?
++ Poor torque multiplication: weak acceleration or pulling from a stop, and low stall speed
+- Overheating only at high cruising speed
+- No change, because the stator only matters at coupling
+- The machine won't move at all
+E: The stator must be held during multiplication to redirect oil. If it freewheels, multiplication is lost. A stator seized solid instead causes overheating at coupling speed. (General knowledge, applying 303k Obj 2.)

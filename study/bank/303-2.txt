@@ -1,0 +1,1143 @@
+@303f|Diagnosis|hl
+Q: When diagnosing a powershift transmission, what should always be checked first during the visual inspection?
++ Oil level and condition
+- Clutch pressures
+- Stall speed
+- Shift linkage adjustment
+E: Highlighted: oil level/condition always first. Water/glycol contamination is especially damaging.
+
+@303f|Diagnosis|hl
+Q: Transmission oil should be warmed to what range before testing?
++ 150–180 °F
+- 100–120 °F
+- 200–250 °F
+- 250–275 °F
+E: Highlighted: leakage increases with temperature, so problems may not show when the oil is cold.
+
+@303f|Diagnosis|hl ct
+Q: Why must transmission oil be at operating temperature before pressure testing?
++ Leakage rises with heat, so cold oil hides faults
+- Cold oil makes every pressure read too low
+- Gauges are only accurate when warmed up
+- The converter relief only opens when hot
+E: Hot oil is thinner and leaks more. Testing cold can hide worn seals and clearances.
+
+@303f|Stall test|hl safe
+Q: Which is a correct precaution during a transmission stall test?
++ Open area, watch temperature, expect movement
+- Lowest gear, park brake off, brakes released
+- Hold the stall until oil reaches 275 °F
+- Have a helper stand in front to watch it
+E: Highlighted. Stall for no more than 30 seconds, then neutral for 30 seconds to cool.
+
+@303f|Stall test|safe
+Q: During a transmission stall test, how long should each stall be held?
++ 30 s max, then 30 s in neutral
+- At least 2 minutes for a stable reading
+- Until the engine stalls or oil boils
+- 10 s per gear, no cooling needed
+E: Don't overheat the transmission oil.
+
+@303f|Stall test|hl ct
+Q: Transmission stall speed is HIGHER than specified. Which is a likely cause?
++ Slipping transmission clutches
+- A weak engine
+- A slipping converter stator
+- A plugged oil cooler
+E: Highlighted: high stall = excessive engine power, slipping clutches, converter cavitation (low oil).
+
+@303f|Stall test|hl ct
+Q: Transmission stall speed is LOWER than specified. Which is a likely cause?
++ A weak engine or a slipping stator
+- Slipping clutches
+- Low oil level causing converter cavitation
+- Excessive engine power
+E: Highlighted: low stall = weak engine, torque converter stator slipping.
+
+@303f|Pressure tests|hl
+Q: Pressure gauges for transmission testing should be rated for:
++ double the system pressure
+- exactly the system pressure
+- half the system pressure
+- ten times the system pressure
+E: Highlighted.
+
+@303f|Pressure tests|hl ct
+Q: Transmission charging pump inlet pressure is below 12 psia. This indicates:
++ an inlet restriction (cavitation risk)
+- air being drawn into the inlet line
+- a worn charge pump with high slip
+- a converter relief stuck open
+E: Highlighted. Higher than normal inlet pressure = air being drawn in.
+
+@303f|Pressure tests|hl
+Q: Clutch application pressure should be checked at:
++ low and high idle (should match)
+- high idle only, in each range
+- converter stall only
+- low idle only, in neutral
+E: Highlighted. It's controlled by the clutch pressure regulator valve, which may be adjustable.
+
+@303f|Pressure tests|hl ct
+Q: Clutch pressure is low at low idle but normal at high idle. This indicates:
++ internal leakage
+- a regulator set too high
+- a restricted pump inlet
+- normal operation
+E: Highlighted. At low idle the pump can't keep up with the leakage; at high idle it can.
+
+@303f|Pressure tests|hl
+Q: Torque converter charge pressure is limited by the converter relief valve, which is installed on the:
++ inlet side of the converter
+- outlet side of the converter
+- lube circuit
+- cooler return
+E: Highlighted. Converter charge pressure shows resistance to flow in the converter.
+
+@303f|Pressure tests|ct
+Q: Torque converter charge pressure is low. Which is a possible cause?
++ Leakage in the clutch application circuit
+- A plugged converter outlet line
+- A cooler that is too large
+- Converter outlet relief set too high
+E: Low converter pressure: insufficient charge pump flow, clutch circuit leakage or converter circuit leakage.
+
+@303f|Pressure tests|hl
+Q: Which transmission circuit is the last to receive oil flow?
++ Lubrication
+- Clutch application
+- Torque converter charging
+- Priority (steering)
+E: Highlighted. So low lube pressure can reflect leaks anywhere upstream.
+
+@303f|Pressure tests|ct
+Q: Lube pressure is low in only one speed range. The most likely cause is:
++ that range's clutch piston leaking
+- a weak, worn charge pump
+- a stuck lube relief valve
+- a converter circuit leak
+E: A leak that only shows in one range points to that range's clutch piston seals.
+
+@303f|Flowmeter|hl
+Q: A flowmeter installed in series in a transmission circuit is used to:
++ measure internal leakage upstream of it
+- set the clutch pressure regulator
+- find the converter stall speed
+- adjust the shift points
+E: Highlighted.
+
+@303f|Shift points|hl
+Q: Shift points on a hydraulically controlled automatic transmission are adjusted in relation to:
++ governor pressure readings
+- clutch application pressure
+- converter outlet temperature
+- engine coolant temperature
+E: Highlighted. Also output shaft speed and vehicle odometer. Check governor pressure before adjusting.
+
+@303f|Electronic|hl
+Q: When diagnosing an electronic transmission fault code, you should:
++ follow the OEM manual's steps
+- replace the ECM first
+- clear it and test drive only
+- check governor pressure
+E: Highlighted.
+
+@303f|Rebuild|hl
+Q: Nicks and scratches on transmission valve components will result in:
++ sticking valves
+- higher lube pressure
+- clutch slip only
+- converter cavitation
+E: Highlighted.
+
+@303f|Rebuild|hl
+Q: Bearings and clutch friction discs should only be cleaned with:
++ mineral spirits
+- hot caustic solution
+- brake cleaner
+- water-based degreaser
+E: Highlighted. Dry with dry compressed air (don't spin bearings).
+
+@303f|Rebuild|hl
+Q: Clutch disc warpage and cone are checked by:
++ placing the disc on a flat surface and using a feeler gauge
+- measuring thickness with a micrometer
+- spinning the disc on a shaft with a dial indicator
+- checking the disc colour
+E: Highlighted. Excessive cone/warpage causes clutch drag. Micrometer = wear.
+
+@303f|Rebuild|hl ct
+Q: Insufficient clutch clearance in a transmission clutch pack will cause:
++ drag and heat
+- delayed engagement
+- low clutch pressure
+- RPM flare on shifts
+E: Highlighted. Excessive clearance causes slightly delayed application.
+
+@303f|Rebuild|hl
+Q: Clutch pack clearance can be altered by:
++ changing reaction disc or piston thickness
+- adjusting the clutch pressure regulator
+- adding shims under the return springs
+- changing to a thicker oil viscosity
+E: Highlighted. Measure with feeler gauges, go/no-go or stack height.
+
+@303f|Rebuild|hl ct
+Q: After a transmission rebuild, a valve spool binds. A likely cause is:
++ wrong valve body bolt torque
+- too much clutch clearance
+- the wrong oil viscosity
+- a missing lube relief valve
+E: Highlighted: incorrect torquing may cause valve spool binding.
+
+@303f|Installation|hl
+Q: When installing a rebuilt transmission, you should:
++ new oil and filters; flush the cooler
+- reuse the old oil for its additives
+- leave the cooler alone if it's not leaking
+- skip filters until the first service
+E: Highlighted. Debris left in the cooler will contaminate the new unit.
+
+@303f|Installation|hl
+Q: Crankshaft endplay must be checked:
++ before removal and after installation
+- only after installation
+- only before removal
+- only if the converter was replaced
+E: Highlighted. If insufficient after install, remove the transmission, recheck and repair.
+
+@303f|Installation|hl ct
+Q: After installing a transmission, there is a vibration that wasn't there before. A likely cause is:
++ flywheel housing misalignment
+- low lubrication pressure
+- incorrect clutch pack clearance
+- wrong shift point settings
+E: Highlighted: any misalignment will cause vibration.
+
+@303g|Clutch and brake|hl
+Q: On a clutch-and-brake steered crawler, a gradual turn is made by:
++ disengaging the steering clutch on the turn side
+- applying the brake on the turn side only
+- slowing the opposite track with a motor
+- reversing the turn-side track
+E: Highlighted. For a sharp turn, the brake is also applied on the side with the released clutch.
+
+@303g|Clutch and brake|hl
+Q: Conventional crawler steering clutches are:
++ spring applied and hydraulically released
+- hydraulically applied and spring released
+- applied by the operator pulling the lever
+- air applied
+E: Highlighted. No operator input = clutch engaged.
+
+@303g|Clutch and brake|hl
+Q: On a conventional crawler with band brakes, the steering clutch is located:
++ inside the brake drum
+- outside the brake drum
+- in the final drive
+- in the transmission
+E: Highlighted. The contracting band is mounted over the drum.
+
+@303g|Clutch and brake|hl
+Q: On a modular steering clutch and brake unit:
++ clutch and brake are both spring applied
+- the clutch is spring applied, brake oil applied
+- both are hydraulically applied
+- the brake is applied by foot pedal only
+E: Highlighted. Brake springs = brakes on; clutch springs = clutch engaged.
+
+@303g|Clutch and brake|hl ct
+Q: In a modular steering unit, the clutch and brake oil circuits are in series. When the steering clutch is released:
++ the brake applies
+- the brake also releases
+- the clutch re-engages immediately
+- the transmission goes to neutral
+E: Highlighted: clutch engaged → brakes disengaged; clutch disengaged → brakes engaged.
+
+@303g|Clutch and brake|hl
+Q: A priority valve in a crawler steering system ensures that:
++ steering and brakes get oil before the transmission
+- the transmission gets oil before steering
+- the clutches release before the brakes apply
+- lube oil goes to the final drives first
+E: Highlighted.
+
+@303g|Clutch and brake|
+Q: On a clutch-brake crawler, with the steering lever pulled partially:
++ clutch partly released, brake released
+- clutch engaged, brake applied
+- clutch released, brake applied
+- clutch and brake both applied
+E: Not pulled: clutch engaged, brake released. Partial: clutch partly released, brake released. Fully: clutch released, brake applied.
+
+@303g|Diagnosis|hl ct
+Q: During a steering pressure test on a clutch-brake crawler, what should brake pressure read before the clutch is disengaged?
++ 0
+- Maximum
+- Half of clutch pressure
+- Equal to relief pressure
+E: Highlighted: brake pressure = 0 until the clutch is disengaged, then rises smoothly. Clutch pressure = 0 until the lever is pulled.
+
+@303g|Diagnosis|hl safe
+Q: A crawler steering stall test should be done:
++ in an open area, in gear, with the park brake applied
+- in the shop with the tracks off
+- in neutral at low idle
+- with the operator standing beside the machine
+E: Highlighted. A slipping brake will let the machine creep. Test all transmission ranges.
+
+@303g|Service|hl
+Q: Removing the steering clutches from a conventional crawler typically requires removing:
++ tracks, final drive, cab and fuel tank
+- only the final drive and sprocket
+- only the track and track roller frame
+- the engine, converter and transmission
+E: Highlighted: modular = tracks and final drive; conventional = also the cab and fuel tank.
+
+@303g|Service|hl safe
+Q: When disassembling a steering clutch or brake pack, be careful of:
++ spring pressure
+- residual nitrogen
+- high voltage
+- hot coolant
+E: Highlighted: Belleville and coil springs store a lot of force.
+
+@303g|Service|hl ct
+Q: Insufficient clearance between steering clutch discs will cause:
++ dragging, overheating and eventual failure
+- delayed clutch engagement
+- low steering pressure
+- the machine to steer the opposite way
+E: Highlighted. Clearances are checked with a feeler gauge; also adjust the linkages.
+
+@303g|Hydrostatic steering|hl hst
+Q: A hydrostatic steered crawler uses:
++ two variable, reversible pumps, each supplying its own track motor
+- one pump and a steering differential
+- steering clutches and brakes driven by a hydraulic motor
+- one pump that alternates between two motors
+E: Highlighted. Each pump supplies its own motor, which drives a final drive.
+
+@303g|Hydrostatic steering|hl hst
+Q: The main advantage of hydrostatic and differential steering over clutch-brake steering is:
++ both tracks stay powered in turns
+- it doesn't need any brakes
+- it is cheaper to repair
+- it uses no hydraulic oil
+E: Highlighted: power at both tracks during turning.
+
+@303g|Hydrostatic steering|hl hst
+Q: A counter-rotation (spot) turn is when:
++ one track is driven forward and the other in reverse
+- one track is stopped and the other driven
+- both tracks are driven at different speeds forward
+- both brakes are applied
+E: Highlighted.
+
+@303g|Hydrostatic steering|hst
+Q: On an electronic hydrostatic crawler, the pump speed sensor is used by the ECM to:
++ prevent engine stall under heavy load
+- measure slip at each track
+- control the decelerator pedal
+- set the charge relief pressure
+E: The ECM watches pump (engine) speed and reduces demand before the engine stalls.
+
+@303g|Differential steering|hl
+Q: In a differential steering system, the hydraulic steering motor provides:
++ the left and right turns
+- forward and reverse direction
+- the ground speed
+- braking
+E: Highlighted: transmission = speed and direction; steering motor = turning.
+
+@303g|Differential steering|hl
+Q: The brakes on a differential steered crawler are used to:
++ stop or slow the machine, not to steer
+- steer the machine in sharp turns
+- hold the steering motor stationary
+- release the steering clutches
+E: Highlighted. They are modular multi-disc wet brakes, spring applied and hydraulically released.
+
+@303g|Differential steering|hl ct
+Q: When a differential steered crawler is travelling straight, the steering motor is:
++ held stationary
+- turning at transmission speed
+- driving the left track only
+- freewheeling
+E: Highlighted. The transmission drives both final drives.
+
+@303g|Differential steering|hl ct
+Q: A differential steered dozer is making a counter-rotation turn. Where does the power come from?
++ The steering motor alone
+- The transmission alone
+- Transmission and motor together
+- One side's brake and the transmission
+E: Highlighted.
+
+@303g|Differential steering|hl ct
+Q: A differential steered crawler won't track straight; it slowly wanders. The likely cause is:
++ the steering motor isn't holding
+- the steering motor won't turn
+- brakes dragging on both sides
+- the transmission is in the wrong gear
+E: Highlighted: if the motor/ring gear won't stay stationary, the machine won't drive straight. If the motor won't turn, it won't turn.
+
+@303g|Differential steering|
+Q: Which test compares how a differential steered machine turns left versus right?
++ Turn diameter check
+- Steering clutch pressure test
+- Torque converter stall test
+- Track sag check
+E: Make full 360° turns each way and compare the inside diameters with each other and spec. A sprocket speed difference check is also used.
+
+@303h|Track design|hl
+Q: Narrow track pads provide:
++ more traction, less wear
+- more flotation
+- more stability on soft ground
+- less traction, better ride
+E: Highlighted: narrowest pads possible are typically used. Wide pads = more load carrying.
+
+@303h|Track design|hl
+Q: Wider track pads provide:
++ more load carrying (flotation)
+- more traction
+- less undercarriage wear
+- better results on hard rock
+E: Highlighted. Wide pads also bend more and wear the rails.
+
+@303h|Track design|hl
+Q: A tracked crane lifts best with the load:
++ close to the machine
+- far from the machine
+- over the sprocket
+- off the side
+E: Highlighted.
+
+@303h|Track frames|hl
+Q: An oscillating (swing) track frame:
++ pivots so the frames can move up and down
+- is bolted to the machine front and rear
+- gives the most stability for excavators
+- uses no equalizer bar or pivot shaft
+E: Highlighted. Fixed frames increase stability.
+
+@303h|Track frames|hl
+Q: The equalizer bar on a crawler:
++ carries the front and lets the frames oscillate
+- tensions the track chain via the idler
+- holds the sprockets in line with the rollers
+- carries the rear of the machine
+E: Highlighted.
+
+@303h|Track chain|hl
+Q: In a track link, the bushing is pressed into the ___ and the pin into the ___.
++ big hole; small hole
+- small hole; big hole
+- pad; link
+- sprocket; idler
+E: Highlighted. Pins slip fit in the bushing and press fit in the small hole.
+
+@303h|Track chain|hl
+Q: How can you identify a master pin in a track chain?
++ It is slightly recessed and smaller
+- It is longer than the other pins
+- It has a red factory paint mark
+- It has a grease fitting in the end
+E: Highlighted: the master pin lets the track be split; it needs a hydraulic or swing press.
+
+@303h|Track chain|hl
+Q: A sealed and lubricated track (SALT):
++ is lubed between pin and bushing
+- uses dry pins and bushings
+- is only used on excavators
+- can't be split for repairs
+E: Highlighted.
+
+@303h|Track pads|hl
+Q: An open centre grouser pad is used when:
++ soil packs between the sprocket and track chain
+- maximum traction is needed on hard ground
+- operating on pavement
+- maximum flotation is needed
+E: Highlighted. The cut-out lets packed material be forced out.
+
+@303h|Track pads|
+Q: Multi-grouser (all purpose) track pads provide:
++ better flotation but less traction
+- the best traction available
+- the least surface disturbance on rock
+- extreme service abrasion resistance
+E: Two or more grousers per pad; less surface disturbance.
+
+@303h|Sprockets|hl
+Q: A low mount sprocket design provides:
++ greater stability and a lower centre of gravity
+- reduced shock loads on the final drive
+- less pin and bushing wear because of a rear idler
+- more ground clearance
+E: Highlighted. Important on excavators.
+
+@303h|Sprockets|hl
+Q: The main advantage of a high mount (elevated) sprocket is:
++ less shock load on the final drive
+- a lower centre of gravity
+- less pin and bushing wear
+- no rear idler is needed
+E: Highlighted. It needs an extra idler at the rear and creates extra pin/bushing wear.
+
+@303h|Sprockets|hl
+Q: A segmented sprocket allows:
++ sprocket replacement without removing the track
+- one segment to be changed on its own
+- the sprocket to turn in reverse
+- the final drive to be removed with the track on
+E: Highlighted. If one segment needs changing, all should be changed.
+
+@303h|Rollers|hl
+Q: Carrier (pedestal) rollers ___, while track rollers ___.
++ support the track chain on top; support the machine's weight
+- support the machine's weight; support the track chain on top
+- tension the track; guide the track
+- drive the track; guide the track
+E: Highlighted.
+
+@303h|Rollers|hl
+Q: Roller flanges are important because they:
++ keep the chain aligned in turns and on slopes
+- carry the weight of the machine
+- seal the oil inside the roller
+- tension the track chain
+E: Highlighted. Operate in both directions on slopes to even out flange wear.
+
+@303h|Rollers|hl
+Q: Duo-cone seals should be installed using:
++ an alcohol-based lubricant
+- engine oil
+- grease
+- nothing; install them dry
+E: Highlighted: alcohol leaves no residue.
+
+@303h|Idlers|hl
+Q: The front idler is typically part of the:
++ tension and recoil system
+- final drive assembly
+- equalizer bar linkage
+- carrier roller assembly
+E: Highlighted. It moves forward and back to react to impacts.
+
+@303h|Tension|hl ct
+Q: A dozer is working in sticky clay that packs into the track. The track tension should be:
++ loosened
+- tightened
+- left at the factory setting regardless
+- set to zero sag
+E: Highlighted: loosened in soils that cause packing.
+
+@303h|Tension|hl
+Q: On a hydraulic (grease) track adjuster, adding grease will usually:
++ tighten the track
+- loosen the track
+- have no effect
+- release the recoil spring
+E: Highlighted. On a nitrogen recoil system it is the opposite.
+
+@303h|Tension|hl
+Q: The track recoil mechanism:
++ absorbs shock loads (spring always loaded)
+- sets track sag directly
+- only works on rubber tracks
+- is released when the track is split
+E: Highlighted.
+
+@303h|Inspection|hl
+Q: Before measuring track sag, the machine should be:
++ driven toward the idler and coasted to a stop
+- reversed and stopped hard with the brakes
+- lifted so the track hangs free
+- parked facing down a slope
+E: Highlighted. Measure between the front idler and the next direction change.
+
+@303h|Inspection|hl
+Q: Pin and bushing wear is measured by:
++ measuring pin centres over several links
+- measuring each bushing's outside diameter
+- checking track sag at the idler
+- measuring the grouser height
+E: Highlighted. Stretch the track tight first and keep the master pin out of the measurement.
+
+@303h|Inspection|hl ct
+Q: Sprockets, pins and bushings wear fastest when travelling:
++ in reverse
+- forward
+- on slopes only
+- at low speed
+E: Highlighted: the sprocket pushes the bushing into the ground and scrubs it.
+
+@303h|Inspection|hl
+Q: As a track chain wears, its pitch:
++ increases
+- decreases
+- stays the same
+- varies only on the master link
+E: Highlighted. Measure across multiple pins and bushings.
+
+@303h|Repairs|hl
+Q: Remanufacturing undercarriage parts is only possible if:
++ enough material is left on the part
+- the part has already failed completely
+- the part is less than a year old
+- the OEM supplies a new casting
+E: Highlighted: take parts out of service before total failure.
+
+@303h|Repairs|hl
+Q: Ice lugs (cleats) welded onto grouser bars are used to:
++ increase traction
+- reduce pad wear
+- improve flotation
+- protect the bolts
+E: Highlighted. Typically a 1-2-1 pattern.
+
+@303h|Repairs|hl safe
+Q: Before servicing a track recoil spring assembly, ensure the spring is:
++ caged
+- fully released
+- removed from the frame first
+- heated
+E: Highlighted: if the retaining bolt is broken, the spring may release with tremendous force.
+
+@303i|Final drives|hl
+Q: In a typical planetary final drive, the input, output and held members are:
++ sun input, carrier output, ring held
+- ring input, sun output, carrier held
+- carrier input, ring output, sun held
+- sun input, ring output, carrier held
+E: Highlighted. That gives the largest forward reduction.
+
+@303i|Final drives|hl
+Q: An inboard planetary final drive requires:
++ a very thick driveshaft
+- a small, light driveshaft
+- no wheel bearings
+- a chain drive to the wheel
+E: Highlighted. Outboard final drives let the drive axles stay small.
+
+@303i|Final drives|hl
+Q: An advantage of an outboard planetary final drive is that it is:
++ much easier to service
+- lighter at the wheel
+- able to use a thinner housing
+- free of any reduction
+E: Highlighted. The carrier often acts as the cover and wheel mount.
+
+@303i|Final drives|calc
+Q: A double reduction final drive has a first stage of 3:1 and a second stage of 4:1. The total ratio is:
++ 12:1
+- 7:1
+- 1.33:1
+- 0.75:1
+E: Total ratio = first × second.
+
+@303i|Chain drives|hl
+Q: Chain final drives are commonly found on:
++ skid steers and motor graders
+- haul trucks and wheel loaders
+- excavators and dozers
+- scrapers and cranes
+E: Highlighted.
+
+@303i|Chain drives|hl
+Q: The tandem housing on a motor grader works similar to a:
++ walking beam
+- panhard rod
+- equalizer bar
+- planetary carrier
+E: Highlighted: the chain housing pivots so the tandem wheels follow the ground.
+
+@303i|Spur drives|hl
+Q: In a spur gear final drive, the small drive gear is called the ___ and the large driven gear the ___.
++ bull pinion; bull gear
+- bull gear; bull pinion
+- sun; ring
+- crown; pinion
+E: Highlighted.
+
+@303i|Maintenance|hl
+Q: To check a final drive oil level, the machine should be on level ground with:
++ the level line parallel to the ground
+- the drain plug straight down
+- the fill plug at 12 o'clock
+- the engine running at idle
+E: Highlighted.
+
+@303i|Maintenance|hl safe
+Q: Why use caution removing the small cover in the centre of a planetary final drive?
++ It isn't vented; pressure builds when warm
+- It holds the ring gear in place
+- It is spring loaded against the sun
+- It holds a nitrogen charge
+E: Highlighted. The cover gives access to the sun gear and axle shaft.
+
+@303i|Electric drive|hl
+Q: On an electric drive haul truck, what is the order of power flow?
++ Generator, rectifier, DC bus, inverters, motors
+- Rectifier, generator, inverters, DC bus, motors
+- Generator, inverters, DC bus, rectifier, motors
+- Generator, DC bus, rectifier, inverters, motors
+E: Highlighted: AC from the generator is rectified to DC, stored on the DC bus, then inverted back to AC for the motors.
+
+@303i|Electric drive|hl
+Q: The DC bus in an electric drive system:
++ stores DC voltage
+- converts AC to DC
+- converts DC to AC
+- cools the retarding grid
+E: Highlighted.
+
+@303i|Electric drive|hl
+Q: During dynamic braking on an electric drive truck:
++ the motors generate, and the grid burns it off
+- the generator drives the wheels backwards
+- the inverter applies the mechanical brakes
+- the DC bus is disconnected from the motors
+E: Highlighted. Braking choppers control the grid; a blower motor cools it.
+
+@303i|Electric drive|hl
+Q: Braking choppers in an electric drive system are:
++ switches that control the grid
+- mechanical brake calipers
+- grid cooling fans
+- main rectifier diodes
+E: Highlighted.
+
+@303i|Electric drive|hl safe
+Q: Before working on an electric drive system, the DC bus capacitors must be:
++ verified as discharged
+- charged to full voltage
+- disconnected while still charged
+- shorted out with a screwdriver
+E: Highlighted: the DC bus capacitor bank is a serious voltage hazard.
+
+@303i|Electric drive|hl safe
+Q: When working near energized electric drive components, the minimum safe working distance without PPE is:
++ 2.5 ft
+- 12 in
+- 6 in
+- 10 ft
+E: Highlighted: 12 in with PPE, 2.5 ft without.
+
+@303i|Electric drive|hl safe
+Q: Correct hand protection for high-voltage electric drive work is:
++ rated rubber gloves under leather
+- heavy leather gloves only
+- nitrile gloves, double layered
+- insulated welding gloves
+E: Highlighted. Plus face shield and glasses.
+
+@303i|Electric drive|hl
+Q: In the electric drive generator, the stator is the:
++ fixed field, fed by a supply
+- rotating field winding
+- DC bus capacitor bank
+- retarding grid resistor
+E: Highlighted.
+
+@303i|Electric drive|hl safe
+Q: Who should work on electric drive systems?
++ Technicians with specialized training
+- Any licensed heavy equipment technician
+- Apprentices under any supervision
+- Operators with a lockout key
+E: Highlighted: you need specialized training.
+
+@303j|Axle basics|hl
+Q: GAWR stands for:
++ gross axle weight rating
+- gear and wheel ratio
+- gross axle wheel resistance
+- general axle wear rating
+E: Highlighted. The housing is the main factor in GAWR.
+
+@303j|Axle basics|hl
+Q: A full-floating axle shaft:
++ can be pulled with weight on the tires
+- supports the weight of the machine
+- needs the wheel raised for removal
+- has no bearings at the wheel hub
+E: Highlighted. A semi-floating shaft carries the load, so the wheel must be raised.
+
+@303j|Carrier|hl
+Q: Drive pinion depth is adjusted using:
++ pinion cage shims
+- the side bearing adjusting rings
+- the thrust screw and jam nut
+- the yoke nut torque
+E: Highlighted.
+
+@303j|Carrier|hl
+Q: A straddle mounted drive pinion has:
++ a bearing on the pinion nose
+- no support on the pinion nose
+- two pinions side by side
+- a pilot bushing in the yoke
+E: Highlighted. Straddle mounting helps with high torque loads. Overhung = no support on the end.
+
+@303j|Carrier|hl
+Q: The bevel (ring) gear is bolted to the:
++ flanged differential case half
+- plain differential case half
+- cross shaft
+- pinion cage
+E: Highlighted. It delivers torque to the differential case.
+
+@303j|Carrier|hl
+Q: The thrust screw in a differential carrier:
++ stops the bevel gear deflecting
+- sets the pinion depth
+- sets side bearing preload
+- locks the differential case
+E: Highlighted. It sits opposite the pinion, behind the bevel gear.
+
+@303j|Carrier|hl
+Q: The differential cross shaft (spider):
++ carries the pinions between the case halves
+- connects the drive pinion to the yoke
+- supports the carrier side bearings
+- drives the axle shafts directly
+E: Highlighted.
+
+@303j|Power path|hl
+Q: In a drive axle, power flows from the differential case to the:
++ cross shaft, pinions, side gears, axles
+- side gears, cross shaft, pinions, axles
+- pinions, cross shaft, side gears, axles
+- bevel gear, pinion, side gears, axles
+E: Highlighted: yoke, pinion, bevel gear, case, cross shaft, diff pinions, side gears, axle shafts, wheels.
+
+@303j|Differential|hl
+Q: The main purpose of a differential is to:
++ let wheels turn at different speeds
+- multiply torque to the wheels
+- split torque front to rear
+- lock both wheels together
+E: Highlighted. The outer wheel must travel faster than the inner in a turn.
+
+@303j|Differential|hl
+Q: Most differential carriers are:
++ single speed, single reduction
+- two speed, double reduction
+- planetary
+- locked
+E: Highlighted. The ratio is set by the drive pinion and bevel gear.
+
+@303j|Differential|hl ct
+Q: One wheel of an open differential axle is on ice with almost no traction. The other wheel will receive:
++ only as much torque as the spinning wheel
+- all of the torque
+- twice the torque of the spinning wheel
+- no torque at all
+E: Highlighted: torque is identical at each wheel regardless of RPM.
+
+@303j|Differential|calc hl
+Q: An open differential's bevel gear delivers 10 000 lb·ft. Each axle shaft receives:
++ 5000 lb·ft
+- 10 000 lb·ft
+- 20 000 lb·ft
+- 2500 lb·ft
+E: Highlighted: take torque from the bevel gear and divide by 2.
+
+@303j|Differential|calc hl
+Q: The bevel gear is turning 100 RPM. One wheel is stopped. The other wheel turns at:
++ 200 RPM
+- 100 RPM
+- 50 RPM
+- 0 RPM
+E: Highlighted: total RPM of the wheels = bevel gear RPM × 2. RPM can't be lost.
+
+@303j|Differential|calc
+Q: In a turn, the bevel gear turns 300 RPM and the inner wheel turns 270 RPM. The outer wheel turns:
++ 330 RPM
+- 300 RPM
+- 270 RPM
+- 600 RPM
+E: Total = 300 × 2 = 600. 600 − 270 = 330 RPM. What one side loses, the other gains.
+
+@303j|Transfer case|hl
+Q: A transfer case (drop box):
++ splits power front/rear and drops it down
+- lets wheels on one axle turn at different speeds
+- provides the last gear reduction
+- locks the inter-axle differential
+E: An optional inter-axle differential lets torque split at varying amounts front to rear.
+
+@303j|Traction|hl
+Q: When a differential lock is engaged:
++ both wheels turn at the same RPM
+- the wheels turn at different speeds
+- torque is always split evenly
+- the bevel gear locks to the housing
+E: Highlighted. More torque goes to the wheel with the most traction.
+
+@303j|Traction|hl safe
+Q: A jaw (dog) type differential lock should be engaged:
++ at low speed, travelling straight
+- at high speed, while turning
+- while a wheel is spinning
+- only in reverse, at idle
+E: Highlighted. Disc type locks are more forgiving during wheel spin.
+
+@303j|Traction|hl
+Q: A no-spin differential:
++ acts locked but lets wheels differ in turns
+- is a disc lock engaged by the operator
+- acts as an open differential at all times
+- needs an air supply to engage
+E: Highlighted. It ratchets audibly in corners.
+
+@303j|Lubrication|hl
+Q: Drive axle oil level should be:
++ level with the filler opening
+- one inch below the filler opening
+- at the centre of the axle shaft
+- level with the drain plug
+E: Highlighted.
+
+@303j|Lubrication|hl
+Q: Pressure lubricated drive axles use an internal pump that is often:
++ overdriven to lube at low speed
+- driven by the axle shaft at reduced speed
+- electric, with its own relay
+- only active above 10 km/h
+E: Highlighted.
+
+@303j|Diagnosis|ct
+Q: A drive axle is noisy only when the machine is turning. The most likely cause is:
++ worn side gears or diff pinions
+- incorrect drive pinion depth
+- a warped bevel (ring) gear
+- worn drive pinion bearings
+E: Noise on turns = anything that only works during turns: side gears, pinions, spider, thrust washers, axle splines.
+
+@303j|Diagnosis|hl
+Q: Before disassembling a carrier, backlash should be checked with a dial indicator:
++ 90° to a tooth, at four places
+- on the pinion yoke, at one place
+- on the ring gear back face
+- on the axle flange, at two places
+E: Highlighted.
+
+@303j|Service|hl
+Q: If the drive pinion is damaged, it must be replaced together with:
++ the bevel gear
+- the side gears
+- the cross shaft
+- nothing else
+E: Highlighted: bevel gear and input pinion are changed as a matched set.
+
+@303j|Service|hl safe
+Q: When removing the case half bolts of a no-spin differential, be careful because:
++ the case halves are spring loaded
+- the bolts are left-hand thread
+- the case contains nitrogen
+- the bolts are torque-to-yield
+E: Highlighted.
+
+@303j|Assembly|hl
+Q: Drive pinion bearing preload is adjusted with:
++ shims between the pinion bearings
+- shims under the pinion cage
+- the side bearing adjusting rings
+- the thrust screw setting
+E: Highlighted. More shim = less preload.
+
+@303j|Assembly|hl
+Q: When checking pinion bearing preload, rotating torque should be measured:
++ while it is turning
+- at breakaway
+- with the yoke nut loose
+- with the bearings unloaded
+E: Highlighted.
+
+@303j|Assembly|hl
+Q: The pinion nominal dimension is the distance from the:
++ pinion end to bevel gear centreline
+- pinion bearing to the yoke face
+- ring gear to the flanged case
+- pinion teeth to the cage face
+E: Highlighted. The variance is etched on the end of the pinion.
+
+@303j|Assembly|hl
+Q: A new pinion is etched "+3". The pinion must be set:
++ further from the bevel gear than nominal
+- closer to the bevel gear than nominal
+- at the nominal dimension
+- with three extra shims between the bearings
+E: Highlighted: + = further away (increase gap); − = closer.
+
+@303j|Assembly|hl ct
+Q: Adding thickness to the shim pack between the bearing cage and the carrier will move the pinion:
++ further away from the bevel gear
+- closer to the bevel gear
+- with no change in depth
+- and increase bearing preload
+E: Highlighted. Shims between the inner bearing and pinion gear do the opposite (thicker = closer).
+
+@303j|Assembly|hl
+Q: To increase backlash in a carrier with adjusting rings, move the bevel gear:
++ away from the pinion (loosen flanged side)
+- toward the pinion (tighten flanged side)
+- by adding shims at the pinion cage
+- by tightening both rings equally
+E: Highlighted. Turn both rings the same amount to keep preload.
+
+@303j|Tooth pattern|hl ct
+Q: The tooth contact pattern is heavy on the face of the bevel gear teeth. The fix is to:
++ move the pinion in, then reset backlash
+- move the pinion out, then reset backlash
+- move the ring gear toward the pinion
+- move the ring gear away from the pinion
+E: Highlighted: excessive face = pinion out too far, move pinion in.
+
+@303j|Tooth pattern|hl ct
+Q: The tooth contact pattern is heavy on the flank of the bevel gear teeth. The fix is to:
++ move the pinion out, then reset backlash
+- move the pinion in, then reset backlash
+- move the ring gear toward the pinion
+- move the ring gear away from the pinion
+E: Highlighted: excessive flank = pinion in too far.
+
+@303j|Tooth pattern|hl ct
+Q: The tooth contact pattern is heavy at the heel. The fix is to:
++ move the ring gear toward the pinion
+- move the ring gear away from the pinion
+- move the pinion in, then reset backlash
+- move the pinion out, then reset backlash
+E: Highlighted: excessive heel = ring gear out too far.
+
+@303j|Tooth pattern|hl ct
+Q: The tooth contact pattern is heavy at the toe. The fix is to:
++ move the ring gear away from the pinion
+- move the ring gear toward the pinion
+- move the pinion in, then reset backlash
+- add shims between the pinion bearings
+E: Highlighted: excessive toe = ring gear in too far.
+
+@303j|Tooth pattern|hl
+Q: When checking tooth contact pattern, marking compound is applied to:
++ the convex side of the bevel gear
+- the concave side of the bevel gear
+- the pinion teeth only
+- the back face of the bevel gear
+E: Highlighted. Keep some drag on the pinion for a clear pattern.
+
+@303j|Failures|fail ct
+Q: Bevel gear teeth are fractured at the toe. Likely causes are:
++ shock load or too little backlash
+- normal wear over time
+- too much backlash
+- an overfilled carrier
+E: From the failure table.
+
+@303k|Overcentre clutch|hl
+Q: An overcentre clutch is applied by:
++ an overcentre linkage
+- strong coil springs
+- hydraulic pressure only
+- a diaphragm spring
+E: Highlighted. The lever "snaps" the clutch in and it stays engaged without operator force.
+
+@303k|Overcentre clutch|hl
+Q: An overcentre clutch is used:
++ as an on/off coupler; it does not control speed
+- to shift gears in a transmission
+- to modulate speed like a torque converter
+- as a one-way clutch
+E: Highlighted. Typically for stationary applications like pumps and generators.
+
+@303k|Overcentre clutch|hl
+Q: Which overcentre clutch components always rotate at engine speed?
++ Flywheel, drive ring and clutch disc
+- Pressure plates, hub and output shaft
+- Output shaft and release bearing
+- Floating plate and forks
+E: Highlighted. The pressure plates, hub and output shaft only turn at flywheel speed when engaged.
+
+@303k|Overcentre clutch|hl
+Q: To increase the engagement force of an overcentre clutch, the adjusting ring is turned:
++ toward the pressure plates
+- away from the pressure plates
+- until the linkage passes 90°
+- fully out, then back one notch
+E: Highlighted. The release pin must be pulled to adjust.
+
+@303k|Overcentre clutch|hl
+Q: The path of power through an overcentre clutch is:
++ engine, drive ring, clutch disc, pressure plate assembly, output shaft
+- engine, pressure plate, clutch disc, drive ring, output shaft
+- engine, output shaft, pressure plate, disc
+- engine, clutch disc, drive ring, output shaft
+E: Highlighted.
+
+@303k|Maintenance|hl
+Q: Why is the pull-in force of an overcentre clutch lever checked with a pull scale?
++ It sets clamping force and torque capacity
+- It sets the release bearing clearance
+- It keeps the pilot bearing from overheating
+- It adjusts the crankshaft endplay
+E: Highlighted.
+
+@303k|Maintenance|hl ct
+Q: An overcentre clutch slips. Oil is found on the friction disc from a leaking engine seal. The fix is to:
++ repair the leak and replace the glazed discs
+- clean the discs with solvent and reinstall
+- increase the clutch adjustment
+- add more grease to the bearings
+E: Highlighted: oil glazes the friction disc; discs must be replaced.
+
+@303k|Maintenance|hl
+Q: Which overcentre clutch component requires regular greasing?
++ The bearings
+- The friction disc
+- The drive ring teeth
+- The adjusting ring threads
+E: Highlighted.
+
+@303k|Measurement|hl
+Q: When measuring flywheel face runout, the crankshaft should be:
++ pushed fully one way to remove endplay
+- left free to move in and out
+- rotated backwards only
+- held at TDC number one
+E: Highlighted. Then add up all the readings, ignoring whether they were positive or negative.
+
+@303k|Special clutches|hl
+Q: An overrunning clutch:
++ drives in one direction and freewheels in the other
+- drives in both directions
+- slips when overloaded in either direction
+- is applied by current
+E: Highlighted. The output shaft can turn faster than the input.
+
+@303k|Special clutches|
+Q: A sprag clutch is a type of:
++ overrunning clutch
+- cone clutch
+- electromagnetic clutch
+- overcentre clutch
+E: Roller, sprag and dog/jaw clutches can all act as one-way (overrunning) devices.
+
+@303k|Special clutches|hl
+Q: An electromagnetic clutch, such as on an A/C compressor, is applied when:
++ current is applied
+- current is removed
+- oil pressure rises
+- a spring is released by heat
+E: Highlighted. Current removed = clutch disengaged.
+
+@303k|Special clutches|
+Q: In a wet (oil) clutch, the oil is used to:
++ cool and clean the clutch parts
+- apply the clutch springs
+- lock the clutch permanently
+- increase friction
+E: A hydraulic piston clamps the discs and plates; the oil cools and cleans.
