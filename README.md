@@ -11,8 +11,8 @@ study site for alberta heavy equipment tech 3rd period. study guide, practice qu
 ## what's in it
 
 - **study guide** - every module boiled down to the stuff you need. the facts the notes flagged as "been on tests" are highlighted, and there's a "highlighted facts only" toggle for cramming. also has a formula sheet and a key numbers table up top. search box works too
-- **practice quizzes** - 969 questions. you get the answer + an explanation right after each one. a bunch of presets (on the test, calculations, critical thinking, safety, symbols & valves, hydrostatics, planetaries, CAN/networks, weak spots, etc) or build your own from whatever modules you want
-- **mock AIT exams** - 6 fixed 100 question exams (same questions every retake so you can see if you're getting better), plus random ones and single course exams. timed (90 sec a question), no answers till you submit, flag questions, then you get your score, a breakdown by course and module (worst first) and a review of everything you missed
+- **practice quizzes** - 969 questions. you get the answer + an explanation right after each one. you can cross out answers you've ruled out (abc button, right click, or shift + A-D). a bunch of presets (on the test, calculations, critical thinking, safety, symbols & valves, hydrostatics, planetaries, CAN/networks, weak spots, etc) or build your own from whatever modules you want
+- **mock AIT exams** - 6 fixed 100 question exams (same questions every retake so you can see if you're getting better), plus random ones and single course exams. timed (90 sec a question), no answers till you submit, flag questions, cross out answers you've ruled out (like D2L), then you get your score, a breakdown by course and module (worst first) and a review of everything you missed
 
 your progress and exam history save in your own browser. nothing gets sent anywhere, there's no account or anything.
 

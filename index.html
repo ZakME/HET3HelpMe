@@ -69,16 +69,25 @@ kbd{font:12px ui-monospace,monospace;border:1px solid var(--line);border-bottom-
 .tag.ct{color:var(--ct)} .tag.hl{color:var(--hl)} .tag.flag{color:var(--flag)}
 .q{font-size:18px;font-weight:600;margin:0 0 16px;line-height:1.45}
 .ans{display:flex;flex-direction:column;gap:8px}
-.ans button{display:flex;gap:12px;text-align:left;align-items:flex-start;width:100%;font:inherit;font-size:16px;padding:11px 14px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
-.ans button:hover:not(:disabled){border-color:var(--accent)}
-.ans button .k{flex:none;width:24px;height:24px;border-radius:5px;background:var(--chip);display:grid;place-items:center;font-size:13px;font-weight:700;color:var(--muted)}
-.ans button:disabled{cursor:default}
-.ans button.right{border-color:var(--good);background:var(--good-bg)}
-.ans button.right .k{background:var(--good);color:#fff}
-.ans button.wrong{border-color:var(--bad);background:var(--bad-bg)}
-.ans button.wrong .k{background:var(--bad);color:#fff}
-.ans button.sel{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
-.ans button.sel .k{background:var(--accent);color:#fff}
+.opt{display:flex;gap:6px;align-items:stretch}
+.ans .pick{flex:1;min-width:0;display:flex;gap:12px;text-align:left;align-items:flex-start;font:inherit;font-size:16px;padding:11px 14px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.ans .pick:hover:not(:disabled){border-color:var(--accent)}
+.ans .pick .k{flex:none;width:24px;height:24px;border-radius:5px;background:var(--chip);display:grid;place-items:center;font-size:13px;font-weight:700;color:var(--muted)}
+.ans .pick:disabled{cursor:default}
+.ans .pick.right{border-color:var(--good);background:var(--good-bg)}
+.ans .pick.right .k{background:var(--good);color:#fff}
+.ans .pick.wrong{border-color:var(--bad);background:var(--bad-bg)}
+.ans .pick.wrong .k{background:var(--bad);color:#fff}
+.ans .pick.sel{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.ans .pick.sel .k{background:var(--accent);color:#fff}
+.ans .strike{flex:none;width:44px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer;font:600 13px system-ui,sans-serif;display:grid;place-items:center;padding:0}
+.ans .strike span{text-decoration:line-through;text-decoration-thickness:2px}
+.ans .strike:hover:not(:disabled){border-color:var(--accent);color:var(--ink)}
+.ans .strike:disabled{opacity:.35;cursor:default}
+.opt.struck .pick{opacity:.55}
+.opt.struck .pick .t{text-decoration:line-through;text-decoration-thickness:2px}
+.opt.struck .strike{background:var(--chip);color:var(--ink);border-color:var(--muted)}
+.opt.struck .pick.right,.opt.struck .pick.wrong{opacity:1}
 .exp{margin-top:14px;padding:12px 14px;border-left:3px solid var(--accent);background:var(--chip);border-radius:0 8px 8px 0;font-size:15px}
 .exp b{display:block;margin-bottom:3px}
 .exp.good{border-color:var(--good)} .exp.bad{border-color:var(--bad)}
@@ -476,7 +485,7 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:120px}
 <section id="v-quiz" class="hide">
   <div class="card">
     <h2>Quiz presets</h2>
-    <p class="muted" style="margin-top:-6px">Instant feedback with an explanation after every question. Keys: <kbd>1</kbd>–<kbd>4</kbd> or <kbd>A</kbd>–<kbd>D</kbd> to answer, <kbd>Enter</kbd> for next.</p>
+    <p class="muted" style="margin-top:-6px">Instant feedback with an explanation after every question. Keys: <kbd>1</kbd>–<kbd>4</kbd> or <kbd>A</kbd>–<kbd>D</kbd> to answer, <kbd>Enter</kbd> for next. Cross out answers you've ruled out with the <span style="text-decoration:line-through">abc</span> button, a right-click, or <kbd>Shift</kbd>+<kbd>A</kbd>–<kbd>D</kbd>.</p>
     <div class="presets" id="presets"></div>
   </div>
   <div class="card">
@@ -566,7 +575,7 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:120px}
     </div>
   </div>
   <div class="card">
-    <div class="row" style="justify-content:space-between;margin-bottom:8px"><b>Questions</b><span class="muted">grey = answered · dot = flagged · <kbd>F</kbd> flags · <kbd>←</kbd><kbd>→</kbd> move</span></div>
+    <div class="row" style="justify-content:space-between;margin-bottom:8px"><b>Questions</b><span class="muted">grey = answered · dot = flagged · <kbd>F</kbd> flags · <kbd>Shift</kbd>+<kbd>A</kbd>–<kbd>D</kbd> crosses out · <kbd>←</kbd><kbd>→</kbd> move</span></div>
     <div class="grid" id="xgrid"></div>
   </div>
 </section>
@@ -8514,9 +8523,34 @@ function renderPresets(){
 
 // ---------- quiz run ----------
 let S = null;
+// one answer row: the answer itself plus a strikeout toggle (like D2L)
+function optRow(it, ai, n, onPick){
+  const struck = (it.strike || []).includes(ai), L = "ABCDEF"[n];
+  const row = el("div", "opt" + (struck ? " struck" : ""));
+  const b = el("button", "pick" + (S.mode === "exam" && it.pick === ai ? " sel" : ""));
+  b.appendChild(el("span", "k", L)); b.appendChild(el("span", "t", it.q.a[ai]));
+  b.dataset.ai = ai; b.onclick = onPick;
+  b.oncontextmenu = e => { e.preventDefault(); toggleStrike(it, ai); };
+  const s = el("button", "strike"); s.appendChild(el("span", null, "abc"));
+  s.title = (struck ? "Undo cross out" : "Cross out answer " + L) + " (Shift+" + L + ")";
+  s.setAttribute("aria-label", (struck ? "Undo cross out on answer " : "Cross out answer ") + L);
+  s.setAttribute("aria-pressed", struck ? "true" : "false");
+  s.onclick = () => toggleStrike(it, ai);
+  row.append(b, s); return row;
+}
+function toggleStrike(it, ai){
+  if (S.mode === "quiz" && it.pick !== null) return;
+  const st = it.strike || (it.strike = []), i = st.indexOf(ai);
+  if (i >= 0) st.splice(i, 1); else st.push(ai);
+  if (S.mode === "exam") { saveActive(); renderX(); } else renderQ();
+}
+function examPick(it, ai){
+  it.pick = ai; if (it.strike) it.strike = it.strike.filter(x => x !== ai);
+  saveActive(); renderX();
+}
 function startQuiz(qs, title){
   if (!qs.length) return;
-  S = { mode: "quiz", title, i: 0, list: qs.map(q => ({ q, order: shuffle(q.a.map((_, i) => i)), pick: null, flag: false })) };
+  S = { mode: "quiz", title, i: 0, list: qs.map(q => ({ q, order: shuffle(q.a.map((_, i) => i)), pick: null, flag: false, strike: [] })) };
   tab("quiz"); show("run"); renderQ();
 }
 function metaTags(box, q){
@@ -8535,10 +8569,7 @@ function renderQ(){
   metaTags($("qmeta"), q);
   $("qtext").textContent = q.q;
   const box = $("qans"); box.innerHTML = "";
-  it.order.forEach((ai, n) => {
-    const b = el("button"); b.appendChild(el("span", "k", "ABCDEF"[n])); b.appendChild(el("span", null, q.a[ai]));
-    b.dataset.ai = ai; b.onclick = () => answer(ai); box.appendChild(b);
-  });
+  it.order.forEach((ai, n) => box.appendChild(optRow(it, ai, n, () => answer(ai))));
   $("qexp").innerHTML = ""; $("next").disabled = true;
   $("next").textContent = S.i === S.list.length - 1 ? "See results →" : "Next →";
   if (it.pick !== null) reveal();
@@ -8549,7 +8580,8 @@ function answer(ai){
 }
 function reveal(){
   const it = S.list[S.i];
-  for (const b of $("qans").children) { b.disabled = true; const ai = +b.dataset.ai; if (ai === 0) b.classList.add("right"); else if (ai === it.pick) b.classList.add("wrong"); }
+  for (const b of $("qans").querySelectorAll(".pick")) { b.disabled = true; const ai = +b.dataset.ai; if (ai === 0) b.classList.add("right"); else if (ai === it.pick) b.classList.add("wrong"); }
+  for (const b of $("qans").querySelectorAll(".strike")) b.disabled = true;
   const ok = it.pick === 0, d = el("div", "exp " + (ok ? "good" : "bad"));
   d.appendChild(el("b", null, ok ? "Correct" : "Not quite. Answer: " + it.q.a[0])); d.appendChild(el("span", null, it.q.e));
   $("qexp").innerHTML = ""; $("qexp").appendChild(d);
@@ -8583,7 +8615,7 @@ function buildExam(plan, seed, slot, ilm){
     const n = Math.min(plan[m], order.length);
     for (let k = 0; k < n; k++) picked.push(order[(slot * plan[m] + k) % order.length]);
   }
-  return shuffle(picked, r).map(q => ({ q, order: shuffle(q.a.map((_, i) => i), r), pick: null, flag: false }));
+  return shuffle(picked, r).map(q => ({ q, order: shuffle(q.a.map((_, i) => i), r), pick: null, flag: false, strike: [] }));
 }
 function startExam(key, title, list){
   const limit = $("timed").checked ? list.length * PER_Q : 0;
@@ -8592,12 +8624,12 @@ function startExam(key, title, list){
 }
 function saveActive(){
   if (!S || S.mode !== "exam") return;
-  store(K_ACTIVE, { key: S.key, title: S.title, i: S.i, limit: S.limit, used: elapsed(), items: S.list.map(x => [x.q.id, x.order, x.pick, x.flag]) });
+  store(K_ACTIVE, { key: S.key, title: S.title, i: S.i, limit: S.limit, used: elapsed(), items: S.list.map(x => [x.q.id, x.order, x.pick, x.flag, x.strike || []]) });
 }
 const elapsed = () => S.used + Math.floor((Date.now() - S.start) / 1000);
 function resumeExam(){
   const a = load(K_ACTIVE, null); if (!a) return;
-  const list = a.items.filter(x => BYID[x[0]]).map(([id, order, pick, flag]) => ({ q: BYID[id], order, pick, flag }));
+  const list = a.items.filter(x => BYID[x[0]]).map(([id, order, pick, flag, strike]) => ({ q: BYID[id], order, pick, flag, strike: strike || [] }));
   S = { mode: "exam", key: a.key, title: a.title, i: Math.min(a.i, list.length - 1), list, start: Date.now(), limit: a.limit, used: a.used };
   tab("exam"); show("examrun"); renderX(); tick();
 }
@@ -8626,10 +8658,7 @@ function renderX(){
   if (it.flag) meta.appendChild(el("span", "tag flag", "FLAGGED"));
   $("xq").textContent = q.q;
   const box = $("xans"); box.innerHTML = "";
-  it.order.forEach((ai, n) => {
-    const b = el("button", it.pick === ai ? "sel" : ""); b.appendChild(el("span", "k", "ABCDEF"[n])); b.appendChild(el("span", null, q.a[ai]));
-    b.onclick = () => { it.pick = ai; saveActive(); renderX(); }; box.appendChild(b);
-  });
+  it.order.forEach((ai, n) => box.appendChild(optRow(it, ai, n, () => examPick(it, ai))));
   $("xflag").textContent = it.flag ? "Unflag" : "Flag";
   $("xprev").disabled = S.i === 0;
   $("xnext").textContent = S.i === S.list.length - 1 ? "Review & submit" : "Next →";
@@ -8741,13 +8770,19 @@ $("again").onclick = () => { if (S.mode === "exam") { show("exam"); renderExamSe
 document.addEventListener("keydown", e => {
   if (e.ctrlKey || e.metaKey || e.altKey || /INPUT|SELECT|TEXTAREA/.test(e.target.tagName)) return;
   const k = e.key.toLowerCase(), idx = "1234".includes(k) ? "1234".indexOf(k) : "abcd".indexOf(k);
+  const running = !$("v-run").classList.contains("hide") || !$("v-examrun").classList.contains("hide");
+  if (e.shiftKey && running) {
+    const m = /^(?:Digit([1-4])|Key([A-D]))$/.exec(e.code), it = S.list[S.i];
+    if (m) { const n = m[1] ? +m[1] - 1 : "ABCD".indexOf(m[2]); if (it.order[n] !== undefined) toggleStrike(it, it.order[n]); e.preventDefault(); }
+    return;
+  }
   if (!$("v-run").classList.contains("hide")) {
     const it = S.list[S.i];
     if (idx >= 0 && it.pick === null && it.order[idx] !== undefined) { answer(it.order[idx]); e.preventDefault(); }
     else if ((k === "enter" || k === "arrowright") && it.pick !== null) { e.preventDefault(); $("next").click(); }
   } else if (!$("v-examrun").classList.contains("hide")) {
     const it = S.list[S.i];
-    if (idx >= 0 && it.order[idx] !== undefined) { it.pick = it.order[idx]; saveActive(); renderX(); e.preventDefault(); }
+    if (idx >= 0 && it.order[idx] !== undefined) { examPick(it, it.order[idx]); e.preventDefault(); }
     else if (k === "arrowright" || k === "enter") { e.preventDefault(); if (S.i < S.list.length - 1) $("xnext").click(); }
     else if (k === "arrowleft") { e.preventDefault(); $("xprev").click(); }
     else if (k === "f") { e.preventDefault(); $("xflag").click(); }
