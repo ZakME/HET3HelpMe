@@ -151,28 +151,28 @@ Q: When calculating a simple planetary ratio, the planet carrier is given a toot
 E: Highlighted: don't count planet pinion teeth. Add sun and ring together.
 
 @303a|Planetary|calc plan
-Q: A planetary has a 20-tooth sun and a 60-tooth ring. The sun drives, the ring is held and the carrier is the output. The ratio is:
-+ 4:1 reduction
-- 3:1 reduction
-- 0.25:1 overdrive
-- 3:1 reverse
-E: Carrier = 20 + 60 = 80. Ratio = driven ÷ drive = 80 ÷ 20 = 4:1 (the largest reduction).
+Q: A simple planetary has a 30-tooth sun and a 60-tooth ring. The sun drives, the ring is held and the carrier is the output. The ratio is:
++ 3:1 reduction
+- 2:1 reduction
+- 0.33:1 overdrive
+- 2:1 reverse
+E: Carrier = 30 + 60 = 90. Ratio = driven ÷ drive = 90 ÷ 30 = 3:1 (sun in, ring held is the largest reduction).
 
 @303a|Planetary|calc plan
-Q: Same set (20-tooth sun, 60-tooth ring). The carrier is held, the sun drives and the ring is the output. The result is:
-+ 3:1 reduction in reverse
-- 4:1 reduction forward
-- 0.33:1 overdrive forward
+Q: A simple planetary has a 30-tooth sun and a 60-tooth ring. The carrier is held, the sun drives and the ring is the output. The result is:
++ 2:1 reduction in reverse
+- 3:1 reduction forward
+- 0.5:1 overdrive forward
 - direct drive
-E: Carrier held = reverse. Ratio = ring ÷ sun = 60 ÷ 20 = 3:1.
+E: Carrier held = reverse. Ratio = ring ÷ sun = 60 ÷ 30 = 2:1.
 
 @303a|Planetary|calc plan
-Q: Same set (20-tooth sun, 60-tooth ring). The ring drives, the sun is held and the carrier is the output. The ratio is:
-+ 1.33:1 reduction
-- 4:1 reduction
-- 0.75:1 overdrive
-- 3:1 reverse
-E: Carrier = 80. Ratio = 80 ÷ 60 = 1.33:1 (small reduction, forward).
+Q: A simple planetary has a 30-tooth sun and a 60-tooth ring. The ring drives, the sun is held and the carrier is the output. The ratio is:
++ 1.5:1 reduction
+- 3:1 reduction
+- 0.67:1 overdrive
+- 2:1 reverse
+E: Carrier = 30 + 60 = 90. Ratio = driven ÷ drive = 90 ÷ 60 = 1.5:1 (small reduction, forward).
 
 @303a|Planetary|hl plan
 Q: In a simple planetary, which condition always gives reverse?
