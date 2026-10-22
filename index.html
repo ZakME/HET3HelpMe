@@ -119,6 +119,12 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:140px;white
 .rev{border-top:1px solid var(--line);padding:12px 0}
 #rlist{margin-top:12px}
 #rlist .rev:first-child{border-top:0;padding-top:0}
+.rev.hit{animation:hit 1.4s ease-out}
+@keyframes hit{from{background:var(--chip);box-shadow:-8px 0 0 var(--chip),8px 0 0 var(--chip)}to{background:transparent;box-shadow:none}}
+#v-results{padding-bottom:64px}
+.revnav{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;z-index:6;display:flex;gap:6px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:7px 8px;box-shadow:0 4px 18px rgba(0,0,0,.22);white-space:nowrap}
+.revnav .muted{font-size:13px;padding:0 4px;min-width:74px;text-align:center}
+@media (max-width:480px){ .revnav .lg{display:none} }
 .rev .q{font-size:16px;margin-bottom:6px}
 .rev .you{color:var(--bad);font-size:15px} .rev .cor{color:var(--good);font-size:15px}
 /* guide */
@@ -592,12 +598,13 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:140px;white
     <h3>By module (weakest first)</h3>
     <table class="rt" id="rmod"></table>
   </div>
-  <div class="card">
+  <div class="card" id="rcard">
     <div class="row" style="justify-content:space-between"><h2 style="margin:0">Review</h2>
       <div class="row" id="rfilter"><button class="btn small" data-f="wrong">Missed</button><button class="btn small" data-f="flag">Flagged</button><button class="btn small" data-f="all">All</button></div></div>
     <div class="grid" id="rgrid" style="margin:12px 0"></div>
     <div id="rlist"></div>
   </div>
+  <div class="revnav" id="revnav"><button class="btn small" id="rvTop">↑ <span id="rvTopL">Grid</span></button><button class="btn small" id="rvPrev">‹<span class="lg"> Prev wrong</span></button><span class="muted" id="rvCount"></span><button class="btn small" id="rvNext"><span class="lg">Next wrong </span>›</button></div>
 </section>
 
 </main>
@@ -8744,7 +8751,7 @@ function results(){
   $("retry").disabled = !missed.length;
   $("retry").onclick = () => startQuiz(shuffle(missed.map(x => x.q)), "Practise missed");
   $("rfilter").style.display = exam ? "" : "none";
-  rf = "wrong"; renderReview(); show("results");
+  rf = "wrong"; renderReview(); show("results"); setRevNav();
 }
 function renderReview(){
   const exam = S.mode === "exam", done = exam ? S.list : S.list.filter(x => x.pick !== null);
@@ -8764,6 +8771,33 @@ function renderReview(){
   }
 }
 document.querySelectorAll("#rfilter button").forEach(b => b.onclick = () => { rf = b.dataset.f; renderReview(); });
+// floating bar on the review: jump between wrong answers, or back up to the grid
+const missedIdx = () => S.list.map((x, n) => [x, n]).filter(([x]) => (S.mode === "exam" || x.pick !== null) && x.pick !== 0).map(([, n]) => n);
+let rvAt = -1, rvY = -1;
+function setRevNav(){
+  const ms = missedIdx();
+  $("revnav").classList.toggle("hide", !ms.length);
+  $("rvTopL").textContent = S.mode === "exam" ? "Grid" : "Top";
+  $("rvCount").textContent = ms.length + " wrong"; rvAt = -1;
+}
+function jumpMissed(dir){
+  const ms = missedIdx(); if (!ms.length) return;
+  if (rf === "flag") { rf = "all"; renderReview(); }
+  const pad = parseInt(getComputedStyle(document.documentElement).scrollPaddingTop) || 0;
+  const top = n => { const e = document.getElementById("rv" + n); return e ? e.getBoundingClientRect().top : 0; };
+  let k;
+  if (rvAt >= 0 && Math.abs(window.scrollY - rvY) < 2) k = Math.min(ms.length - 1, Math.max(0, rvAt + dir)); // haven't scrolled since the last jump
+  else if (dir > 0) { k = ms.findIndex(n => top(n) > pad + 5); if (k < 0) k = ms.length - 1; }
+  else { k = 0; ms.forEach((n, i) => { if (top(n) < pad - 5) k = i; }); }
+  const e = document.getElementById("rv" + ms[k]); if (!e) return;
+  e.scrollIntoView({ block: "start" });
+  document.querySelectorAll(".rev.hit").forEach(x => x.classList.remove("hit")); void e.offsetWidth; e.classList.add("hit");
+  rvAt = k; rvY = window.scrollY;
+  $("rvCount").textContent = (k + 1) + " / " + ms.length + " wrong";
+}
+$("rvNext").onclick = () => jumpMissed(1);
+$("rvPrev").onclick = () => jumpMissed(-1);
+$("rvTop").onclick = () => { $("rcard").scrollIntoView({ block: "start" }); rvAt = -1; $("rvCount").textContent = missedIdx().length + " wrong"; };
 $("again").onclick = () => { if (S.mode === "exam") { show("exam"); renderExamSetup(); } else { show("quiz"); renderSetup(); renderPresets(); } };
 
 // ---------- keys ----------
