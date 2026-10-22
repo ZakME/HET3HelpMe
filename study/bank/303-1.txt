@@ -352,10 +352,10 @@ E: Highlighted: too heavy an oil transmits torque in the cold, so start in neutr
 
 @303b|Housings|hl
 Q: A wet torque converter housing:
-+ lubricates gears and can run a PTO
-- is sealed from all oil
-- must be kept full of oil
-- needs no scavenging at all
++ lubricates gears and can run a power take-off (PTO)
+- is sealed off from all oil to cut drag on the converter
+- must be kept completely full of oil at all times
+- needs no scavenge pump or gravity drain to empty it
 E: Highlighted. The oil level must be kept low to avoid drag on the converter.
 
 @303b|Housings|hl

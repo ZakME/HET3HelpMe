@@ -106,13 +106,13 @@ E: The highlighted note: main spring force sets the override; its spring constan
 Q: A main relief valve is usually installed:
 + in parallel with the pump, often pilot operated
 - in series with each actuator work port
-- after the DCV, often direct acting
+- after the directional control valve (DCV), often direct acting
 - in the return line, ahead of the filter
 E: Main relief limits max system pressure, sits in parallel with pump and DCV (often in the DCV), is often pilot operated and handles high flow.
 
 @301f|Relief valves|hl valve
-Q: Circuit relief valves protect actuators from:
-+ shock loads with the DCV in neutral
+Q: With the directional control valve (DCV) in neutral, circuit relief valves protect actuators from:
++ pressure spikes from shock loads
 - low pressure during cold start-up
 - cavitation when lowering a load
 - overspeeding when the load runs away
@@ -203,7 +203,7 @@ Q: Backpressure valves (counterbalance, brake, lock) control actuator movement b
 + restricting oil returning from the actuator
 - limiting pump flow
 - increasing inlet pressure to the actuator
-- reducing pressure at the DCV
+- reducing pressure at the directional control valve (DCV)
 E: They restrict return flow and act as safety valves.
 
 @301f|Backpressure valves|valve ct
@@ -241,7 +241,7 @@ E: The setting is based on a known load. Varying loads make the lowering control
 @301f|Brake valve|hl valve
 Q: A hydraulic brake valve in a motor circuit:
 + prevents the load from overspeeding the motor, using pilot pressure from the motor inlet
-- holds the motor stationary with the DCV in neutral using a spring brake
+- holds the motor stationary with the directional control valve (DCV) in neutral using a spring brake
 - limits maximum motor pressure
 - sends case drain oil to tank
 E: Brake valves are in series with the motor return, piloted from the motor inlet (opposite work line), giving controlled deceleration. A check valve is needed with a reversible motor.
@@ -328,8 +328,8 @@ E: Meter-out suits loads that change direction and size, but restricting the rod
 
 @301f|Flow control|valve
 Q: For a meter-in flow control, port A connects to the ___ and port B to the ___.
-+ DCV work port; actuator port
-- actuator port; DCV work port
++ Directional control valve (DCV) work port; actuator port
+- actuator port; directional control valve (DCV) work port
 - pump; tank
 - tank; actuator port
 E: Meter-in controls flow into the actuator: DCV work port in, actuator out. Meter-out is the reverse.
@@ -391,7 +391,7 @@ Q: Directional control valves are classified by their:
 E: Number of flow paths (ways), number of positions, actuation and detents.
 
 @301f|DCV|hl valve
-Q: The most common type of DCV in mobile hydraulics is the:
+Q: The most common type of directional control valve (DCV) in mobile hydraulics is the:
 + sliding spool valve
 - rotary spool valve
 - poppet valve
@@ -399,7 +399,7 @@ Q: The most common type of DCV in mobile hydraulics is the:
 E: Sliding spool = most common, linear action, high pressure and flow. Rotary spool has high leakage and low pressure.
 
 @301f|DCV|valve
-Q: If a DCV spool is badly worn, it is normally:
+Q: If a directional control valve (DCV) spool is badly worn, it is normally:
 + replaced together with the housing as a matched set
 - replaced alone with a standard spool
 - built up with chrome and reused
@@ -407,7 +407,7 @@ Q: If a DCV spool is badly worn, it is normally:
 E: Spools and housings are matched sets and can't be replaced separately.
 
 @301f|DCV|hl valve
-Q: Metering notches on a DCV spool are:
+Q: Metering notches on a directional control valve (DCV) spool are:
 + cuts in the lands that allow feathering
 - grooves that hold the spool O-rings
 - notches the detent balls drop into
@@ -415,7 +415,7 @@ Q: Metering notches on a DCV spool are:
 E: Metering notches let the operator feather (make small, precise movements).
 
 @301f|DCV|hl valve
-Q: With the DCV in the HOLD position:
+Q: With the directional control valve (DCV) in the HOLD position:
 + the work ports are blocked
 - the work ports are connected to tank
 - pump flow goes to both work ports
@@ -423,7 +423,7 @@ Q: With the DCV in the HOLD position:
 E: Hold = work ports blocked. Float = work ports connected to tank.
 
 @301f|DCV|hl valve
-Q: A DCV in the FLOAT position:
+Q: A directional control valve (DCV) in the FLOAT position:
 + connects both work ports to tank
 - blocks both work ports
 - connects pump flow to both work ports
@@ -439,7 +439,7 @@ Q: A diverter valve is a:
 E: Diverter = 2 position, 3 way. It controls which of two circuits receives flow.
 
 @301f|DCV|hl valve
-Q: The number of "ways" of a DCV is:
+Q: The number of "ways" of a directional control valve (DCV) is:
 + the number of lines to the valve
 - the number of valve positions
 - the number of spools in the bank
@@ -447,7 +447,7 @@ Q: The number of "ways" of a DCV is:
 E: Ways = how many lines go into the valve.
 
 @301f|DCV centres|valve
-Q: A closed centre DCV must be paired with:
+Q: A closed centre directional control valve (DCV) must be paired with:
 + a compensated variable pump, or fixed pump and unloader
 - a fixed displacement pump and no unloader
 - an open centre relief and a series passage
@@ -463,7 +463,7 @@ Q: An "open work port" centre (A and B to tank, P blocked) is also called a:
 E: Also called an H-spool by some makers. It allows brake valves in the work lines of a motor.
 
 @301f|DCV centres|valve
-Q: A tandem (open) centre DCV is generally used with:
+Q: A tandem (open) centre directional control valve (DCV) is generally used with:
 + fixed pumps, with valves stacked in series
 - variable displacement pumps only
 - load sensing pressure compensated systems
@@ -471,7 +471,7 @@ Q: A tandem (open) centre DCV is generally used with:
 E: Tandem centre sends pump flow to tank in neutral and allows series connection.
 
 @301f|DCV actuation|hl valve
-Q: Why might a DCV be pilot operated rather than mechanically operated?
+Q: Why might a directional control valve (DCV) be pilot operated rather than mechanically operated?
 + Less effort, and the valve can be mounted remotely
 - It is cheaper and simpler than a lever
 - It removes the need for centering springs
@@ -479,7 +479,7 @@ Q: Why might a DCV be pilot operated rather than mechanically operated?
 E: Pilot actuation (often from a separate pilot pump) reduces effort and suits remote valves.
 
 @301f|DCV actuation|hl valve
-Q: What is the main limitation of an electrically (on/off) actuated DCV?
+Q: What is the main limitation of an electrically (on/off) actuated directional control valve (DCV)?
 + It does not allow feathering
 - It cannot be used in mobile equipment
 - It needs a pilot pump
@@ -487,7 +487,7 @@ Q: What is the main limitation of an electrically (on/off) actuated DCV?
 E: Electrical = on or off, no feathering. Electronic (proportional) control is infinitely variable.
 
 @301f|DCV actuation|valve ct
-Q: Electrical-over-pilot DCV actuation solves which two problems?
+Q: Electrical-over-pilot directional control valve (DCV) actuation solves which two problems?
 + It allows feathering and increases actuation force
 - It eliminates the pilot pump and the relief valve
 - It removes the need for detents and a centering spring
@@ -495,7 +495,7 @@ Q: Electrical-over-pilot DCV actuation solves which two problems?
 E: The solenoid controls pilot pressure, which provides the force; proportional control allows feathering.
 
 @301f|DCV actuation|hl valve
-Q: A detent on a DCV is used to:
+Q: A detent on a directional control valve (DCV) is used to:
 + hold the spool in a position
 - return the spool to neutral
 - meter oil for feathering
@@ -503,7 +503,7 @@ Q: A detent on a DCV is used to:
 E: Detents (ball and spring or electromagnet) hold the spool in position.
 
 @301f|DCV accessories|hl valve
-Q: A load check valve in a DCV prevents:
+Q: A load check valve in a directional control valve (DCV) prevents:
 + a load dipping when moved from hold to raise
 - cavitation when the load drives the actuator
 - pressure from exceeding the relief setting
@@ -514,12 +514,12 @@ E: Until pump pressure exceeds load pressure, the load check blocks reverse flow
 Q: An anti-cavitation check valve opens when:
 + the load drives the actuator faster than the pump
 - system pressure exceeds the relief setting
-- the DCV is moved from hold to raise
+- the directional control valve (DCV) is moved from hold to raise
 - the actuator is stalled at the end of stroke
 E: It lets tank oil supplement pump oil when actuator pressure goes negative, preventing a void.
 
 @301f|DCV accessories|valve
-Q: A flow compensator valve in a DCV section:
+Q: A flow compensator valve in a directional control valve (DCV) section:
 + holds a constant drop across the spool
 - limits maximum circuit pressure
 - prevents the load from dropping
@@ -527,7 +527,7 @@ Q: A flow compensator valve in a DCV section:
 E: It senses pressure before and after the spool and keeps the drop constant.
 
 @301f|Valve banks|valve
-Q: A "power beyond" sleeve in a DCV bank:
+Q: A "power beyond" sleeve in a directional control valve (DCV) bank:
 + lets the bank supply another DCV
 - lets the bank sections bolt together
 - converts the bank to closed centre
@@ -543,7 +543,7 @@ Q: In an open centre bank with a series passageway, what happens when one valve 
 E: The first valve in series has priority; downstream valves lose flow when it is actuated.
 
 @301f|Valve banks|hl valve
-Q: In a series-parallel DCV bank, when two functions are operated together:
+Q: In a series-parallel directional control valve (DCV) bank, when two functions are operated together:
 + the lightest load has priority
 - the heaviest load has priority
 - the first valve always has priority
@@ -575,7 +575,7 @@ Q: Why must variable displacement pump horsepower be limited?
 E: Pump HP is limited (by reducing pressure or flow) so the pump can't stall the engine.
 
 @301g|Open centre|hl
-Q: In an open centre system with the DCV in neutral:
+Q: In an open centre system with the directional control valve (DCV) in neutral:
 + pump flow returns to the reservoir
 - pump flow is blocked at the DCV
 - the pump destrokes to zero
@@ -615,7 +615,7 @@ Q: A constant horsepower system:
 E: High displacement at low pressure, destroking as pressure rises, keeping engine speed constant and fast actuators at light loads.
 
 @301g|Constant HP|hl
-Q: On a constant horsepower regulator with NFC, power shift and cross-sensing signals, an increase in any of these pressures will:
+Q: On a constant horsepower regulator with negative flow control (NFC), power shift and cross-sensing signals, an increase in any of these pressures will:
 + destroke the pump
 - upstroke the pump
 - open the main relief
@@ -624,22 +624,22 @@ E: Highlighted: as any of the three pressures increases it destrokes the pump.
 
 @301g|Constant HP|hl
 Q: In a constant horsepower system, negative flow control (NFC) pressure:
-+ reflects flow through each DCV bank
-- is set by the ECM from the speed dial
++ reflects flow through each directional control valve (DCV) bank
+- is set by the electronic control module (ECM) from the speed dial
 - is the other pump's outlet pressure
 - limits maximum system pressure
 E: NFC monitors flow through each DCV bank. PRV/power shift pressure is ECM controlled. Cross-sensing = pump outlet pressures.
 
 @301g|Constant HP|hl
 Q: Power shift (PRV) pressure on a constant horsepower excavator system is:
-+ set by the ECM from the speed dial
++ set by the electronic control module (ECM) from the speed dial
 - taken directly from each pump outlet
-- made by flow through a DCV bank orifice
+- made by flow through a directional control valve (DCV) bank orifice
 - set by the main relief valve spring
 E: The ECM controls it through a pressure reducing valve, using pilot oil, based on engine speed dial setting.
 
 @301g|Closed centre|hl
-Q: In a closed centre system with the DCV in neutral:
+Q: In a closed centre system with the directional control valve (DCV) in neutral:
 + flow is blocked and pressure is held
 - pump flow returns freely to tank
 - the actuators float on tank oil
@@ -687,7 +687,7 @@ Q: A load sensing system's cylinder is stalled against a stop. Pump pressure wil
 E: Stalled: pump pressure max (set by the pressure compensator), same as load.
 
 @301g|Load sensing|hl
-Q: In an LSPC pump, the flow compensator:
+Q: In a load sensing pressure compensated (LSPC) pump, the flow compensator:
 + maintains margin pressure as load changes
 - sets maximum system pressure
 - pushes the swash plate to max displacement
@@ -695,7 +695,7 @@ Q: In an LSPC pump, the flow compensator:
 E: Flow compensator = margin. Pressure compensator = max pressure (opens on stall).
 
 @301g|Load sensing|hl
-Q: In an LSPC pump, which component pushes the swash plate toward DEstroke?
+Q: In a load sensing pressure compensated (LSPC) pump, which component pushes the swash plate toward DEstroke?
 + Stroking (actuator) piston
 - Bias spring/piston
 - Flow compensator spool
@@ -722,7 +722,7 @@ E: Higher motor displacement = more torque (and lower speed for the same flow).
 Q: A closed circuit (closed loop) hydrostatic transmission has:
 + the motor outlet connected to the pump inlet, with no path to tank
 - the pump drawing from tank and the motor returning to tank
-- a DCV between the pump and motor
+- a directional control valve (DCV) between the pump and motor
 - an open centre valve to unload the pump
 E: Closed circuit: motor outlet → pump inlet. A reversible pump reverses the motor.
 
@@ -884,15 +884,15 @@ Q: Pump inlet pressure reads below 12 psia. Which is a likely cause?
 - Air leaking into the inlet line
 - Worn pump
 - Relief valve set too low
-E: Low inlet pressure = restriction, pump speed too high or wrong oil, which promotes cavitation. Higher than normal suggests an air leak.
+E: The pump normally pulls a slight vacuum at its inlet. A restriction, too much pump speed or the wrong (too thick) oil makes it pull harder, so inlet pressure drops below about 12 psia and the pump cavitates. A leaking inlet line does the opposite: air gets in and inlet pressure reads higher than normal.
 
 @301h|Pressure tests|hl ct
-Q: Pump inlet pressure is higher than normal. This may indicate:
+Q: Pump inlet pressure reads higher than normal (less vacuum than usual). This may indicate:
 + an air leak in the inlet line
 - a plugged suction strainer
 - excessive pump speed
 - oil that is too thick
-E: Highlighted: higher inlet pressure may indicate the inlet line is drawing in air.
+E: A pump normally pulls its inlet slightly below atmospheric pressure (a vacuum) as it draws oil up the suction line. A leak in that line (loose clamp, cracked hose, bad fitting) lets the pump suck in air instead, which fills in the vacuum, so the gauge reads higher (closer to atmospheric) and the oil gets aerated. A plugged strainer, thick oil or too much speed do the opposite: they make it harder to pull oil, so inlet pressure drops (more vacuum) and the pump cavitates.
 
 @301h|Pressure tests|hl
 Q: In an open centre system, neutral pressure (DCV in neutral) should be:
@@ -995,14 +995,14 @@ Q: A standard solenoid used in electrical (non-electronic) control has:
 + discrete positions, either on or off
 - infinitely variable positions
 - a feedback sensor
-- a PWM driver
+- a pulse width modulation (PWM) driver
 E: Highlighted: discrete positions, on or off.
 
 @301i|Electrohydraulics|
 Q: A clamping diode across a solenoid coil:
 + absorbs induced voltage spikes
 - increases the solenoid pull force
-- smooths out the PWM signal
+- smooths out the pulse width modulation (PWM) signal
 - acts as a fuse for the coil
 E: When the coil is switched off, its collapsing field induces voltage; the diode dissipates it.
 
@@ -1010,7 +1010,7 @@ E: When the coil is switched off, its collapsing field induces voltage; the diod
 Q: A proximity switch:
 + closes when metal passes in front of it
 - varies its resistance with position
-- generates its own AC voltage
+- generates its own alternating current (AC) voltage
 - measures system pressure
 E: Highlighted: proximity switches close the circuit when actuated; position usually adjustable.
 
@@ -1019,11 +1019,11 @@ Q: Electronic hydraulic control systems normally operate on:
 + about 5 V
 - 24 V only
 - full battery voltage
-- 120 V AC
+- 120 V alternating current (AC)
 E: Highlighted: normally less than full system voltage, typically 5 V.
 
 @301i|Sensors|hl
-Q: A sensor that is sent a set voltage from the ECM and returns a measured voltage is a:
+Q: A sensor that is sent a set voltage from the electronic control module (ECM) and returns a measured voltage is a:
 + reference voltage sensor
 - voltage generating sensor
 - discrete sensor
@@ -1042,14 +1042,14 @@ E: Voltage generating sensors (magnetic speed sensors) make their own signal.
 Q: A proportional solenoid:
 + moves in proportion to its signal
 - is either fully on or fully off
-- needs no ECM driver circuit
+- needs no electronic control module (ECM) driver circuit
 - is used only on pilot relief valves
 E: Proportional solenoids use PWM so spool movement matches signal strength.
 
 @301i|Control types|hl
 Q: The difference between open loop and closed loop electronic control is that closed loop:
 + has feedback from the output
-- has no ECM at all
+- has no electronic control module (ECM) at all
 - uses only on/off solenoids
 - runs at full system voltage
 E: Open loop = no feedback. Closed loop = feedback for accurate position, velocity or acceleration control.
@@ -1059,7 +1059,7 @@ Q: Pulse width modulation reduces heat in a solenoid driver because:
 + on/off switching cuts average current
 - it lowers the 5 V reference voltage
 - it raises the circuit resistance
-- it changes AC into DC
+- it changes alternating current (AC) into direct current (DC)
 E: Highlighted: PWM is a digital on/off signal; the duty cycle (% on time) sets the average.
 
 @301i|Spool control|hl
@@ -1073,13 +1073,13 @@ E: Static friction. It is overcome with dither (constant slight back-and-forth m
 @301i|Spool control|ct
 Q: Dither is used in a proportional valve to:
 + overcome stiction with slight movement
-- reduce the PWM frequency
-- protect the ECM from induced voltage
+- reduce the pulse width modulation (PWM) frequency
+- protect the electronic control module (ECM) from induced voltage
 - calibrate the joystick centre
 E: A small constant oscillation stops the spool sticking (static friction).
 
 @301i|Diagnostics|hl
-Q: According to the ILM, the most important source of diagnostic information is:
+Q: Usually the most important source of diagnostic information is:
 + the operator
 - the service manual
 - the fault code list
@@ -1087,7 +1087,7 @@ Q: According to the ILM, the most important source of diagnostic information is:
 E: Highlighted: talk to the operator, the most important source of information.
 
 @301i|ECM care|safe
-Q: Which practice protects the ECM during repairs?
+Q: Which practice protects the electronic control module (ECM) during repairs?
 + Unplug the ECM before welding on the machine
 - Disconnect the batteries with the engine running to reset it
 - Fast charge batteries with the ECM connected

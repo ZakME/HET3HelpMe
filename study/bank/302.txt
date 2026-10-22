@@ -80,10 +80,10 @@ E: Cavitation is caused by inadequate pressure on the inlet side: a plug or low 
 
 @302a|HMU|hl
 Q: A hand metering unit (orbital steering valve) is made up of:
-+ a rotary DCV and a gerotor pump
-- a sliding spool and a gear pump
-- a priority valve and a relief valve
-- a follow-up cylinder and a check valve
++ a rotary directional control valve (DCV) and a gerotor pump
+- a sliding spool valve and an external gear pump
+- a priority valve, a relief valve and a check valve
+- a follow-up cylinder and a pilot operated check valve
 E: Highlighted: HMU = rotary directional control valve + gerotor metering pump.
 
 @302a|HMU|hl ct
@@ -97,7 +97,7 @@ E: The gerotor in the HMU can be turned manually to steer in an emergency.
 @302a|Steering valves|hl
 Q: Spool type steering valves are typically used with:
 + a joystick
-- an orbital HMU
+- an orbital hand metering unit (HMU)
 - a drag link
 - power assist
 E: Highlighted: used with a joystick in replacement of a steering wheel.
@@ -159,7 +159,7 @@ Q: On an articulated motor grader:
 E: Front wheels steer and the frame articulates a little; useful in tight areas.
 
 @302a|Service|hl
-Q: According to the ILM, what percentage of hydraulic system issues relate to the hydraulic oil?
+Q: Roughly what percentage of hydraulic system issues relate to the hydraulic oil?
 + 70% or more
 - about 10%
 - about 30%
@@ -183,7 +183,7 @@ Q: The safe way to check for a pinhole hydraulic leak is to use:
 E: Never use your hand; injected oil is a serious injury.
 
 @302a|Service|hl
-Q: The ILM's basic order for diagnosing a steering complaint is:
+Q: The basic order for diagnosing a steering complaint is:
 + know the system, talk to the operator, visual inspection, test
 - replace the filter, test, talk to the operator, inspect
 - pressure test, flow test, replace the pump
@@ -433,7 +433,7 @@ E: Highlighted: often lubricated at a central point using grease lines.
 @302b|Strut service|hl safe
 Q: A simple way to find a nitrogen leak on a suspension strut is to use:
 + soapy water
-- a UV dye
+- an ultraviolet (UV) dye
 - a stethoscope
 - a pressure gauge on the oil side
 E: Highlighted: soapy water can be used to detect nitrogen leaks.
@@ -475,11 +475,11 @@ Q: Screens and guards around the operator station are required on units equipped
 + winching devices
 - air conditioning
 - rubber tracks
-- ROPS cabs
+- Roll over protective structure (ROPS) cabs
 E: Highlighted: required on units with winching devices (a broken cable can whip back).
 
 @302c|Structures|hl safe
-Q: When replacing ROPS mounting fasteners, you must:
+Q: When replacing roll over protective structure (ROPS) mounting fasteners, you must:
 + use only fasteners approved by the manufacturer
 - use any grade 8 bolt of the correct size
 - reuse the old fasteners after cleaning
@@ -487,11 +487,11 @@ Q: When replacing ROPS mounting fasteners, you must:
 E: Highlighted: only use OEM-approved fasteners; contact the OEM with questions.
 
 @302c|Structures|hl safe
-Q: A customer wants a light bracket welded to the ROPS. The correct response is:
-+ only attach it as an engineer or OEM approves
-- weld it anywhere on the top tube
-- drill and bolt it through the main post
-- clamp it on, since clamps need no approval
+Q: A customer wants a light bracket welded to the roll over protective structure (ROPS). The correct response is:
++ only attach it the way an engineer or the manufacturer approves
+- weld it anywhere on the top tube, as long as the weld is solid
+- drill and bolt it through one of the main posts
+- clamp it on, since a clamp doesn't need approval
 E: Avoid cutting or welding structural supports; attach only in ways approved by an engineer.
 
 @302c|Fire suppression|hl
@@ -519,7 +519,7 @@ Q: Dry chemical (monoammonium phosphate) extinguishing agent is rated for which 
 E: A = ordinary combustibles, B = flammable liquids, C = electrical.
 
 @302c|Fire suppression|
-Q: Why is liquid AFFF agent preferred over dry powder underground?
+Q: Why is liquid aqueous film-forming foam (AFFF) agent preferred over dry powder underground?
 + Powder makes toxic dust in a confined space
 - AFFF is rated for electrical (C) fires
 - Powder can't put out flammable liquid fires
@@ -704,14 +704,14 @@ E: P = I × E, so I = P ÷ E = 240 ÷ 24 = 10 A. Use a fuse slightly larger than
 
 @302d|Lighting|hl
 Q: Panel lighting brightness is usually controlled with:
-+ a rheostat or PWM
-- a series diode
-- a cycling breaker
-- a flasher unit
++ a rheostat or pulse width modulation (PWM)
+- a series diode in the lamp feed
+- a cycling (Type I) circuit breaker
+- the turn signal flasher unit
 E: Highlighted: dimmable with a rheostat or PWM.
 
 @302d|Lighting|hl ct
-Q: After converting turn signals to LED bulbs, they no longer flash. The fix is to:
+Q: After converting turn signals to light emitting diode (LED) bulbs, they no longer flash. The fix is to:
 + fit an electronic flasher
 - fit higher wattage LEDs
 - add a Type I breaker
@@ -719,7 +719,7 @@ Q: After converting turn signals to LED bulbs, they no longer flash. The fix is 
 E: LEDs don't draw enough current to work a conventional flasher. The flasher is in series with the lamps.
 
 @302d|DC motors|hl
-Q: The commutator in a DC motor:
+Q: The commutator in a direct current (DC) motor:
 + is the sliding contact for the brushes
 - produces the permanent magnetic field
 - is the stationary field winding
@@ -727,7 +727,7 @@ Q: The commutator in a DC motor:
 E: Highlighted: made of bars to feed current to specific armature windings.
 
 @302d|DC motors|hl
-Q: As a DC motor speeds up, its counter-electromotive force (CEMF):
+Q: As a direct current (DC) motor speeds up, its counter-electromotive force (CEMF):
 + increases, reducing current draw
 - decreases, increasing current draw
 - stays the same
@@ -736,8 +736,8 @@ E: Faster = more CEMF = less current. CEMF limits the top speed of a cranking mo
 
 @302d|DC motors|ct
 Q: A starter motor drawing very high current while turning slowly is consistent with:
-+ low CEMF from low armature speed
-- high CEMF from excessive armature speed
++ low counter-electromotive force (CEMF) from low armature speed
+- high counter-electromotive force (CEMF) from excessive armature speed
 - an open circuit in the field winding
 - a high resistance brush connection
 E: Less CEMF = more current draw. A loaded, slow motor makes little CEMF and draws heavy current.
@@ -751,7 +751,7 @@ Q: Magnetic flux lines travel:
 E: Highlighted: magnetic field goes from north to south. Like poles repel, opposite poles attract.
 
 @302d|Magnetism|hl
-Q: In a DC motor, the armature conductor is pushed:
+Q: In a direct current (DC) motor, the armature conductor is pushed:
 + from the strong field side toward the weak field side
 - from the weak field side toward the strong field side
 - toward the north pole always
@@ -776,8 +776,8 @@ E: Highlighted. Balancing coil gauges move the pointer by electromagnetism.
 
 @302d|Sensors|hl
 Q: In a closed loop sensor circuit:
-+ both the power and ground return to the ECM
-- the ground does not return to the ECM
++ both the power and ground return to the electronic control module (ECM)
+- the ground does not return to the electronic control module (ECM)
 - there is no reference voltage
 - the sensor generates its own voltage
 E: Highlighted: closed loop = positive and ground return to the ECM. Open loop = ground does not return to the ECM.
@@ -791,7 +791,7 @@ Q: After fitting larger tires, the speedometer will:
 E: The speedometer uses a wheel speed sensor; changing tire size changes the reading.
 
 @302d|Sensors|hl
-Q: An NTC thermistor's resistance will ___ as temperature rises.
+Q: A negative temperature coefficient (NTC) thermistor's resistance will ___ as temperature rises.
 + decrease
 - increase
 - stay the same
@@ -799,7 +799,7 @@ Q: An NTC thermistor's resistance will ___ as temperature rises.
 E: NTC = temperature up, resistance down (most common for engine temp). PTC = temperature up, resistance up.
 
 @302d|Sensors|hl
-Q: A PTC thermistor's resistance will ___ as temperature rises.
+Q: A positive temperature coefficient (PTC) thermistor's resistance will ___ as temperature rises.
 + increase
 - decrease
 - stay the same
@@ -810,7 +810,7 @@ E: Positive temperature coefficient: temperature up, resistance up.
 Q: A typical pressure transducer has three wires. They are:
 + 5 V reference, signal and return (ground)
 - battery positive, ground and shield
-- CAN-H, CAN-L and ground
+- CAN high (CAN-H), CAN low (CAN-L) and ground
 - 12 V, 5 V and signal
 E: Highlighted: three-terminal device: 5 V ref, signal, return.
 
@@ -847,7 +847,7 @@ Q: Baud rate refers to:
 E: Highlighted. J1939 = 250 kb/s; J1587/J1708 = 9.6 kb/s.
 
 @302d|Networks|hl net
-Q: The baud rate of SAE J1939 CAN is:
+Q: The baud rate of SAE J1939 controller area network (CAN) is:
 + 250 kb/s
 - 9.6 kb/s
 - 500 kb/s
@@ -859,7 +859,7 @@ Q: The backbone of a data network is:
 + the physical wiring linking the modules
 - the software protocol the modules use
 - the 9-pin diagnostic connector
-- the ECM with the highest priority
+- the electronic control module (ECM) with the highest priority
 E: Highlighted. Max backbone length 40 m; stubs (branches to nodes) max 1 m.
 
 @302d|Networks|net
@@ -911,11 +911,11 @@ Q: The modern network topology, where independent modules connect to a common ba
 E: Highlighted. Ring = series (one fails, all fail). Star = all to one master.
 
 @302d|Networks|hl net
-Q: Before a module on a CAN network can start broadcasting, it must:
+Q: Before a module on a controller area network (CAN) can start broadcasting, it must:
 + wait until the data bus is idle
 - get permission from the master module
 - send a checksum
-- raise CAN-H to battery voltage
+- raise CAN high (CAN-H) to battery voltage
 E: Highlighted: CAN is serial with no master; each module waits for an idle bus.
 
 @302d|Networks|hl net
@@ -927,7 +927,7 @@ Q: In J1587/J1708 messages, the checksum:
 E: Highlighted: like the period at the end of a sentence. MID = source, PID = parameter, FMI = fault mode.
 
 @302d|Networks|net
-Q: In a J1587 message, the MID identifies:
+Q: In a J1587 message, what does the message identifier (MID) tell you?
 + the module sending the message
 - the parameter being reported
 - the type of fault detected
@@ -947,15 +947,15 @@ Q: A machine built in 2005 with SAE J1939 most likely uses which diagnostic conn
 + 9-pin Deutsch
 - 6-pin Deutsch
 - OEM-specific 3-pin
-- 16-pin OBD-II
+- 16-pin on-board diagnostics (OBD-II)
 E: 1996–2001: 6-pin Deutsch. 2001+: mostly 9-pin Deutsch.
 
 @302d|Networks|hl net
 Q: In J1939, the SPN (suspect parameter number):
-+ says where the fault is (replaces the PID)
-- identifies the message and its data group
-- defines the type of failure (open, short)
-- checks the message for errors
++ identifies where the fault is; replaces the parameter identifier (PID)
+- identifies the message and the whole data group it belongs to
+- defines the type of failure, such as open, short or out of range
+- checks each message for errors before it is accepted
 E: Highlighted. PGN = parameter group; FMI = failure type.
 
 @302d|Networks|net
@@ -967,7 +967,7 @@ Q: In the J1939 message architecture, the CRC field:
 E: Arbitration (priority/sender), control and data (PGN/SPN/FMI), CRC (error check), ACK (acknowledge), end of frame.
 
 @302d|Networks|hl net
-Q: On a J1939 network, CAN High and CAN Low wires are commonly:
+Q: On a J1939 network, the controller area network (CAN) high and low wires are commonly:
 + yellow (CAN-H) and green (CAN-L)
 - green (CAN-H) and yellow (CAN-L)
 - orange (CAN-H) and white (CAN-L)
@@ -985,13 +985,13 @@ E: Highlighted: -15 lite = unshielded twisted pair; -11 heavy = shielded twisted
 @302d|Networks|hl net
 Q: The drain wire in a shielded J1939 cable is connected to:
 + battery ground
-- CAN-H
+- CAN high (CAN-H)
 - the 5 V reference
 - the terminating resistor
 E: Highlighted: non-insulated copper drain wire connected to battery ground (protects from EMI).
 
 @302d|Networks|hl net calc
-Q: With the batteries disconnected, resistance measured between CAN-H and CAN-L on a healthy J1939 bus should be about:
+Q: With the batteries disconnected, resistance measured between the two controller area network (CAN) wires, CAN high (CAN-H) and CAN low (CAN-L), on a healthy J1939 bus should be about:
 + 60 Ω
 - 120 Ω
 - 240 Ω
@@ -999,7 +999,7 @@ Q: With the batteries disconnected, resistance measured between CAN-H and CAN-L 
 E: Two 120 Ω terminating resistors in parallel = 60 Ω.
 
 @302d|Networks|hl net ct
-Q: Resistance between CAN-H and CAN-L reads 120 Ω. The most likely problem is:
+Q: Resistance between the controller area network (CAN) high wire (CAN-H) and low wire (CAN-L) reads 120 Ω. The most likely problem is:
 + an open, such as a missing terminator
 - a short between CAN-H and CAN-L
 - a CAN wire shorted to ground
@@ -1007,7 +1007,7 @@ Q: Resistance between CAN-H and CAN-L reads 120 Ω. The most likely problem is:
 E: Highlighted: more than 60 = open; less than 60 = short. 120 Ω means only one terminator is in the circuit.
 
 @302d|Networks|hl net
-Q: Resistance from CAN-H or CAN-L to ground should read:
+Q: Resistance from either controller area network (CAN) wire, CAN high (CAN-H) or CAN low (CAN-L), to ground should read:
 + OL (no continuity)
 - 60 Ω
 - 120 Ω
@@ -1015,7 +1015,7 @@ Q: Resistance from CAN-H or CAN-L to ground should read:
 E: Highlighted: no continuity to ground.
 
 @302d|Networks|net ct
-Q: CAN-H and CAN-L both measure well below 2.5 V with the bus inactive. This suggests:
+Q: The controller area network (CAN) high wire (CAN-H) and low wire (CAN-L) both measure well below 2.5 V with the bus inactive. This suggests:
 + a faulty node or bus
 - excessive system voltage
 - normal operation
@@ -1027,7 +1027,7 @@ Q: The purpose of ISO 11783 is to:
 + let any tractor work any brand of implement
 - standardize on-highway truck diagnostics
 - replace J1939 on large mining trucks
-- set the colour code for all CAN wires
+- set the colour code for all controller area network (CAN) wires
 E: Highlighted: agriculture and forestry standard. Uses unshielded twisted quad cable.
 
 @302d|Networks|hl net
@@ -1175,7 +1175,7 @@ Q: Why is a small voltage regulator used with bimetal gauges?
 E: Highlighted: the regulator keeps voltage, and so the reading, steady.
 
 @302e|Precautions|safe
-Q: When testing electronic circuits, you should use a DMM with:
+Q: When testing electronic circuits, you should use a digital multimeter (DMM) with:
 + high impedance
 - low impedance
 - an analog movement
@@ -1183,7 +1183,7 @@ Q: When testing electronic circuits, you should use a DMM with:
 E: High impedance meters won't load or damage sensitive circuits. Also never pierce insulation and use a wrist strap.
 
 @302f|Coaching|
-Q: The four-step coaching method in the ILM is:
+Q: The four-step coaching method is:
 + plan, tell, show, do
 - tell, show, test, review
 - show, tell, do, review
@@ -1211,7 +1211,7 @@ Q: Who is responsible for keeping the apprentice record book up to date?
 + The apprentice
 - The training institution only
 - The employer only
-- The AIT office
+- The Apprenticeship and Industry Training (AIT) office
 E: Apprentices keep the record book current; journeypersons fill in their parts; employers make sure it's done.
 
 @302f|Coaching|
@@ -1243,7 +1243,7 @@ Q: The foundation document for the Red Seal exam is the:
 + National Occupational Analysis
 - apprentice record book
 - provincial trade regulation
-- set of ILM booklets
+- set of individual learning module (ILM) booklets
 E: Highlighted: the NOA is the foundation document.
 
 @302g|Red Seal|hl
@@ -1263,7 +1263,7 @@ Q: The main benefit of the Red Seal program is that it:
 E: Red Seal gives interprovincial mobility and a standard of excellence.
 
 @302g|Red Seal|
-Q: The NOA is organized into:
+Q: The National Occupational Analysis (NOA) is organized into:
 + blocks, tasks and sub-tasks
 - chapters, objectives and outcomes
 - modules, periods and exams

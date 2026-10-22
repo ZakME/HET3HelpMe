@@ -27,7 +27,7 @@ Q: Steering clutches and brakes on a conventional crawler are dry type. This mea
 + they must be kept free of oil
 - they are cooled by transmission oil spray
 - they run in a sealed oil bath for cooling
-- they require oil changes at each PM
+- they require oil changes at each preventive maintenance (PM)
 E: Dry clutches and brakes must stay oil-free. Oil contamination causes slipping.
 
 @303g|Obj 1|
@@ -111,7 +111,7 @@ Q: Operational and pressure testing of crawler steering systems should be done a
 E: Test at 150 to 180°F (65.5 to 82.2°C), in a safe working area, following the manufacturer's procedure.
 
 @303g|Obj 2|
-Q: According to the learning guide, a crawler pulls to the left. Which track condition could be the cause?
+Q: A crawler pulls to the left. Which track condition could be the cause?
 + The left track is either too tight or too loose
 - Only the left track being too loose (never too tight)
 - Only the right track being too tight
@@ -136,16 +136,16 @@ E: Dry or worn linkage binds and sticks, which is a common problem on many machi
 
 @303g|Obj 2|
 Q: On a conventional non-modular crawler, where are the steering clutches and brakes located (which components may need to be removed for access)?
-+ Under the fuel tank. The ROPS, cab and seat may need removal.
-- In the final drive. The track and sprocket must be removed.
-- Behind the transmission. The engine must be pulled.
-- In the track roller frame. The equalizer bar must be removed.
++ Under the fuel tank. The roll over protective structure (ROPS), cab and seat may need removal.
+- In the final drive housing. The track, sprocket and final drive cover must come off.
+- Behind the transmission. The engine and torque converter must be pulled out first.
+- In the track roller frame. The equalizer bar and the roller frame must be removed.
 E: The guide says they are under the fuel tank, and access may need removal of the ROPS, cab, seat, fuel tank and more.
 
 @303g|Obj 2|
 Q: To remove a modular steering clutch and brake assembly, the typical steps are:
 + split the track, remove the centre plate, pull the axle, unbolt
-- remove the ROPS, cab and fuel tank, then lift out the module
+- remove the roll over protective structure (ROPS), cab and fuel tank, then lift out the module
 - remove the transmission and bevel gear, then slide the module out
 - remove the final drive housing and pull the module through the sprocket
 E: Modular units sit outboard. Split the track, remove the centre plate, pull the axle and unbolt the module, which means much less downtime.
@@ -159,7 +159,7 @@ Q: Why is the modular steering clutch/brake assembly isolated from the pinion an
 E: Isolation prevents contamination between compartments and allows quick module swaps.
 
 @303g|Obj 2|
-Q: What PPE caution applies when cleaning steering clutch and brake parts?
+Q: What personal protective equipment (PPE) caution applies when cleaning steering clutch and brake parts?
 + Hazardous dust and contaminants, and very sharp parts
 - Parts may be magnetized and attract metal filings
 - Brake parts must be cleaned with water only
@@ -223,7 +223,7 @@ Q: Komatsu's Hydrostatic Steering System (HSS) differs from a full hydrostatic (
 E: HSS uses the powershift transmission for travel. The hydraulic motor (through an idler) manipulates the left and right dual-input planetaries for turning. HST drives each track hydrostatically.
 
 @303g|Obj 5|
-Q: Why are the Komatsu HSS planetaries called dual-input planetaries?
+Q: Why are the planetaries in Komatsu's hydrostatic steering system (HSS) called dual-input planetaries?
 + They take input from the transmission, the steering motor, or both
 - They have two sun gears driven from one shaft
 - They receive input from two separate engines
@@ -296,7 +296,7 @@ E: The transmission input reverses and the steering ring is held, so both sprock
 
 @303g|Obj 6|ct
 Q: A differential steer dozer slowly drifts to one side in straight travel. Track tension, rollers and idlers check OK. What is the most likely cause?
-+ The steering motor isn't holding the ring gear (leaking DCV or relief)
++ The steering motor isn't holding the ring gear (a leaking control valve or relief)
 - A slipping steering clutch on the slow side
 - A dragging steering brake band on one side
 - Wrong ratio in the equalizing planetary
@@ -327,7 +327,7 @@ Q: Why were hydrostatic drive crawlers historically limited mostly to smaller ma
 E: The learning guide says heat was the limiting factor. Better hydraulics and cooling now allow larger HST machines.
 
 @303g|Obj 3/4|
-Q: According to the learning guide, an advantage of electronically controlled hydrostatic crawler steering is:
+Q: An advantage of electronically controlled hydrostatic crawler steering is:
 + less operator fatigue over the work day
 - no need for a charge pump or filters
 - lower system operating pressure and heat

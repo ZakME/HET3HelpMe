@@ -68,7 +68,7 @@ Q: Transmission charging pump inlet pressure is below 12 psia. This indicates:
 - air being drawn into the inlet line
 - a worn charge pump with high slip
 - a converter relief stuck open
-E: Highlighted. Higher than normal inlet pressure = air being drawn in.
+E: Below about 12 psia means the pump is pulling too hard against a restriction in the inlet line, which leads to cavitation. Air being drawn in through a leak would make inlet pressure read higher (less vacuum), not lower.
 
 @303f|Pressure tests|hl
 Q: Clutch application pressure should be checked at:
@@ -136,10 +136,10 @@ E: Highlighted. Also output shaft speed and vehicle odometer. Check governor pre
 
 @303f|Electronic|hl
 Q: When diagnosing an electronic transmission fault code, you should:
-+ follow the OEM manual's steps
-- replace the ECM first
-- clear it and test drive only
-- check governor pressure
++ follow the manufacturer's diagnostic steps
+- replace the electronic control module (ECM) first
+- clear the code and test drive it only
+- check the governor pressure first
 E: Highlighted.
 
 @303f|Rebuild|hl
@@ -335,7 +335,7 @@ Q: A counter-rotation (spot) turn is when:
 E: Highlighted.
 
 @303g|Hydrostatic steering|hst
-Q: On an electronic hydrostatic crawler, the pump speed sensor is used by the ECM to:
+Q: On an electronic hydrostatic crawler, the pump speed sensor is used by the electronic control module (ECM) to:
 + prevent engine stall under heavy load
 - measure slip at each track
 - control the decelerator pedal
@@ -587,7 +587,7 @@ Q: Remanufacturing undercarriage parts is only possible if:
 + enough material is left on the part
 - the part has already failed completely
 - the part is less than a year old
-- the OEM supplies a new casting
+- the original equipment manufacturer (OEM) supplies a new casting
 E: Highlighted: take parts out of service before total failure.
 
 @303h|Repairs|hl
@@ -680,17 +680,17 @@ E: Highlighted. The cover gives access to the sun gear and axle shaft.
 
 @303i|Electric drive|hl
 Q: On an electric drive haul truck, what is the order of power flow?
-+ Generator, rectifier, DC bus, inverters, motors
-- Rectifier, generator, inverters, DC bus, motors
-- Generator, inverters, DC bus, rectifier, motors
-- Generator, DC bus, rectifier, inverters, motors
++ Generator, rectifier, direct current (DC) bus, inverters, motors
+- Rectifier, generator, inverters, direct current (DC) bus, motors
+- Generator, inverters, direct current (DC) bus, rectifier, motors
+- Generator, direct current (DC) bus, rectifier, inverters, motors
 E: Highlighted: AC from the generator is rectified to DC, stored on the DC bus, then inverted back to AC for the motors.
 
 @303i|Electric drive|hl
-Q: The DC bus in an electric drive system:
+Q: The direct current (DC) bus in an electric drive system:
 + stores DC voltage
-- converts AC to DC
-- converts DC to AC
+- converts alternating current (AC) to DC
+- converts DC to alternating current (AC)
 - cools the retarding grid
 E: Highlighted.
 
@@ -699,7 +699,7 @@ Q: During dynamic braking on an electric drive truck:
 + the motors generate, and the grid burns it off
 - the generator drives the wheels backwards
 - the inverter applies the mechanical brakes
-- the DC bus is disconnected from the motors
+- the direct current (DC) bus is disconnected from the motors
 E: Highlighted. Braking choppers control the grid; a blower motor cools it.
 
 @303i|Electric drive|hl
@@ -711,7 +711,7 @@ Q: Braking choppers in an electric drive system are:
 E: Highlighted.
 
 @303i|Electric drive|hl safe
-Q: Before working on an electric drive system, the DC bus capacitors must be:
+Q: Before working on an electric drive system, the direct current (DC) bus capacitors must be:
 + verified as discharged
 - charged to full voltage
 - disconnected while still charged
@@ -719,7 +719,7 @@ Q: Before working on an electric drive system, the DC bus capacitors must be:
 E: Highlighted: the DC bus capacitor bank is a serious voltage hazard.
 
 @303i|Electric drive|hl safe
-Q: When working near energized electric drive components, the minimum safe working distance without PPE is:
+Q: When working near energized electric drive components, the minimum safe working distance without personal protective equipment (PPE) is:
 + 2.5 ft
 - 12 in
 - 6 in
@@ -738,7 +738,7 @@ E: Highlighted. Plus face shield and glasses.
 Q: In the electric drive generator, the stator is the:
 + fixed field, fed by a supply
 - rotating field winding
-- DC bus capacitor bank
+- Direct current (DC) bus capacitor bank
 - retarding grid resistor
 E: Highlighted.
 
@@ -1107,7 +1107,7 @@ Q: When measuring flywheel face runout, the crankshaft should be:
 + pushed fully one way to remove endplay
 - left free to move in and out
 - rotated backwards only
-- held at TDC number one
+- held at top dead centre (TDC) number one
 E: Highlighted. Then add up all the readings, ignoring whether they were positive or negative.
 
 @303k|Special clutches|hl
@@ -1127,7 +1127,7 @@ Q: A sprag clutch is a type of:
 E: Roller, sprag and dog/jaw clutches can all act as one-way (overrunning) devices.
 
 @303k|Special clutches|hl
-Q: An electromagnetic clutch, such as on an A/C compressor, is applied when:
+Q: An electromagnetic clutch, such as on an air conditioning (A/C) compressor, is applied when:
 + current is applied
 - current is removed
 - oil pressure rises

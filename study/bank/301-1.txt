@@ -151,7 +151,7 @@ Q: Oil flowing through a hydraulic system is an example of:
 E: Kinetic = movement and motion. Pumps provide flow (kinetic). Potential = stored energy that creates force (pressure), like an accumulator.
 
 @301a|Energy and work|hl
-Q: An accumulator is the ILM's example of which form of energy?
+Q: An accumulator is an example of which form of energy?
 + Potential
 - Kinetic
 - Mechanical
@@ -1007,7 +1007,7 @@ Q: A hydraulic motor with inlet and outlet ports of the same size is usually:
 E: Same size = bi-directional. Different = uni-directional.
 
 @301d|Motors|hl
-Q: External gear motors are described in the ILM as:
+Q: External gear motors are best described as:
 + poor torque generators
 - the highest torque motors
 - low speed, high torque motors
@@ -1147,7 +1147,7 @@ Q: To make new cylinder seals easier to install, they may be:
 + soaked in warm water or oil
 - heated with a torch until soft
 - frozen in dry ice to shrink them
-- coated with grease and RTV
+- coated with grease and room temperature vulcanizing (RTV)
 E: Soak seals in warm water or oil, then apply a light coat of oil so they slide into place.
 
 @301e|Cylinder service|hl

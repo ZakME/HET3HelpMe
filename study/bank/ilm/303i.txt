@@ -15,7 +15,7 @@ Q: Which is the most versatile and most common final drive type in the heavy equ
 E: The guide identifies the planetary final drive as the most common and most versatile.
 
 @303i|Obj 1|
-Q: In the double reduction final drive described in the learning guide (spur gear + planetary), where does the FIRST reduction occur?
+Q: In a double reduction final drive with a spur gear set and a planetary, where does the FIRST reduction occur?
 + Between the spur gear and the bull gear
 - Between the drive pinion and the bevel gear
 - In the planetary gear set
@@ -71,7 +71,7 @@ Q: Why does a hydraulically driven final drive suit an excavator so well?
 E: Hydraulic lines pass through the swivel (rotary manifold), so travel motors can be driven no matter where the house is pointing. A mechanical driveline can't do that.
 
 @303i|Obj 3|
-Q: In an AC electric drive haul truck, which mechanical powertrain components are replaced by electrical equivalents?
+Q: In an alternating current (AC) electric drive haul truck, which mechanical powertrain components are replaced by electrical equivalents?
 + Torque converter, transmission and differential
 - Engine, final drives and driveshaft
 - Final drives and wheel hubs only
@@ -87,23 +87,23 @@ Q: On an electric drive haul truck, what is the function of the planetary final 
 E: The final drive's job (torque multiplication) doesn't change. The wheel motor drives it.
 
 @303i|Obj 3|
-Q: Which component dissipates energy during electric (dynamic) braking on an AC drive truck?
+Q: Which component dissipates energy during electric (dynamic) braking on an alternating current (AC) drive truck?
 + The resistor grid box
-- The DC bus capacitors
+- The direct current (DC) bus capacitors
 - The blower motor
 - The rectifier
 E: During retarding the wheel motors act as generators, and the energy is burned off as heat in the resistor grid.
 
 @303i|Obj 3|
-Q: Which list contains only DC motor components?
+Q: Which list contains only direct current (DC) motor components?
 + Brushes, commutator, armature, field windings
 - Stator, squirrel cage rotor, bearings
 - Stator, commutator, squirrel cage rotor
-- IGBT, squirrel cage rotor, pole shoes
+- Insulated gate bipolar transistor (IGBT), squirrel cage rotor, pole shoes
 E: DC motor: brushes, commutator, armature (rotating), field windings and pole shoes (stationary), bearings. An AC induction motor is just a stator, a squirrel cage rotor and bearings.
 
 @303i|Obj 3|
-Q: A major ADVANTAGE of DC traction motors is:
+Q: A major ADVANTAGE of direct current (DC) traction motors is:
 + tremendous torque at low speed
 - low maintenance, with no brushes
 - tolerance of moisture and dirty cooling air
@@ -111,7 +111,7 @@ Q: A major ADVANTAGE of DC traction motors is:
 E: DC motor torque is proportional to current, and its low-resistance windings allow very high current at low speed. Speed is controlled by varying the DC voltage.
 
 @303i|Obj 3|
-Q: A major DISADVANTAGE of DC traction motors is:
+Q: A major DISADVANTAGE of direct current (DC) traction motors is:
 + high brush and commutator maintenance
 - poor torque at low speed
 - they require complex inverter controls
@@ -119,15 +119,15 @@ Q: A major DISADVANTAGE of DC traction motors is:
 E: Brushes and commutators need constant maintenance, the internals are exposed to the environment, and there are many solder points.
 
 @303i|Obj 3|
-Q: How is the magnetic field created in the rotor of an AC induction motor?
+Q: How is the magnetic field created in the rotor of an alternating current (AC) induction motor?
 + Induced by the changing stator field cutting the rotor bars
 - By current fed through brushes and a commutator to the rotor
 - By permanent magnets embedded in the rotor
-- By DC fed to the rotor through slip rings
+- By direct current (DC) fed to the rotor through slip rings
 E: No voltage is applied directly to the rotor. The stator's alternating (expanding and collapsing) field induces voltage and current in the squirrel cage bars, which creates the rotor field.
 
 @303i|Obj 3|
-Q: Which is listed as a DISADVANTAGE of AC induction motors?
+Q: Which is listed as a DISADVANTAGE of alternating current (AC) induction motors?
 + They need expensive, complex electronic speed controls
 - High brush and commutator maintenance
 - Poor sealing against dirt and moisture
@@ -135,23 +135,23 @@ Q: Which is listed as a DISADVANTAGE of AC induction motors?
 E: AC motors are low maintenance and well sealed, and they offer dynamic braking. Their downside is the need for sophisticated drive electronics.
 
 @303i|Obj 3|
-Q: In AC drive terminology, which is correct?
-+ A converter changes AC to DC. An inverter changes DC to AC.
-- A converter changes DC to AC. An inverter changes AC to DC.
-- Both change AC to DC
+Q: In alternating current (AC) drive terminology, which is correct?
++ A converter changes AC to direct current (DC). An inverter changes DC to AC.
+- A converter changes direct current (DC) to AC. An inverter changes AC to DC.
+- Both change AC to direct current (DC)
 - An inverter changes AC voltage to a higher AC voltage
 E: Converter (rectifier) AC → DC. Inverter DC → variable AC.
 
 @303i|Obj 3|
 Q: What are the three main sections of a variable frequency drive (VFD), in order?
-+ Rectifier → DC bus → inverter
-- Inverter → DC bus → rectifier
++ Rectifier → direct current (DC) bus → inverter
+- Inverter → direct current (DC) bus → rectifier
 - Generator → inverter → rectifier
-- Rectifier → inverter → DC bus
+- Rectifier → inverter → direct current (DC) bus
 E: The rectifier converts the generator AC to DC, the DC bus stores it, and the inverter makes variable voltage and variable frequency AC for the motors.
 
 @303i|Obj 3|
-Q: The speed of an AC induction wheel motor is directly proportional to:
+Q: The speed of an alternating current (AC) induction wheel motor is directly proportional to:
 + the applied voltage and frequency
 - the current only
 - the generator field strength only
@@ -159,7 +159,7 @@ Q: The speed of an AC induction wheel motor is directly proportional to:
 E: Changing the frequency (with voltage) changes motor speed. That's why the DC is inverted back to a variable frequency.
 
 @303i|Obj 3|ct
-Q: The generator already produces AC. Why does an AC drive truck rectify it to DC and then invert it back to AC?
+Q: The generator already produces alternating current (AC). Why does an AC drive truck rectify it to direct current (DC) and then invert it back to AC?
 + To vary frequency and voltage independently of engine speed
 - Because AC can't be sent through cables to the wheels
 - To raise the generator's output voltage for the motors
@@ -167,7 +167,7 @@ Q: The generator already produces AC. Why does an AC drive truck rectify it to D
 E: Generator frequency is tied to engine and generator speed (e.g., 60 Hz). Going through DC lets the inverter synthesize whatever frequency and voltage the motors need.
 
 @303i|Obj 3|
-Q: What does an IGBT need in order to turn on and conduct between its collector and emitter?
+Q: What does an insulated gate bipolar transistor (IGBT) need in order to turn on and conduct between its collector and emitter?
 + Voltage applied to the gate
 - Current through the base
 - A magnetic field
@@ -175,7 +175,7 @@ Q: What does an IGBT need in order to turn on and conduct between its collector 
 E: An IGBT is like a transistor whose base is called a gate. Its very fast switching made accurate AC motor control possible.
 
 @303i|Obj 3|
-Q: The inverter produces a pulsed DC that mimics an AC sine wave. This output is sometimes called:
+Q: The inverter produces a pulsed direct current (DC) that mimics an alternating current (AC) sine wave. This output is sometimes called:
 + chopped DC
 - true AC
 - rectified AC
@@ -191,7 +191,7 @@ Q: How does pulse width modulation (PWM) change the average voltage applied to t
 E: Wider pulses give a higher average voltage. Varying pulse width over time shapes the sine wave, and changing the amplitude and frequency changes speed.
 
 @303i|Obj 3|
-Q: How is cooling air supplied to the electric drive components on a typical AC drive truck?
+Q: How is cooling air supplied to the electric drive components on a typical alternating current (AC) drive truck?
 + A blower pulls air through the inverter cabinet, then to the generator and motors
 - Each wheel motor has its own fan driven by the wheel
 - Engine coolant is circulated through the wheel motors and cabinet
@@ -199,7 +199,7 @@ Q: How is cooling air supplied to the electric drive components on a typical AC 
 E: The blower is controlled by a module that monitors ambient temperature, component temperatures and duct air pressure.
 
 @303i|Obj 3|
-Q: What energy conversions happen in an AC drive powertrain?
+Q: What energy conversions happen in an alternating current (AC) drive powertrain?
 + Mechanical → electrical (generator), electrical → mechanical (wheel motors)
 - Electrical → mechanical (generator) only
 - Chemical → electrical (inverter), electrical → mechanical (grid)
@@ -209,21 +209,21 @@ E: Engine (mechanical) → generator (electrical) → rectifier/DC bus/inverter 
 @303i|Obj 3|
 Q: Who should perform maintenance or repair on inverter cabinet components?
 + Qualified electricians or factory trained technicians
-- Any HET apprentice with a multimeter
+- Any heavy equipment technician (HET) apprentice with a multimeter
 - The operator, after shutting the truck down
-- Only the OEM, at the factory
+- Only the original equipment manufacturer (OEM), at the factory
 E: High generator voltage is present in the cabinet. The guide says this work must be done by qualified electricians or factory trained technicians.
 
 @303i|Obj 4|gk
-Q: After shutting down an AC drive haul truck, why can't you go straight into the high voltage components?
-+ DC link capacitors can hold a lethal charge after shutdown
+Q: After shutting down an alternating current (AC) drive haul truck, why can't you go straight into the high voltage components?
++ Direct current (DC) link capacitors can hold a lethal charge after shutdown
 - The generator keeps spinning and producing power for several minutes
-- The batteries supply high voltage to the DC link
+- The batteries supply high voltage to the direct current (DC) link
 - The wheel motors become magnetized and shock you
 E: Follow the OEM shutdown and lockout procedure and wait for the DC link to discharge. Never rely on one indicator alone. (General knowledge. Your PDF for this objective is ILM-only.)
 
 @303i|Obj 4|gk
-Q: What additional hazard exists at the retarding grid box right after an AC drive truck has been working downhill?
+Q: What additional hazard exists at the retarding grid box right after an alternating current (AC) drive truck has been working downhill?
 + The resistors may be extremely hot, and carry high voltage
 - The grid holds compressed air
 - The grid contains hydraulic accumulators
@@ -231,10 +231,10 @@ Q: What additional hazard exists at the retarding grid box right after an AC dri
 E: Retarding energy is dissipated as heat in the grid, so it can cause burns. It is also connected to the high voltage circuit. (General knowledge.)
 
 @303i|Obj 4|gk
-Q: Which practice is correct before working on an AC drive truck's high voltage system?
-+ Follow the OEM lockout, wear rated PPE, verify zero energy
-- Disconnect the 24 V batteries. That isolates all high voltage.
-- Ground the frame to the generator housing with a jumper
+Q: Which practice is correct before working on an alternating current (AC) drive truck's high voltage system?
++ Follow the manufacturer's lockout, wear rated protective gear, verify zero energy
+- Disconnect the 24 V batteries, since that isolates all high voltage
+- Ground the frame to the generator housing with a jumper lead
 - Leave the engine at low idle so the fans keep the components cool
 E: The high voltage system has its own isolation and lockout points and stored energy. (General knowledge. Always follow the OEM procedure.)
 
@@ -247,7 +247,7 @@ Q: Why is regular oil sampling (oil analysis) of final drives recommended?
 E: Scheduled oil analysis tracks wear metals, contamination and oil condition, so problems are caught early.
 
 @303i|Obj 6|
-Q: According to the learning guide, a benefit of good maintenance record keeping is that:
+Q: A benefit of good maintenance record keeping is that:
 + parts can be ordered ahead of service
 - the machine won't need daily inspections
 - oil analysis is no longer needed
@@ -279,7 +279,7 @@ Q: Which statement about electrically driven final drives is correct?
 E: Electric motors usually drive planetary final drives for extra torque, but the guide notes that any combination is possible.
 
 @303i|Obj 3|ct gk
-Q: On an AC drive haul truck descending a grade, the wheel motors are used for retarding. What is happening?
+Q: On an alternating current (AC) drive haul truck descending a grade, the wheel motors are used for retarding. What is happening?
 + The motors act as generators, and the grid burns off the energy
 - The motors are reversed and drive against the direction of travel at full power
 - The service brakes do all the retarding while the motors freewheel

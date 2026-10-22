@@ -18,7 +18,7 @@ E: The clutch only connects and disconnects. It doesn't multiply torque.
 Q: Which of these is a typical overcentre clutch application?
 + A crane's draw works
 - A torque converter stator support
-- An A/C compressor pulley drive
+- An air conditioning (A/C) compressor pulley drive
 - A differential lock on a loader axle
 E: Applications include transmissions, pump drives, conveyors and crane draw works. They can be operated remotely by an air or hydraulic cylinder.
 
@@ -39,7 +39,7 @@ Q: What is the purpose of the pilot bearing in an overcentre clutch installation
 E: The pilot bearing in the centre of the flywheel supports and aligns the shaft when it isn't locked to the flywheel through the discs.
 
 @303k|Obj 1|
-Q: Per the learning guide, how can a technician tell from the release linkage that an overcentre clutch is ENGAGED?
+Q: How can a technician tell from the release linkage that an overcentre clutch is ENGAGED?
 + The linkage angle is less than 90 degrees
 - The linkage angle is greater than 90 degrees
 - The linkage is exactly at 90 degrees
@@ -99,7 +99,7 @@ Q: Which statement about overcentre clutch linkage adjustment is correct?
 + Release linkage: not adjustable. Remote linkage: only for wear or new parts.
 - The release linkage is adjusted to set clutch pull force
 - The remote linkage is adjusted to set disc clearance
-- Both linkages are adjusted at every PM to set the pull force
+- Both linkages are adjusted at every preventive maintenance (PM) to set the pull force
 E: Remote linkage doesn't affect clutch adjustment. If it's adjusted wrong, it causes excessive release bearing wear.
 
 @303k|Obj 1|
@@ -129,7 +129,7 @@ E: Check with a dial indicator. The figure varies by manufacturer. This adjustme
 @303k|Obj 1|
 Q: What is one of the last checks after an overcentre clutch installation?
 + Confirm engine crankshaft end play is still within spec
-- Check engine valve lash at TDC
+- Check engine valve lash at top dead centre (TDC)
 - Check transmission oil level hot
 - Measure flywheel runout with the clutch engaged
 E: The installation must not load the crankshaft thrust bearing.
@@ -227,7 +227,7 @@ Q: Where is a cone clutch commonly found in a drivetrain?
 + In transmission synchronizers
 - In the differential lock
 - In a torque converter lockup
-- In an A/C compressor
+- In an air conditioning (A/C) compressor
 E: The tapered (cone) friction surface multiplies clamping force by wedging, which makes it compact for synchronizing. (General knowledge.)
 
 @303k|Obj 2|ct gk

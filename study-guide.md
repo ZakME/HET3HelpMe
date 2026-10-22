@@ -390,7 +390,7 @@ The notes give symbols as pictures. These are the standard ISO 1219 / ANSI forms
 ### What readings mean
 | Test | Reading → meaning |
 |---|---|
-| ==Pump inlet== | ==Below 12 psia: restricted inlet==, too fast, wrong oil (cavitation). ==Higher: inlet line leaking air== (aeration) |
+| ==Pump inlet== | The pump normally pulls a slight vacuum here. ==Below 12 psia: restricted inlet==, too fast, wrong oil (pulling too hard, so cavitation). ==Higher: inlet line leaking air== (air fills in the vacuum, so aeration) |
 | ==Pump outlet== | System resistance, friction, ==return line and filter resistance== |
 | Neutral | ==Should be as low as possible== |
 | Working, no load | ==Load from friction== |
@@ -838,7 +838,7 @@ The notes give symbols as pictures. These are the standard ISO 1219 / ANSI forms
 
 ### Pressure tests
 - ==Gauge rated for double system pressure.==
-- ==Charging pump inlet: below 12 psia = inlet restriction== (cavitation). ==Higher than normal = air being drawn in.==
+- ==Charging pump inlet: below 12 psia = inlet restriction== (the pump is pulling too hard, so cavitation). ==Higher than normal = air being drawn in== through a leak, which fills in the normal slight vacuum.
 - ==Clutch pressure (set by clutch pressure regulator): check at low and high idle; should be the same.== ==Low at idle but normal at high idle = internal leakage.==
 - ==Converter charge pressure: resistance in the converter; max set by the converter relief on the **inlet** side.== Low = poor pump flow, clutch or converter circuit leakage.
 - ==Lube pressure: last circuit to get oil.== Low = poor pump flow, clutch/converter leakage, ==low in one range = a leaking clutch piston==, lube leaks.

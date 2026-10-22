@@ -103,7 +103,7 @@ Q: A simple idler gear placed between a drive and driven gear will:
 E: Simple idlers only affect direction of rotation. They can be ignored when finding the ratio.
 
 @303a|Obj 2|
-Q: Per the learning guide, when the output gear rotates in the SAME direction as the input gear, it is considered to be rotating:
+Q: When the output gear rotates in the SAME direction as the input gear, it is considered to be rotating:
 + in reverse to the normal direction
 - in the normal (forward) direction
 - in overdrive relative to the input

@@ -311,7 +311,7 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:120px}
 <h3>Gauges</h3>
 <ul><li class="hl">Bourdon tube straightens under pressure. Protect with <mark>snubber (inlet orifice)</mark> or <mark>glycerine fill (damps needle vibration)</mark>.</li><li class="hl"><mark>Choose a gauge twice the expected pressure</mark> (accurate at mid scale). <mark>Install in <b>parallel</b>.</mark> Compound = vacuum + pressure. Absolute = psia.</li></ul>
 <h3>What readings mean</h3>
-<div class="tw"><table><thead><tr><th>Test</th><th>Reading → meaning</th></tr></thead><tbody><tr class="hl"><td><mark>Pump inlet</mark></td><td><mark>Below 12 psia: restricted inlet</mark>, too fast, wrong oil (cavitation). <mark>Higher: inlet line leaking air</mark> (aeration)</td></tr><tr class="hl"><td><mark>Pump outlet</mark></td><td>System resistance, friction, <mark>return line and filter resistance</mark></td></tr><tr class="hl"><td>Neutral</td><td><mark>Should be as low as possible</mark></td></tr><tr class="hl"><td>Working, no load</td><td><mark>Load from friction</mark></td></tr><tr class="hl"><td>Max system</td><td><mark>Low: relief faulty/set low. High: relief faulty/set high or outlet restriction</mark></td></tr><tr class="hl"><td>Closed centre</td><td><mark>Load sensing pilot pressure</mark> (operates the compensator)</td></tr><tr class="hl"><td>HST</td><td><mark>Charge pump inlet/outlet</mark>, loop pressure both sides, <mark>case drain</mark> (high = damage)</td></tr></tbody></table></div>
+<div class="tw"><table><thead><tr><th>Test</th><th>Reading → meaning</th></tr></thead><tbody><tr class="hl"><td><mark>Pump inlet</mark></td><td>The pump normally pulls a slight vacuum here. <mark>Below 12 psia: restricted inlet</mark>, too fast, wrong oil (pulling too hard, so cavitation). <mark>Higher: inlet line leaking air</mark> (air fills in the vacuum, so aeration)</td></tr><tr class="hl"><td><mark>Pump outlet</mark></td><td>System resistance, friction, <mark>return line and filter resistance</mark></td></tr><tr class="hl"><td>Neutral</td><td><mark>Should be as low as possible</mark></td></tr><tr class="hl"><td>Working, no load</td><td><mark>Load from friction</mark></td></tr><tr class="hl"><td>Max system</td><td><mark>Low: relief faulty/set low. High: relief faulty/set high or outlet restriction</mark></td></tr><tr class="hl"><td>Closed centre</td><td><mark>Load sensing pilot pressure</mark> (operates the compensator)</td></tr><tr class="hl"><td>HST</td><td><mark>Charge pump inlet/outlet</mark>, loop pressure both sides, <mark>case drain</mark> (high = damage)</td></tr></tbody></table></div>
 <h3>Leakage tests</h3>
 <ul><li class="hl"><mark>Cylinder drift = movement with the unit stopped</mark> (tape on rod; excavator bucket tip to ground measures all cylinders).</li><li class="hl"><mark>A leaking component gets hotter faster</mark> (infrared/digital thermometer).</li><li class="hl"><mark>Motor: remove drain line, stall at full throttle, measure drain flow for 10 s.</mark> <mark>Cylinder: stall and remove the opposite line.</mark></li><li>Flowmeter: in a test unit with a load valve. Downsides: slow, system opened, contamination risk.</li><li class="hl"><mark>Pump efficiency: flowmeter in series; below 80% = repair or replace.</mark> High case drain flow = wear.</li><li class="hl"><mark>Circuit leakage (tee test): flowmeter in parallel between pump outlet and return; leakage = full-load pump flow − circuit flow.</mark> Can also find relief cracking and full flow.</li><li class="hl">Faults: learn the system, easy checks first, <mark>speed = flow, force = pressure</mark>, <mark>fix the root cause or the new part fails too</mark>.</li></ul>
 </section>
@@ -431,7 +431,7 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:120px}
 <ul><li class="hl">Steps: information → <mark>operator (most important source)</mark> → visual (<mark>oil level and condition always first</mark>; water/glycol is very damaging; check filter) → operational tests.</li><li class="hl"><mark>Warm oil to 150–180 °F before testing</mark> (leakage rises with heat; problems may hide when cold).</li><li class="hl"><mark><b>Stall test</b>: brakes on, <b>highest gear</b>, full throttle, open area, watch temperature; the machine may move.</mark> Max 30 s, then neutral 30 s to cool. Don't overheat.</li></ul>
 <div class="tw"><table><thead><tr><th>Stall speed</th><th>Cause</th></tr></thead><tbody><tr class="hl"><td><mark>Lower than spec</mark></td><td><mark>Weak engine, slipping stator</mark></td></tr><tr class="hl"><td><mark>Higher than spec</mark></td><td><mark>Too much engine power, slipping transmission clutches, converter cavitation (low oil)</mark></td></tr></tbody></table></div>
 <h3>Pressure tests</h3>
-<ul><li class="hl"><mark>Gauge rated for double system pressure.</mark></li><li class="hl"><mark>Charging pump inlet: below 12 psia = inlet restriction</mark> (cavitation). <mark>Higher than normal = air being drawn in.</mark></li><li class="hl"><mark>Clutch pressure (set by clutch pressure regulator): check at low and high idle; should be the same.</mark> <mark>Low at idle but normal at high idle = internal leakage.</mark></li><li class="hl"><mark>Converter charge pressure: resistance in the converter; max set by the converter relief on the <b>inlet</b> side.</mark> Low = poor pump flow, clutch or converter circuit leakage.</li><li class="hl"><mark>Lube pressure: last circuit to get oil.</mark> Low = poor pump flow, clutch/converter leakage, <mark>low in one range = a leaking clutch piston</mark>, lube leaks.</li><li class="hl"><mark>Flowmeter (in series) accurately finds internal leakage</mark> upstream of it.</li><li class="hl"><mark>Shift points are adjusted against governor pressure</mark>, output shaft speed, odometer (usually by shift signal valve spring tension; check governor pressure first).</li><li class="hl">Electronic: fault codes, <mark>follow the manufacturer manual</mark>; protect the ECM.</li></ul>
+<ul><li class="hl"><mark>Gauge rated for double system pressure.</mark></li><li class="hl"><mark>Charging pump inlet: below 12 psia = inlet restriction</mark> (the pump is pulling too hard, so cavitation). <mark>Higher than normal = air being drawn in</mark> through a leak, which fills in the normal slight vacuum.</li><li class="hl"><mark>Clutch pressure (set by clutch pressure regulator): check at low and high idle; should be the same.</mark> <mark>Low at idle but normal at high idle = internal leakage.</mark></li><li class="hl"><mark>Converter charge pressure: resistance in the converter; max set by the converter relief on the <b>inlet</b> side.</mark> Low = poor pump flow, clutch or converter circuit leakage.</li><li class="hl"><mark>Lube pressure: last circuit to get oil.</mark> Low = poor pump flow, clutch/converter leakage, <mark>low in one range = a leaking clutch piston</mark>, lube leaks.</li><li class="hl"><mark>Flowmeter (in series) accurately finds internal leakage</mark> upstream of it.</li><li class="hl"><mark>Shift points are adjusted against governor pressure</mark>, output shaft speed, odometer (usually by shift signal valve spring tension; check governor pressure first).</li><li class="hl">Electronic: fault codes, <mark>follow the manufacturer manual</mark>; protect the ECM.</li></ul>
 <h3>Rebuild</h3>
 <ul><li>Safety, relieve pressure, follow the service manual. Clean, closed containers; lint-free towels.</li><li class="hl"><mark>Nicks and scratches on valve parts = sticking valves.</mark></li><li class="hl"><mark>Clean bearings and friction discs only with mineral spirits</mark>; dry with dry air; soft wire for passages.</li><li class="hl">Disc wear: micrometer. <mark>Warpage and cone: on a flat surface with a feeler gauge</mark> (cause drag).</li><li class="hl"><mark><b>Clutch clearance</b>: gap with the clutch released. Too little = drag (heat, wear). Too much = delayed engagement.</mark> <mark>Adjust with different reaction disc or piston thickness.</mark> Measure with feeler/go-no-go or stack height.</li><li class="hl"><mark>Wrong control valve torque = spool binding.</mark></li><li class="hl">Install: <mark>new oil and filters; flush the cooler and lines</mark>. <mark>Misalignment = vibration.</mark> <mark>Check crankshaft endplay before removal and after installation.</mark> Adjust linkages.</li></ul>
 </section>
@@ -761,7 +761,7 @@ Q: Oil flowing through a hydraulic system is an example of:
 E: Kinetic = movement and motion. Pumps provide flow (kinetic). Potential = stored energy that creates force (pressure), like an accumulator.
 
 @301a|Energy and work|hl
-Q: An accumulator is the ILM's example of which form of energy?
+Q: An accumulator is an example of which form of energy?
 + Potential
 - Kinetic
 - Mechanical
@@ -1617,7 +1617,7 @@ Q: A hydraulic motor with inlet and outlet ports of the same size is usually:
 E: Same size = bi-directional. Different = uni-directional.
 
 @301d|Motors|hl
-Q: External gear motors are described in the ILM as:
+Q: External gear motors are best described as:
 + poor torque generators
 - the highest torque motors
 - low speed, high torque motors
@@ -1757,7 +1757,7 @@ Q: To make new cylinder seals easier to install, they may be:
 + soaked in warm water or oil
 - heated with a torch until soft
 - frozen in dry ice to shrink them
-- coated with grease and RTV
+- coated with grease and room temperature vulcanizing (RTV)
 E: Soak seals in warm water or oil, then apply a light coat of oil so they slide into place.
 
 @301e|Cylinder service|hl
@@ -1925,13 +1925,13 @@ E: The highlighted note: main spring force sets the override; its spring constan
 Q: A main relief valve is usually installed:
 + in parallel with the pump, often pilot operated
 - in series with each actuator work port
-- after the DCV, often direct acting
+- after the directional control valve (DCV), often direct acting
 - in the return line, ahead of the filter
 E: Main relief limits max system pressure, sits in parallel with pump and DCV (often in the DCV), is often pilot operated and handles high flow.
 
 @301f|Relief valves|hl valve
-Q: Circuit relief valves protect actuators from:
-+ shock loads with the DCV in neutral
+Q: With the directional control valve (DCV) in neutral, circuit relief valves protect actuators from:
++ pressure spikes from shock loads
 - low pressure during cold start-up
 - cavitation when lowering a load
 - overspeeding when the load runs away
@@ -2022,7 +2022,7 @@ Q: Backpressure valves (counterbalance, brake, lock) control actuator movement b
 + restricting oil returning from the actuator
 - limiting pump flow
 - increasing inlet pressure to the actuator
-- reducing pressure at the DCV
+- reducing pressure at the directional control valve (DCV)
 E: They restrict return flow and act as safety valves.
 
 @301f|Backpressure valves|valve ct
@@ -2060,7 +2060,7 @@ E: The setting is based on a known load. Varying loads make the lowering control
 @301f|Brake valve|hl valve
 Q: A hydraulic brake valve in a motor circuit:
 + prevents the load from overspeeding the motor, using pilot pressure from the motor inlet
-- holds the motor stationary with the DCV in neutral using a spring brake
+- holds the motor stationary with the directional control valve (DCV) in neutral using a spring brake
 - limits maximum motor pressure
 - sends case drain oil to tank
 E: Brake valves are in series with the motor return, piloted from the motor inlet (opposite work line), giving controlled deceleration. A check valve is needed with a reversible motor.
@@ -2147,8 +2147,8 @@ E: Meter-out suits loads that change direction and size, but restricting the rod
 
 @301f|Flow control|valve
 Q: For a meter-in flow control, port A connects to the ___ and port B to the ___.
-+ DCV work port; actuator port
-- actuator port; DCV work port
++ Directional control valve (DCV) work port; actuator port
+- actuator port; directional control valve (DCV) work port
 - pump; tank
 - tank; actuator port
 E: Meter-in controls flow into the actuator: DCV work port in, actuator out. Meter-out is the reverse.
@@ -2210,7 +2210,7 @@ Q: Directional control valves are classified by their:
 E: Number of flow paths (ways), number of positions, actuation and detents.
 
 @301f|DCV|hl valve
-Q: The most common type of DCV in mobile hydraulics is the:
+Q: The most common type of directional control valve (DCV) in mobile hydraulics is the:
 + sliding spool valve
 - rotary spool valve
 - poppet valve
@@ -2218,7 +2218,7 @@ Q: The most common type of DCV in mobile hydraulics is the:
 E: Sliding spool = most common, linear action, high pressure and flow. Rotary spool has high leakage and low pressure.
 
 @301f|DCV|valve
-Q: If a DCV spool is badly worn, it is normally:
+Q: If a directional control valve (DCV) spool is badly worn, it is normally:
 + replaced together with the housing as a matched set
 - replaced alone with a standard spool
 - built up with chrome and reused
@@ -2226,7 +2226,7 @@ Q: If a DCV spool is badly worn, it is normally:
 E: Spools and housings are matched sets and can't be replaced separately.
 
 @301f|DCV|hl valve
-Q: Metering notches on a DCV spool are:
+Q: Metering notches on a directional control valve (DCV) spool are:
 + cuts in the lands that allow feathering
 - grooves that hold the spool O-rings
 - notches the detent balls drop into
@@ -2234,7 +2234,7 @@ Q: Metering notches on a DCV spool are:
 E: Metering notches let the operator feather (make small, precise movements).
 
 @301f|DCV|hl valve
-Q: With the DCV in the HOLD position:
+Q: With the directional control valve (DCV) in the HOLD position:
 + the work ports are blocked
 - the work ports are connected to tank
 - pump flow goes to both work ports
@@ -2242,7 +2242,7 @@ Q: With the DCV in the HOLD position:
 E: Hold = work ports blocked. Float = work ports connected to tank.
 
 @301f|DCV|hl valve
-Q: A DCV in the FLOAT position:
+Q: A directional control valve (DCV) in the FLOAT position:
 + connects both work ports to tank
 - blocks both work ports
 - connects pump flow to both work ports
@@ -2258,7 +2258,7 @@ Q: A diverter valve is a:
 E: Diverter = 2 position, 3 way. It controls which of two circuits receives flow.
 
 @301f|DCV|hl valve
-Q: The number of "ways" of a DCV is:
+Q: The number of "ways" of a directional control valve (DCV) is:
 + the number of lines to the valve
 - the number of valve positions
 - the number of spools in the bank
@@ -2266,7 +2266,7 @@ Q: The number of "ways" of a DCV is:
 E: Ways = how many lines go into the valve.
 
 @301f|DCV centres|valve
-Q: A closed centre DCV must be paired with:
+Q: A closed centre directional control valve (DCV) must be paired with:
 + a compensated variable pump, or fixed pump and unloader
 - a fixed displacement pump and no unloader
 - an open centre relief and a series passage
@@ -2282,7 +2282,7 @@ Q: An "open work port" centre (A and B to tank, P blocked) is also called a:
 E: Also called an H-spool by some makers. It allows brake valves in the work lines of a motor.
 
 @301f|DCV centres|valve
-Q: A tandem (open) centre DCV is generally used with:
+Q: A tandem (open) centre directional control valve (DCV) is generally used with:
 + fixed pumps, with valves stacked in series
 - variable displacement pumps only
 - load sensing pressure compensated systems
@@ -2290,7 +2290,7 @@ Q: A tandem (open) centre DCV is generally used with:
 E: Tandem centre sends pump flow to tank in neutral and allows series connection.
 
 @301f|DCV actuation|hl valve
-Q: Why might a DCV be pilot operated rather than mechanically operated?
+Q: Why might a directional control valve (DCV) be pilot operated rather than mechanically operated?
 + Less effort, and the valve can be mounted remotely
 - It is cheaper and simpler than a lever
 - It removes the need for centering springs
@@ -2298,7 +2298,7 @@ Q: Why might a DCV be pilot operated rather than mechanically operated?
 E: Pilot actuation (often from a separate pilot pump) reduces effort and suits remote valves.
 
 @301f|DCV actuation|hl valve
-Q: What is the main limitation of an electrically (on/off) actuated DCV?
+Q: What is the main limitation of an electrically (on/off) actuated directional control valve (DCV)?
 + It does not allow feathering
 - It cannot be used in mobile equipment
 - It needs a pilot pump
@@ -2306,7 +2306,7 @@ Q: What is the main limitation of an electrically (on/off) actuated DCV?
 E: Electrical = on or off, no feathering. Electronic (proportional) control is infinitely variable.
 
 @301f|DCV actuation|valve ct
-Q: Electrical-over-pilot DCV actuation solves which two problems?
+Q: Electrical-over-pilot directional control valve (DCV) actuation solves which two problems?
 + It allows feathering and increases actuation force
 - It eliminates the pilot pump and the relief valve
 - It removes the need for detents and a centering spring
@@ -2314,7 +2314,7 @@ Q: Electrical-over-pilot DCV actuation solves which two problems?
 E: The solenoid controls pilot pressure, which provides the force; proportional control allows feathering.
 
 @301f|DCV actuation|hl valve
-Q: A detent on a DCV is used to:
+Q: A detent on a directional control valve (DCV) is used to:
 + hold the spool in a position
 - return the spool to neutral
 - meter oil for feathering
@@ -2322,7 +2322,7 @@ Q: A detent on a DCV is used to:
 E: Detents (ball and spring or electromagnet) hold the spool in position.
 
 @301f|DCV accessories|hl valve
-Q: A load check valve in a DCV prevents:
+Q: A load check valve in a directional control valve (DCV) prevents:
 + a load dipping when moved from hold to raise
 - cavitation when the load drives the actuator
 - pressure from exceeding the relief setting
@@ -2333,12 +2333,12 @@ E: Until pump pressure exceeds load pressure, the load check blocks reverse flow
 Q: An anti-cavitation check valve opens when:
 + the load drives the actuator faster than the pump
 - system pressure exceeds the relief setting
-- the DCV is moved from hold to raise
+- the directional control valve (DCV) is moved from hold to raise
 - the actuator is stalled at the end of stroke
 E: It lets tank oil supplement pump oil when actuator pressure goes negative, preventing a void.
 
 @301f|DCV accessories|valve
-Q: A flow compensator valve in a DCV section:
+Q: A flow compensator valve in a directional control valve (DCV) section:
 + holds a constant drop across the spool
 - limits maximum circuit pressure
 - prevents the load from dropping
@@ -2346,7 +2346,7 @@ Q: A flow compensator valve in a DCV section:
 E: It senses pressure before and after the spool and keeps the drop constant.
 
 @301f|Valve banks|valve
-Q: A "power beyond" sleeve in a DCV bank:
+Q: A "power beyond" sleeve in a directional control valve (DCV) bank:
 + lets the bank supply another DCV
 - lets the bank sections bolt together
 - converts the bank to closed centre
@@ -2362,7 +2362,7 @@ Q: In an open centre bank with a series passageway, what happens when one valve 
 E: The first valve in series has priority; downstream valves lose flow when it is actuated.
 
 @301f|Valve banks|hl valve
-Q: In a series-parallel DCV bank, when two functions are operated together:
+Q: In a series-parallel directional control valve (DCV) bank, when two functions are operated together:
 + the lightest load has priority
 - the heaviest load has priority
 - the first valve always has priority
@@ -2394,7 +2394,7 @@ Q: Why must variable displacement pump horsepower be limited?
 E: Pump HP is limited (by reducing pressure or flow) so the pump can't stall the engine.
 
 @301g|Open centre|hl
-Q: In an open centre system with the DCV in neutral:
+Q: In an open centre system with the directional control valve (DCV) in neutral:
 + pump flow returns to the reservoir
 - pump flow is blocked at the DCV
 - the pump destrokes to zero
@@ -2434,7 +2434,7 @@ Q: A constant horsepower system:
 E: High displacement at low pressure, destroking as pressure rises, keeping engine speed constant and fast actuators at light loads.
 
 @301g|Constant HP|hl
-Q: On a constant horsepower regulator with NFC, power shift and cross-sensing signals, an increase in any of these pressures will:
+Q: On a constant horsepower regulator with negative flow control (NFC), power shift and cross-sensing signals, an increase in any of these pressures will:
 + destroke the pump
 - upstroke the pump
 - open the main relief
@@ -2443,22 +2443,22 @@ E: As any of the three pressures increases it destrokes the pump.
 
 @301g|Constant HP|hl
 Q: In a constant horsepower system, negative flow control (NFC) pressure:
-+ reflects flow through each DCV bank
-- is set by the ECM from the speed dial
++ reflects flow through each directional control valve (DCV) bank
+- is set by the electronic control module (ECM) from the speed dial
 - is the other pump's outlet pressure
 - limits maximum system pressure
 E: NFC monitors flow through each DCV bank. PRV/power shift pressure is ECM controlled. Cross-sensing = pump outlet pressures.
 
 @301g|Constant HP|hl
 Q: Power shift (PRV) pressure on a constant horsepower excavator system is:
-+ set by the ECM from the speed dial
++ set by the electronic control module (ECM) from the speed dial
 - taken directly from each pump outlet
-- made by flow through a DCV bank orifice
+- made by flow through a directional control valve (DCV) bank orifice
 - set by the main relief valve spring
 E: The ECM controls it through a pressure reducing valve, using pilot oil, based on engine speed dial setting.
 
 @301g|Closed centre|hl
-Q: In a closed centre system with the DCV in neutral:
+Q: In a closed centre system with the directional control valve (DCV) in neutral:
 + flow is blocked and pressure is held
 - pump flow returns freely to tank
 - the actuators float on tank oil
@@ -2506,7 +2506,7 @@ Q: A load sensing system's cylinder is stalled against a stop. Pump pressure wil
 E: Stalled: pump pressure max (set by the pressure compensator), same as load.
 
 @301g|Load sensing|hl
-Q: In an LSPC pump, the flow compensator:
+Q: In a load sensing pressure compensated (LSPC) pump, the flow compensator:
 + maintains margin pressure as load changes
 - sets maximum system pressure
 - pushes the swash plate to max displacement
@@ -2514,7 +2514,7 @@ Q: In an LSPC pump, the flow compensator:
 E: Flow compensator = margin. Pressure compensator = max pressure (opens on stall).
 
 @301g|Load sensing|hl
-Q: In an LSPC pump, which component pushes the swash plate toward DEstroke?
+Q: In a load sensing pressure compensated (LSPC) pump, which component pushes the swash plate toward DEstroke?
 + Stroking (actuator) piston
 - Bias spring/piston
 - Flow compensator spool
@@ -2541,7 +2541,7 @@ E: Higher motor displacement = more torque (and lower speed for the same flow).
 Q: A closed circuit (closed loop) hydrostatic transmission has:
 + the motor outlet connected to the pump inlet, with no path to tank
 - the pump drawing from tank and the motor returning to tank
-- a DCV between the pump and motor
+- a directional control valve (DCV) between the pump and motor
 - an open centre valve to unload the pump
 E: Closed circuit: motor outlet → pump inlet. A reversible pump reverses the motor.
 
@@ -2703,15 +2703,15 @@ Q: Pump inlet pressure reads below 12 psia. Which is a likely cause?
 - Air leaking into the inlet line
 - Worn pump
 - Relief valve set too low
-E: Low inlet pressure = restriction, pump speed too high or wrong oil, which promotes cavitation. Higher than normal suggests an air leak.
+E: The pump normally pulls a slight vacuum at its inlet. A restriction, too much pump speed or the wrong (too thick) oil makes it pull harder, so inlet pressure drops below about 12 psia and the pump cavitates. A leaking inlet line does the opposite: air gets in and inlet pressure reads higher than normal.
 
 @301h|Pressure tests|hl ct
-Q: Pump inlet pressure is higher than normal. This may indicate:
+Q: Pump inlet pressure reads higher than normal (less vacuum than usual). This may indicate:
 + an air leak in the inlet line
 - a plugged suction strainer
 - excessive pump speed
 - oil that is too thick
-E: Higher inlet pressure may indicate the inlet line is drawing in air.
+E: A pump normally pulls its inlet slightly below atmospheric pressure (a vacuum) as it draws oil up the suction line. A leak in that line (loose clamp, cracked hose, bad fitting) lets the pump suck in air instead, which fills in the vacuum, so the gauge reads higher (closer to atmospheric) and the oil gets aerated. A plugged strainer, thick oil or too much speed do the opposite: they make it harder to pull oil, so inlet pressure drops (more vacuum) and the pump cavitates.
 
 @301h|Pressure tests|hl
 Q: In an open centre system, neutral pressure (DCV in neutral) should be:
@@ -2814,14 +2814,14 @@ Q: A standard solenoid used in electrical (non-electronic) control has:
 + discrete positions, either on or off
 - infinitely variable positions
 - a feedback sensor
-- a PWM driver
+- a pulse width modulation (PWM) driver
 E: Discrete positions, on or off.
 
 @301i|Electrohydraulics|
 Q: A clamping diode across a solenoid coil:
 + absorbs induced voltage spikes
 - increases the solenoid pull force
-- smooths out the PWM signal
+- smooths out the pulse width modulation (PWM) signal
 - acts as a fuse for the coil
 E: When the coil is switched off, its collapsing field induces voltage; the diode dissipates it.
 
@@ -2829,7 +2829,7 @@ E: When the coil is switched off, its collapsing field induces voltage; the diod
 Q: A proximity switch:
 + closes when metal passes in front of it
 - varies its resistance with position
-- generates its own AC voltage
+- generates its own alternating current (AC) voltage
 - measures system pressure
 E: Proximity switches close the circuit when actuated; position usually adjustable.
 
@@ -2838,11 +2838,11 @@ Q: Electronic hydraulic control systems normally operate on:
 + about 5 V
 - 24 V only
 - full battery voltage
-- 120 V AC
+- 120 V alternating current (AC)
 E: Normally less than full system voltage, typically 5 V.
 
 @301i|Sensors|hl
-Q: A sensor that is sent a set voltage from the ECM and returns a measured voltage is a:
+Q: A sensor that is sent a set voltage from the electronic control module (ECM) and returns a measured voltage is a:
 + reference voltage sensor
 - voltage generating sensor
 - discrete sensor
@@ -2861,14 +2861,14 @@ E: Voltage generating sensors (magnetic speed sensors) make their own signal.
 Q: A proportional solenoid:
 + moves in proportion to its signal
 - is either fully on or fully off
-- needs no ECM driver circuit
+- needs no electronic control module (ECM) driver circuit
 - is used only on pilot relief valves
 E: Proportional solenoids use PWM so spool movement matches signal strength.
 
 @301i|Control types|hl
 Q: The difference between open loop and closed loop electronic control is that closed loop:
 + has feedback from the output
-- has no ECM at all
+- has no electronic control module (ECM) at all
 - uses only on/off solenoids
 - runs at full system voltage
 E: Open loop = no feedback. Closed loop = feedback for accurate position, velocity or acceleration control.
@@ -2878,7 +2878,7 @@ Q: Pulse width modulation reduces heat in a solenoid driver because:
 + on/off switching cuts average current
 - it lowers the 5 V reference voltage
 - it raises the circuit resistance
-- it changes AC into DC
+- it changes alternating current (AC) into direct current (DC)
 E: PWM is a digital on/off signal; the duty cycle (% on time) sets the average.
 
 @301i|Spool control|hl
@@ -2892,13 +2892,13 @@ E: Static friction. It is overcome with dither (constant slight back-and-forth m
 @301i|Spool control|ct
 Q: Dither is used in a proportional valve to:
 + overcome stiction with slight movement
-- reduce the PWM frequency
-- protect the ECM from induced voltage
+- reduce the pulse width modulation (PWM) frequency
+- protect the electronic control module (ECM) from induced voltage
 - calibrate the joystick centre
 E: A small constant oscillation stops the spool sticking (static friction).
 
 @301i|Diagnostics|hl
-Q: According to the ILM, the most important source of diagnostic information is:
+Q: Usually the most important source of diagnostic information is:
 + the operator
 - the service manual
 - the fault code list
@@ -2906,7 +2906,7 @@ Q: According to the ILM, the most important source of diagnostic information is:
 E: Talk to the operator, the most important source of information.
 
 @301i|ECM care|safe
-Q: Which practice protects the ECM during repairs?
+Q: Which practice protects the electronic control module (ECM) during repairs?
 + Unplug the ECM before welding on the machine
 - Disconnect the batteries with the engine running to reset it
 - Fast charge batteries with the ECM connected
@@ -3004,10 +3004,10 @@ E: Cavitation is caused by inadequate pressure on the inlet side: a plug or low 
 
 @302a|HMU|hl
 Q: A hand metering unit (orbital steering valve) is made up of:
-+ a rotary DCV and a gerotor pump
-- a sliding spool and a gear pump
-- a priority valve and a relief valve
-- a follow-up cylinder and a check valve
++ a rotary directional control valve (DCV) and a gerotor pump
+- a sliding spool valve and an external gear pump
+- a priority valve, a relief valve and a check valve
+- a follow-up cylinder and a pilot operated check valve
 E: HMU = rotary directional control valve + gerotor metering pump.
 
 @302a|HMU|hl ct
@@ -3021,7 +3021,7 @@ E: The gerotor in the HMU can be turned manually to steer in an emergency.
 @302a|Steering valves|hl
 Q: Spool type steering valves are typically used with:
 + a joystick
-- an orbital HMU
+- an orbital hand metering unit (HMU)
 - a drag link
 - power assist
 E: Used with a joystick in replacement of a steering wheel.
@@ -3083,7 +3083,7 @@ Q: On an articulated motor grader:
 E: Front wheels steer and the frame articulates a little; useful in tight areas.
 
 @302a|Service|hl
-Q: According to the ILM, what percentage of hydraulic system issues relate to the hydraulic oil?
+Q: Roughly what percentage of hydraulic system issues relate to the hydraulic oil?
 + 70% or more
 - about 10%
 - about 30%
@@ -3107,7 +3107,7 @@ Q: The safe way to check for a pinhole hydraulic leak is to use:
 E: Never use your hand; injected oil is a serious injury.
 
 @302a|Service|hl
-Q: The ILM's basic order for diagnosing a steering complaint is:
+Q: The basic order for diagnosing a steering complaint is:
 + know the system, talk to the operator, visual inspection, test
 - replace the filter, test, talk to the operator, inspect
 - pressure test, flow test, replace the pump
@@ -3357,7 +3357,7 @@ E: Often lubricated at a central point using grease lines.
 @302b|Strut service|hl safe
 Q: A simple way to find a nitrogen leak on a suspension strut is to use:
 + soapy water
-- a UV dye
+- an ultraviolet (UV) dye
 - a stethoscope
 - a pressure gauge on the oil side
 E: Soapy water can be used to detect nitrogen leaks.
@@ -3399,11 +3399,11 @@ Q: Screens and guards around the operator station are required on units equipped
 + winching devices
 - air conditioning
 - rubber tracks
-- ROPS cabs
+- Roll over protective structure (ROPS) cabs
 E: Required on units with winching devices (a broken cable can whip back).
 
 @302c|Structures|hl safe
-Q: When replacing ROPS mounting fasteners, you must:
+Q: When replacing roll over protective structure (ROPS) mounting fasteners, you must:
 + use only fasteners approved by the manufacturer
 - use any grade 8 bolt of the correct size
 - reuse the old fasteners after cleaning
@@ -3411,11 +3411,11 @@ Q: When replacing ROPS mounting fasteners, you must:
 E: Only use OEM-approved fasteners; contact the OEM with questions.
 
 @302c|Structures|hl safe
-Q: A customer wants a light bracket welded to the ROPS. The correct response is:
-+ only attach it as an engineer or OEM approves
-- weld it anywhere on the top tube
-- drill and bolt it through the main post
-- clamp it on, since clamps need no approval
+Q: A customer wants a light bracket welded to the roll over protective structure (ROPS). The correct response is:
++ only attach it the way an engineer or the manufacturer approves
+- weld it anywhere on the top tube, as long as the weld is solid
+- drill and bolt it through one of the main posts
+- clamp it on, since a clamp doesn't need approval
 E: Avoid cutting or welding structural supports; attach only in ways approved by an engineer.
 
 @302c|Fire suppression|hl
@@ -3443,7 +3443,7 @@ Q: Dry chemical (monoammonium phosphate) extinguishing agent is rated for which 
 E: A = ordinary combustibles, B = flammable liquids, C = electrical.
 
 @302c|Fire suppression|
-Q: Why is liquid AFFF agent preferred over dry powder underground?
+Q: Why is liquid aqueous film-forming foam (AFFF) agent preferred over dry powder underground?
 + Powder makes toxic dust in a confined space
 - AFFF is rated for electrical (C) fires
 - Powder can't put out flammable liquid fires
@@ -3628,14 +3628,14 @@ E: P = I × E, so I = P ÷ E = 240 ÷ 24 = 10 A. Use a fuse slightly larger than
 
 @302d|Lighting|hl
 Q: Panel lighting brightness is usually controlled with:
-+ a rheostat or PWM
-- a series diode
-- a cycling breaker
-- a flasher unit
++ a rheostat or pulse width modulation (PWM)
+- a series diode in the lamp feed
+- a cycling (Type I) circuit breaker
+- the turn signal flasher unit
 E: Dimmable with a rheostat or PWM.
 
 @302d|Lighting|hl ct
-Q: After converting turn signals to LED bulbs, they no longer flash. The fix is to:
+Q: After converting turn signals to light emitting diode (LED) bulbs, they no longer flash. The fix is to:
 + fit an electronic flasher
 - fit higher wattage LEDs
 - add a Type I breaker
@@ -3643,7 +3643,7 @@ Q: After converting turn signals to LED bulbs, they no longer flash. The fix is 
 E: LEDs don't draw enough current to work a conventional flasher. The flasher is in series with the lamps.
 
 @302d|DC motors|hl
-Q: The commutator in a DC motor:
+Q: The commutator in a direct current (DC) motor:
 + is the sliding contact for the brushes
 - produces the permanent magnetic field
 - is the stationary field winding
@@ -3651,7 +3651,7 @@ Q: The commutator in a DC motor:
 E: Made of bars to feed current to specific armature windings.
 
 @302d|DC motors|hl
-Q: As a DC motor speeds up, its counter-electromotive force (CEMF):
+Q: As a direct current (DC) motor speeds up, its counter-electromotive force (CEMF):
 + increases, reducing current draw
 - decreases, increasing current draw
 - stays the same
@@ -3660,8 +3660,8 @@ E: Faster = more CEMF = less current. CEMF limits the top speed of a cranking mo
 
 @302d|DC motors|ct
 Q: A starter motor drawing very high current while turning slowly is consistent with:
-+ low CEMF from low armature speed
-- high CEMF from excessive armature speed
++ low counter-electromotive force (CEMF) from low armature speed
+- high counter-electromotive force (CEMF) from excessive armature speed
 - an open circuit in the field winding
 - a high resistance brush connection
 E: Less CEMF = more current draw. A loaded, slow motor makes little CEMF and draws heavy current.
@@ -3675,7 +3675,7 @@ Q: Magnetic flux lines travel:
 E: Magnetic field goes from north to south. Like poles repel, opposite poles attract.
 
 @302d|Magnetism|hl
-Q: In a DC motor, the armature conductor is pushed:
+Q: In a direct current (DC) motor, the armature conductor is pushed:
 + from the strong field side toward the weak field side
 - from the weak field side toward the strong field side
 - toward the north pole always
@@ -3700,8 +3700,8 @@ E: Balancing coil gauges move the pointer by electromagnetism.
 
 @302d|Sensors|hl
 Q: In a closed loop sensor circuit:
-+ both the power and ground return to the ECM
-- the ground does not return to the ECM
++ both the power and ground return to the electronic control module (ECM)
+- the ground does not return to the electronic control module (ECM)
 - there is no reference voltage
 - the sensor generates its own voltage
 E: Closed loop = positive and ground return to the ECM. Open loop = ground does not return to the ECM.
@@ -3715,7 +3715,7 @@ Q: After fitting larger tires, the speedometer will:
 E: The speedometer uses a wheel speed sensor; changing tire size changes the reading.
 
 @302d|Sensors|hl
-Q: An NTC thermistor's resistance will ___ as temperature rises.
+Q: A negative temperature coefficient (NTC) thermistor's resistance will ___ as temperature rises.
 + decrease
 - increase
 - stay the same
@@ -3723,7 +3723,7 @@ Q: An NTC thermistor's resistance will ___ as temperature rises.
 E: NTC = temperature up, resistance down (most common for engine temp). PTC = temperature up, resistance up.
 
 @302d|Sensors|hl
-Q: A PTC thermistor's resistance will ___ as temperature rises.
+Q: A positive temperature coefficient (PTC) thermistor's resistance will ___ as temperature rises.
 + increase
 - decrease
 - stay the same
@@ -3734,7 +3734,7 @@ E: Positive temperature coefficient: temperature up, resistance up.
 Q: A typical pressure transducer has three wires. They are:
 + 5 V reference, signal and return (ground)
 - battery positive, ground and shield
-- CAN-H, CAN-L and ground
+- CAN high (CAN-H), CAN low (CAN-L) and ground
 - 12 V, 5 V and signal
 E: Three-terminal device: 5 V ref, signal, return.
 
@@ -3771,7 +3771,7 @@ Q: Baud rate refers to:
 E: J1939 = 250 kb/s; J1587/J1708 = 9.6 kb/s.
 
 @302d|Networks|hl net
-Q: The baud rate of SAE J1939 CAN is:
+Q: The baud rate of SAE J1939 controller area network (CAN) is:
 + 250 kb/s
 - 9.6 kb/s
 - 500 kb/s
@@ -3783,7 +3783,7 @@ Q: The backbone of a data network is:
 + the physical wiring linking the modules
 - the software protocol the modules use
 - the 9-pin diagnostic connector
-- the ECM with the highest priority
+- the electronic control module (ECM) with the highest priority
 E: Max backbone length 40 m; stubs (branches to nodes) max 1 m.
 
 @302d|Networks|net
@@ -3835,11 +3835,11 @@ Q: The modern network topology, where independent modules connect to a common ba
 E: Ring = series (one fails, all fail). Star = all to one master.
 
 @302d|Networks|hl net
-Q: Before a module on a CAN network can start broadcasting, it must:
+Q: Before a module on a controller area network (CAN) can start broadcasting, it must:
 + wait until the data bus is idle
 - get permission from the master module
 - send a checksum
-- raise CAN-H to battery voltage
+- raise CAN high (CAN-H) to battery voltage
 E: CAN is serial with no master; each module waits for an idle bus.
 
 @302d|Networks|hl net
@@ -3851,7 +3851,7 @@ Q: In J1587/J1708 messages, the checksum:
 E: Like the period at the end of a sentence. MID = source, PID = parameter, FMI = fault mode.
 
 @302d|Networks|net
-Q: In a J1587 message, the MID identifies:
+Q: In a J1587 message, what does the message identifier (MID) tell you?
 + the module sending the message
 - the parameter being reported
 - the type of fault detected
@@ -3871,15 +3871,15 @@ Q: A machine built in 2005 with SAE J1939 most likely uses which diagnostic conn
 + 9-pin Deutsch
 - 6-pin Deutsch
 - OEM-specific 3-pin
-- 16-pin OBD-II
+- 16-pin on-board diagnostics (OBD-II)
 E: 1996–2001: 6-pin Deutsch. 2001+: mostly 9-pin Deutsch.
 
 @302d|Networks|hl net
 Q: In J1939, the SPN (suspect parameter number):
-+ says where the fault is (replaces the PID)
-- identifies the message and its data group
-- defines the type of failure (open, short)
-- checks the message for errors
++ identifies where the fault is; replaces the parameter identifier (PID)
+- identifies the message and the whole data group it belongs to
+- defines the type of failure, such as open, short or out of range
+- checks each message for errors before it is accepted
 E: PGN = parameter group; FMI = failure type.
 
 @302d|Networks|net
@@ -3891,7 +3891,7 @@ Q: In the J1939 message architecture, the CRC field:
 E: Arbitration (priority/sender), control and data (PGN/SPN/FMI), CRC (error check), ACK (acknowledge), end of frame.
 
 @302d|Networks|hl net
-Q: On a J1939 network, CAN High and CAN Low wires are commonly:
+Q: On a J1939 network, the controller area network (CAN) high and low wires are commonly:
 + yellow (CAN-H) and green (CAN-L)
 - green (CAN-H) and yellow (CAN-L)
 - orange (CAN-H) and white (CAN-L)
@@ -3909,13 +3909,13 @@ E: -15 lite = unshielded twisted pair; -11 heavy = shielded twisted pair.
 @302d|Networks|hl net
 Q: The drain wire in a shielded J1939 cable is connected to:
 + battery ground
-- CAN-H
+- CAN high (CAN-H)
 - the 5 V reference
 - the terminating resistor
 E: Non-insulated copper drain wire connected to battery ground (protects from EMI).
 
 @302d|Networks|hl net calc
-Q: With the batteries disconnected, resistance measured between CAN-H and CAN-L on a healthy J1939 bus should be about:
+Q: With the batteries disconnected, resistance measured between the two controller area network (CAN) wires, CAN high (CAN-H) and CAN low (CAN-L), on a healthy J1939 bus should be about:
 + 60 Ω
 - 120 Ω
 - 240 Ω
@@ -3923,7 +3923,7 @@ Q: With the batteries disconnected, resistance measured between CAN-H and CAN-L 
 E: Two 120 Ω terminating resistors in parallel = 60 Ω.
 
 @302d|Networks|hl net ct
-Q: Resistance between CAN-H and CAN-L reads 120 Ω. The most likely problem is:
+Q: Resistance between the controller area network (CAN) high wire (CAN-H) and low wire (CAN-L) reads 120 Ω. The most likely problem is:
 + an open, such as a missing terminator
 - a short between CAN-H and CAN-L
 - a CAN wire shorted to ground
@@ -3931,7 +3931,7 @@ Q: Resistance between CAN-H and CAN-L reads 120 Ω. The most likely problem is:
 E: More than 60 = open; less than 60 = short. 120 Ω means only one terminator is in the circuit.
 
 @302d|Networks|hl net
-Q: Resistance from CAN-H or CAN-L to ground should read:
+Q: Resistance from either controller area network (CAN) wire, CAN high (CAN-H) or CAN low (CAN-L), to ground should read:
 + OL (no continuity)
 - 60 Ω
 - 120 Ω
@@ -3939,7 +3939,7 @@ Q: Resistance from CAN-H or CAN-L to ground should read:
 E: No continuity to ground.
 
 @302d|Networks|net ct
-Q: CAN-H and CAN-L both measure well below 2.5 V with the bus inactive. This suggests:
+Q: The controller area network (CAN) high wire (CAN-H) and low wire (CAN-L) both measure well below 2.5 V with the bus inactive. This suggests:
 + a faulty node or bus
 - excessive system voltage
 - normal operation
@@ -3951,7 +3951,7 @@ Q: The purpose of ISO 11783 is to:
 + let any tractor work any brand of implement
 - standardize on-highway truck diagnostics
 - replace J1939 on large mining trucks
-- set the colour code for all CAN wires
+- set the colour code for all controller area network (CAN) wires
 E: Agriculture and forestry standard. Uses unshielded twisted quad cable.
 
 @302d|Networks|hl net
@@ -4099,7 +4099,7 @@ Q: Why is a small voltage regulator used with bimetal gauges?
 E: The regulator keeps voltage, and so the reading, steady.
 
 @302e|Precautions|safe
-Q: When testing electronic circuits, you should use a DMM with:
+Q: When testing electronic circuits, you should use a digital multimeter (DMM) with:
 + high impedance
 - low impedance
 - an analog movement
@@ -4107,7 +4107,7 @@ Q: When testing electronic circuits, you should use a DMM with:
 E: High impedance meters won't load or damage sensitive circuits. Also never pierce insulation and use a wrist strap.
 
 @302f|Coaching|
-Q: The four-step coaching method in the ILM is:
+Q: The four-step coaching method is:
 + plan, tell, show, do
 - tell, show, test, review
 - show, tell, do, review
@@ -4135,7 +4135,7 @@ Q: Who is responsible for keeping the apprentice record book up to date?
 + The apprentice
 - The training institution only
 - The employer only
-- The AIT office
+- The Apprenticeship and Industry Training (AIT) office
 E: Apprentices keep the record book current; journeypersons fill in their parts; employers make sure it's done.
 
 @302f|Coaching|
@@ -4167,7 +4167,7 @@ Q: The foundation document for the Red Seal exam is the:
 + National Occupational Analysis
 - apprentice record book
 - provincial trade regulation
-- set of ILM booklets
+- set of individual learning module (ILM) booklets
 E: The NOA is the foundation document.
 
 @302g|Red Seal|hl
@@ -4187,7 +4187,7 @@ Q: The main benefit of the Red Seal program is that it:
 E: Red Seal gives interprovincial mobility and a standard of excellence.
 
 @302g|Red Seal|
-Q: The NOA is organized into:
+Q: The National Occupational Analysis (NOA) is organized into:
 + blocks, tasks and sub-tasks
 - chapters, objectives and outcomes
 - modules, periods and exams
@@ -4573,10 +4573,10 @@ E: Too heavy an oil transmits torque in the cold, so start in neutral.
 
 @303b|Housings|hl
 Q: A wet torque converter housing:
-+ lubricates gears and can run a PTO
-- is sealed from all oil
-- must be kept full of oil
-- needs no scavenging at all
++ lubricates gears and can run a power take-off (PTO)
+- is sealed off from all oil to cut drag on the converter
+- must be kept completely full of oil at all times
+- needs no scavenge pump or gravity drain to empty it
 E: The oil level must be kept low to avoid drag on the converter.
 
 @303b|Housings|hl
@@ -5186,7 +5186,7 @@ Q: Transmission charging pump inlet pressure is below 12 psia. This indicates:
 - air being drawn into the inlet line
 - a worn charge pump with high slip
 - a converter relief stuck open
-E: Higher than normal inlet pressure = air being drawn in.
+E: Below about 12 psia means the pump is pulling too hard against a restriction in the inlet line, which leads to cavitation. Air being drawn in through a leak would make inlet pressure read higher (less vacuum), not lower.
 
 @303f|Pressure tests|hl
 Q: Clutch application pressure should be checked at:
@@ -5254,10 +5254,10 @@ E: Also output shaft speed and vehicle odometer. Check governor pressure before 
 
 @303f|Electronic|hl
 Q: When diagnosing an electronic transmission fault code, you should:
-+ follow the OEM manual's steps
-- replace the ECM first
-- clear it and test drive only
-- check governor pressure
++ follow the manufacturer's diagnostic steps
+- replace the electronic control module (ECM) first
+- clear the code and test drive it only
+- check the governor pressure first
 E: The notes highlight this as a tested fact. Review 303f (Transmission testing & service) in the study guide.
 
 @303f|Rebuild|hl
@@ -5453,7 +5453,7 @@ Q: A counter-rotation (spot) turn is when:
 E: The notes highlight this as a tested fact. Review 303g (Tracked equipment steering) in the study guide.
 
 @303g|Hydrostatic steering|hst
-Q: On an electronic hydrostatic crawler, the pump speed sensor is used by the ECM to:
+Q: On an electronic hydrostatic crawler, the pump speed sensor is used by the electronic control module (ECM) to:
 + prevent engine stall under heavy load
 - measure slip at each track
 - control the decelerator pedal
@@ -5705,7 +5705,7 @@ Q: Remanufacturing undercarriage parts is only possible if:
 + enough material is left on the part
 - the part has already failed completely
 - the part is less than a year old
-- the OEM supplies a new casting
+- the original equipment manufacturer (OEM) supplies a new casting
 E: Take parts out of service before total failure.
 
 @303h|Repairs|hl
@@ -5798,17 +5798,17 @@ E: The cover gives access to the sun gear and axle shaft.
 
 @303i|Electric drive|hl
 Q: On an electric drive haul truck, what is the order of power flow?
-+ Generator, rectifier, DC bus, inverters, motors
-- Rectifier, generator, inverters, DC bus, motors
-- Generator, inverters, DC bus, rectifier, motors
-- Generator, DC bus, rectifier, inverters, motors
++ Generator, rectifier, direct current (DC) bus, inverters, motors
+- Rectifier, generator, inverters, direct current (DC) bus, motors
+- Generator, inverters, direct current (DC) bus, rectifier, motors
+- Generator, direct current (DC) bus, rectifier, inverters, motors
 E: AC from the generator is rectified to DC, stored on the DC bus, then inverted back to AC for the motors.
 
 @303i|Electric drive|hl
-Q: The DC bus in an electric drive system:
+Q: The direct current (DC) bus in an electric drive system:
 + stores DC voltage
-- converts AC to DC
-- converts DC to AC
+- converts alternating current (AC) to DC
+- converts DC to alternating current (AC)
 - cools the retarding grid
 E: The notes highlight this as a tested fact. Review 303i (Final drives & electric drive) in the study guide.
 
@@ -5817,7 +5817,7 @@ Q: During dynamic braking on an electric drive truck:
 + the motors generate, and the grid burns it off
 - the generator drives the wheels backwards
 - the inverter applies the mechanical brakes
-- the DC bus is disconnected from the motors
+- the direct current (DC) bus is disconnected from the motors
 E: Braking choppers control the grid; a blower motor cools it.
 
 @303i|Electric drive|hl
@@ -5829,7 +5829,7 @@ Q: Braking choppers in an electric drive system are:
 E: The notes highlight this as a tested fact. Review 303i (Final drives & electric drive) in the study guide.
 
 @303i|Electric drive|hl safe
-Q: Before working on an electric drive system, the DC bus capacitors must be:
+Q: Before working on an electric drive system, the direct current (DC) bus capacitors must be:
 + verified as discharged
 - charged to full voltage
 - disconnected while still charged
@@ -5837,7 +5837,7 @@ Q: Before working on an electric drive system, the DC bus capacitors must be:
 E: The DC bus capacitor bank is a serious voltage hazard.
 
 @303i|Electric drive|hl safe
-Q: When working near energized electric drive components, the minimum safe working distance without PPE is:
+Q: When working near energized electric drive components, the minimum safe working distance without personal protective equipment (PPE) is:
 + 2.5 ft
 - 12 in
 - 6 in
@@ -5856,7 +5856,7 @@ E: Plus face shield and glasses.
 Q: In the electric drive generator, the stator is the:
 + fixed field, fed by a supply
 - rotating field winding
-- DC bus capacitor bank
+- Direct current (DC) bus capacitor bank
 - retarding grid resistor
 E: The notes highlight this as a tested fact. Review 303i (Final drives & electric drive) in the study guide.
 
@@ -6225,7 +6225,7 @@ Q: When measuring flywheel face runout, the crankshaft should be:
 + pushed fully one way to remove endplay
 - left free to move in and out
 - rotated backwards only
-- held at TDC number one
+- held at top dead centre (TDC) number one
 E: Then add up all the readings, ignoring whether they were positive or negative.
 
 @303k|Special clutches|hl
@@ -6245,7 +6245,7 @@ Q: A sprag clutch is a type of:
 E: Roller, sprag and dog/jaw clutches can all act as one-way (overrunning) devices.
 
 @303k|Special clutches|hl
-Q: An electromagnetic clutch, such as on an A/C compressor, is applied when:
+Q: An electromagnetic clutch, such as on an air conditioning (A/C) compressor, is applied when:
 + current is applied
 - current is removed
 - oil pressure rises
@@ -6366,7 +6366,7 @@ Q: A simple idler gear placed between a drive and driven gear will:
 E: Simple idlers only affect direction of rotation. They can be ignored when finding the ratio.
 
 @303a|Obj 2|ilm
-Q: Per the learning guide, when the output gear rotates in the SAME direction as the input gear, it is considered to be rotating:
+Q: When the output gear rotates in the SAME direction as the input gear, it is considered to be rotating:
 + in reverse to the normal direction
 - in the normal (forward) direction
 - in overdrive relative to the input
@@ -6603,7 +6603,7 @@ Q: Steering clutches and brakes on a conventional crawler are dry type. This mea
 + they must be kept free of oil
 - they are cooled by transmission oil spray
 - they run in a sealed oil bath for cooling
-- they require oil changes at each PM
+- they require oil changes at each preventive maintenance (PM)
 E: Dry clutches and brakes must stay oil-free. Oil contamination causes slipping.
 
 @303g|Obj 1|ilm
@@ -6687,7 +6687,7 @@ Q: Operational and pressure testing of crawler steering systems should be done a
 E: Test at 150 to 180°F (65.5 to 82.2°C), in a safe working area, following the manufacturer's procedure.
 
 @303g|Obj 2|ilm
-Q: According to the learning guide, a crawler pulls to the left. Which track condition could be the cause?
+Q: A crawler pulls to the left. Which track condition could be the cause?
 + The left track is either too tight or too loose
 - Only the left track being too loose (never too tight)
 - Only the right track being too tight
@@ -6712,16 +6712,16 @@ E: Dry or worn linkage binds and sticks, which is a common problem on many machi
 
 @303g|Obj 2|ilm
 Q: On a conventional non-modular crawler, where are the steering clutches and brakes located (which components may need to be removed for access)?
-+ Under the fuel tank. The ROPS, cab and seat may need removal.
-- In the final drive. The track and sprocket must be removed.
-- Behind the transmission. The engine must be pulled.
-- In the track roller frame. The equalizer bar must be removed.
++ Under the fuel tank. The roll over protective structure (ROPS), cab and seat may need removal.
+- In the final drive housing. The track, sprocket and final drive cover must come off.
+- Behind the transmission. The engine and torque converter must be pulled out first.
+- In the track roller frame. The equalizer bar and the roller frame must be removed.
 E: The guide says they are under the fuel tank, and access may need removal of the ROPS, cab, seat, fuel tank and more.
 
 @303g|Obj 2|ilm
 Q: To remove a modular steering clutch and brake assembly, the typical steps are:
 + split the track, remove the centre plate, pull the axle, unbolt
-- remove the ROPS, cab and fuel tank, then lift out the module
+- remove the roll over protective structure (ROPS), cab and fuel tank, then lift out the module
 - remove the transmission and bevel gear, then slide the module out
 - remove the final drive housing and pull the module through the sprocket
 E: Modular units sit outboard. Split the track, remove the centre plate, pull the axle and unbolt the module, which means much less downtime.
@@ -6735,7 +6735,7 @@ Q: Why is the modular steering clutch/brake assembly isolated from the pinion an
 E: Isolation prevents contamination between compartments and allows quick module swaps.
 
 @303g|Obj 2|ilm
-Q: What PPE caution applies when cleaning steering clutch and brake parts?
+Q: What personal protective equipment (PPE) caution applies when cleaning steering clutch and brake parts?
 + Hazardous dust and contaminants, and very sharp parts
 - Parts may be magnetized and attract metal filings
 - Brake parts must be cleaned with water only
@@ -6799,7 +6799,7 @@ Q: Komatsu's Hydrostatic Steering System (HSS) differs from a full hydrostatic (
 E: HSS uses the powershift transmission for travel. The hydraulic motor (through an idler) manipulates the left and right dual-input planetaries for turning. HST drives each track hydrostatically.
 
 @303g|Obj 5|ilm
-Q: Why are the Komatsu HSS planetaries called dual-input planetaries?
+Q: Why are the planetaries in Komatsu's hydrostatic steering system (HSS) called dual-input planetaries?
 + They take input from the transmission, the steering motor, or both
 - They have two sun gears driven from one shaft
 - They receive input from two separate engines
@@ -6872,7 +6872,7 @@ E: The transmission input reverses and the steering ring is held, so both sprock
 
 @303g|Obj 6|ct ilm
 Q: A differential steer dozer slowly drifts to one side in straight travel. Track tension, rollers and idlers check OK. What is the most likely cause?
-+ The steering motor isn't holding the ring gear (leaking DCV or relief)
++ The steering motor isn't holding the ring gear (a leaking control valve or relief)
 - A slipping steering clutch on the slow side
 - A dragging steering brake band on one side
 - Wrong ratio in the equalizing planetary
@@ -6903,7 +6903,7 @@ Q: Why were hydrostatic drive crawlers historically limited mostly to smaller ma
 E: The learning guide says heat was the limiting factor. Better hydraulics and cooling now allow larger HST machines.
 
 @303g|Obj 3/4|ilm
-Q: According to the learning guide, an advantage of electronically controlled hydrostatic crawler steering is:
+Q: An advantage of electronically controlled hydrostatic crawler steering is:
 + less operator fatigue over the work day
 - no need for a charge pump or filters
 - lower system operating pressure and heat
@@ -7011,7 +7011,7 @@ E: The equalizer bar (pivot shaft or hard bar) supports the front of the machine
 Q: Why is the equalizer bar pin often neglected and prone to premature wear?
 + Its remote location hides leaks and plugged grease lines
 - It is a sealed, lifetime-lubricated joint that can't be serviced
-- It carries no load, so it's left off the PM schedule
+- It carries no load, so it's left off the preventive maintenance (PM) schedule
 - It is replaced every time the track is split
 E: Its hard-to-reach location means lubrication failures go unnoticed. The pin and bushings then wear, and repair often requires removing the bar (more downtime).
 
@@ -7072,7 +7072,7 @@ Q: How can you tell a sealed and lubricated track (SALT) from a non-lubricated t
 E: Lubricated pins have a stopper and plug in the pin end (where they were filled).
 
 @303h|Obj 2|ct ilm
-Q: A SALT track starts making a loud snapping or squeaking sound at certain joints during travel. What is the most likely cause?
+Q: A sealed and lubricated track (SALT) starts making a loud snapping or squeaking sound at certain joints during travel. What is the most likely cause?
 + Those joints have lost their lubricant
 - Track tension is too loose and slapping
 - The carrier rollers are seized
@@ -7208,7 +7208,7 @@ Q: Excessive wear on the idler and front track rollers most likely indicates:
 E: The guide links idler and front roller wear to idler alignment. Remember that track frames can also bend and twist.
 
 @303h|Obj 3/4|ilm
-Q: Which of the following does NOT increase track chain wear according to the learning guide?
+Q: Which of the following does NOT increase track chain wear?
 + Operating at slow forward speeds
 - Incorrect track tension
 - Excessive reverse travel
@@ -7297,7 +7297,7 @@ Q: Which is the most versatile and most common final drive type in the heavy equ
 E: The guide identifies the planetary final drive as the most common and most versatile.
 
 @303i|Obj 1|ilm
-Q: In the double reduction final drive described in the learning guide (spur gear + planetary), where does the FIRST reduction occur?
+Q: In a double reduction final drive with a spur gear set and a planetary, where does the FIRST reduction occur?
 + Between the spur gear and the bull gear
 - Between the drive pinion and the bevel gear
 - In the planetary gear set
@@ -7353,7 +7353,7 @@ Q: Why does a hydraulically driven final drive suit an excavator so well?
 E: Hydraulic lines pass through the swivel (rotary manifold), so travel motors can be driven no matter where the house is pointing. A mechanical driveline can't do that.
 
 @303i|Obj 3|ilm
-Q: In an AC electric drive haul truck, which mechanical powertrain components are replaced by electrical equivalents?
+Q: In an alternating current (AC) electric drive haul truck, which mechanical powertrain components are replaced by electrical equivalents?
 + Torque converter, transmission and differential
 - Engine, final drives and driveshaft
 - Final drives and wheel hubs only
@@ -7369,23 +7369,23 @@ Q: On an electric drive haul truck, what is the function of the planetary final 
 E: The final drive's job (torque multiplication) doesn't change. The wheel motor drives it.
 
 @303i|Obj 3|ilm
-Q: Which component dissipates energy during electric (dynamic) braking on an AC drive truck?
+Q: Which component dissipates energy during electric (dynamic) braking on an alternating current (AC) drive truck?
 + The resistor grid box
-- The DC bus capacitors
+- The direct current (DC) bus capacitors
 - The blower motor
 - The rectifier
 E: During retarding the wheel motors act as generators, and the energy is burned off as heat in the resistor grid.
 
 @303i|Obj 3|ilm
-Q: Which list contains only DC motor components?
+Q: Which list contains only direct current (DC) motor components?
 + Brushes, commutator, armature, field windings
 - Stator, squirrel cage rotor, bearings
 - Stator, commutator, squirrel cage rotor
-- IGBT, squirrel cage rotor, pole shoes
+- Insulated gate bipolar transistor (IGBT), squirrel cage rotor, pole shoes
 E: DC motor: brushes, commutator, armature (rotating), field windings and pole shoes (stationary), bearings. An AC induction motor is just a stator, a squirrel cage rotor and bearings.
 
 @303i|Obj 3|ilm
-Q: A major ADVANTAGE of DC traction motors is:
+Q: A major ADVANTAGE of direct current (DC) traction motors is:
 + tremendous torque at low speed
 - low maintenance, with no brushes
 - tolerance of moisture and dirty cooling air
@@ -7393,7 +7393,7 @@ Q: A major ADVANTAGE of DC traction motors is:
 E: DC motor torque is proportional to current, and its low-resistance windings allow very high current at low speed. Speed is controlled by varying the DC voltage.
 
 @303i|Obj 3|ilm
-Q: A major DISADVANTAGE of DC traction motors is:
+Q: A major DISADVANTAGE of direct current (DC) traction motors is:
 + high brush and commutator maintenance
 - poor torque at low speed
 - they require complex inverter controls
@@ -7401,15 +7401,15 @@ Q: A major DISADVANTAGE of DC traction motors is:
 E: Brushes and commutators need constant maintenance, the internals are exposed to the environment, and there are many solder points.
 
 @303i|Obj 3|ilm
-Q: How is the magnetic field created in the rotor of an AC induction motor?
+Q: How is the magnetic field created in the rotor of an alternating current (AC) induction motor?
 + Induced by the changing stator field cutting the rotor bars
 - By current fed through brushes and a commutator to the rotor
 - By permanent magnets embedded in the rotor
-- By DC fed to the rotor through slip rings
+- By direct current (DC) fed to the rotor through slip rings
 E: No voltage is applied directly to the rotor. The stator's alternating (expanding and collapsing) field induces voltage and current in the squirrel cage bars, which creates the rotor field.
 
 @303i|Obj 3|ilm
-Q: Which is listed as a DISADVANTAGE of AC induction motors?
+Q: Which is listed as a DISADVANTAGE of alternating current (AC) induction motors?
 + They need expensive, complex electronic speed controls
 - High brush and commutator maintenance
 - Poor sealing against dirt and moisture
@@ -7417,23 +7417,23 @@ Q: Which is listed as a DISADVANTAGE of AC induction motors?
 E: AC motors are low maintenance and well sealed, and they offer dynamic braking. Their downside is the need for sophisticated drive electronics.
 
 @303i|Obj 3|ilm
-Q: In AC drive terminology, which is correct?
-+ A converter changes AC to DC. An inverter changes DC to AC.
-- A converter changes DC to AC. An inverter changes AC to DC.
-- Both change AC to DC
+Q: In alternating current (AC) drive terminology, which is correct?
++ A converter changes AC to direct current (DC). An inverter changes DC to AC.
+- A converter changes direct current (DC) to AC. An inverter changes AC to DC.
+- Both change AC to direct current (DC)
 - An inverter changes AC voltage to a higher AC voltage
 E: Converter (rectifier) AC → DC. Inverter DC → variable AC.
 
 @303i|Obj 3|ilm
 Q: What are the three main sections of a variable frequency drive (VFD), in order?
-+ Rectifier → DC bus → inverter
-- Inverter → DC bus → rectifier
++ Rectifier → direct current (DC) bus → inverter
+- Inverter → direct current (DC) bus → rectifier
 - Generator → inverter → rectifier
-- Rectifier → inverter → DC bus
+- Rectifier → inverter → direct current (DC) bus
 E: The rectifier converts the generator AC to DC, the DC bus stores it, and the inverter makes variable voltage and variable frequency AC for the motors.
 
 @303i|Obj 3|ilm
-Q: The speed of an AC induction wheel motor is directly proportional to:
+Q: The speed of an alternating current (AC) induction wheel motor is directly proportional to:
 + the applied voltage and frequency
 - the current only
 - the generator field strength only
@@ -7441,7 +7441,7 @@ Q: The speed of an AC induction wheel motor is directly proportional to:
 E: Changing the frequency (with voltage) changes motor speed. That's why the DC is inverted back to a variable frequency.
 
 @303i|Obj 3|ct ilm
-Q: The generator already produces AC. Why does an AC drive truck rectify it to DC and then invert it back to AC?
+Q: The generator already produces alternating current (AC). Why does an AC drive truck rectify it to direct current (DC) and then invert it back to AC?
 + To vary frequency and voltage independently of engine speed
 - Because AC can't be sent through cables to the wheels
 - To raise the generator's output voltage for the motors
@@ -7449,7 +7449,7 @@ Q: The generator already produces AC. Why does an AC drive truck rectify it to D
 E: Generator frequency is tied to engine and generator speed (e.g., 60 Hz). Going through DC lets the inverter synthesize whatever frequency and voltage the motors need.
 
 @303i|Obj 3|ilm
-Q: What does an IGBT need in order to turn on and conduct between its collector and emitter?
+Q: What does an insulated gate bipolar transistor (IGBT) need in order to turn on and conduct between its collector and emitter?
 + Voltage applied to the gate
 - Current through the base
 - A magnetic field
@@ -7457,7 +7457,7 @@ Q: What does an IGBT need in order to turn on and conduct between its collector 
 E: An IGBT is like a transistor whose base is called a gate. Its very fast switching made accurate AC motor control possible.
 
 @303i|Obj 3|ilm
-Q: The inverter produces a pulsed DC that mimics an AC sine wave. This output is sometimes called:
+Q: The inverter produces a pulsed direct current (DC) that mimics an alternating current (AC) sine wave. This output is sometimes called:
 + chopped DC
 - true AC
 - rectified AC
@@ -7473,7 +7473,7 @@ Q: How does pulse width modulation (PWM) change the average voltage applied to t
 E: Wider pulses give a higher average voltage. Varying pulse width over time shapes the sine wave, and changing the amplitude and frequency changes speed.
 
 @303i|Obj 3|ilm
-Q: How is cooling air supplied to the electric drive components on a typical AC drive truck?
+Q: How is cooling air supplied to the electric drive components on a typical alternating current (AC) drive truck?
 + A blower pulls air through the inverter cabinet, then to the generator and motors
 - Each wheel motor has its own fan driven by the wheel
 - Engine coolant is circulated through the wheel motors and cabinet
@@ -7481,7 +7481,7 @@ Q: How is cooling air supplied to the electric drive components on a typical AC 
 E: The blower is controlled by a module that monitors ambient temperature, component temperatures and duct air pressure.
 
 @303i|Obj 3|ilm
-Q: What energy conversions happen in an AC drive powertrain?
+Q: What energy conversions happen in an alternating current (AC) drive powertrain?
 + Mechanical → electrical (generator), electrical → mechanical (wheel motors)
 - Electrical → mechanical (generator) only
 - Chemical → electrical (inverter), electrical → mechanical (grid)
@@ -7491,21 +7491,21 @@ E: Engine (mechanical) → generator (electrical) → rectifier/DC bus/inverter 
 @303i|Obj 3|ilm
 Q: Who should perform maintenance or repair on inverter cabinet components?
 + Qualified electricians or factory trained technicians
-- Any HET apprentice with a multimeter
+- Any heavy equipment technician (HET) apprentice with a multimeter
 - The operator, after shutting the truck down
-- Only the OEM, at the factory
+- Only the original equipment manufacturer (OEM), at the factory
 E: High generator voltage is present in the cabinet. The guide says this work must be done by qualified electricians or factory trained technicians.
 
 @303i|Obj 4|gk ilm
-Q: After shutting down an AC drive haul truck, why can't you go straight into the high voltage components?
-+ DC link capacitors can hold a lethal charge after shutdown
+Q: After shutting down an alternating current (AC) drive haul truck, why can't you go straight into the high voltage components?
++ Direct current (DC) link capacitors can hold a lethal charge after shutdown
 - The generator keeps spinning and producing power for several minutes
-- The batteries supply high voltage to the DC link
+- The batteries supply high voltage to the direct current (DC) link
 - The wheel motors become magnetized and shock you
 E: Follow the OEM shutdown and lockout procedure and wait for the DC link to discharge. Never rely on one indicator alone. (General knowledge. Your PDF for this objective is ILM-only.)
 
 @303i|Obj 4|gk ilm
-Q: What additional hazard exists at the retarding grid box right after an AC drive truck has been working downhill?
+Q: What additional hazard exists at the retarding grid box right after an alternating current (AC) drive truck has been working downhill?
 + The resistors may be extremely hot, and carry high voltage
 - The grid holds compressed air
 - The grid contains hydraulic accumulators
@@ -7513,10 +7513,10 @@ Q: What additional hazard exists at the retarding grid box right after an AC dri
 E: Retarding energy is dissipated as heat in the grid, so it can cause burns. It is also connected to the high voltage circuit. (General knowledge.)
 
 @303i|Obj 4|gk ilm
-Q: Which practice is correct before working on an AC drive truck's high voltage system?
-+ Follow the OEM lockout, wear rated PPE, verify zero energy
-- Disconnect the 24 V batteries. That isolates all high voltage.
-- Ground the frame to the generator housing with a jumper
+Q: Which practice is correct before working on an alternating current (AC) drive truck's high voltage system?
++ Follow the manufacturer's lockout, wear rated protective gear, verify zero energy
+- Disconnect the 24 V batteries, since that isolates all high voltage
+- Ground the frame to the generator housing with a jumper lead
 - Leave the engine at low idle so the fans keep the components cool
 E: The high voltage system has its own isolation and lockout points and stored energy. (General knowledge. Always follow the OEM procedure.)
 
@@ -7529,7 +7529,7 @@ Q: Why is regular oil sampling (oil analysis) of final drives recommended?
 E: Scheduled oil analysis tracks wear metals, contamination and oil condition, so problems are caught early.
 
 @303i|Obj 6|ilm
-Q: According to the learning guide, a benefit of good maintenance record keeping is that:
+Q: A benefit of good maintenance record keeping is that:
 + parts can be ordered ahead of service
 - the machine won't need daily inspections
 - oil analysis is no longer needed
@@ -7561,7 +7561,7 @@ Q: Which statement about electrically driven final drives is correct?
 E: Electric motors usually drive planetary final drives for extra torque, but the guide notes that any combination is possible.
 
 @303i|Obj 3|ct gk ilm
-Q: On an AC drive haul truck descending a grade, the wheel motors are used for retarding. What is happening?
+Q: On an alternating current (AC) drive haul truck descending a grade, the wheel motors are used for retarding. What is happening?
 + The motors act as generators, and the grid burns off the energy
 - The motors are reversed and drive against the direction of travel at full power
 - The service brakes do all the retarding while the motors freewheel
@@ -7595,8 +7595,8 @@ E: GAWR is the maximum load per axle. All the GAWRs added together = GVW. GAWR h
 
 @303j|Obj 1|ilm
 Q: Gross Vehicle Weight (GVW) is determined by:
-+ adding together the GAWRs of all the axles
-- multiplying the GAWR by the number of tires
++ adding together the gross axle weight ratings (GAWRs) of all the axles
+- multiplying one axle's gross axle weight rating (GAWR) by the number of axles
 - the machine's weight with no load
 - the engine torque multiplied by the final drive ratio
 E: The sum of the axle ratings = the maximum weight rating for the unit's design and application.
@@ -8090,7 +8090,7 @@ Q: Which side of the bevel gear teeth is painted to check the drive pattern?
 E: The convex side is the drive side, the largest and strongest part, which the pinion loads in normal forward travel. The concave side is the coast side.
 
 @303j|Obj 8|ilm
-Q: Per the learning guide, moving the RING GEAR AWAY from the pinion moves the contact pattern toward the:
+Q: Moving the RING GEAR AWAY from the pinion moves the contact pattern toward the:
 + heel
 - toe
 - face
@@ -8098,7 +8098,7 @@ Q: Per the learning guide, moving the RING GEAR AWAY from the pinion moves the c
 E: Ring gear away = toward the heel (and more backlash). Ring gear toward the pinion = toward the toe.
 
 @303j|Obj 8|ilm
-Q: Per the learning guide, moving the PINION TOWARD the ring gear moves the contact pattern toward the:
+Q: Moving the PINION TOWARD the ring gear moves the contact pattern toward the:
 + flank
 - face
 - heel
@@ -8114,7 +8114,7 @@ Q: The drive side pattern on a new gear set sits high on the FACE of the bevel g
 E: Face → you need to go toward the flank, so move the pinion IN. Pinion position is done first, and backlash must be checked and corrected every time pinion depth changes.
 
 @303j|Obj 8|ilm
-Q: According to the learning guide, a correct drive side pattern on off-road equipment (under light load) should:
+Q: A correct drive side pattern on off-road equipment (under light load) should:
 + start near the toe, a bit over half the tooth length
 - be centred exactly between the heel and toe
 - cover the entire tooth from heel to toe
@@ -8150,7 +8150,7 @@ E: The clutch only connects and disconnects. It doesn't multiply torque.
 Q: Which of these is a typical overcentre clutch application?
 + A crane's draw works
 - A torque converter stator support
-- An A/C compressor pulley drive
+- An air conditioning (A/C) compressor pulley drive
 - A differential lock on a loader axle
 E: Applications include transmissions, pump drives, conveyors and crane draw works. They can be operated remotely by an air or hydraulic cylinder.
 
@@ -8171,7 +8171,7 @@ Q: What is the purpose of the pilot bearing in an overcentre clutch installation
 E: The pilot bearing in the centre of the flywheel supports and aligns the shaft when it isn't locked to the flywheel through the discs.
 
 @303k|Obj 1|ilm
-Q: Per the learning guide, how can a technician tell from the release linkage that an overcentre clutch is ENGAGED?
+Q: How can a technician tell from the release linkage that an overcentre clutch is ENGAGED?
 + The linkage angle is less than 90 degrees
 - The linkage angle is greater than 90 degrees
 - The linkage is exactly at 90 degrees
@@ -8231,7 +8231,7 @@ Q: Which statement about overcentre clutch linkage adjustment is correct?
 + Release linkage: not adjustable. Remote linkage: only for wear or new parts.
 - The release linkage is adjusted to set clutch pull force
 - The remote linkage is adjusted to set disc clearance
-- Both linkages are adjusted at every PM to set the pull force
+- Both linkages are adjusted at every preventive maintenance (PM) to set the pull force
 E: Remote linkage doesn't affect clutch adjustment. If it's adjusted wrong, it causes excessive release bearing wear.
 
 @303k|Obj 1|ilm
@@ -8261,7 +8261,7 @@ E: Check with a dial indicator. The figure varies by manufacturer. This adjustme
 @303k|Obj 1|ilm
 Q: What is one of the last checks after an overcentre clutch installation?
 + Confirm engine crankshaft end play is still within spec
-- Check engine valve lash at TDC
+- Check engine valve lash at top dead centre (TDC)
 - Check transmission oil level hot
 - Measure flywheel runout with the clutch engaged
 E: The installation must not load the crankshaft thrust bearing.
@@ -8359,7 +8359,7 @@ Q: Where is a cone clutch commonly found in a drivetrain?
 + In transmission synchronizers
 - In the differential lock
 - In a torque converter lockup
-- In an A/C compressor
+- In an air conditioning (A/C) compressor
 E: The tapered (cone) friction surface multiplies clamping force by wedging, which makes it compact for synchronizing. (General knowledge.)
 
 @303k|Obj 2|ct gk ilm

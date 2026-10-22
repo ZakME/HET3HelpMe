@@ -58,7 +58,7 @@ E: The equalizer bar (pivot shaft or hard bar) supports the front of the machine
 Q: Why is the equalizer bar pin often neglected and prone to premature wear?
 + Its remote location hides leaks and plugged grease lines
 - It is a sealed, lifetime-lubricated joint that can't be serviced
-- It carries no load, so it's left off the PM schedule
+- It carries no load, so it's left off the preventive maintenance (PM) schedule
 - It is replaced every time the track is split
 E: Its hard-to-reach location means lubrication failures go unnoticed. The pin and bushings then wear, and repair often requires removing the bar (more downtime).
 
@@ -119,7 +119,7 @@ Q: How can you tell a sealed and lubricated track (SALT) from a non-lubricated t
 E: Lubricated pins have a stopper and plug in the pin end (where they were filled).
 
 @303h|Obj 2|ct
-Q: A SALT track starts making a loud snapping or squeaking sound at certain joints during travel. What is the most likely cause?
+Q: A sealed and lubricated track (SALT) starts making a loud snapping or squeaking sound at certain joints during travel. What is the most likely cause?
 + Those joints have lost their lubricant
 - Track tension is too loose and slapping
 - The carrier rollers are seized
@@ -255,7 +255,7 @@ Q: Excessive wear on the idler and front track rollers most likely indicates:
 E: The guide links idler and front roller wear to idler alignment. Remember that track frames can also bend and twist.
 
 @303h|Obj 3/4|
-Q: Which of the following does NOT increase track chain wear according to the learning guide?
+Q: Which of the following does NOT increase track chain wear?
 + Operating at slow forward speeds
 - Incorrect track tension
 - Excessive reverse travel

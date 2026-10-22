@@ -16,8 +16,8 @@ E: GAWR is the maximum load per axle. All the GAWRs added together = GVW. GAWR h
 
 @303j|Obj 1|
 Q: Gross Vehicle Weight (GVW) is determined by:
-+ adding together the GAWRs of all the axles
-- multiplying the GAWR by the number of tires
++ adding together the gross axle weight ratings (GAWRs) of all the axles
+- multiplying one axle's gross axle weight rating (GAWR) by the number of axles
 - the machine's weight with no load
 - the engine torque multiplied by the final drive ratio
 E: The sum of the axle ratings = the maximum weight rating for the unit's design and application.
@@ -511,7 +511,7 @@ Q: Which side of the bevel gear teeth is painted to check the drive pattern?
 E: The convex side is the drive side, the largest and strongest part, which the pinion loads in normal forward travel. The concave side is the coast side.
 
 @303j|Obj 8|
-Q: Per the learning guide, moving the RING GEAR AWAY from the pinion moves the contact pattern toward the:
+Q: Moving the RING GEAR AWAY from the pinion moves the contact pattern toward the:
 + heel
 - toe
 - face
@@ -519,7 +519,7 @@ Q: Per the learning guide, moving the RING GEAR AWAY from the pinion moves the c
 E: Ring gear away = toward the heel (and more backlash). Ring gear toward the pinion = toward the toe.
 
 @303j|Obj 8|
-Q: Per the learning guide, moving the PINION TOWARD the ring gear moves the contact pattern toward the:
+Q: Moving the PINION TOWARD the ring gear moves the contact pattern toward the:
 + flank
 - face
 - heel
@@ -535,7 +535,7 @@ Q: The drive side pattern on a new gear set sits high on the FACE of the bevel g
 E: Face → you need to go toward the flank, so move the pinion IN. Pinion position is done first, and backlash must be checked and corrected every time pinion depth changes.
 
 @303j|Obj 8|
-Q: According to the learning guide, a correct drive side pattern on off-road equipment (under light load) should:
+Q: A correct drive side pattern on off-road equipment (under light load) should:
 + start near the toe, a bit over half the tooth length
 - be centred exactly between the heel and toe
 - cover the entire tooth from heel to toe
