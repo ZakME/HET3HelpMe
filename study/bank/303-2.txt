@@ -199,12 +199,12 @@ Q: When installing a rebuilt transmission, you should:
 E: Highlighted. Debris left in the cooler will contaminate the new unit.
 
 @303f|Installation|hl
-Q: Crankshaft endplay must be checked:
-+ before removal and after installation
-- only after installation
-- only before removal
-- only if the converter was replaced
-E: Highlighted. If insufficient after install, remove the transmission, recheck and repair.
+Q: A powershift transmission and torque converter are being removed for a rebuild. When must the engine crankshaft end play be checked?
++ Before removing the transmission and after reinstalling it
+- Only after the transmission is reinstalled and run hot
+- Only before the transmission is removed from the machine
+- Only if the torque converter was replaced with a new one
+E: The reading before removal is your baseline. The reading after installation proves the converter and flex plate aren't pushing on the crankshaft and loading its thrust bearing. If end play is less than before, remove the transmission, find the cause (converter not fully seated, wrong spacer or pilot depth) and repair it.
 
 @303f|Installation|hl ct
 Q: After installing a transmission, there is a vibration that wasn't there before. A likely cause is:
