@@ -160,11 +160,11 @@ E: The unloader takes the load off the pump by dumping flow to tank at low press
 
 @301f|Unloader|hl valve
 Q: In a closed centre system with a fixed displacement pump, an unloader valve:
-+ replaces the relief and needs a check valve
-- is installed in series with each actuator
-- needs a variable displacement pump to work
-- replaces the accumulator and check valve
-E: The unloader limits pressure (replacing the relief valve). A check valve holds system pressure, with an accumulator downstream.
++ replaces the relief, with a check valve and accumulator after it
+- is installed in series with each actuator work port
+- only works with a variable displacement pump
+- does away with the need for an accumulator or check valve
+E: The unloader takes the place of the relief valve. Layout: pump, unloader, check valve, accumulator, system. When system pressure reaches the unloader setting, it dumps pump flow to tank at low pressure. The check valve stops system oil from flowing back out through the unloader, and the accumulator after the check valve holds system pressure and supplies oil while the pump is unloaded. When pressure drops, the unloader closes and the pump recharges the accumulator.
 
 @301f|Unloader|valve ct
 Q: In a hi-lo (tandem pump) demand system, the unloader valve:
@@ -452,7 +452,7 @@ Q: A closed centre directional control valve (DCV) must be paired with:
 - a fixed displacement pump and no unloader
 - an open centre relief and a series passage
 - a series passageway to the next valve
-E: With flow blocked in neutral, either the pump must destroke or an unloader must dump fixed-pump flow.
+E: With flow blocked in neutral, either the pump must destroke or an unloader must dump fixed-pump flow (with a check valve and accumulator after the unloader to hold system pressure).
 
 @301f|DCV centres|hl valve
 Q: An "open work port" centre (A and B to tank, P blocked) is also called a:
@@ -644,7 +644,7 @@ Q: In a closed centre system with the directional control valve (DCV) in neutral
 - pump flow returns freely to tank
 - the actuators float on tank oil
 - full pump flow goes over the relief
-E: Closed centre blocks flow in neutral. Variable pumps destroke; fixed pumps use an unloader.
+E: Closed centre blocks flow in neutral. Variable pumps destroke; fixed pumps use an unloader, with a check valve and accumulator holding system pressure.
 
 @301g|Closed centre|valve
 Q: In a closed centre system with a pressure compensated pump, any relief valve fitted must be set:
