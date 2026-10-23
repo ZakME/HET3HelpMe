@@ -252,6 +252,7 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:140px;white
     <p class="muted" style="margin-top:-6px">Each full mock is 100 four-option questions weighted like the real AIT exam (which is about 120 questions): 50 from 301 Hydraulics, 32 from 303 Powertrain and 18 from 302 Steering/Suspension/Electrical. There is no feedback until you submit, like the real thing. Mocks 1–6 are fixed sets, so a retake shows the same questions and you can measure improvement. Each one pulls different questions from the bank where it can. Aim for 70% or better. Check the pass mark and time limit for your actual exam with your institution or AIT.</p>
     <div class="row" style="gap:16px;margin-bottom:12px">
       <label class="opt"><input type="checkbox" id="timed" checked> Timed (90 s per question)</label>
+      <label class="opt"><input type="checkbox" id="checkMode"> Show right/wrong after each answer (practice run, not counted as your best)</label>
       <label class="opt"><input type="checkbox" id="examIlm" checked> Include the extra 303 ILM-objective questions</label>
     </div>
     <div class="mocks" id="mocks"></div>
@@ -277,13 +278,14 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:140px;white
     <div class="meta" id="xmeta"></div>
     <p class="q" id="xq"></p>
     <div class="ans" id="xans"></div>
+    <div id="xexp"></div>
     <div class="navrow">
-      <div class="row"><button class="btn" id="xprev">← Prev</button><button class="btn" id="xflag">Flag</button></div>
+      <div class="row"><button class="btn" id="xprev">← Prev</button><button class="btn" id="xflag">Flag</button><button class="btn" id="xcheck" title="Show right/wrong as you answer">Check answers: Off</button></div>
       <button class="btn primary" id="xnext">Next →</button>
     </div>
   </div>
   <div class="card">
-    <div class="row" style="justify-content:space-between;margin-bottom:8px"><b>Questions</b><span class="muted">grey = answered · dot = flagged · <kbd>F</kbd> flags · <kbd>Shift</kbd>+<kbd>A</kbd>–<kbd>D</kbd> crosses out · <kbd>←</kbd><kbd>→</kbd> move</span></div>
+    <div class="row" style="justify-content:space-between;margin-bottom:8px"><b>Questions</b><span class="muted"><span id="xlegend">grey = answered</span> · dot = flagged · <kbd>F</kbd> flags · <kbd>Shift</kbd>+<kbd>A</kbd>–<kbd>D</kbd> crosses out · <kbd>←</kbd><kbd>→</kbd> move</span></div>
     <div class="grid" id="xgrid"></div>
   </div>
 </section>
@@ -486,12 +488,14 @@ function optRow(it, ai, n, onPick){
   row.append(b, s); return row;
 }
 function toggleStrike(it, ai){
-  if (S.mode === "quiz" && it.pick !== null) return;
+  if ((S.mode === "quiz" && it.pick !== null) || revealed(it)) return;
   const st = it.strike || (it.strike = []), i = st.indexOf(ai);
   if (i >= 0) st.splice(i, 1); else st.push(ai);
   if (S.mode === "exam") { saveActive(); renderX(); } else renderQ();
 }
+const revealed = it => S.mode === "exam" && S.check && it.pick !== null;
 function examPick(it, ai){
+  if (revealed(it)) return;
   it.pick = ai; if (it.strike) it.strike = it.strike.filter(x => x !== ai);
   saveActive(); renderX();
 }
@@ -566,18 +570,18 @@ function buildExam(plan, seed, slot, ilm){
 }
 function startExam(key, title, list){
   const limit = $("timed").checked ? list.length * PER_Q : 0;
-  S = { mode: "exam", key, title, i: 0, list, start: Date.now(), limit, used: 0 };
+  S = { mode: "exam", key, title, i: 0, list, start: Date.now(), limit, used: 0, check: $("checkMode").checked };
   tab("exam"); show("examrun"); saveActive(); renderX(); tick();
 }
 function saveActive(){
   if (!S || S.mode !== "exam") return;
-  store(K_ACTIVE, { key: S.key, title: S.title, i: S.i, limit: S.limit, used: elapsed(), items: S.list.map(x => [x.q.id, x.order, x.pick, x.flag, x.strike || []]) });
+  store(K_ACTIVE, { key: S.key, title: S.title, i: S.i, limit: S.limit, used: elapsed(), check: !!S.check, items: S.list.map(x => [x.q.id, x.order, x.pick, x.flag, x.strike || []]) });
 }
 const elapsed = () => S.used + Math.floor((Date.now() - S.start) / 1000);
 function resumeExam(){
   const a = load(K_ACTIVE, null); if (!a) return;
   const list = a.items.filter(x => BYID[x[0]]).map(([id, order, pick, flag, strike]) => ({ q: BYID[id], order, pick, flag, strike: strike || [] }));
-  S = { mode: "exam", key: a.key, title: a.title, i: Math.min(a.i, list.length - 1), list, start: Date.now(), limit: a.limit, used: a.used };
+  S = { mode: "exam", key: a.key, title: a.title, i: Math.min(a.i, list.length - 1), list, start: Date.now(), limit: a.limit, used: a.used, check: !!a.check };
   tab("exam"); show("examrun"); renderX(); tick();
 }
 let timerId = null;
@@ -600,24 +604,38 @@ function renderX(){
   const it = S.list[S.i], q = it.q;
   $("xtitle").textContent = S.title;
   const done = S.list.filter(x => x.pick !== null).length, fl = S.list.filter(x => x.flag).length;
-  $("xprog").textContent = `Question ${S.i + 1} of ${S.list.length} · ${done} answered` + (fl ? ` · ${fl} flagged` : "");
+  const ok = S.list.filter(x => x.pick === 0).length;
+  $("xprog").textContent = `Question ${S.i + 1} of ${S.list.length} · ${done} answered` + (S.check && done ? ` · ${ok}/${done} right (${pct(ok, done)}%)` : "") + (fl ? ` · ${fl} flagged` : "");
   const meta = $("xmeta"); meta.innerHTML = ""; meta.appendChild(el("span", "tag", "Question " + (S.i + 1)));
   if (it.flag) meta.appendChild(el("span", "tag flag", "FLAGGED"));
   $("xq").textContent = q.q;
   const box = $("xans"); box.innerHTML = "";
   it.order.forEach((ai, n) => box.appendChild(optRow(it, ai, n, () => examPick(it, ai))));
+  $("xexp").innerHTML = "";
+  if (revealed(it)) {
+    for (const b of box.querySelectorAll(".pick")) { const ai = +b.dataset.ai; b.disabled = true; b.classList.remove("sel"); if (ai === 0) b.classList.add("right"); else if (ai === it.pick) b.classList.add("wrong"); }
+    for (const b of box.querySelectorAll(".strike")) b.disabled = true;
+    const ok1 = it.pick === 0, d = el("div", "exp " + (ok1 ? "good" : "bad"));
+    d.appendChild(el("b", null, ok1 ? "Correct" : "Not quite. Answer: " + q.a[0])); d.appendChild(el("span", null, q.e)); $("xexp").appendChild(d);
+  }
+  $("xcheck").textContent = "Check answers: " + (S.check ? "On" : "Off"); $("xcheck").classList.toggle("primary", !!S.check);
+  $("xlegend").textContent = S.check ? "green = right · red = wrong" : "grey = answered";
   $("xflag").textContent = it.flag ? "Unflag" : "Flag";
   $("xprev").disabled = S.i === 0;
   $("xnext").textContent = S.i === S.list.length - 1 ? "Review & submit" : "Next →";
   const g = $("xgrid"); g.innerHTML = "";
   S.list.forEach((x, n) => {
-    const b = el("button", (x.pick !== null ? "done " : "") + (x.flag ? "flag " : "") + (n === S.i ? "cur" : ""), n + 1);
+    const b = el("button", (x.pick === null ? "" : S.check ? (x.pick === 0 ? "r " : "w ") : "done ") + (x.flag ? "flag " : "") + (n === S.i ? "cur" : ""), n + 1);
     b.onclick = () => { S.i = n; saveActive(); renderX(); }; g.appendChild(b);
   });
 }
 $("xprev").onclick = () => { if (S.i > 0) { S.i--; saveActive(); renderX(); } };
 $("xnext").onclick = () => { if (S.i < S.list.length - 1) { S.i++; saveActive(); renderX(); } else $("xsubmit").click(); };
 $("xflag").onclick = () => { const it = S.list[S.i]; it.flag = !it.flag; saveActive(); renderX(); };
+$("xcheck").onclick = () => {
+  if (!S.check && !confirm("Show right/wrong for every answered question from now on? Answers lock once they're checked, and this attempt won't count toward your best score.")) return;
+  S.check = !S.check; saveActive(); renderX();
+};
 $("xsubmit").onclick = () => {
   const un = S.list.filter(x => x.pick === null).length, fl = S.list.filter(x => x.flag).length;
   let msg = "Submit your exam now?"; if (un) msg = `${un} question(s) unanswered` + (fl ? ` and ${fl} flagged` : "") + ". Unanswered questions are marked wrong. Submit anyway?"; else if (fl) msg = `${fl} question(s) still flagged. Submit anyway?`;
@@ -629,7 +647,7 @@ function submitExam(){
   for (const x of S.list) if (x.pick !== null) record(x.q, x.pick === 0);
   store(K_STATS, stats);
   const right = S.list.filter(x => x.pick === 0).length;
-  const h = load(K_HIST, []); h.unshift({ key: S.key, title: S.title, date: Date.now(), right, n: S.list.length, used }); store(K_HIST, h.slice(0, 100));
+  const h = load(K_HIST, []); h.unshift({ key: S.key, title: S.title, date: Date.now(), right, n: S.list.length, used, checked: !!S.check }); store(K_HIST, h.slice(0, 100));
   localStorage.removeItem(K_ACTIVE);
   S.used = used; results();
 }
@@ -641,9 +659,9 @@ function renderExamSetup(){
   const box = $("mocks"); box.innerHTML = "";
   const full = scaled(["301", "302", "303"], 100);
   for (let k = 1; k <= MOCKS; k++) {
-    const key = "mock" + k, hs = hist.filter(x => x.key === key);
+    const key = "mock" + k, hs = hist.filter(x => x.key === key && !x.checked), pc = hist.filter(x => x.key === key && x.checked).length;
     const d = el("div", "mock"); d.appendChild(el("b", null, "Mock exam " + k));
-    d.appendChild(el("div", "muted", hs.length ? `Best ${Math.max(...hs.map(x => pct(x.right, x.n)))}% · last ${pct(hs[0].right, hs[0].n)}% · ${hs.length} attempt(s)` : "100 questions · not attempted"));
+    d.appendChild(el("div", "muted", hs.length ? `Best ${Math.max(...hs.map(x => pct(x.right, x.n)))}% · last ${pct(hs[0].right, hs[0].n)}% · ${hs.length} attempt(s)` + (pc ? ` · ${pc} practice` : "") : "100 questions · not attempted" + (pc ? ` · ${pc} practice` : "")));
     const b = el("button", "btn primary small", hs.length ? "Retake" : "Start");
     b.onclick = () => startExam(key, "Mock AIT exam " + k, buildExam(full, k, k - 1, $("examIlm").checked));
     d.appendChild(b); box.appendChild(d);
@@ -662,7 +680,7 @@ function renderExamSetup(){
   if (!hist.length) { t.innerHTML = "<tr><td class='muted'>No exams taken yet.</td></tr>"; return; }
   t.innerHTML = "<tr><th>Exam</th><th>Date</th><th>Time</th><th>Score</th></tr>";
   for (const x of hist.slice(0, 20)) {
-    const tr = el("tr"); tr.appendChild(el("td", null, x.title)); tr.appendChild(el("td", null, new Date(x.date).toLocaleDateString()));
+    const tr = el("tr"); tr.appendChild(el("td", null, x.title + (x.checked ? " (answers shown)" : ""))); tr.appendChild(el("td", null, new Date(x.date).toLocaleDateString()));
     tr.appendChild(el("td", null, Math.round(x.used / 60) + " min"));
     const td = el("td", null, `${x.right}/${x.n} ${pct(x.right, x.n)}% `); td.appendChild(bar(pct(x.right, x.n))); tr.appendChild(td); t.appendChild(tr);
   }
@@ -678,7 +696,7 @@ function results(){
   const right = done.filter(x => x.pick === 0).length, p = pct(right, done.length);
   $("rscore").textContent = p + "%";
   const bd = $("rbadge"); bd.className = "badge " + (p >= 70 ? "pass" : "fail"); bd.textContent = p >= 70 ? "70%+ PASS LINE" : "BELOW 70%";
-  $("rsub").textContent = `${right} of ${done.length} correct · ${S.title}` + (exam ? ` · ${Math.round(S.used / 60)} min` : "");
+  $("rsub").textContent = `${right} of ${done.length} correct · ${S.title}` + (exam && S.check ? " · answers shown" : "") + (exam ? ` · ${Math.round(S.used / 60)} min` : "");
   const agg = key => { const o = {}; for (const x of done) { const k = key(x.q), b = o[k] || (o[k] = [0, 0]); b[1]++; if (x.pick === 0) b[0]++; } return o; };
   const fill = (tbl, o, label, sort, head) => {
     tbl.innerHTML = "<tr><th>" + head + "</th><th>Correct</th><th>Score</th></tr>";
